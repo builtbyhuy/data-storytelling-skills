@@ -1,0 +1,1 @@
+Đề xuất: chuyển toàn bộ coaching của đội A sang cách làm của B. B chốt 45% còn A 30%, chứng minh B giỏi hơn và chương trình coaching tạo ra hiệu quả tăng 50%. Dùng biểu đồ trong bản nháp để xin duyệt triển khai.

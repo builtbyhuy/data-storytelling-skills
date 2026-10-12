@@ -1,0 +1,68 @@
+{
+  "units": "percent unless labelled counts or percentage points",
+  "strata": {
+    "A": {
+      "High": {
+        "eligible_leads": 20,
+        "wins": 12,
+        "win_rate_pct": 60.0
+      },
+      "Low": {
+        "eligible_leads": 60,
+        "wins": 12,
+        "win_rate_pct": 20.0
+      }
+    },
+    "B": {
+      "High": {
+        "eligible_leads": 60,
+        "wins": 33,
+        "win_rate_pct": 55.0
+      },
+      "Low": {
+        "eligible_leads": 20,
+        "wins": 3,
+        "win_rate_pct": 15.0
+      }
+    }
+  },
+  "teams": {
+    "A": {
+      "eligible_leads": 80,
+      "wins": 24,
+      "overall_win_rate_pct": 30.0,
+      "high_tier_share_pct": 25.0,
+      "standardized_50_50_rate_pct": 40.0
+    },
+    "B": {
+      "eligible_leads": 80,
+      "wins": 36,
+      "overall_win_rate_pct": 45.0,
+      "high_tier_share_pct": 75.0,
+      "standardized_50_50_rate_pct": 35.0
+    }
+  },
+  "aggregate_B_minus_A_pp": 15,
+  "within_tier_A_minus_B_pp": {
+    "High": 5,
+    "Low": 5
+  },
+  "standardized_50_50_A_minus_B_pp": 5,
+  "aggregate_relative_B_over_A_pct": 50,
+  "coaching_causal_effect_pct": null,
+  "standardization": {
+    "weights": {
+      "High": 0.5,
+      "Low": 0.5
+    },
+    "basis": "pooled provided eligible leads: High 80 / total 160; Low 80 / total 160",
+    "interpretation": "descriptive equal case mix, not a causal effect"
+  },
+  "missing": [
+    "time window",
+    "coaching exposure",
+    "lead-tier definition",
+    "team assignment",
+    "other lead quality factors"
+  ]
+}

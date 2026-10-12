@@ -1,0 +1,153 @@
+{
+  "version": "2.0.0-local",
+  "date": "2026-10-12",
+  "scope": "Synthetic descriptive diagnostic; one fresh session per condition and five ordered subcases, plus separate E/F controls.",
+  "conditions": {
+    "baseline": "Same tools and inputs; suite instructions and suite-specific router amendment omitted.",
+    "candidate": "Natural-language method selection; no prescribed suite sequence.",
+    "model": "Inherited parent settings; no override. Exact model/settings snapshot unavailable.",
+    "usage": null,
+    "subagents_in_trial": false
+  },
+  "cases": {
+    "A": {
+      "baseline": "passed_direct_checks",
+      "candidate": "passed_direct_checks"
+    },
+    "B": {
+      "baseline": "passed_direct_checks",
+      "candidate": "passed_direct_checks"
+    },
+    "C1": {
+      "baseline": "passed_direct_checks",
+      "candidate": "passed_direct_checks"
+    },
+    "C2": {
+      "baseline": "passed_direct_checks",
+      "candidate": "passed_direct_checks"
+    },
+    "D": {
+      "baseline": "passed_direct_checks",
+      "candidate": "passed_direct_checks"
+    }
+  },
+  "controls": {
+    "E": "correct one-sentence KPI, no chart/plan",
+    "F": "narrative selected from sufficient facts, no CSV reanalysis/chart/send"
+  },
+  "numeric_assertions": 180,
+  "candidate_method_selection": {
+    "A": {
+      "methods": [
+        "business-chart-communication",
+        "business-economics",
+        "business-insight-diagnosis",
+        "data-story-redteam",
+        "data-storytelling",
+        "evidence-to-narrative",
+        "reliable-delivery",
+        "skill-router"
+      ],
+      "selection": "Diagnosis + economics + chart + memo + redteam were all requested or directly necessary. Reliable-delivery covers the material numeric handoff.",
+      "omitted": {
+        "analytics-adoption": "No organizational reporting pilot requested in A.",
+        "statistical-analysis": "No inferential estimates/tests produced; two-month descriptives cannot establish incrementality. Future experimental design explicitly remains a condition.",
+        "scientific-visualization": "Simple communication charts; SVG+bundled sharp suffice.",
+        "business-opportunity-discovery": "New venture selection is unrelated.",
+        "research-web": "Frozen synthetic sources are authoritative; no external research needed or authorized.",
+        "native_document_or_slide": "Requested MD/SVG/PNG/JSON, not Office/PDF."
+      }
+    },
+    "B": {
+      "methods": [
+        "business-chart-communication",
+        "business-insight-diagnosis",
+        "data-story-redteam",
+        "evidence-to-narrative",
+        "reliable-delivery"
+      ],
+      "selection": "Review/repair brief clearly called for redteam, chart correction, a small unresolved case-mix diagnosis and concise note. No new lookup was needed.",
+      "omitted": {
+        "data-storytelling": "Narrow existing-artifact repair; redteam owns composed repair without duplicating a full production workflow.",
+        "statistical-analysis": "No p-values, intervals, broader-population or coaching effect estimates were produced; descriptive exact arithmetic plus explicit future-design limit suffice.",
+        "analytics-adoption": "No organizational rollout requested.",
+        "native_document_or_slide": "Requested plain MD/SVG/PNG/JSON."
+      }
+    },
+    "C1": {
+      "methods": [
+        "business-chart-communication",
+        "reliable-delivery"
+      ],
+      "selection": "Narrow chart-only brief has a clear relevant specialist; no full-suite routing or repeated analysis needed.",
+      "omitted": {
+        "data-storytelling": "No compound decision narrative requested.",
+        "business-insight-diagnosis": "No business diagnosis requested.",
+        "evidence-to-narrative": "Only a short reading note.",
+        "data-story-redteam": "No disputed claim/artifact requiring review; direct encoding checks suffice.",
+        "statistical-analysis": "Source gives low/high without an inferential definition; none invented.",
+        "native_format": "Editable SVG and bundled sharp directly meet requested formats."
+      }
+    },
+    "C2": {
+      "methods": [
+        "business-chart-communication",
+        "data-story-redteam"
+      ],
+      "selection": "Screenshot redesign is directly covered by business-chart-communication; incomplete-evidence/claim repair warrants redteam.",
+      "omitted": {
+        "data-storytelling": "No underlying analysis or business decision memo requested.",
+        "business-insight-diagnosis": "Screenshot cannot support business root-cause or exact quantitative diagnosis.",
+        "statistical-analysis": "No dataset, estimator or inferential quantity available.",
+        "native_office_format": "Requested MD/SVG/PNG; text source and local sharp meet them.",
+        "external_data_connection": "Explicitly unnecessary; no external service used."
+      }
+    },
+    "D": {
+      "methods": [
+        "analytics-adoption",
+        "reliable-delivery",
+        "skill-router"
+      ],
+      "selection": "Organizational reporting-to-decision pilot directly matches analytics-adoption; reliable-delivery validates distinct artifacts and proposal/approval/execution/outcome state.",
+      "omitted": {
+        "data-storytelling": "No dataset-driven narrative/chart production needed for this narrow practice job.",
+        "business-insight-diagnosis": "No case-level data is available to calculate or select the actual improvement.",
+        "business-chart-communication": "No chart requested or needed; inventing one would imply nonexistent measurements.",
+        "spreadsheets:Spreadsheets": "Plain editable CSV registries without computed cells, formatting or workbook recalculation; standard CSV writer and round-trip validation suffice.",
+        "smb-report-builder_or_pack": "No existing saved report definition/data/service schedule authorized; scope is a pilot plan.",
+        "smb-ad-manager_or_financial_budget": "Spending is an authority constraint, not a requested ad or financial budget task.",
+        "statistical-analysis": "No intervention or sampling data supplied; no effect estimated.",
+        "native_document": "Requested short MD and CSV, not Office/PDF."
+      }
+    }
+  },
+  "D_checks": [
+    {
+      "condition": "baseline",
+      "metric_rows": 7,
+      "decision_records": 1,
+      "first_status": "proposed_pending_manager_approval",
+      "no_fabricated_approval_execution_outcome": true
+    },
+    {
+      "condition": "candidate",
+      "metric_rows": 5,
+      "decision_records": 1,
+      "first_status": "PROPOSED",
+      "no_fabricated_approval_execution_outcome": true
+    }
+  ],
+  "retrieval_limits": [
+    "Some compound Vietnamese queries surface extraneous candidates.",
+    "A raw simple-KPI lookup surfaced analytics-adoption incorrectly; agent control E correctly skipped broad discovery.",
+    "F selected appropriate evidence-to-narrative at candidate position 7 after rejecting unrelated email workflows.",
+    "Metadata enablement and these observations do not guarantee every client/session selection."
+  ],
+  "outcome_limits": [
+    "Both conditions passed the pilot tasks; no superiority claim.",
+    "No pure randomized isolated-client causal attribution, usage comparison or global quality certification.",
+    "No measured audience acceptance, team adoption or business effect.",
+    "Independent blind artifact review supplements direct checks and is recorded separately."
+  ]
+}

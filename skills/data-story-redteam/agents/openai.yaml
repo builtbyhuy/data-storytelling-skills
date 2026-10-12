@@ -1,0 +1,6 @@
+interface:
+  display_name: "Phản biện câu chuyện dữ liệu"
+  short_description: "Kiểm chứng, sửa sai và làm rõ tác động quyết định"
+
+policy:
+  allow_implicit_invocation: true

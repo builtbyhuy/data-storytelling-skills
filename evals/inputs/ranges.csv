@@ -1,0 +1,4 @@
+queue,low_minutes,high_minutes
+Basic,20,55
+Standard,45,90
+Complex,80,150

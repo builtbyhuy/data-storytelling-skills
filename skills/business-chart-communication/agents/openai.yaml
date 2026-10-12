@@ -1,0 +1,6 @@
+interface:
+  display_name: "Biểu đồ cho quyết định"
+  short_description: "Tạo biểu đồ rõ nghĩa, sửa được và kiểm tra bản xuất"
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Thực hành phân tích cho đội"
+  short_description: "Thiết kế pilot, metric ownership và đo kết quả"
+
+policy:
+  allow_implicit_invocation: true

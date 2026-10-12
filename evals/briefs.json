@@ -1,0 +1,37 @@
+{
+  "A": {
+    "input": [
+      "orders.csv",
+      "refunds.csv",
+      "ads.csv",
+      "definitions.md"
+    ],
+    "prompt": "Đọc các file giao dịch, hoàn tiền và quảng cáo này. Giải thích thay đổi từ tháng 7 sang tháng 8, chọn cách xử lý ngân sách tháng tới trong giới hạn đã cho, tạo biểu đồ giúp giám đốc hiểu lựa chọn và viết memo tiếng Việt tối đa 450 từ. Kiểm tra rồi sửa các kết luận hoặc hình biểu đồ nếu chúng gây hiểu lầm. Bàn giao memo-a.md, chart-a.svg chỉnh sửa được, chart-a.png và calculations-a.json chứa các phép tính quan trọng. Không thực thi thay đổi hay gửi cho ai."
+  },
+  "B": {
+    "input": [
+      "team.csv",
+      "team-draft.md",
+      "team-draft.svg"
+    ],
+    "prompt": "Kiểm tra bản đề xuất và biểu đồ đánh giá hai đội này dựa vào dữ liệu được cung cấp. Sửa kết luận và biểu đồ thực tế để giám đốc có thể chọn bước tiếp theo hợp lý. Viết note-b.md tiếng Việt tối đa 250 từ, chart-b.svg, chart-b.png và calculations-b.json. Không triển khai coaching hay gửi đề xuất."
+  },
+  "C1": {
+    "input": [
+      "ranges.csv"
+    ],
+    "prompt": "Vẽ biểu đồ ngang cho các khoảng thời gian phản hồi trong file. Mỗi thanh phải thể hiện từ low_minutes đến high_minutes, không phải tổng thời gian từ 0. Bàn giao range.svg chỉnh sửa được, range.png và một ghi chú ngắn về cách đọc; kiểm tra bản xuất thật."
+  },
+  "C2": {
+    "input": [
+      "screenshot.png"
+    ],
+    "prompt": "Anh chỉ có ảnh biểu đồ này, không có bảng dữ liệu gốc. Làm rõ thông điệp và đề xuất bản thiết kế tốt hơn. Đừng khẳng định các giá trị không đọc chính xác được từ ảnh. Bàn giao redesign.md và prototype.svg/prototype.png nếu có thể làm một bản mẫu được ghi nhãn trung thực; không yêu cầu kết nối dữ liệu thật."
+  },
+  "D": {
+    "input": [
+      "team-context.md"
+    ],
+    "prompt": "Dựa trên bối cảnh nhóm này, thiết kế pilot báo cáo để ra quyết định trong 10 ngày làm việc. Bàn giao pilot.md ngắn gọn dùng được, metric-contract.csv và decision-log.csv có bản ghi đầu tiên ở đúng trạng thái. Chọn câu hỏi, vai trò, nhịp làm việc và cách biết pilot có ích; giải quyết khác biệt định nghĩa trong kế hoạch. Không cài hệ thống hay chạy dịch vụ."
+  }
+}

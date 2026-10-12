@@ -1,0 +1,76 @@
+{
+  "scope": "All four supplied team×lead-tier cells; time period and assignment mechanism not supplied",
+  "source_sha256": {
+    "team.csv": "56b9294b35a9b4aeeb48c35dd2cdfa680d93a502bbcf096868378393dbedd2c8",
+    "team-draft.md": "25fdd243eaa45ca1eefc8be2346821ad49be48741acb5c9f3e45da8d04d70e8a",
+    "team-draft.svg": "9b60bf78ee3499855e2b91f2dfe5fdf9c2e11a72d46fee3edde22fe4d1578c36"
+  },
+  "team_totals": {
+    "A": {
+      "eligible_leads": 80,
+      "wins": 24,
+      "rate": 0.3,
+      "high_tier_share": 0.25
+    },
+    "B": {
+      "eligible_leads": 80,
+      "wins": 36,
+      "rate": 0.45,
+      "high_tier_share": 0.75
+    }
+  },
+  "cells": [
+    {
+      "team": "A",
+      "lead_tier": "High",
+      "eligible_leads": 20,
+      "wins": 12,
+      "rate": 0.6
+    },
+    {
+      "team": "A",
+      "lead_tier": "Low",
+      "eligible_leads": 60,
+      "wins": 12,
+      "rate": 0.2
+    },
+    {
+      "team": "B",
+      "lead_tier": "High",
+      "eligible_leads": 60,
+      "wins": 33,
+      "rate": 0.55
+    },
+    {
+      "team": "B",
+      "lead_tier": "Low",
+      "eligible_leads": 20,
+      "wins": 3,
+      "rate": 0.15
+    }
+  ],
+  "aggregate_B_minus_A_pp": 15,
+  "aggregate_B_relative_to_A": 0.5,
+  "within_tier_A_minus_B_pp": {
+    "High": 5,
+    "Low": 5
+  },
+  "common_mix": {
+    "definition": "Hypothetical 50% High / 50% Low applied to observed within-tier rates; both teams pooled have this mix",
+    "A": 0.4,
+    "B": 0.35,
+    "A_minus_B_pp": 5,
+    "status": "descriptive_standardization_not_coaching_effect"
+  },
+  "repairs": [
+    "Aggregate rates preserved; no claim that the arithmetic rates are wrong.",
+    "Replaced coaching causal title and whole-team rollout with stratified diagnostic/pilot proposal.",
+    "Changed ordinary magnitude bars to zero origin, common 0–70% scale; restored sample counts.",
+    "Added tier rates and hypothetical equal-mix comparison."
+  ],
+  "uncertainties": [
+    "Lead tiers may conceal remaining lead/customer differences.",
+    "No coaching assignment, time horizon, randomization or pre/post comparison supplied.",
+    "Rates describe this dataset, not proven future skill."
+  ]
+}

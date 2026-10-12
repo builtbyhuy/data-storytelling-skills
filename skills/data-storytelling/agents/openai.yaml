@@ -1,0 +1,6 @@
+interface:
+  display_name: "Bộ kể chuyện với dữ liệu"
+  short_description: "Phối hợp phân tích, biểu đồ và lập luận có căn cứ"
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,1 @@
+Mỗi thanh bắt đầu tại `low_minutes` và kết thúc tại `high_minutes`: Basic **20–55 phút**, Standard **45–90 phút**, Complex **80–150 phút**. Độ dài lần lượt là **35, 45, 70 phút**; khoảng trắng từ 0 đến cận dưới không phải một phần của thanh. Các khoảng có thể chồng nhau. File không nêu đây là min/max, phân vị hay cam kết SLA, nên không gán ý nghĩa thống kê đó.

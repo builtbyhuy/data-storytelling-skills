@@ -1,0 +1,138 @@
+{
+  "units": "million VND",
+  "input_records": {
+    "orders_raw": 13,
+    "orders_unique": 12,
+    "duplicate_orders_removed": [
+      "O41"
+    ],
+    "refunds": 4,
+    "unmatched_refunds": [],
+    "ads_rows": 6
+  },
+  "formulas": {
+    "net_revenue": "unique gross - refunds joined by order_id in order period",
+    "gross_profit": "net_revenue - cogs_net",
+    "after_ad_contribution": "gross_profit - monthly channel ad spend summed once"
+  },
+  "groups": {
+    "2026-07": {
+      "Web": {
+        "gross": 500.0,
+        "refunds": 20.0,
+        "cogs": 260.0,
+        "ads": 65.0,
+        "orders": 2,
+        "net_revenue": 480.0,
+        "gross_profit": 220.0,
+        "after_ad_contribution": 155.0
+      },
+      "Partner": {
+        "gross": 190.0,
+        "refunds": 10.0,
+        "cogs": 120.0,
+        "ads": 10.0,
+        "orders": 2,
+        "net_revenue": 180.0,
+        "gross_profit": 60.0,
+        "after_ad_contribution": 50.0
+      },
+      "Retail": {
+        "gross": 92.0,
+        "refunds": 0.0,
+        "cogs": 62.0,
+        "ads": 5.0,
+        "orders": 2,
+        "net_revenue": 92.0,
+        "gross_profit": 30.0,
+        "after_ad_contribution": 25.0
+      }
+    },
+    "2026-08": {
+      "Web": {
+        "gross": 640.0,
+        "refunds": 20.0,
+        "cogs": 395.0,
+        "ads": 150.0,
+        "orders": 2,
+        "net_revenue": 620.0,
+        "gross_profit": 225.0,
+        "after_ad_contribution": 75.0
+      },
+      "Partner": {
+        "gross": 210.0,
+        "refunds": 10.0,
+        "cogs": 120.0,
+        "ads": 10.0,
+        "orders": 2,
+        "net_revenue": 200.0,
+        "gross_profit": 80.0,
+        "after_ad_contribution": 70.0
+      },
+      "Retail": {
+        "gross": 80.0,
+        "refunds": 0.0,
+        "cogs": 50.0,
+        "ads": 5.0,
+        "orders": 2,
+        "net_revenue": 80.0,
+        "gross_profit": 30.0,
+        "after_ad_contribution": 25.0
+      }
+    }
+  },
+  "totals": {
+    "2026-07": {
+      "gross": 782.0,
+      "refunds": 30.0,
+      "cogs": 442.0,
+      "ads": 80.0,
+      "net_revenue": 752.0,
+      "gross_profit": 310.0,
+      "after_ad_contribution": 230.0,
+      "orders": 6,
+      "gross_margin_pct": 41.223404255319146
+    },
+    "2026-08": {
+      "gross": 930.0,
+      "refunds": 30.0,
+      "cogs": 565.0,
+      "ads": 165.0,
+      "net_revenue": 900.0,
+      "gross_profit": 335.0,
+      "after_ad_contribution": 170.0,
+      "orders": 6,
+      "gross_margin_pct": 37.22222222222222
+    }
+  },
+  "aug_minus_july": {
+    "gross": 148.0,
+    "refunds": 0.0,
+    "cogs": 123.0,
+    "ads": 85.0,
+    "net_revenue": 148.0,
+    "gross_profit": 25.0,
+    "after_ad_contribution": -60.0
+  },
+  "change_pct": {
+    "ads": 106.25,
+    "net_revenue": 19.680851063829788,
+    "gross_profit": 8.064516129032258,
+    "after_ad_contribution": -26.08695652173913
+  },
+  "channel_contribution_delta": {
+    "Web": -80.0,
+    "Partner": 20.0,
+    "Retail": 0.0
+  },
+  "proposed_monthly_ad_budget": {
+    "Web": 130,
+    "Partner": 30,
+    "Retail": 5,
+    "total": 165,
+    "shift_from_web_to_partner": 20,
+    "diagnostic_days": 14
+  },
+  "causal_effect_estimate": null,
+  "net_profit": null
+}

@@ -1,0 +1,10 @@
+{
+  "E": {
+    "input": ["orders.csv", "refunds.csv", "definitions.md"],
+    "prompt": "Doanh thu thuần tháng 8/2026 trong các file này là bao nhiêu? Trả lời một câu tiếng Việt, không cần biểu đồ hay kế hoạch."
+  },
+  "F": {
+    "input": [],
+    "prompt": "Tài chính đã đối soát: tháng7 doanh thu thuần752 triệu, lợi nhuận gộp310, quảng cáo80; tháng8 tương ứng900,335,165. Chi phí khác chưa có; không có bằng chứng nhân quả. Giám đốc chỉ có quyền duyệt việc kiểm tra giá vốn và cơ cấu Web, chưa duyệt chuyển ngân sách. Viết một email nháp tiếng Việt tối đa180 từ cho giám đốc, có subject, giúp chọn và giao việc kiểm tra cụ thể. Không phân tích lại CSV, không tạo chart, không gửi."
+  }
+}

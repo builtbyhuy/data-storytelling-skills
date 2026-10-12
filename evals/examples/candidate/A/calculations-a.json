@@ -1,0 +1,169 @@
+{
+  "unit": "million VND",
+  "period_basis": "Refunds assigned to original order period; cogs_net already net of recovered costs",
+  "grain": "unique order_id; ads once per period/channel",
+  "source_sha256": {
+    "orders.csv": "da19f96a3fa7d9f04ce615bef35043da668b4a399d6792912606425094a4fa80",
+    "refunds.csv": "e8ec3f455d86e965a5d48df8ec916641198dbc0de72a8fe69a9ec60b4c6dfcd0",
+    "ads.csv": "fa65f3a37bed74780cdfa661bc0471cfcb1d905709a1ade3826569adf2cbc281",
+    "definitions.md": "6482dd80595ef5d9e7fb6bd9bacb066e5d5b1fa071c6b0730de45583824b26fa"
+  },
+  "raw_order_rows": 13,
+  "unique_orders": 12,
+  "identical_duplicate_order_ids": [
+    "O41"
+  ],
+  "refund_rows": 4,
+  "unmatched_refunds": 0,
+  "segment_totals": [
+    {
+      "period": "2026-07",
+      "channel": "Partner",
+      "gross_revenue": 190.0,
+      "refunds": 10.0,
+      "cogs_net": 120.0,
+      "ad_spend": 10.0,
+      "net_revenue": 180.0,
+      "gross_profit": 60.0,
+      "after_ad_contribution": 50.0,
+      "gross_margin": 0.3333333333333333
+    },
+    {
+      "period": "2026-07",
+      "channel": "Retail",
+      "gross_revenue": 92.0,
+      "refunds": 0.0,
+      "cogs_net": 62.0,
+      "ad_spend": 5.0,
+      "net_revenue": 92.0,
+      "gross_profit": 30.0,
+      "after_ad_contribution": 25.0,
+      "gross_margin": 0.32608695652173914
+    },
+    {
+      "period": "2026-07",
+      "channel": "Web",
+      "gross_revenue": 500.0,
+      "refunds": 20.0,
+      "cogs_net": 260.0,
+      "ad_spend": 65.0,
+      "net_revenue": 480.0,
+      "gross_profit": 220.0,
+      "after_ad_contribution": 155.0,
+      "gross_margin": 0.4583333333333333
+    },
+    {
+      "period": "2026-08",
+      "channel": "Partner",
+      "gross_revenue": 210.0,
+      "refunds": 10.0,
+      "cogs_net": 120.0,
+      "ad_spend": 10.0,
+      "net_revenue": 200.0,
+      "gross_profit": 80.0,
+      "after_ad_contribution": 70.0,
+      "gross_margin": 0.4
+    },
+    {
+      "period": "2026-08",
+      "channel": "Retail",
+      "gross_revenue": 80.0,
+      "refunds": 0.0,
+      "cogs_net": 50.0,
+      "ad_spend": 5.0,
+      "net_revenue": 80.0,
+      "gross_profit": 30.0,
+      "after_ad_contribution": 25.0,
+      "gross_margin": 0.375
+    },
+    {
+      "period": "2026-08",
+      "channel": "Web",
+      "gross_revenue": 640.0,
+      "refunds": 20.0,
+      "cogs_net": 395.0,
+      "ad_spend": 150.0,
+      "net_revenue": 620.0,
+      "gross_profit": 225.0,
+      "after_ad_contribution": 75.0,
+      "gross_margin": 0.3629032258064516
+    }
+  ],
+  "monthly_totals": {
+    "2026-07": {
+      "gross_revenue": 782.0,
+      "refunds": 30.0,
+      "net_revenue": 752.0,
+      "cogs_net": 442.0,
+      "gross_profit": 310.0,
+      "ad_spend": 80.0,
+      "after_ad_contribution": 230.0
+    },
+    "2026-08": {
+      "gross_revenue": 930.0,
+      "refunds": 30.0,
+      "net_revenue": 900.0,
+      "cogs_net": 565.0,
+      "gross_profit": 335.0,
+      "ad_spend": 165.0,
+      "after_ad_contribution": 170.0
+    }
+  },
+  "august_minus_july": {
+    "gross_revenue": {
+      "absolute": 148.0,
+      "relative": 0.18925831202046028
+    },
+    "refunds": {
+      "absolute": 0.0,
+      "relative": 0.0
+    },
+    "net_revenue": {
+      "absolute": 148.0,
+      "relative": 0.19680851063829796
+    },
+    "cogs_net": {
+      "absolute": 123.0,
+      "relative": 0.27828054298642524
+    },
+    "gross_profit": {
+      "absolute": 25.0,
+      "relative": 0.08064516129032251
+    },
+    "ad_spend": {
+      "absolute": 85.0,
+      "relative": 1.0625
+    },
+    "after_ad_contribution": {
+      "absolute": -60.0,
+      "relative": -0.26086956521739135
+    }
+  },
+  "bridge": {
+    "start": 230,
+    "gross_profit_change": 25,
+    "ad_spend_change_effect": -85,
+    "end": 170
+  },
+  "proposed_budget": {
+    "status": "proposed_not_executed",
+    "ceiling": 165,
+    "Web": 130,
+    "Partner": 30,
+    "Retail": 5,
+    "reallocation_from_Web_to_Partner": 20,
+    "diagnostic_days": 14
+  },
+  "scenario": {
+    "assumption": "If gross profit stayed at August levels, any allocation totalling 165 gives contribution 170; this is a scenario, not a forecast",
+    "constant_gross_profit_contribution": 170,
+    "incremental_contribution_formula": "Partner incremental gross profit - Web gross profit lost; total ad spend unchanged",
+    "break_even_rule": "Partner incremental gross profit must exceed gross profit lost at Web; unknown from present inputs"
+  },
+  "checks": {
+    "duplicate_collapsed": true,
+    "refund_join_no_expansion": true,
+    "segment_sum_reconciles": true,
+    "bridge_reconciles": true
+  }
+}
