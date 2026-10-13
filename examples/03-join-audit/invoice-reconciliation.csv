@@ -1,0 +1,5 @@
+invoice_id,invoice_line_count,payment_allocation_count,invoiced_revenue_usd,cash_received_usd,remaining_receivable_usd,payment_status
+INV-1001,2,2,300.00,300.00,0.00,paid_in_full
+INV-1002,2,3,500.00,500.00,0.00,paid_in_full
+INV-1003,1,1,250.00,250.00,0.00,paid_in_full
+INV-1004,2,0,150.00,0.00,150.00,unpaid

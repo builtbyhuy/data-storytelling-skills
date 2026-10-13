@@ -3,64 +3,66 @@ name: business-chart-communication
 description: Create or repair decision-focused business charts, dashboard panels, and slide visuals from data or a bounded existing graphic. Deliver an editable chart source and an inspected export with faithful values, scales, labels, and context.
 license: MIT
 metadata:
-  version: "2.1.1"
+  version: "3.0.0"
 ---
 
 # Business chart communication
 
-Turn the user's comparison into a usable chart. The result is the chart itself, its editable source, and an export checked at the intended viewing size. A chart specification or design critique alone does not complete a request to make or improve a chart.
-
-This specialist can work directly from a table, accepted facts, or an existing chart plus its sources. It does not require the composing skill or the other specialists to run first.
+Deliver the requested chart, editable source and export inspected at its intended viewing size. A specification or critique alone does not complete a chart-making request. Work directly from a table, accepted facts or an existing graphic plus its sources; the full story suite need not run first.
 
 ## Establish what the chart can say
 
-Read the [evidence contract](references/evidence-contract.md). Carry forward sufficient supplied facts; do not repeat analysis merely because a new stage began. Keep the same source snapshot, metric definition, unit, denominator, population, filters, and period in the chart and its notes.
+Reuse an established [evidence contract](references/evidence-contract.md), or consult relevant parts for unresolved metric meaning or authority. Carry forward sufficient supplied facts and preserve their source snapshot, definition, unit, denominator, population, filters and period.
 
-Set a compact chart brief: intended reader; question or decision; important comparison; metric and unit; scope and period; delivery format and expected size. Use a table when precise lookup is the main need. Choose a finding headline after examining the evidence; a clear question or descriptive title is appropriate when no stronger takeaway is supported.
+Set the reader, question/decision, decisive comparison, metric/unit, scope/period and destination size/format. Specify what the reader should be able to compare or conclude. Use a table for precise lookup. Choose a supported finding headline; a question or descriptive title is appropriate when no stronger takeaway is established.
 
 Separate input states:
 
-- **Underlying data or verified facts available:** reconcile the plotted values to those inputs and preserve transformations needed to rebuild the chart.
-- **Only a screenshot or PDF graphic available:** copy exact visible labels with their scope. Do not derive exact values from unlabelled marks, invent hidden rows, or claim to have recovered the dataset. An exact-label-only redraw must identify its partial coverage and must not imply that unseen or unlabelled values are zero or absent.
-- **Values required for a faithful redraw unavailable:** produce a useful annotated redesign or editable layout with unknowns visibly marked, then name the smallest missing input needed to finish the numeric chart. Label any requested illustrative numbers as illustrative beside the chart. A layout is not a verified reconstruction.
+- **Data or verified facts available:** reconcile plotted values and preserve rebuild transformations.
+- **Only a screenshot/PDF graphic available:** use exact visible labels with their scope. Do not derive exact values from unlabelled marks or invent hidden rows. Identify partial coverage; unseen values are unknown, not zero or absent.
+- **Required values unavailable:** make a useful annotated redesign or editable layout with unknowns visible, and name the smallest missing input. Label requested illustrative numbers beside the chart. A layout is not a verified reconstruction.
 
 ## Build the comparison
 
 Use [chart choices and rendering checks](references/chart-method.md) when choosing an encoding or repairing scales, color, layout, or accessibility.
 
-Choose the simplest encoding that makes the required comparison readable. Keep natural time, stage, and ordinal order; sort categories when ranking is the question. Prefer common-position or length encodings when small quantitative differences matter. Keep the existing chart type when it already works.
+Choose encoding before styling. If unclear, compare plausible encodings using actual values: which exposes the decisive relationship with less decoding? Prefer shared position/length for precise comparisons; a reconciliation may need a bridge. Preserve natural time/stage/ordinal order; sort for ranking. Keep a working chart type rather than replacing it for a template or novelty.
 
 Treat the mark's meaning as the baseline rule:
 
-- Ordinary bars and filled areas that encode magnitude start from zero. Signed values extend on the correct side of zero.
-- Range or floating bars encode two endpoints. Preserve their actual spans and label the endpoints or interval meaning; a zero origin would change the question.
-- Waterfalls encode a reconciled sequence of changes and totals. Distinguish subtotal/total bars from change bars and verify that each change bridges the correct starting and ending level.
-- Lines and scatterplots may use a focused nonzero range when disclosed and useful. Preserve enough comparison context and avoid an aspect ratio or title that exaggerates a small difference.
+- Magnitude bars and filled areas start from zero; signed values extend on the correct side.
+- Range/floating bars preserve both endpoints and label their meaning; a zero origin changes that question.
+- Waterfalls distinguish totals from changes and reconcile each start/end level and the complete bridge.
+- Lines/scatterplots may use a disclosed focused range; keep enough context and avoid exaggerating differences through aspect ratio or title.
 
-Keep missing, zero, excluded, estimated, forecast, target, and observed values distinguishable. Use shared scales for panels intended to be compared. Scale a quantity encoded by bubble area by area. Show uncertainty only when its meaning and values are supplied or validly calculated.
+Distinguish missing, zero, excluded, estimated, forecast, target and observed values. Use shared scales for comparable panels, scale bubble quantities by area, and display uncertainty only with supplied or validly calculated meaning and values.
 
 ## Make the reading path intentional
 
-Use pre-attentive differences such as position, size, color, or line weight for a real focal point; preserve readable alternatives and counterevidence. Choose suitable Gestalt cues: proximity, similarity, enclosure, closure, continuity, connection, figure/ground, and whitespace. The reference gives concrete applications; a chart need not use every lens. Do not connect unrelated items just to create visual unity. No color quota, fixed scan path, or claimed perception time is a quality gate.
+Compose an explanatory view around its principal comparison: headline states the finding, plot demonstrates it, direct labels locate decisive values, and nearby context qualifies it. Equally prominent KPI figures, accent panels and repeated callouts can obscure that relationship. Put other questions or detailed calculations in adjacent prose or another view. Multi-purpose dashboards still need readable tasks and routes to detail.
 
-Use color semantics consistently across panels: categories, ordered magnitude, a meaningful midpoint, or an explained status. Red is not automatically bad. Pair color with labels, shapes, patterns, or line styles for consequential distinctions.
+Use position, color, size or line weight to emphasize relevant evidence while preserving readable alternatives and counterevidence. Apply useful Gestalt cues such as proximity, similarity, grouping and whitespace; the reference gives concrete applications. Connections must represent real relationships. No color quota, scan path or claimed perception time is a quality gate.
 
-Make the title, subtitle, axis labels, and nearby notes jointly identify the metric, unit, period, population, comparison, and material limitation. Keep abbreviated numbers, decimal precision, locale, and currency consistent. Label decisive values directly when it improves reading; preserve exact-value access through a table where useful. For a dashboard, retain the selected filters, refresh/as-of state, source, and meaningful controls.
+Keep color meaning stable across views: category, ordered magnitude, meaningful midpoint or explained status. Red is not automatically bad. Pair consequential distinctions with text, shapes, patterns or line styles.
+
+Titles/labels/notes jointly identify metric, unit, period, population, comparison and material limitation. Keep number formatting consistent. Preserve exact-value access where useful. Dashboards retain selected filters, refresh/as-of state, source and meaningful controls.
+
+Use aligned edges, consistent type roles and spacing for finding, data reading and notes. Place labels near their marks. Remove competing decoration/repetition; retain meaningful references and uncertainty. Size type for the real slide/page/embed; simplify or separate views before shrinking essentials. A considered composition needs no fixed brand style, canvas or palette recipe.
 
 ## Produce and inspect the real files
 
-Use the requested format and the available chart, spreadsheet, presentation, or plotting tools. For standalone delivery, an editable native chart, text-based SVG, or editable chart specification plus its data and rebuild source can serve as the source; a raster image alone cannot. Keep labels editable where the format allows it. Export the requested static or interactive result, with a static fallback when the use needs one.
+Use available tools for the requested format. Retain editable native charts, text-based SVG, or an editable specification with data/rebuild source; a raster alone is insufficient. Keep labels editable. Export static/interactive results and a static fallback when use requires it.
 
-Open or render the delivered files at their actual size. Check the value-to-mark mapping, axis limits, endpoint spans, legend and direct labels, ordering, clipping, overlap, typography, visible context, and panel consistency. For interactive charts, also test the relevant controls, selected state, hover and keyboard behavior, and the static export rather than assuming they match.
+Inspect delivered files at destination size: values/geometry, scales/spans, labels, order, clipping/overlap, type, context and panel consistency. Interactive charts also need relevant control/selection, hover/keyboard and static-export checks.
 
-Check specific text and essential marks for contrast, add a useful text alternative, and ensure color is not the only carrier of meaning. A palette name or grayscale preview does not establish accessibility. Repair observed failures and inspect the affected output again.
+Measure contrast for essential text/marks, provide useful text alternatives and redundant color distinctions. A palette name or grayscale preview does not establish accessibility. Repair observed failures and reinspect affected output.
+
+Review use separately from numeric/export checks. Can the reader identify the comparison, main pattern and decision-changing qualification without layout explanation? Does the first attracting mark/text serve that task? Repair competing emphasis, unclear grouping, unexplained terms or density. A render, contrast pass or internal rating does not certify taste or human understanding; distinguish reader feedback from model inspection.
 
 ## Compose only the missing capability
 
-When available, use `scientific-visualization` for demanding plotting, uncertainty displays, or publication figure mechanics; use `statistical-analysis` for a required estimator or uncertainty computation; and use `reliable-delivery` for material numeric reconciliation or several acceptance checks. Use the relevant artifact skill for the requested file type. These are optional implementation aids, not prerequisites or copied resources. If unavailable, complete the same bounded chart work with the tools on hand and state any actual limitation.
-
-Do not rerun the full story suite for a chart-only job. The chart specialist owns encoding, reading hierarchy, and visual delivery; it does not add an unrelated business recommendation or an organization-wide audit.
+When useful and available, use `scientific-visualization` for demanding plotting, `statistical-analysis` for estimators/uncertainty, `reliable-delivery` for material numeric reconciliation and the artifact skill for the requested format. These are implementation aids, not prerequisites. Complete bounded work with available tools and report an actual limitation. Chart-only work does not add an unrelated business recommendation or organization audit.
 
 ## Handoff
 
-Deliver the editable source and inspected export, the values/data scope and transformations needed to revise them, and a short explanation of the comparison the chart supports. Update shared facts or claims only when a checked correction changes them. State what was verified and any remaining unknown that affects use. A successful export establishes file creation; it does not prove audience understanding, adoption, or business impact.
+Deliver editable source, inspected export, revisable values/scope/transformations and the supported comparison. Propagate checked fact corrections to affected claims. State checks and use-relevant unknowns; file creation does not prove understanding, adoption or business impact.

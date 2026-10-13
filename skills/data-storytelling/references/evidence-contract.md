@@ -20,15 +20,19 @@ For multiple artifacts, stable identifiers make contradictions easier to detect:
 | Metric | definition, grain/key, population, period, unit, filters, denominator |
 | Fact | `fact_id`, value, source or reproducible calculation, scope |
 | Claim | `claim_id`, text, supporting `fact_ids`, strength and limitations |
-| Action | proposal, accountable role, window, measure, decision rule, status |
+| Action | intervention and eligible scope, accountable role, comparison, mature window, measure, decision rule, status |
 
 Claim strength distinguishes observation, hypothesis, estimate/scenario and recommendation. Keep consequential counterevidence and unknowns attached to the claim they affect. Formal IDs are unnecessary for a one-sentence KPI answer; meaning and source still matter.
 
 Reuse sufficient supplied calculations and confirmed definitions. If a later method discovers an error, update the authoritative fact and every affected chart/title/message; do not silently replace just one number. Keep a compact replay record when useful: input snapshot, calculation/transform version, material checks and the resulting artifact. Evidence review checks truth and interpretation; a commit/release check concerns the actual action authority. Handoff includes the requested artifact, decisive facts, genuine unresolved issues and action state. Prepared, checked, approved, executed and observed outcome are separate states.
 
+Pass the intended reader task alongside the facts: which comparison the reader needs, which choice it informs and which limit controls that choice. Select the explanatory evidence after analysis, including consequential counterevidence. Details may live in linked working evidence, but a qualifier that changes the main recommendation belongs beside that recommendation.
+
 ## Check proportionately
 
 Recompute material numbers independently where feasible, match chart marks to values, inspect the actual rendered output and check the strongest relevant competing interpretation. Percent change uses its stated base; percentage-point differences subtract rates. Aggregate patterns can reverse within segments. Correlation and before/after comparisons alone do not establish an intervention's effect. Revenue/spend is not profit ROI.
+
+For a visual or document handoff, also perform the actual reading task at the intended size: find the conclusion, read its decisive comparison, identify the important qualification and locate the proposed response. A successfully exported file or matching numeric labels cannot establish this on its own. Independent model review is a comprehension proxy; observed human feedback and business outcomes remain separate evidence.
 
 Choose a concrete supported recommendation when asked. With unresolved causation, a bounded diagnostic or reversible experiment can still be useful: specify what is done, which observation distinguishes alternatives, who can decide and the stop/continue rule. Do not invent a price, return, owner name or approval to make the ending decisive.
 

@@ -7,7 +7,7 @@
 - **BUS:** Big, Useful, Surprising. Weigh materiality and usefulness in context; surprise is a possible benefit, not a prerequisite or calibrated score.
 - **TOSCAR:** Trouble, Owner, Success, Constraints, Actors, Reference. A compact way to frame a real decision.
 - **ARC:** Setting/Hook, Rising evidence, Aha or main takeaway, Resolution. An optional argument arrangement after analysis.
-- **4D:** Define the problem, Desired outcome, Do/actions, Data to measure. Outcome targets are not forecasts.
+- **4D:** Problem, Outcome, Actions, Measures. Connect the response to the problem and an observable result; outcome targets are not forecasts.
 - **Cost of inaction:** a scenario requiring a base, horizon, recoverability and assumptions; it is not automatically the full observed loss.
 - **Data-ink:** prioritize useful marks; preserve units, references, uncertainty and exceptions that make the chart interpretable.
 - **Simpson's paradox:** an aggregate comparison can point in the opposite direction from within-group comparisons because composition differs. Assess the actual data rather than assuming every aggregate is misleading.

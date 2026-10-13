@@ -1,42 +1,35 @@
-# Worked examples
+# Ví dụ dùng trong công việc
 
-Three complete examples of turning a business question into a usable decision. Each includes a normal-language request, synthetic inputs, inspectable calculations and an editable visual. These are curated instructional examples, not customer outcomes or controlled claims of superiority.
+Ba tình huống giả lập, mỗi tình huống có yêu cầu có thể sao chép, dữ liệu gốc, tài liệu một trang, nguồn chỉnh sửa được và bản tính tái tạo được.
 
-| Business task | Useful result | Open the example |
+| Việc cần làm | Bản bàn giao | Mở ví dụ |
 |---|---|---|
-| Sales rise while contribution falls | A reconciled bridge, a conservative B2B bound and a proposed price test with an honest readout date | [01 — Profit decision](01-profit-decision/README.md) |
-| A headline rate is used to justify coaching | Preserve the aggregate rates, expose different lead mix and replace the unsupported rollout with a within-tier test | [02 — Fair comparison](02-fair-comparison/README.md) |
-| A join inflates reported revenue | Locate the repeated money and reconcile invoices, payments and unpaid balances at the right grain | [03 — Join audit](03-join-audit/README.md) |
+| Doanh thu tăng nhưng đóng góp giảm | Memo họp, bảng tính Excel, kế hoạch thử giao hàng và bản ghi quyết định đã điền | [01 — Quyết định lợi nhuận](01-profit-decision/README.md) |
+| Tỷ lệ gộp bị dùng để kết luận coaching có tác dụng | Báo cáo sửa, phép so sánh cùng cơ cấu và câu kết luận có thể dùng ngay | [02 — So sánh sales](02-fair-comparison/README.md) |
+| Ghép bảng làm tiền tăng | Minh họa tính lặp, bảng đối chiếu từng hóa đơn và audit đã thực thi | [03 — Đối chiếu hóa đơn](03-join-audit/README.md) |
 
-## Use the files
+## Dùng ngay
 
-Open an example's README, copy its request and supply its inputs to your assistant. Read the memo or repaired decision before the implementation notes. SVGs retain editable text and vector marks; PNGs provide convenient previews. CSV/JSON files keep exact values available without reading them off a picture.
+Mở PDF để đọc hoặc in; SVG giữ văn bản và hình vector để chỉnh sửa. Memo Markdown giữ nội dung để sao chép. CSV/JSON giữ số chính xác. Ví dụ1 có workbook với dữ liệu, công thức và giá trị lưu sẵn; các giá trị đã đối chiếu nguồn, chưa chạy lại bằng Excel.
 
-The profit example combines diagnosis, narrative, chart communication and a proposed adoption plan. The comparison example uses redteam and chart repair. The join example actually executes the bundled audit helper and checks it with a separately materialized join. All three carry uncertainty where it changes the decision.
+Để dùng skill với dữ liệu của bạn, sao chép yêu cầu trong từng ví dụ và đưa các file nguồn phù hợp. Các script của gallery tái tạo snapshot giả lập này; kết luận, ngưỡng đề xuất và bố cục cần được xem lại nếu dữ liệu đổi. Đây không phải một mẫu quyết định tự áp vào doanh nghiệp khác.
 
-## Rebuild
+## Tái tạo
 
-From the repository root, with Python 3.10 or newer:
+Với Python và các thư viện có sẵn phù hợp:
 
-```sh
-python examples/01-profit-decision/rebuild.py
-python examples/02-fair-comparison/rebuild.py
-python examples/03-join-audit/rebuild.py --out ./scratch/join-example
-python examples/build_visuals.py
+```text
+python examples/01-profit-decision/rebuild.py --output ./scratch/profit-v3
+python examples/02-fair-comparison/rebuild.py --output ./scratch/comparison-v3
+python examples/03-join-audit/rebuild.py --output ./scratch/join-v3
 ```
 
-The join output path must be new. It preserves the supplied inputs and refuses to overwrite existing results. Its published `result/` is the original checked example; rebuild outputs are separate. The SVG builder reads the retained analysis and join audit values and uses a layout designed for these fixtures. If you change the business data, reconsider the conclusion, scale and layout too.
+Dùng các thư mục đầu ra riêng. Script giữ nguồn và dựng lại phép tính, văn bản, SVG, PDF, PNG cùng bản tính/bảng đối chiếu liên quan. Chúng không tải thư viện hoặc gọi tài khoản/dịch vụ.
 
-PNG exports were rendered from the SVGs using `sharp`. If that package is available in your Node environment, run:
+Rebuild 1 cần `reportlab`, `xlsxwriter`, `pypdf` và Poppler. Rebuild 2 cần `reportlab`, `pypdf`, `pypdfium2`. Rebuild 3 cần `reportlab`, `pypdf`, `Pillow` và Poppler; `--poppler` cho phép chỉ vị trí renderer. Các bản xuất đã kiểm dùng Arial có sẵn trên Windows, không phân phối file font. Các skill và công cụ join audit vẫn dùng được độc lập, không cần bộ dựng PDF này.
 
-```sh
-node examples/render_previews.cjs
-```
+## Các ví dụ được làm như thế nào
 
-No Python dependencies, server, account or paid API is required to recompute the examples or view the SVGs. Font appearance can vary across systems; exported PNGs retain the inspected appearance.
+Ba agent mới chạy bản skill đã freeze từ nguồn và brief, không nhận hình cũ hoặc đáp án. Dữ liệu là các fixture tổng hợp đã có: đây là lượt chạy lại độc lập theo cùng input, không phải holdout mới hoặc so sánh baseline. Owner tính lại nguồn riêng, xem bản xuất và cho một reviewer chỉ đọc pixels. Bản công bố bổ sung các sửa về thuật ngữ, điều kiện quyết định, bảng tổng và đường dẫn portable.
 
-## Provenance
-
-The profit fixture reuses the independently authored public June/July source exports from the local raw-data comparison. Its new memo, plan and visual are curated illustrations; the comparison's timed-out runs remain timed out. The team fixture reuses the earlier four-cell synthetic comparison. The join fixture was authored for this gallery, run through the helper and checked against an independent nested-loop join. No private original ebook, hidden fixture allocation or customer data is included.
-
-The original package's [evaluation record](../evals/README.md) describes a different question: how candidate and baseline sessions performed. A polished example and a verified calculation do not establish a general quality, speed or business-impact advantage.
+Các lượt đọc của model giúp tìm điểm mơ hồ; chúng không chứng minh người thật đã hiểu hơn hoặc chấp nhận thẩm mỹ. Không có kết quả khách hàng, phê duyệt/thực thi thử nghiệm hay lợi ích kinh doanh thực. [Kiểm tra 3.0 và giới hạn](../evals/book-aligned-v3.md). [Kết quả so sánh trước đây](../evals/README.md) được giữ nguyên.

@@ -14,6 +14,16 @@ Read this when the user asks why something happened, what it means, or what to d
 
 Do not strengthen a hypothesis by polishing its wording. "After the change" does not mean "because of the change." A segmentation result can identify where a problem sits without proving why it arose. A conditional opportunity, expected recoverable amount, and observed outcome are different claims.
 
+## Choose what the reader needs to understand
+
+For a decision brief, write a provisional takeaway with its level of evidence, then choose the smallest adequate set of contrasts that supports it. Each selected finding should establish the problem, distinguish an explanation, or justify the response. An additional correct statistic belongs in supporting evidence when it does not alter one of those links. Revise the takeaway when counterevidence changes the choice; do not select evidence to protect the first wording.
+
+A useful shape is: **observed difference → business consequence → supported choice**, with the important unresolved condition beside the link it limits. Use the audience's operating terms rather than exposing only statistical vocabulary. If a statistic describes a highly uneven distribution, explain which cases drive the total or burden and which summary answers the reader's question; do not turn skewness into a dramatic claim about all customers.
+
+Make the decisive comparison inspectable. A short headline states the finding; adjacent values or a well-chosen graphic show the base, difference and scope. Supporting calculations can be separate. A reader should not have to combine several unexplained KPI cards or search an appendix to discover that the recommendation rests on incomplete coverage.
+
+For example, if a closed ledger shows a contribution decline while revenue rises, the main explanation should reconcile the contribution change and identify the component relevant to the response. A detailed cost export with partial coverage can explain its matched portion, but cannot establish the cause of the full decline. A decision bound may support a pilot even while that attribution remains unresolved.
+
 ## Translate the technical finding
 
 Build a short chain:
@@ -72,6 +82,8 @@ Select findings for expected decision value, evidence credibility, urgency, feas
 For a constrained allocation, compare the preferred feasible option with its strongest feasible alternative, including doing nothing when relevant. Show the incremental benefit, resource use and residual capacity, not only total returns or benefit-per-hour rankings. Respect indivisible bundles and interactions. Calculate the decision boundary in a consequential uncertain input or resource limit when the supplied facts support it; include any evidenced value of displaced work once, without double counting costs already deducted. A small reduction in capacity can invalidate an otherwise attractive bundle. Put the actionable tradeoff in the recommendation, leaving exhaustive options in supporting evidence.
 
 An action should identify the responsible **role** when no owner is assigned, an appropriate timing or evaluation window, the outcome to watch, and the rule for continuing, changing, or stopping. Match the measure to what the action can change; recovery after a missed deadline cannot erase the original miss. Derive an outcome readout from cohort maturity, metric-period closure and source availability, not simply the end of the work sprint. Add a cost/risk limit or rollback condition when the response warrants it. Mark these as proposed details unless supplied or accepted by the user.
+
+Write the requested choice in the main recommendation, with the tradeoff or unresolved condition that controls it. An owner/deadline/KPI list does not make an action practical if it omits the intervention, resource limit, comparison or authority required. When a headline metric cannot mature before the decision deadline, use a justified interim operating signal and state when the outcome can be read; do not promise a mature result early to make the proposal attractive.
 
 A bounded experiment needs a stated intervention, eligible unit/population, meaningful comparison, outcome, evaluation window, and decision criterion. Avoid choosing a favorable endpoint after seeing results. Use an available statistical method when sampling uncertainty, power, clustering, or causal identification changes the decision; ordinary arithmetic does not require an experiment protocol.
 

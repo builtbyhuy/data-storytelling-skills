@@ -18,9 +18,24 @@ Write a short analytical basis before transforming data:
 
 Scope these checks to what could change the conclusion. A supplied aggregate with clear definitions can support aggregate findings. It cannot reveal the distribution of its underlying records or effects within a missing segment.
 
+Distinguish a source's authority from its detail. A reconciled period ledger may establish the total while a detailed connector export covers only part of it. Use each for the claim it can support; do not replace a complete total with the available detail or allocate an unexplained residual to the preferred segment. Where credits or adjustments are recognized in a later period than the original event, preserve the authoritative recognition rule in the headline metric. An event-period cohort view can be a separate labelled analysis.
+
 Check uniqueness at the declared grain. Compare row counts and totals before and after a join. Joining orders to lines can validly increase rows while making a repeated order-level revenue field unsafe to sum. Aggregate the measure at its own grain or allocate it under an explicit rule before combining it. Retain the exclusions and reasons needed to reproduce material totals.
 
 Align populations and periods before comparison. A new location, changed tracking rule, incomplete week, different attribution window, or switch from cohort retention to calendar retention can mimic performance change. If alignment is impossible, report the scoped contrast and its limitation rather than silently treating it as like-for-like.
+
+## Let the decision choose the next cut
+
+Use an analytical question to choose a transformation or split. A healthy total can hide a local failure, and a large total can arise from a different buyer process; neither observation alone establishes which explanation applies. Select the business dimension that would distinguish the possibilities. When the process has an interaction, inspect the relevant intersection rather than adding unrelated marginal charts.
+
+| Decision question | Contrast that can discriminate it | Useful handoff |
+|---|---|---|
+| Is an apparent top performer repeatable or a distinct business process? | Transaction/account concentration and classification at the relevant grain | A reconciled contribution and concentration view; a classification or exposure decision, with no automatic deletion of exceptional records. |
+| Does the aggregate reflect the group's performance or its opportunity mix? | Eligible counts, within-group rates and a justified comparable mix | Keep the observed aggregate and label the comparison's different question; change the ranking only if the decision concerns that question. |
+| Should an operating change be reversed or investigated? | Affected versus comparable unaffected populations across relevant dates, with failure records | Scope the failure and the mechanism-specific check; a reversible mitigation can precede full causal identification. |
+| Does growth create a feasible expansion opportunity? | Contribution to change, realized unit economics, repeatability and the binding capacity | A bounded incremental model against the strongest feasible alternative; potential demand is not earned revenue. |
+
+Retain the total and the targeted contrast together when both matter. Reconcile additive slices, expose denominators for rates, and keep the count behind a percentage. Choose the next cut only if its result could change the conclusion, confidence, or action; do not search every combination and report only the striking ones.
 
 ## Select summaries by the decision
 

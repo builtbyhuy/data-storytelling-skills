@@ -25,6 +25,8 @@ Do not turn absent raw data into a numeric allegation. Exact visible labels may 
 
 A sample can legitimately answer a question. Check its selection method, analyzed N, relevant coverage and uncertainty. An undisclosed convenience sample cannot establish a population-wide claim; a documented sample is not automatically a failure. Population coverage also does not prove freedom from measurement error or confounding.
 
+When a full eligible dataset is supplied, calculate important headline quantities on that scope rather than silently substituting a convenient subset. If a subset is the only available basis, expose its analyzed count and coverage beside the affected value, then recompute on the full scope if available, narrow the claim, or remove it. A general caveats slide cannot repair a population-wide headline read before the qualifier.
+
 For an aggregate performance difference, examine material subgroup weights when mix could change the interpretation. Compute an overall rate from the summed numerators and denominators or valid exposure weights. Compare like populations and periods. A reversal across groups may be consistent with a composition effect, but do not call every subgroup difference a paradox or assume an omitted denominator can be recovered.
 
 ## Magnitude and claim strength
@@ -37,6 +39,22 @@ For an aggregate performance difference, examine material subgroup weights when 
 - **Forecasts and estimates:** label their assumptions, horizon and uncertainty. Do not treat extra decimal places as accuracy or a scenario as a measured outcome.
 
 For visual scale review, ask what the mark encodes. Magnitude bars require zero; endpoint ranges and floating intervals are judged by their endpoints/spans; waterfalls by their signed bridge and totals. Focused nonzero line/scatter ranges can be valid with adequate labels and context. Retain correct charts rather than forcing all plots to the same baseline.
+
+## Inspect the conclusion created by the surface
+
+Review the chart or brief as delivered, at its intended reading size. Source code, an author's narration and a high-resolution zoom can explain a result that the audience-facing surface does not communicate. Record what the surface allows a reader to answer, then trace that answer to the available evidence.
+
+| What the reader needs | Observable failure | Effective repair |
+|---|---|---|
+| The finding and its scope | A title declares a cause or winner while the marks show only association, partial coverage or incompatible groups | Calibrate the title and place the decisive scope condition beside the comparison; reassess the action. |
+| The base and difference | A prominent percentage has no original amount, exposure or comparable period | Show the relevant base and absolute or percentage-point change; retain enough context to judge consequence. |
+| The evidence for the takeaway | Equally prominent KPI cards require the reader to infer the comparison, or a dramatic isolated case stands in for the population | Give the decisive contrast a clear reading path; label an illustration as such and add the supported population evidence. |
+| The limits that control the choice | A coverage gap or counterexample is present only in tiny footer text while the main recommendation reads as unconditional | Move that condition to the claim or action it changes; revise an unconditional choice when needed. |
+| What to do next | The ending requests action but gives no intervention, usable measure or decision condition | Replace it with a feasible proposed response or discriminating check, including the details required by this decision. |
+
+Simplicity means removing irrelevant competition while keeping evidence needed to evaluate the claim. It does not mean making a small effect look large, hiding a denominator, or dropping a contradictory group. Avoid treating a preferred palette, fixed chart count, decorative style or an internal aesthetic rating as an integrity rule. When design quality is within scope, assess concrete hierarchy, alignment, spacing, readable labels and consistency against the intended medium and audience.
+
+For a consequential chart repair, a reader or an independent reviewer can state the finding, identify its evidence and name the limitation or choice without being given the intended answer. Compare those answers with the checked source. Keep numerical accuracy, rendered legibility, model comprehension proxies and observed human feedback distinct; passing one does not establish the others.
 
 ## Narrative and action checks
 

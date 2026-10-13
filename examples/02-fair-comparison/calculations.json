@@ -1,34 +1,345 @@
 {
-  "scope": "Synthetic four-cell fixture; observation period and coaching assignment not supplied",
-  "team_totals": {
+  "source": {
+    "path": "data.csv",
+    "sha256": "4cadfde3b18dea2693f0724f03f6d5b34fc6ef42f1b16a4aa1087ed45b426338",
+    "synthetic_instructional_data": true,
+    "rows": [
+      {
+        "team": "A",
+        "lead_tier": "High",
+        "eligible_leads": 20,
+        "wins": 12
+      },
+      {
+        "team": "A",
+        "lead_tier": "Low",
+        "eligible_leads": 60,
+        "wins": 12
+      },
+      {
+        "team": "B",
+        "lead_tier": "High",
+        "eligible_leads": 60,
+        "wins": 33
+      },
+      {
+        "team": "B",
+        "lead_tier": "Low",
+        "eligible_leads": 20,
+        "wins": 3
+      }
+    ]
+  },
+  "metric": {
+    "name": "win_rate",
+    "definition": "wins / eligible_leads",
+    "grain": "team x lead_tier aggregate row",
+    "unit": "proportion; displayed as percent",
+    "period": null,
+    "period_comparability": "unknown",
+    "High_Low_definition": "not supplied",
+    "coaching_exposure_and_assignment": "not supplied"
+  },
+  "teams": {
     "A": {
-      "eligible_leads": 80,
+      "leads": 80,
       "wins": 24,
-      "rate": 0.3,
-      "high_tier_share": 0.25
+      "rates": {
+        "High": {
+          "numerator": 3,
+          "denominator": 5,
+          "fraction": "3/5",
+          "decimal": "0.6",
+          "percent": "60.0"
+        },
+        "Low": {
+          "numerator": 1,
+          "denominator": 5,
+          "fraction": "1/5",
+          "decimal": "0.2",
+          "percent": "20.0"
+        }
+      },
+      "weights": {
+        "High": {
+          "numerator": 1,
+          "denominator": 4,
+          "fraction": "1/4",
+          "decimal": "0.25",
+          "percent": "25.00"
+        },
+        "Low": {
+          "numerator": 3,
+          "denominator": 4,
+          "fraction": "3/4",
+          "decimal": "0.75",
+          "percent": "75.00"
+        }
+      },
+      "overall": {
+        "numerator": 3,
+        "denominator": 10,
+        "fraction": "3/10",
+        "decimal": "0.3",
+        "percent": "30.0"
+      }
     },
     "B": {
-      "eligible_leads": 80,
+      "leads": 80,
       "wins": 36,
-      "rate": 0.45,
-      "high_tier_share": 0.75
+      "rates": {
+        "High": {
+          "numerator": 11,
+          "denominator": 20,
+          "fraction": "11/20",
+          "decimal": "0.55",
+          "percent": "55.00"
+        },
+        "Low": {
+          "numerator": 3,
+          "denominator": 20,
+          "fraction": "3/20",
+          "decimal": "0.15",
+          "percent": "15.00"
+        }
+      },
+      "weights": {
+        "High": {
+          "numerator": 3,
+          "denominator": 4,
+          "fraction": "3/4",
+          "decimal": "0.75",
+          "percent": "75.00"
+        },
+        "Low": {
+          "numerator": 1,
+          "denominator": 4,
+          "fraction": "1/4",
+          "decimal": "0.25",
+          "percent": "25.00"
+        }
+      },
+      "overall": {
+        "numerator": 9,
+        "denominator": 20,
+        "fraction": "9/20",
+        "decimal": "0.45",
+        "percent": "45.00"
+      }
     }
   },
-  "within_tier_rates": {
+  "observed_aggregate": {
+    "B_minus_A": {
+      "numerator": 3,
+      "denominator": 20,
+      "fraction": "3/20",
+      "decimal": "0.15",
+      "percent": "15.00"
+    },
+    "relative_B_vs_A": {
+      "numerator": 1,
+      "denominator": 2,
+      "fraction": "1/2",
+      "decimal": "0.5",
+      "percent": "50.0"
+    },
+    "interpretation": "Cross-team difference in the supplied rows, not temporal growth or a coaching effect."
+  },
+  "within_tier_B_minus_A": {
+    "High": {
+      "numerator": -1,
+      "denominator": 20,
+      "fraction": "-1/20",
+      "decimal": "-0.05",
+      "percent": "-5.00"
+    },
+    "Low": {
+      "numerator": -1,
+      "denominator": 20,
+      "fraction": "-1/20",
+      "decimal": "-0.05",
+      "percent": "-5.00"
+    }
+  },
+  "common_mix_comparison": {
+    "method": "Direct standardization: sum(shared tier weight * team tier win rate)",
+    "pooled_tier_lead_counts": {
+      "High": 80,
+      "Low": 80
+    },
+    "weights": {
+      "High": {
+        "numerator": 1,
+        "denominator": 2,
+        "fraction": "1/2",
+        "decimal": "0.5",
+        "percent": "50.0"
+      },
+      "Low": {
+        "numerator": 1,
+        "denominator": 2,
+        "fraction": "1/2",
+        "decimal": "0.5",
+        "percent": "50.0"
+      }
+    },
+    "rates": {
+      "A": {
+        "numerator": 2,
+        "denominator": 5,
+        "fraction": "2/5",
+        "decimal": "0.4",
+        "percent": "40.0"
+      },
+      "B": {
+        "numerator": 7,
+        "denominator": 20,
+        "fraction": "7/20",
+        "decimal": "0.35",
+        "percent": "35.00"
+      }
+    },
+    "B_minus_A": {
+      "numerator": -1,
+      "denominator": 20,
+      "fraction": "-1/20",
+      "decimal": "-0.05",
+      "percent": "-5.00"
+    },
+    "relative_B_vs_A": {
+      "numerator": -1,
+      "denominator": 8,
+      "fraction": "-1/8",
+      "decimal": "-0.125",
+      "percent": "-12.500"
+    },
+    "interpretation": "Computed common-mix comparison; not additional observed wins and not a causal estimate."
+  },
+  "sensitivity_using_each_team_mix": {
     "A": {
-      "High": 0.6,
-      "Low": 0.2
+      "weights": {
+        "High": {
+          "numerator": 1,
+          "denominator": 4,
+          "fraction": "1/4",
+          "decimal": "0.25",
+          "percent": "25.00"
+        },
+        "Low": {
+          "numerator": 3,
+          "denominator": 4,
+          "fraction": "3/4",
+          "decimal": "0.75",
+          "percent": "75.00"
+        }
+      },
+      "rates": {
+        "A": {
+          "numerator": 3,
+          "denominator": 10,
+          "fraction": "3/10",
+          "decimal": "0.3",
+          "percent": "30.0"
+        },
+        "B": {
+          "numerator": 1,
+          "denominator": 4,
+          "fraction": "1/4",
+          "decimal": "0.25",
+          "percent": "25.00"
+        }
+      },
+      "B_minus_A": {
+        "numerator": -1,
+        "denominator": 20,
+        "fraction": "-1/20",
+        "decimal": "-0.05",
+        "percent": "-5.00"
+      }
     },
     "B": {
-      "High": 0.55,
-      "Low": 0.15
+      "weights": {
+        "High": {
+          "numerator": 3,
+          "denominator": 4,
+          "fraction": "3/4",
+          "decimal": "0.75",
+          "percent": "75.00"
+        },
+        "Low": {
+          "numerator": 1,
+          "denominator": 4,
+          "fraction": "1/4",
+          "decimal": "0.25",
+          "percent": "25.00"
+        }
+      },
+      "rates": {
+        "A": {
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": "1/2",
+          "decimal": "0.5",
+          "percent": "50.0"
+        },
+        "B": {
+          "numerator": 9,
+          "denominator": 20,
+          "fraction": "9/20",
+          "decimal": "0.45",
+          "percent": "45.00"
+        }
+      },
+      "B_minus_A": {
+        "numerator": -1,
+        "denominator": 20,
+        "fraction": "-1/20",
+        "decimal": "-0.05",
+        "percent": "-5.00"
+      }
     }
   },
-  "common_mix": {
-    "definition": "Hypothetical 50% High / 50% Low applied to observed rates",
-    "A": 0.4,
-    "B": 0.35,
-    "status": "descriptive_standardization_not_coaching_effect"
+  "any_shared_mix_result": {
+    "formula": "w*(-1/20) + (1-w)*(-1/20) = -1/20 for every w in [0,1]",
+    "B_minus_A": {
+      "numerator": -1,
+      "denominator": 20,
+      "fraction": "-1/20",
+      "decimal": "-0.05",
+      "percent": "-5.00"
+    }
   },
-  "derivation": "Aggregate=sum(wins)/sum(leads); tier=wins/leads; equal_mix=0.5*High+0.5*Low"
+  "exact_aggregate_gap_decomposition": {
+    "reference_rates": "A",
+    "reference_weights_for_rate_component": "B",
+    "mix_component": {
+      "numerator": 1,
+      "denominator": 5,
+      "fraction": "1/5",
+      "decimal": "0.2",
+      "percent": "20.0"
+    },
+    "within_tier_rate_component": {
+      "numerator": -1,
+      "denominator": 20,
+      "fraction": "-1/20",
+      "decimal": "-0.05",
+      "percent": "-5.00"
+    },
+    "sum": {
+      "numerator": 3,
+      "denominator": 20,
+      "fraction": "3/20",
+      "decimal": "0.15",
+      "percent": "15.00"
+    },
+    "interpretation": "Arithmetic reconciliation, not causal attribution."
+  },
+  "limitations": [
+    "No observation dates or comparable maturity window.",
+    "No coaching allocation, exposure, pre/post baseline, randomization, or individual records.",
+    "Tier definitions and residual differences within tiers are unknown.",
+    "No inference that A coaching is causally superior or B coaching is harmful.",
+    "No confidence intervals, significance claims, client outcomes, or impact forecasts are asserted."
+  ]
 }

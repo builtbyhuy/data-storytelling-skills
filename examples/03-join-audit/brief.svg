@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 595.276 841.89" role="img" aria-labelledby="title desc">
+<title id="title">Giá trị hóa đơn là 1.200 USD; phép nối thô đếm lặp</title>
+<desc id="desc">INV-1002 có hai dòng hóa đơn 450 và 50 USD, ba khoản thu 250, 150, 100 USD. Sáu tổ hợp nối làm doanh thu 500 thành 1.500 USD. Tổng cộng lặp 1.300 USD; nối trong còn bỏ 150 USD chưa trả và báo 2.350. Bảng đúng giữ bốn hóa đơn: doanh thu 1.200, thu 1.050, còn 150 USD. Chi tiết có trong invoice-reconciliation.csv và memo.md.</desc>
+<rect width="595.276" height="841.89" fill="white"/>
+<text x="40" y="43" font-family="Arial, sans-serif" font-size="9" fill="#4C626D" font-weight="700" text-anchor="start">BẢN SOẠN NỘI BỘ  /  DỮ LIỆU GIẢ LẬP</text>
+<text x="40" y="78" font-family="Arial, sans-serif" font-size="22" fill="#173342" font-weight="700" text-anchor="start">Giá trị hóa đơn: 1.200 USD.</text>
+<text x="40" y="105" font-family="Arial, sans-serif" font-size="22" fill="#173342" font-weight="700" text-anchor="start">Phép nối thô đã đếm lặp tiền.</text>
+<text x="40" y="130" font-family="Arial, sans-serif" font-size="9.2" fill="#4C626D" font-weight="400" text-anchor="start">4 hóa đơn · cùng mốc chốt theo nguồn · USD · giá trị hóa đơn sau giảm giá, chưa thuế</text>
+<text x="40" y="166" font-family="Arial, sans-serif" font-size="12" fill="#173342" font-weight="700" text-anchor="start">01   INV-1002: hai dòng hóa đơn, ba khoản thu, sáu tổ hợp</text>
+<rect x="40" y="184" width="515" height="144" fill="#F6F8F7"/>
+<text x="56" y="207" font-family="Arial, sans-serif" font-size="8.4" fill="#4C626D" font-weight="700" text-anchor="start">MỖI CỘT LÀ MỘT KHOẢN THU</text>
+<text x="185" y="228" font-family="Arial, sans-serif" font-size="9" fill="#173342" font-weight="700" text-anchor="middle">250 USD</text>
+<text x="249" y="228" font-family="Arial, sans-serif" font-size="9" fill="#173342" font-weight="700" text-anchor="middle">150 USD</text>
+<text x="313" y="228" font-family="Arial, sans-serif" font-size="9" fill="#173342" font-weight="700" text-anchor="middle">100 USD</text>
+<text x="56" y="258" font-family="Arial, sans-serif" font-size="9" fill="#173342" font-weight="400" text-anchor="start">Dòng 450 USD</text>
+<text x="56" y="287" font-family="Arial, sans-serif" font-size="9" fill="#173342" font-weight="400" text-anchor="start">Dòng 50 USD</text>
+<rect x="157" y="244" width="56" height="25" fill="#FFF3E3"/>
+<text x="185" y="261" font-family="Arial, sans-serif" font-size="11" fill="#7C4614" font-weight="700" text-anchor="middle">450</text>
+<rect x="221" y="244" width="56" height="25" fill="#FFF3E3"/>
+<text x="249" y="261" font-family="Arial, sans-serif" font-size="11" fill="#7C4614" font-weight="700" text-anchor="middle">450</text>
+<rect x="285" y="244" width="56" height="25" fill="#FFF3E3"/>
+<text x="313" y="261" font-family="Arial, sans-serif" font-size="11" fill="#7C4614" font-weight="700" text-anchor="middle">450</text>
+<rect x="157" y="273" width="56" height="25" fill="#FFF3E3"/>
+<text x="185" y="290" font-family="Arial, sans-serif" font-size="11" fill="#7C4614" font-weight="700" text-anchor="middle">50</text>
+<rect x="221" y="273" width="56" height="25" fill="#FFF3E3"/>
+<text x="249" y="290" font-family="Arial, sans-serif" font-size="11" fill="#7C4614" font-weight="700" text-anchor="middle">50</text>
+<rect x="285" y="273" width="56" height="25" fill="#FFF3E3"/>
+<text x="313" y="290" font-family="Arial, sans-serif" font-size="11" fill="#7C4614" font-weight="700" text-anchor="middle">50</text>
+<text x="56" y="314" font-family="Arial, sans-serif" font-size="8.3" fill="#4C626D" font-weight="400" text-anchor="start">Các ô là tiền hóa đơn được cộng sau nối, không phải tiền thu.</text>
+<line x1="360" y1="199" x2="360" y2="302" stroke="#CED9DB" stroke-width="0.7"/>
+<text x="378" y="226" font-family="Arial, sans-serif" font-size="10" fill="#173342" font-weight="400" text-anchor="start">450 + 50 = 500 USD</text>
+<text x="378" y="245" font-family="Arial, sans-serif" font-size="10" fill="#173342" font-weight="400" text-anchor="start">Mỗi dòng xuất hiện 3 lần.</text>
+<text x="378" y="264" font-family="Arial, sans-serif" font-size="10" fill="#173342" font-weight="400" text-anchor="start">500 × 3 = 1.500 USD</text>
+<text x="378" y="292" font-family="Arial, sans-serif" font-size="14" fill="#7C4614" font-weight="700" text-anchor="start">Dư 1.000 USD</text>
+<text x="40" y="347" font-family="Arial, sans-serif" font-size="10" fill="#173342" font-weight="400" text-anchor="start">INV-1001 cũng lặp: 300 thành 600 USD, dư 300. Tổng phần lặp: 1.300 USD.</text>
+<text x="40" y="382" font-family="Arial, sans-serif" font-size="12" fill="#173342" font-weight="700" text-anchor="start">02   Chỉ giữ hóa đơn có khoản thu sẽ bỏ INV-1004</text>
+<text x="40" y="411" font-family="Arial, sans-serif" font-size="20" fill="#173342" font-weight="700" text-anchor="start">1.200</text>
+<text x="40" y="432" font-family="Arial, sans-serif" font-size="9" fill="#4C626D" font-weight="400" text-anchor="start">Nguồn đúng</text>
+<text x="179" y="411" font-family="Arial, sans-serif" font-size="20" fill="#7C4614" font-weight="700" text-anchor="start">+1.300</text>
+<text x="179" y="432" font-family="Arial, sans-serif" font-size="9" fill="#4C626D" font-weight="400" text-anchor="start">Phần cộng lặp</text>
+<text x="318" y="411" font-family="Arial, sans-serif" font-size="20" fill="#4C626D" font-weight="700" text-anchor="start">-150</text>
+<text x="318" y="432" font-family="Arial, sans-serif" font-size="9" fill="#4C626D" font-weight="400" text-anchor="start">INV-1004 bị bỏ</text>
+<text x="457" y="411" font-family="Arial, sans-serif" font-size="20" fill="#7C4614" font-weight="700" text-anchor="start">2.350</text>
+<text x="457" y="432" font-family="Arial, sans-serif" font-size="9" fill="#4C626D" font-weight="400" text-anchor="start">Sau nối trong</text>
+<text x="424" y="411" font-family="Arial, sans-serif" font-size="16" fill="#4C626D" font-weight="400" text-anchor="middle">=</text>
+<text x="40" y="453" font-family="Arial, sans-serif" font-size="9.1" fill="#4C626D" font-weight="400" text-anchor="start">Ghép thô và giữ mọi hóa đơn: 2.500 USD. Tiền thu cả hai cách: 1.850 thay vì 1.050 USD.</text>
+<text x="40" y="491" font-family="Arial, sans-serif" font-size="12" fill="#173342" font-weight="700" text-anchor="start">03   Bảng đúng để kế toán đối chiếu</text>
+<text x="555" y="491" font-family="Arial, sans-serif" font-size="9" fill="#4C626D" font-weight="400" text-anchor="end">USD</text>
+<rect x="40" y="504" width="515" height="27" fill="#173342"/>
+<text x="52" y="522" font-family="Arial, sans-serif" font-size="9.4" fill="#FFFFFF" font-weight="700" text-anchor="start">Hóa đơn</text>
+<text x="310" y="522" font-family="Arial, sans-serif" font-size="9.4" fill="#FFFFFF" font-weight="700" text-anchor="end">Doanh thu</text>
+<text x="430" y="522" font-family="Arial, sans-serif" font-size="9.4" fill="#FFFFFF" font-weight="700" text-anchor="end">Đã thu</text>
+<text x="543" y="522" font-family="Arial, sans-serif" font-size="9.4" fill="#FFFFFF" font-weight="700" text-anchor="end">Còn phải thu</text>
+<text x="52" y="550" font-family="Arial, sans-serif" font-size="10" fill="#173342" font-weight="400" text-anchor="start">INV-1001</text>
+<text x="310" y="550" font-family="Arial, sans-serif" font-size="10" fill="#173342" font-weight="400" text-anchor="end">300</text>
+<text x="430" y="550" font-family="Arial, sans-serif" font-size="10" fill="#173342" font-weight="400" text-anchor="end">300</text>
+<text x="543" y="550" font-family="Arial, sans-serif" font-size="10" fill="#173342" font-weight="400" text-anchor="end">0</text>
+<line x1="40" y1="560" x2="555" y2="560" stroke="#CED9DB" stroke-width="0.7"/>
+<text x="52" y="579" font-family="Arial, sans-serif" font-size="10" fill="#173342" font-weight="400" text-anchor="start">INV-1002</text>
+<text x="310" y="579" font-family="Arial, sans-serif" font-size="10" fill="#173342" font-weight="400" text-anchor="end">500</text>
+<text x="430" y="579" font-family="Arial, sans-serif" font-size="10" fill="#173342" font-weight="400" text-anchor="end">500</text>
+<text x="543" y="579" font-family="Arial, sans-serif" font-size="10" fill="#173342" font-weight="400" text-anchor="end">0</text>
+<line x1="40" y1="589" x2="555" y2="589" stroke="#CED9DB" stroke-width="0.7"/>
+<text x="52" y="608" font-family="Arial, sans-serif" font-size="10" fill="#173342" font-weight="400" text-anchor="start">INV-1003</text>
+<text x="310" y="608" font-family="Arial, sans-serif" font-size="10" fill="#173342" font-weight="400" text-anchor="end">250</text>
+<text x="430" y="608" font-family="Arial, sans-serif" font-size="10" fill="#173342" font-weight="400" text-anchor="end">250</text>
+<text x="543" y="608" font-family="Arial, sans-serif" font-size="10" fill="#173342" font-weight="400" text-anchor="end">0</text>
+<line x1="40" y1="618" x2="555" y2="618" stroke="#CED9DB" stroke-width="0.7"/>
+<rect x="40" y="618" width="515" height="29" fill="#FFF3E3"/>
+<text x="52" y="637" font-family="Arial, sans-serif" font-size="10" fill="#173342" font-weight="700" text-anchor="start">INV-1004 · Chưa trả</text>
+<text x="310" y="637" font-family="Arial, sans-serif" font-size="10" fill="#173342" font-weight="700" text-anchor="end">150</text>
+<text x="430" y="637" font-family="Arial, sans-serif" font-size="10" fill="#173342" font-weight="700" text-anchor="end">0</text>
+<text x="543" y="637" font-family="Arial, sans-serif" font-size="10" fill="#173342" font-weight="700" text-anchor="end">150</text>
+<line x1="40" y1="647" x2="555" y2="647" stroke="#CED9DB" stroke-width="0.7"/>
+<rect x="40" y="647" width="515" height="31" fill="#EDF5F3"/>
+<text x="52" y="668" font-family="Arial, sans-serif" font-size="10" fill="#005B52" font-weight="700" text-anchor="start">TỔNG · 4 hóa đơn</text>
+<text x="310" y="668" font-family="Arial, sans-serif" font-size="11" fill="#005B52" font-weight="700" text-anchor="end">1.200</text>
+<text x="430" y="668" font-family="Arial, sans-serif" font-size="11" fill="#005B52" font-weight="700" text-anchor="end">1.050</text>
+<text x="543" y="668" font-family="Arial, sans-serif" font-size="11" fill="#005B52" font-weight="700" text-anchor="end">150</text>
+<text x="40" y="710" font-family="Arial, sans-serif" font-size="12" fill="#173342" font-weight="700" text-anchor="start">Sửa báo cáo trước khi dùng số để ra quyết định</text>
+<text x="40" y="733" font-family="Arial, sans-serif" font-size="10" fill="#173342" font-weight="400" text-anchor="start">Cộng theo từng hóa đơn: 7 dòng hóa đơn thành 4 tổng; 6 khoản thu thành 3 tổng.</text>
+<text x="40" y="748" font-family="Arial, sans-serif" font-size="10" fill="#173342" font-weight="400" text-anchor="start">Ghép các tổng với danh sách hóa đơn làm gốc và giữ INV-1004 chưa trả.</text>
+<text x="40" y="763" font-family="Arial, sans-serif" font-size="10" fill="#173342" font-weight="400" text-anchor="start">Trước khi thay, kế toán soát truy vấn thực tế và tổng 1.200 / 1.050 / 150 USD.</text>
+<line x1="40" y1="784" x2="555" y2="784" stroke="#CED9DB" stroke-width="0.7"/>
+<text x="40" y="791" font-family="Arial, sans-serif" font-size="8.3" fill="#4C626D" font-weight="400" text-anchor="start">Nguồn: invoice-lines.csv, payment-allocations.csv; định nghĩa: source-notes.md.</text>
+<text x="40" y="803" font-family="Arial, sans-serif" font-size="8.3" fill="#4C626D" font-weight="400" text-anchor="start">Đã tái tạo hai kiểu nối; chưa có truy vấn thực tế. Dữ liệu giả lập theo nguồn.</text>
+<text x="40" y="815" font-family="Arial, sans-serif" font-size="8.3" fill="#4C626D" font-weight="400" text-anchor="start">Chỉ soạn, chưa gửi; chưa sửa báo cáo vận hành hoặc xác nhận chính sách kế toán.</text>
+</svg>

@@ -1,0 +1,223 @@
+{
+  "schema_version": 1,
+  "synthetic_instructional_data": true,
+  "source_contract": "inputs/source-notes.md",
+  "sources": {
+    "invoice-lines.csv": {
+      "path": "inputs/invoice-lines.csv",
+      "sha256": "97add5edede5c9445b260fdc007699964f9225c7c38baab718f068067c89057b"
+    },
+    "payment-allocations.csv": {
+      "path": "inputs/payment-allocations.csv",
+      "sha256": "396e7bf876c0e6279b13f8b3b9ebca99931a473f3d52494be0c1221cd108f089"
+    },
+    "source-notes.md": {
+      "path": "inputs/source-notes.md",
+      "sha256": "cd0601e6175d6847949d6dde27a68f19023dd7566ea993c3a53e8e07636f067f"
+    }
+  },
+  "definitions": {
+    "currency": "USD",
+    "population": "All four supplied invoices; common cut-off from source contract, no calendar date supplied",
+    "invoice_grain": "one line per line_id",
+    "payment_grain": "one received allocation per allocation_id",
+    "join_key": "exact invoice_id",
+    "revenue": "Sum net_amount_usd once at invoice-line grain, after discounts and excluding tax, for the closed instructional period",
+    "cash": "Sum received_amount_usd once at allocation grain through common cut-off",
+    "balance": "Invoiced revenue minus allocated cash; no opening balances/refunds/voids/unlisted invoices under this source contract"
+  },
+  "totals": {
+    "invoice_count": 4,
+    "invoice_line_rows": 7,
+    "allocation_rows": 6,
+    "invoiced_revenue_usd": "1200.00",
+    "cash_received_usd": "1050.00",
+    "remaining_receivable_usd": "150.00",
+    "raw_inner_rows": 11,
+    "raw_left_rows": 13,
+    "raw_inner_revenue_usd": "2350.00",
+    "raw_left_revenue_usd": "2500.00",
+    "duplicate_revenue_usd": "1300.00",
+    "unpaid_revenue_dropped_by_inner_usd": "150.00",
+    "inner_net_revenue_overstatement_usd": "1150.00",
+    "raw_inner_cash_usd": "1850.00",
+    "raw_left_cash_usd": "1850.00",
+    "cash_overstatement_usd": "800.00"
+  },
+  "invoice_reconciliation": [
+    {
+      "invoice_id": "INV-1001",
+      "invoice_line_count": 2,
+      "payment_allocation_count": 2,
+      "invoiced_revenue_usd": "300.00",
+      "cash_received_usd": "300.00",
+      "remaining_receivable_usd": "0.00",
+      "payment_status": "paid_in_full",
+      "naive_inner_join_rows": 4,
+      "naive_inner_revenue_usd": "600.00",
+      "naive_left_join_rows": 4,
+      "naive_left_revenue_usd": "600.00",
+      "duplicate_revenue_usd": "300.00"
+    },
+    {
+      "invoice_id": "INV-1002",
+      "invoice_line_count": 2,
+      "payment_allocation_count": 3,
+      "invoiced_revenue_usd": "500.00",
+      "cash_received_usd": "500.00",
+      "remaining_receivable_usd": "0.00",
+      "payment_status": "paid_in_full",
+      "naive_inner_join_rows": 6,
+      "naive_inner_revenue_usd": "1500.00",
+      "naive_left_join_rows": 6,
+      "naive_left_revenue_usd": "1500.00",
+      "duplicate_revenue_usd": "1000.00"
+    },
+    {
+      "invoice_id": "INV-1003",
+      "invoice_line_count": 1,
+      "payment_allocation_count": 1,
+      "invoiced_revenue_usd": "250.00",
+      "cash_received_usd": "250.00",
+      "remaining_receivable_usd": "0.00",
+      "payment_status": "paid_in_full",
+      "naive_inner_join_rows": 1,
+      "naive_inner_revenue_usd": "250.00",
+      "naive_left_join_rows": 1,
+      "naive_left_revenue_usd": "250.00",
+      "duplicate_revenue_usd": "0.00"
+    },
+    {
+      "invoice_id": "INV-1004",
+      "invoice_line_count": 2,
+      "payment_allocation_count": 0,
+      "invoiced_revenue_usd": "150.00",
+      "cash_received_usd": "0.00",
+      "remaining_receivable_usd": "150.00",
+      "payment_status": "unpaid",
+      "naive_inner_join_rows": 0,
+      "naive_inner_revenue_usd": "0.00",
+      "naive_left_join_rows": 2,
+      "naive_left_revenue_usd": "150.00",
+      "duplicate_revenue_usd": "0.00"
+    }
+  ],
+  "raw_inner_pairs": [
+    {
+      "invoice_id": "INV-1001",
+      "line_id": "LINE-01",
+      "allocation_id": "PAY-001",
+      "repeated_line_amount_usd": "240.00",
+      "repeated_allocation_amount_usd": "180.00"
+    },
+    {
+      "invoice_id": "INV-1001",
+      "line_id": "LINE-01",
+      "allocation_id": "PAY-002",
+      "repeated_line_amount_usd": "240.00",
+      "repeated_allocation_amount_usd": "120.00"
+    },
+    {
+      "invoice_id": "INV-1001",
+      "line_id": "LINE-02",
+      "allocation_id": "PAY-001",
+      "repeated_line_amount_usd": "60.00",
+      "repeated_allocation_amount_usd": "180.00"
+    },
+    {
+      "invoice_id": "INV-1001",
+      "line_id": "LINE-02",
+      "allocation_id": "PAY-002",
+      "repeated_line_amount_usd": "60.00",
+      "repeated_allocation_amount_usd": "120.00"
+    },
+    {
+      "invoice_id": "INV-1002",
+      "line_id": "LINE-03",
+      "allocation_id": "PAY-003",
+      "repeated_line_amount_usd": "450.00",
+      "repeated_allocation_amount_usd": "250.00"
+    },
+    {
+      "invoice_id": "INV-1002",
+      "line_id": "LINE-03",
+      "allocation_id": "PAY-004",
+      "repeated_line_amount_usd": "450.00",
+      "repeated_allocation_amount_usd": "150.00"
+    },
+    {
+      "invoice_id": "INV-1002",
+      "line_id": "LINE-03",
+      "allocation_id": "PAY-005",
+      "repeated_line_amount_usd": "450.00",
+      "repeated_allocation_amount_usd": "100.00"
+    },
+    {
+      "invoice_id": "INV-1002",
+      "line_id": "LINE-04",
+      "allocation_id": "PAY-003",
+      "repeated_line_amount_usd": "50.00",
+      "repeated_allocation_amount_usd": "250.00"
+    },
+    {
+      "invoice_id": "INV-1002",
+      "line_id": "LINE-04",
+      "allocation_id": "PAY-004",
+      "repeated_line_amount_usd": "50.00",
+      "repeated_allocation_amount_usd": "150.00"
+    },
+    {
+      "invoice_id": "INV-1002",
+      "line_id": "LINE-04",
+      "allocation_id": "PAY-005",
+      "repeated_line_amount_usd": "50.00",
+      "repeated_allocation_amount_usd": "100.00"
+    },
+    {
+      "invoice_id": "INV-1003",
+      "line_id": "LINE-05",
+      "allocation_id": "PAY-006",
+      "repeated_line_amount_usd": "250.00",
+      "repeated_allocation_amount_usd": "250.00"
+    }
+  ],
+  "bridge": {
+    "start_usd": "1200.00",
+    "repeat_INV-1001_usd": "300.00",
+    "repeat_INV-1002_usd": "1000.00",
+    "unpaid_invoice_excluded_usd": "-150.00",
+    "end_inner_usd": "2350.00"
+  },
+  "audit_helper": {
+    "path": "../../skills/business-insight-diagnosis/scripts/join_audit.py",
+    "sha256": "b0bd9e1a39481dc37a36d15b6a9ce4fd182f37c0ec2fea81f27efb6f279c2839",
+    "expected_relationship": "many-to-many",
+    "status": "cardinality_holds",
+    "interpretation": "Correct declared cardinality; unsafe additive sums on raw join. Actual constructed joins match predictions. Published report only normalizes source paths."
+  },
+  "authority": {
+    "delivery": "Prepared locally; not sent; operational report not changed",
+    "recommendation": "Proposed report builder aggregates each source to invoice_id, then LEFT joins invoice summaries; accounting reviews before replacing report",
+    "acceptance": "Before replacing report for this snapshot: four unique invoices including unpaid INV-1004; totals 1200/1050/150 USD; no orphan allocation; no duplicate invoice summaries",
+    "limits": "Synthetic closed example; actual user join type, query and production output not supplied. Reproduced INNER/LEFT behavior does not prove a production repair or general accounting recognition policy."
+  },
+  "render_checks": {
+    "page_count": 1,
+    "page_size_points": [
+      595.276,
+      841.89
+    ],
+    "preview_dpi": 150,
+    "essential_text_contrast_ratios": {
+      "#173342 on #FFFFFF": 13.219,
+      "#4C626D on #FFFFFF": 6.412,
+      "#173342 on #F6F8F7": 12.393,
+      "#7C4614 on #FFF3E3": 6.992,
+      "#FFFFFF on #173342": 13.219,
+      "#005B52 on #EDF5F3": 7.24,
+      "#173342 on #FFF3E3": 12.074
+    },
+    "text_svg_elements": 67,
+    "authority": "Automated geometry/text checks plus model visual inspection; no human comprehension or business-impact evidence"
+  }
+}

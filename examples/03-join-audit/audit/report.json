@@ -5,7 +5,7 @@
   "violations": [],
   "sources": {
     "left": {
-      "path": "examples/03-join-audit/inputs/invoice-lines.csv",
+      "path": "inputs/invoice-lines.csv",
       "sha256": "97add5edede5c9445b260fdc007699964f9225c7c38baab718f068067c89057b",
       "rows": 7,
       "key_columns": [
@@ -13,7 +13,7 @@
       ]
     },
     "right": {
-      "path": "examples/03-join-audit/inputs/payment-allocations.csv",
+      "path": "inputs/payment-allocations.csv",
       "sha256": "396e7bf876c0e6279b13f8b3b9ebca99931a473f3d52494be0c1221cd108f089",
       "rows": 6,
       "key_columns": [

@@ -1,39 +1,25 @@
-# Lead mix changes the ranking
+# “Tăng 50%” chưa chứng minh coaching có hiệu quả
 
-**Use this when:** a sales report uses an aggregate win rate to justify a coaching rollout, but teams receive different lead populations.
+[PDF một trang](brief.pdf) · [SVG sửa được](brief.svg) · [Câu kết luận sửa và memo](memo.md) · [Phép tính chính xác](calculations.json)
 
-![Both the overall and within-tier comparisons, with denominators and the limit on causal interpretation](comparison.png)
+![Báo cáo sửa so sánh tỷ lệ gộp với cùng cơ cấu lead, giữ mẫu số và giới hạn nhân quả](brief.png)
 
-## Try it
+## Yêu cầu mẫu
 
-> Our draft says “B's coaching improves conversion by 50%, so roll it out to A.” Review this conclusion against data.csv, repair the chart, and recommend the next decision. Keep the overall rates, show the denominators, and explain any comparison that changes the recommendation.
+Đưa [data.csv](data.csv) và yêu cầu:
 
-## The repaired decision
+> Báo cáo sales đang kết luận: “Coaching của B làm tỷ lệ chốt tăng 50%, nên triển khai cho A.” Kiểm kết luận từ CSV, sửa cách so sánh và đưa ra việc trưởng nhóm nên quyết tiếp theo. Làm tài liệu một trang đẹp, rõ, dùng được trong cuộc họp mà không cần nghe thuyết minh mới hiểu. Giữ những số đúng, cho thấy cơ sở so sánh và giới hạn bằng chứng. Không có thông tin thêm về thời gian hoặc cách phân coaching ngoài CSV.
 
-The overall rates are correct: A wins **24/80 (30%)** and B wins **36/80 (45%)**. B's rate is 50% higher relative to A's rate. The unsupported step is attributing that difference to coaching.
+A 24/80 = 30%; B 36/80 = 45%. Chênh lệch15 điểm phần trăm tương đương 50% so với A, nhưng không phải hiệu quả coaching. B có nhiều lead High hơn; trong từng tier B đều thấp hơn 5 điểm. Cơ cấu chung 50/50 lấy từ 80 High và 80 Low của 160 lead: A 40%, B 35%. Đây là so sánh mô tả, không phải số thắng mới hoặc hiệu quả nhân quả.
 
-B receives **75% High-tier leads**, compared with **25% for A**. Within each supplied tier, A's observed rate is five percentage points higher: High **60% vs 55%**, Low **20% vs 15%**. Applying the same hypothetical 50/50 mix gives **40% for A and 35% for B**. This standardization describes the four supplied cells; it does not identify a coaching effect or prove future team performance.
+**Việc cần quyết:** chuẩn bị phép thử coaching có đối chứng, chốt trước mẫu, cửa sổ, ngưỡng, chi phí và quy tắc dừng. Chưa nhân rộng từ dữ liệu này. Không có bằng chứng coaching của A tốt hơn hoặc B có hại; nhãn High/Low chưa được định nghĩa.
 
-**Decision:** review lead assignment before changing coaching. If a coaching comparison is needed, propose a test within each tier, with an agreed outcome window and decision threshold before launch. No coaching assignment, observation period or randomized test is supplied here.
+## Tái tạo
 
-## What the methods contributed
-
-- `data-story-redteam` repairs the causal claim and changes the rollout decision.
-- `business-chart-communication` preserves valid aggregate values, adds comparable within-tier rates, starts magnitude bars at zero and puts the sample counts beside the marks.
-- `evidence-to-narrative` makes the decision and its qualification readable together.
-
-This is a **synthetic, curated worked example**, derived from the suite's earlier team-comparison fixture. It demonstrates a completed repair, not a controlled proof that the suite beats an unassisted model. It contains no customer data.
-
-## Inspect or rebuild
-
-- [Source CSV](data.csv)
-- [Exact calculations](calculations.json)
-- [Editable SVG](comparison.svg)
-- [PNG preview](comparison.png)
-
-```sh
-python examples/02-fair-comparison/rebuild.py
-python examples/build_visuals.py
+```text
+python examples/02-fair-comparison/rebuild.py --output ./scratch/comparison-v3
 ```
 
-Run from the repository root. The first command recomputes the rates with exact fractions and records the derivation; the second regenerates the editable SVGs. PNG export is optional and described in the [example gallery](../README.md).
+[Dependencies và giới hạn](../README.md). Script dùng exact fractions, kiểm tỷ lệ/mẫu số và từ chối thay đổi bốn dòng trước khi xem lại narrative.
+
+Ví dụ giả lập. Lượt thực thi mới dùng redteam, chart và narrative 3.0 từ input gốc; bản công bố sửa thêm thuật ngữ và cách đặt việc cần quyết theo reviewer chỉ đọc pixels. Không có thử nghiệm đã làm, khách hàng hoặc chứng minh vượt baseline.

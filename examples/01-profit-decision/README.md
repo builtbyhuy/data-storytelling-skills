@@ -1,36 +1,30 @@
-# More sales. Less contribution.
+# Doanh thu tăng, đóng góp giảm: nên đổi gì?
 
-**Use this when:** sales growth hides a decline in contribution, and the team needs to choose a bounded commercial action.
+[PDF một trang](brief.pdf) · [SVG sửa được](brief.svg) · [Bảng tính Excel](analysis.xlsx) · [Memo đầy đủ](memo.md)
 
-![June to July2026 contribution:35.00m VND plus2.80m gross-profit gain minus6.85m freight growth equals30.95m; freight is the focused comparison](decision.png)
+![Memo họp: bridge đóng góp và giới hạn 3 triệu cước chưa phân bổ, cùng đề xuất thử giao hàng có điều kiện](brief.png)
 
-The chart answers one question: which accounting change consumed the gross-profit gain? The memo below gives the separate B2B bound and price sensitivity behind the proposed action; those supporting figures are not additional focal points in the chart.
+Doanh thu tăng 44,10 triệu VND, nhưng đóng góp giảm 4,05 triệu. Cước tăng 6,85 triệu vượt phần lãi gộp tăng 2,80 triệu. Chi tiết cước còn thiếu 3 triệu nên chưa thể xác định đầy đủ kết quả từng nhóm.
 
-The business's sales grew **VND44.10m**, while contribution fell **VND4.05m**. Gross profit rose, but freight grew faster. The useful decision is to keep B2B in the plan, reconcile the missing freight and test a smaller discount with demand and service guardrails.
+**Hướng đề xuất:** giữ B2B trong phạm vi hiện tại và chuẩn bị thử giao tiêu chuẩn cho đơn có hạn giao phù hợp. Chỉ mở thử sau đối soát phần cước chưa gán nhóm và xác nhận cam kết/giá/người/ngân sách. Kế hoạch giữ nhóm hiện trạng, theo dõi mọi yêu cầu đã phân nhóm và tách ngày dừng nhận khỏi ngày đủ kết quả. Không coi chênh cước EXPRESS/STANDARD là khoản tiết kiệm chắc chắn.
 
-## Read or try the example
+## Giao yêu cầu
 
-- [Copyable request and source definitions](brief.md)
-- [Decision memo](memo.md)
-- [Proposed four-week test and mature readout](test-plan.md)
-- [Exact analysis](analysis.json) · [compact evidence](evidence.csv)
-- [Editable SVG](decision.svg) · [PNG](decision.png)
+Copy [brief.md](brief.md) cùng năm file trong [inputs/](inputs/). Các source exports giữ nguyên bytes; tiền là VND nguyên, chưa VAT, credit theo tháng ghi sổ và cước theo tháng dịch vụ. Finance khóa sổ là tổng chính thức; overhead chưa trừ.
 
-## What the methods contributed
+## Bàn giao vận hành
 
-`business-insight-diagnosis` reconciles the accounting bridge and bounds the missing freight instead of inventing its attribution. `evidence-to-narrative` puts the choice, strongest counterargument and price sensitivity together. `business-chart-communication` isolates the decisive gross-profit/freight contrast with a finding headline, neutral context and one highlighted change. `analytics-adoption` gives the proposed intervention an owner, guardrails and an outcome date that waits for mature evidence.
+- [Kế hoạch thử bốn tuần](test-plan.md): điều kiện mở, đơn vị phân nhóm, capacity, giới hạn, metric, ngày đọc và quy tắc giữ/dừng.
+- [Bản ghi đã điền](decision-record.csv): trạng thái đề xuất, phê duyệt, thực thi và kết quả tách riêng.
+- [Phép tính và nguồn](analysis.json): totals, segment, độ phủ, sensitivity và SHA256.
+- [Workbook](analysis.xlsx): bảng nguồn, tổng hợp, segment, giá và định nghĩa. Công thức có giá trị lưu sẵn được kiểm từ nguồn; chưa tính lại bằng Excel.
 
-**The useful limit:** the VND6.20m price-restoration sensitivity holds sales and returned quantities fixed. It estimates a mechanical scenario, not demand response. The VND17.70m B2B contribution floor excludes overhead and assumes all VND3m missing freight belongs to B2B. Neither figure is an observed benefit of a test.
+## Tái tạo
 
-This is a synthetic, curated worked example with unchanged public source exports. No intervention has been executed. It demonstrates this analysis and communication, not a controlled advantage over an unassisted model.
-
-## Rebuild
-
-From the repository root:
-
-```sh
-python examples/01-profit-decision/rebuild.py
-python examples/build_visuals.py
+```text
+python examples/01-profit-decision/rebuild.py --output ./scratch/profit-v3
 ```
 
-The calculation uses the Python standard library and the five files in `inputs/`. The original Vietnamese [source notes](inputs/source-notes.md) define grain, recognition dates, units and coverage; [the English brief](brief.md) summarizes their business meaning. See the [gallery](../README.md) for PNG export.
+Dependencies và giới hạn trong [gallery](../README.md). Script gắn với snapshot và từ chối nguồn đổi để tránh giữ lời kết luận cũ. Workbook có thể chỉnh sửa; nội dung memo phải được kiểm lại khi số liệu thay đổi.
+
+Dữ liệu/tên giả lập. Bản này bắt đầu từ lượt thực thi độc lập dùng sáu skill 3.0, rồi được biên tập theo đọc trang và kiểm nguồn. Các giới hạn,60 yêu cầu, 1 triệu, 5.000 VND và lịch thử là đề xuất cần xác nhận, không phải chính sách hiện có, hiệu quả dự báo hoặc việc đã làm.

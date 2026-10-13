@@ -1,48 +1,33 @@
-# Revenue did not double. The join repeated it.
+# Tiền bị tính lặp ở đâu khi ghép bảng?
 
-**$1,200 invoiced. $2,500 after the raw left join. $1,300 is duplication.**
+[PDF một trang](brief.pdf) · [SVG sửa được](brief.svg) · [CSV kế toán](invoice-reconciliation.csv) · [Memo](memo.md)
 
-![INV-1002 has500USD revenue; matching it to three payment allocations repeats that revenue three times and creates1000USD of duplication](join.png)
+![Ma trận 6 tổ hợp cho thấy một hóa đơn bị lặp, bridge giải thích hóa đơn chưa trả bị bỏ, bảng đối chiếu giữ đủ 4 hóa đơn](brief.png)
 
-A service business combines invoice lines with payment allocations to report revenue and collections. Both exports repeat `invoice_id` for legitimate reasons: one invoice has several services, and one customer pays in installments. Summing line amounts after the join repeats those amounts for each payment.
+## Yêu cầu mẫu
 
-## Try this request
+Đưa hai CSV và [source contract](inputs/source-notes.md):
 
-> I joined our invoice lines to payment allocations by invoice ID, and invoiced revenue jumped. Check the two CSVs, explain exactly where the extra money comes from, and give me a trustworthy revenue-and-collections reconciliation. Keep unpaid invoices visible. Give me a short explanation I can send to the team.
+> Tôi nối dòng hóa đơn với phân bổ thanh toán theo invoice_id và doanh thu nhảy lên. Kiểm hai CSV, giải thích tiền dư xuất hiện ở đâu, rồi đưa bảng đối chiếu doanh thu–tiền đã thu đáng tin để kế toán dùng; giữ hóa đơn chưa thanh toán. Kèm bản giải thích một trang ngắn, đẹp, dễ hiểu để gửi nội bộ. Chỉ soạn, không gửi. Hình hoặc bảng phải giúp thấy lỗi và cách sửa cụ thể.
 
-Use [invoice lines](inputs/invoice-lines.csv), [payment allocations](inputs/payment-allocations.csv), and the [source contract](inputs/source-notes.md). The sources and outcome are synthetic.
+Nguồn đúng trong ví dụ: giá trị hóa đơn 1.200 USD, đã thu 1.050, còn 150. Ghép thô và giữ mọi hóa đơn báo 2.500; chỉ giữ hóa đơn có thanh toán báo 2.350 và bỏ hóa đơn chưa trả 150. Cả hai còn cộng tiền đã thu thành 1.850. Bốn hóa đơn có nhiều dòng/nhiều khoản thu hợp lệ; không xóa chúng để chữa lỗi.
 
-## A useful answer
+**Sửa:** cộng riêng theo từng hóa đơn, rồi ghép các tổng với danh sách hóa đơn làm gốc. Kế toán kiểm query thực tế và tổng trước khi thay báo cáo. Loại query thực tế chưa được cung cấp, nên ví dụ tái tạo cả INNER và LEFT.
 
-[The team memo](memo.md) identifies the error, the amount, and the correction. [The invoice-level reconciliation](result/invoice-reconciliation.csv) preserves four invoices and separates billed revenue, received cash, and outstanding balance.
+## Công cụ đã chạy
 
-| Measure | Correct source value | After the raw left join |
-|---|---:|---:|
-| Invoiced revenue | $1,200 | $2,500 |
-| Revenue duplication | $0 | $1,300 |
-| Cash received | $1,050 | Not calculated from the raw join |
-| Outstanding balance | $150 | Not calculated from the raw join |
+[Audit report](audit/report.json) và [key-level evidence](audit/key-audit.csv) được tạo bằng helper canonical. Quan hệ many-to-many là đúng nhưng không làm phép cộng sau ghép trở nên hợp lệ. Script vật liệu hóa hai phép ghép nhỏ độc lập để kiểm row count, tiền lặp và hóa đơn bị bỏ. [Phép tính](calculations.json) · [Kết quả checks](audit-result.json).
 
-The [executed join audit](result/report.json) predicts 13 left-join rows from seven invoice lines. Its [key evidence](result/key-audit.csv) locates $300 of duplication on INV-1001 and $1,000 on INV-1002. An inner join would instead report $2,350 and omit the unpaid $150 invoice, compounding two different errors.
+## Tái tạo
 
-**A cardinality pass is not a revenue pass.** `many-to-many` correctly describes the raw sources, so the helper exits successfully. That relationship still makes the revenue sum invalid. The correction is to aggregate each export at invoice grain before joining, rather than deleting legitimate lines or payments.
-
-## Reproduce
-
-From the repository root, with Python 3.10 or newer:
-
-```sh
-python examples/03-join-audit/rebuild.py --out ./scratch/join-example
+```text
+python examples/03-join-audit/rebuild.py --output ./scratch/join-v3
 ```
 
-Use a new output directory. The script invokes the bundled helper, verifies its amounts and row counts against an independently materialized nested-loop join, writes the corrected reconciliation, and confirms that both input hashes remain unchanged. It uses only the Python standard library.
+[Dependencies và giới hạn](../README.md). Chỉ chạy audit chuẩn-library độc lập:
 
-To run only the audit:
-
-```sh
+```text
 python skills/business-insight-diagnosis/scripts/join_audit.py --left examples/03-join-audit/inputs/invoice-lines.csv --right examples/03-join-audit/inputs/payment-allocations.csv --left-key invoice_id --right-key invoice_id --expect many-to-many --left-measure net_amount_usd --out ./scratch/join-audit
 ```
 
-The retained [verification receipt](result/verification.json) documents what was checked. This example proves this join failure and correction on these inputs. It does not establish a general quality or speed advantage over another method.
-
-[Editable SVG](join.svg) · [PNG preview](join.png) · [Gallery and visual rebuild](../README.md)
+Dữ liệu giả lập, snapshot không có ngày lịch được cung cấp. Đây là bản soạn và đối chiếu theo source contract, chưa sửa production hoặc xác nhận chính sách kế toán tổ chức khác. Lượt độc lập mới dùng diagnosis/composition/chart/narrative 3.0; bản công bố có sửa ngôn ngữ và bàn giao theo đọc trang.

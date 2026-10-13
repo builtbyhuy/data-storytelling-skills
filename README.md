@@ -1,36 +1,36 @@
-# Data Storytelling Skills
+# Data Storytelling Skills · 3.0
 
-Turn business data into a decision someone can understand, challenge and act on. Six complementary Codex skills cover diagnosis, narrative, charts, evidence repair and a practical measurement plan. English instructions support Vietnamese and English requests.
+Turn business data into a choice someone can understand, check and act on. Six complementary Codex skills cover diagnosis, narrative, charts, evidence repair and recurring measurement. English instructions support Vietnamese and English requests.
+
+The 3.0 revision follows a complete reread of the supplied 89-page MDA guide. It changes the actual methods: decision-relevant contrasts, evidence sequencing, reader/grain/channel choices, visible qualifications, chart composition and practical action handoffs. [See the source-to-execution map](shared/source-method-map.md).
 
 ## See the work
 
-### 01 — Freight growth erased the gross-profit gain.
+### 01 — Doanh thu tăng, đóng góp giảm: nên đổi gì?
 
-Sales rise **VND44.10m**, while contribution falls **VND4.05m**. A reconciled bridge explains the change; a conservative B2B bound supports a limited price test with demand guardrails.
+A meeting memo reconciles the change, exposes unallocated freight and proposes a bounded delivery test. Its workbook, plan and populated decision record separate checked facts from an unexecuted proposal.
 
-![Gross profit rises2.80m VND but freight rises6.85m; the focused contribution bridge falls from35.00m to30.95m](examples/01-profit-decision/decision.png)
+![One-page Vietnamese decision memo: contribution falls from 35.00 to 30.95m VND; 3m unallocated freight limits the B2B conclusion; proposed delivery pilot has explicit prerequisites and decision rules](examples/01-profit-decision/brief.png)
 
-The chart isolates the accounting change. The linked memo supplies the B2B contribution bound and price sensitivity behind the proposed action.
+[Open the one-page PDF](examples/01-profit-decision/brief.pdf) · [Editable SVG](examples/01-profit-decision/brief.svg) · [Workbook](examples/01-profit-decision/analysis.xlsx) · [Request, source, plan and rebuild](examples/01-profit-decision/README.md)
 
-[Copy the request](examples/01-profit-decision/brief.md) · [Read the memo](examples/01-profit-decision/memo.md) · [Inspect the test plan](examples/01-profit-decision/test-plan.md) · [Source, calculations and editable SVG](examples/01-profit-decision/README.md)
+### 02 — “Tăng 50%” chưa chứng minh coaching có hiệu quả
 
-### 02 — Lead mix changes the ranking.
+The corrected report preserves the true overall rates, shows the different lead populations and keeps the causal limit beside the conclusion. The proposed next decision follows from that evidence.
 
-The report's headline rates are correct. Its coaching conclusion is unsupported. The repaired comparison keeps the aggregate rates, shows every denominator and reveals the different lead populations.
+![One-page Vietnamese sales review comparing observed overall rates with common-mix rates, retaining tier denominators and the missing coaching-assignment and observation-period limit](examples/02-fair-comparison/brief.png)
 
-![B leads overall, A leads within both supplied tiers; both views use the same scale and show every denominator](examples/02-fair-comparison/comparison.png)
+[Open the one-page PDF](examples/02-fair-comparison/brief.pdf) · [Editable SVG](examples/02-fair-comparison/brief.svg) · [Ready-to-use repaired claim](examples/02-fair-comparison/memo.md) · [Request and source](examples/02-fair-comparison/README.md)
 
-[Request, repaired decision and source data](examples/02-fair-comparison/README.md) · [Editable SVG](examples/02-fair-comparison/comparison.svg)
+### 03 — Tiền bị tính lặp ở đâu khi ghép bảng?
 
-### 03 — Revenue did not double. The join repeated it.
+A six-cell invoice example shows the repetition. The accounting table retains all four invoices, separates billed revenue from cash and preserves the unpaid balance. The executed audit is checked against literal joins.
 
-**$1,200** of invoiced revenue becomes **$2,500** after a raw join. The executed audit locates **$1,300** of duplication; the corrected reconciliation keeps the unpaid invoice visible.
+![One-page Vietnamese join explanation and four-invoice reconciliation:1,200 USD billed, 1,050 USD collected,150 USD unpaid; raw joins duplicate both revenue and cash](examples/03-join-audit/brief.png)
 
-![The same500USD invoice is carried into three payment matches, producing1500USD and1000USD of duplication](examples/03-join-audit/join.png)
+[Open the one-page PDF](examples/03-join-audit/brief.pdf) · [Editable SVG](examples/03-join-audit/brief.svg) · [Accounting CSV](examples/03-join-audit/invoice-reconciliation.csv) · [Request, audit and rebuild](examples/03-join-audit/README.md)
 
-[Try the request and reproduce the audit](examples/03-join-audit/README.md) · [Actual tool output](examples/03-join-audit/result/report.json) · [Editable SVG](examples/03-join-audit/join.svg)
-
-These are synthetic, curated worked examples with checked calculations and inspected exports. No customer result, intervention outcome or general advantage over an unassisted model is claimed. [Browse the gallery and rebuild the files](examples/README.md).
+These synthetic examples began as fresh independent executions of the revised skills using raw inputs and realistic briefs, without old outputs or intended answers. The published copies incorporate reader-review and portability edits. They are curated handoffs, not untouched trials, customer outcomes or aesthetic certification. [Gallery and use instructions](examples/README.md) · [3.0 checks and limits](evals/book-aligned-v3.md).
 
 ## Choose the job
 
@@ -43,55 +43,43 @@ These are synthetic, curated worked examples with checked calculations and inspe
 | `data-story-redteam` | Challenge and repair misleading claims, charts and recommendations |
 | `analytics-adoption` | Plan recurring metric stewardship, decisions and outcome learning |
 
+All six skills are version 3.0.0. A narrow KPI question stays short; a decision memo does not require all six methods.
+
 ## Give a normal request
 
-> Từ dữ liệu này, giải thích biến động, chọn việc nên làm, tạo biểu đồ và viết memo ngắn cho giám đốc. Kiểm lại số liệu và giữ rõ các giới hạn kết luận.
+> Từ dữ liệu này, giải thích biến động, chọn việc nên làm, tạo biểu đồ và viết memo ngắn cho giám đốc. Kiểm số liệu và giữ rõ các giới hạn kết luận.
 
-> Repair this chart and the conclusion it supports. Preserve the source data, show relevant denominators, and deliver an editable chart plus a concise explanation.
+> Repair this chart and its conclusion. Preserve the source, show relevant denominators, and deliver an editable chart plus a concise decision-ready explanation.
 
-The assistant can select several complementary methods for one prompt. Direct invocation such as `$data-storytelling` or `$business-chart-communication` is also available. Descriptions and instructions support discovery; they are not an autonomous scheduler or a guarantee that every client will select correctly.
+The assistant can select complementary methods for one prompt. Direct invocation such as `$data-storytelling` is also available. Descriptions support discovery; they are not an autonomous scheduler or a guarantee that every client selects correctly.
 
 ## Install
 
-Copy the six folders under `skills/` into your client's discoverable skill directory (commonly `~/.codex/skills`). Each folder carries the references it needs. Automatic invocation is enabled.
-
-Optional standard-library installer:
+Copy the six folders under `skills/` into your client's discoverable skill directory, commonly `~/.codex/skills`. Each folder includes its references. Automatic invocation is enabled.
 
 ```text
 python tools/install.py --dest ~/.codex/skills
 python tools/install.py --dest ~/.codex/skills --apply --replace --backup-dir ./private-backups
 ```
 
-The first command previews. Applying replacements requires a backup directory; existing resources not listed in this package are retained. No dependency download, server, credential or MCP setup is required. Use an available Python runtime appropriate to your machine. Refresh the client's skill metadata or start a fresh chat if its catalog is stale.
+The first command previews. Replacement requires a backup directory and preserves unlisted existing resources. The skill package and optional CSV audit require no dependency download, server, credential or MCP setup. Use an available Python runtime. Refresh stale client metadata or start a fresh chat when needed. Example PDF/workbook rebuilding has separate optional local rendering dependencies; viewing the delivered files needs no rebuild.
 
 ## Complement the existing stack
 
-Use available statistical analysis for inference, economics for unit/capacity/scenario calculations, scientific visualization for figure mechanics, native Office/PDF methods for actual formats and verification methods for final numeric handoffs. Those methods are referenced, not bundled or required to be installed under a particular brand. The suite does not create tools, accounts, permissions or free API credits.
+Use available statistical methods for inference, economics for cost/capacity/scenarios, figure tools for demanding charts, native Office/PDF methods for actual formats and verification methods for numeric handoffs. Those capabilities are referenced, not bundled or required under a particular brand. The suite creates no tools, accounts or permissions.
 
-Canonical shared references live under `shared/`; `tools/sync_shared.py` copies them into the independently installable folders. Run `python tools/validate.py` after edits. Structural validation does not establish output quality.
+Canonical shared references live under `shared/`; `python tools/sync_shared.py` updates independently installable copies. `python tools/validate.py` checks package structure, links, source boundaries and copies. These checks do not establish output quality.
 
-For raw CSV analysis, business-insight-diagnosis includes a standard-library [join audit](skills/business-insight-diagnosis/references/join-audit.md). It checks a declared key relationship, predicts join row counts and repeated additive amounts, and saves source hashes and key-level evidence without materializing the expanded join. It preserves exact keys and decimal amounts and rejects malformed inputs. It does not infer the right business key, source authority or eligible population; those remain analytical decisions. The helper is optional for tasks that need it.
+The optional [CSV join audit](skills/business-insight-diagnosis/references/join-audit.md) predicts row multiplication and repeated additive amounts with exact keys/decimals, source hashes and key-level evidence. It does not infer source authority, business key or eligible population. [Independent black-box tests](tools/test_join_audit.py) previously passed 13 groups / 48 invocations; the new invoice example also runs the unchanged helper against materialized joins.
 
-`tools/test_join_audit.py` checks the helper against independently materialized joins and separate exact arithmetic. Pass the helper's path and `--workdir` pointing to a new temporary directory. The recorded local run passed 13 test groups, including malformed inputs, composite keys, signed cancellation and precision beyond 28 digits; this validates those behaviors, not the quality of a business recommendation.
+## Source and evidence
 
-## Source and evaluation
+This independently authored suite adapts useful ideas from the user's MDA guide using original wording and qualified scopes. It is not an MDA or OpenAI product. [Coverage and operational qualifications](shared/source-method-map.md) include source advertising, unverified business cases and rigid heuristics. The original ebook and page images remain private. Only newly authored example PDFs are distributed. [Attribution](NOTICE.md).
 
-This independently authored suite operationalizes useful ideas from an 89-page MDA ebook using original wording and corrected scopes. It is not an MDA or OpenAI product. [Method coverage](shared/source-method-map.md) records every source range and the treatment of advertising, unverified cases and rigid heuristics. The private original remains outside this repository. [Attribution](NOTICE.md) explains MIT's scope.
+The 3.0 checks cover actual artifacts, source calculations, narrow controls and model reader inspection. No human comprehension, accepted taste, beneficial adoption or real intervention outcome has been measured. The profit workbook's cached values and formula presence were checked; an Excel recalculation engine was not run.
 
-Evaluation uses synthetic inputs, normal-language requests, direct calculation checks, rendered artifacts and observed method selection. See `evals/README.md` for the protocol and recorded results. These pilots do not establish universal professional quality, causal business improvement or guaranteed routing. No production customer data or external commercial actions are used.
-
-The pilot passed five subcases in both baseline and candidate conditions, plus two separate narrow controls. Later comparisons produced quality ties; two raw-data candidate sessions saved the files but missed the 600-second completion limit while baseline completed. The suite has no demonstrated overall quality, speed or completion advantage. [Recorded results and limits](evals/README.md).
-
-## Current improvements
-
-- Evidence-ready readouts preserve actual deadlines and wait for complete outcomes.
-- Measurement corrections are separated from like-for-like business change.
-- Recommendations show the strongest feasible alternative and evidenced opportunity cost.
-- Diagnosis/narrative references are loaded when an unresolved method question needs them.
-- The optional CSV join audit uses exact amounts and records key-level duplication evidence. Independent black-box checks passed 13 groups; the gallery also executes it on a practical invoice/payment example.
-
-The latest specialist versions are 2.2.1 for diagnosis/narrative, 2.1.1 for adoption/chart communication and 2.1.0 for composing/redteam. Tested utility behavior and worked examples support their stated scopes; neither substitutes for comparative or real-world outcome evidence.
+Earlier matched evaluations remain in [the historical record](evals/README.md): quality ties and candidate completion-limit failures are retained. The suite has no demonstrated overall quality, speed or completion advantage over an unassisted model. The new runs use different output requirements and no matched baseline, so they do not change that conclusion.
 
 ## License
 
-[MIT](LICENSE) for this project's original instructions, tools and synthetic examples. The source PDF and complementary third-party skills are not relicensed or redistributed.
+[MIT](LICENSE) covers this project's original instructions, tools and synthetic examples. The source ebook and complementary third-party skills are not relicensed or redistributed.

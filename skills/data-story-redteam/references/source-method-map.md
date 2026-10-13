@@ -2,6 +2,8 @@
 
 This suite contains newly authored operational instructions informed by the user's MDA ebook, *Kể chuyện với dữ liệu — Cẩm nang thực chiến biến dashboard thành hành động*. The supplied file has 89 physical PDF pages. It is not the full text of Cole Nussbaumer Knaflic's book. Page numbers below refer to physical PDF pages. This map reports source coverage, not independent verification of its bibliography or business examples.
 
+The 3.0 revision follows a complete reread of all 89 physical pages, including the glossary, bibliography and advertising. The changes below concern how an agent does the work, not imitation of the ebook's page design.
+
 | Pages | Useful content retained | Working destination |
 |---|---|---|
 | 1–2 | Identity and contents | This provenance map |
@@ -16,6 +18,19 @@ This suite contains newly authored operational instructions informed by the user
 | 72–79 | Source stewardship, planning canvas, review and recurring practice | Analytics adoption |
 | 80–85 | Glossary/framework recap, bibliography and conclusion | Shared terminology and specialist methods |
 | 86–89 | Publisher/course advertising | Recorded as reviewed; creates no purchase/tool prerequisite |
+
+## What the 3.0 instructions change in execution
+
+| Source principle | Instruction now used | Observable use check |
+|---|---|---|
+| Business context before tool choice; TOSCAR; question intent (3–8, 46–48, 64–70) | Establish the reader's use and feasible choice; connect the business event to its records. The composing skill passes a compact evidence-to-choice handoff to the needed specialists. | A current-state query stays short; a decision request results in a supported choice with scope and unknowns, rather than a gallery of equal KPI cards. |
+| Relevant contrast, grain, BUS and diagnostic patterns (9–18, 55–63) | Select comparisons and drill-downs that discriminate between feasible responses. Separate observed accounting contributions from causal explanations and intervention scenarios. | The chosen action follows the checked contrast; another plausible explanation or material coverage gap changes its scope when necessary. |
+| Evidence/narrative/visuals; backward argument design; channel and audience (19–28, 49–54) | After analysis, write the main reader change and select the evidence sequence. Adapt depth and order to the actual memo, alert, slide or report. | The reader can find the conclusion, supporting comparison, consequential limit and next choice in the requested artifact. The argument does not recount the analyst's work history. |
+| Question-to-chart, encoding, attention, Gestalt, type and labels (29–37, 83) | Choose marks from the reading task, plan hierarchy at the destination size, put labels and qualifiers near their evidence, and inspect the actual export. | The surface itself communicates the comparison. Necessary labels are readable without zooming into a full-resolution source; emphasis does not contradict the title. |
+| Integrity includes what the audience infers (38–45, 69) | Review the delivered surface before the author's explanation. Repair both unsupported claims and the hierarchy or missing context that produces them. | A corrected value also corrects the title and recommendation; an important contrary result is still visible. Numeric checks and comprehension proxies are reported separately. |
+| Stewardship, canvas, handoffs and outcome learning (70, 72–79) | Populate a practical decision record; connect intervention, accountable role, measure, comparison, mature window and decision rule. Keep proposal, approval, execution and measured outcome separate. | A team can see what happens next and when it can judge the result. A completed draft, signed choice or review cadence is not reported as an observed beneficial outcome. |
+
+These are operational adaptations written for this suite. The source does not prescribe a particular palette, typeface, page template or artifact format for every task. A matching checklist or a model's approval is not evidence that a person understands the artifact or that the recommendation improves the business.
 
 ## Operational qualifications
 

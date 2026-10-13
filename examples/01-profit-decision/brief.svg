@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="595.276pt" height="841.890pt" viewBox="0 0 595.276 841.890">
+<title>Thử giao hàng trước, giữ bán B2B có điều kiện - dữ liệu giả lập</title>
+<desc>Toàn công ty tháng 6 đến tháng 7 năm 2026: đóng góp 35,00 triệu cộng tăng lãi gộp 2,80 triệu trừ tăng cước 6,85 triệu còn 30,95 triệu. B2B tăng 1,80 triệu sau cước kết nối, nhưng 3,00 triệu cước chưa gán nhóm có thể đổi kết luận. Thử STANDARD có giới hạn, chưa phê duyệt. Bảng chính xác và nguồn tính nằm trong analysis.xlsx và analysis.json.</desc>
+<rect x="0" y="0" width="595.276" height="841.89" fill="#FFFFFF"/>
+<text x="36" y="37" fill="#192F40" font-family="Arial, sans-serif" font-size="9.5" font-weight="700" text-anchor="start">MINH AN OFFICE</text>
+<text x="559.276" y="37" fill="#4C606D" font-family="Arial, sans-serif" font-size="8.4" font-weight="400" text-anchor="end">DỮ LIỆU GIẢ LẬP  /  07.08.2026</text>
+<line x1="36" y1="49" x2="559.276" y2="49" stroke="#192F40" stroke-width="1"/>
+<text x="36" y="88" fill="#192F40" font-family="Arial, sans-serif" font-size="24" font-weight="700" text-anchor="start">Thử đổi giao hàng trước,</text>
+<text x="36" y="119" fill="#192F40" font-family="Arial, sans-serif" font-size="24" font-weight="700" text-anchor="start">giữ bán B2B có điều kiện</text>
+<text x="36" y="145" fill="#192F40" font-family="Arial, sans-serif" font-size="10.5" font-weight="400" text-anchor="start">Doanh thu tăng 156,70 → 200,80 triệu VND, nhưng đóng góp sau giao hàng giảm. Chọn thử có giới hạn; chưa</text>
+<text x="36" y="160" fill="#192F40" font-family="Arial, sans-serif" font-size="10.5" font-weight="400" text-anchor="start">đủ căn cứ để cắt B2B hay quy mức giảm cho ưu đãi.</text>
+<text x="36" y="203" fill="#192F40" font-family="Arial, sans-serif" font-size="14.5" font-weight="700" text-anchor="start">Cước tăng vượt phần lãi gộp tăng</text>
+<text x="36" y="222" fill="#4C606D" font-family="Arial, sans-serif" font-size="9.2" font-weight="400" text-anchor="start">Toàn công ty · tháng 6 → tháng 7/2026 · triệu VND</text>
+<line x1="64" y1="395.0" x2="559.276" y2="395.0" stroke="#B9C3C8" stroke-width="0.45"/>
+<text x="52" y="398.0" fill="#4C606D" font-family="Arial, sans-serif" font-size="8.5" font-weight="400" text-anchor="end">0</text>
+<line x1="64" y1="329.0" x2="559.276" y2="329.0" stroke="#B9C3C8" stroke-width="0.45"/>
+<text x="52" y="332.0" fill="#4C606D" font-family="Arial, sans-serif" font-size="8.5" font-weight="400" text-anchor="end">20</text>
+<line x1="64" y1="263.0" x2="559.276" y2="263.0" stroke="#B9C3C8" stroke-width="0.45"/>
+<text x="52" y="266.0" fill="#4C606D" font-family="Arial, sans-serif" font-size="8.5" font-weight="400" text-anchor="end">40</text>
+<rect x="82.0" y="279.5" width="60" height="115.5" fill="#192F40"/>
+<text x="112" y="269.5" fill="#192F40" font-family="Arial, sans-serif" font-size="11.8" font-weight="700" text-anchor="middle">35,00</text>
+<text x="112" y="414" fill="#192F40" font-family="Arial, sans-serif" font-size="9.3" font-weight="400" text-anchor="middle">Đóng góp T6</text>
+<rect x="209.0" y="270.26" width="60" height="9.23999999999999" fill="#24644E"/>
+<text x="239" y="260.26" fill="#24644E" font-family="Arial, sans-serif" font-size="11.8" font-weight="700" text-anchor="middle">+2,80</text>
+<text x="239" y="414" fill="#192F40" font-family="Arial, sans-serif" font-size="9.3" font-weight="400" text-anchor="middle">Lãi gộp tăng</text>
+<rect x="336.0" y="270.26" width="60" height="22.604999999999993" fill="#9B432A"/>
+<text x="366" y="260.26" fill="#9B432A" font-family="Arial, sans-serif" font-size="11.8" font-weight="700" text-anchor="middle">-6,85</text>
+<text x="366" y="414" fill="#192F40" font-family="Arial, sans-serif" font-size="9.3" font-weight="400" text-anchor="middle">Cước tăng</text>
+<rect x="463.0" y="292.865" width="60" height="102.13499999999999" fill="#192F40"/>
+<text x="493" y="282.865" fill="#192F40" font-family="Arial, sans-serif" font-size="11.8" font-weight="700" text-anchor="middle">30,95</text>
+<text x="493" y="414" fill="#192F40" font-family="Arial, sans-serif" font-size="9.3" font-weight="400" text-anchor="middle">Đóng góp T7</text>
+<line x1="142.0" y1="279.5" x2="209.0" y2="279.5" stroke="#4C606D" stroke-width="0.7" stroke-dasharray="3,3"/>
+<line x1="269.0" y1="270.26" x2="336.0" y2="270.26" stroke="#4C606D" stroke-width="0.7" stroke-dasharray="3,3"/>
+<line x1="396.0" y1="292.865" x2="463.0" y2="292.865" stroke="#4C606D" stroke-width="0.7" stroke-dasharray="3,3"/>
+<text x="36" y="438" fill="#4C606D" font-family="Arial, sans-serif" font-size="9.8" font-weight="400" text-anchor="start">Đóng góp giảm 4,05 triệu (-11,6%); chưa trừ chi phí chung.</text>
+<text x="36" y="477" fill="#192F40" font-family="Arial, sans-serif" font-size="14.5" font-weight="700" text-anchor="start">B2B chưa đủ căn cứ để cắt giảm</text>
+<text x="36" y="495" fill="#4C606D" font-family="Arial, sans-serif" font-size="9.2" font-weight="400" text-anchor="start">Đóng góp sau cước đã xác định nhóm, triệu VND</text>
+<text x="370" y="516" fill="#4C606D" font-family="Arial, sans-serif" font-size="9" font-weight="700" text-anchor="end">T6</text>
+<text x="453" y="516" fill="#4C606D" font-family="Arial, sans-serif" font-size="9" font-weight="700" text-anchor="end">T7</text>
+<text x="559.276" y="516" fill="#4C606D" font-family="Arial, sans-serif" font-size="9" font-weight="700" text-anchor="end">Thay đổi</text>
+<line x1="36" y1="523" x2="559.276" y2="523" stroke="#B9C3C8" stroke-width="0.65"/>
+<text x="36" y="540" fill="#192F40" font-family="Arial, sans-serif" font-size="10.3" font-weight="700" text-anchor="start">B2B</text>
+<text x="370" y="540" fill="#192F40" font-family="Arial, sans-serif" font-size="10.3" font-weight="400" text-anchor="end">18,90</text>
+<text x="453" y="540" fill="#192F40" font-family="Arial, sans-serif" font-size="10.3" font-weight="400" text-anchor="end">20,70</text>
+<text x="559.276" y="540" fill="#192F40" font-family="Arial, sans-serif" font-size="10.3" font-weight="700" text-anchor="end">+1,80</text>
+<text x="36" y="560" fill="#192F40" font-family="Arial, sans-serif" font-size="10.3" font-weight="400" text-anchor="start">DIRECT</text>
+<text x="370" y="560" fill="#192F40" font-family="Arial, sans-serif" font-size="10.3" font-weight="400" text-anchor="end">16,10</text>
+<text x="453" y="560" fill="#192F40" font-family="Arial, sans-serif" font-size="10.3" font-weight="400" text-anchor="end">13,25</text>
+<text x="559.276" y="560" fill="#192F40" font-family="Arial, sans-serif" font-size="10.3" font-weight="700" text-anchor="end">-2,85</text>
+<text x="36" y="580" fill="#192F40" font-family="Arial, sans-serif" font-size="10.3" font-weight="400" text-anchor="start">Trừ cước chưa gán nhóm</text>
+<text x="370" y="580" fill="#192F40" font-family="Arial, sans-serif" font-size="10.3" font-weight="400" text-anchor="end">0,00</text>
+<text x="453" y="580" fill="#192F40" font-family="Arial, sans-serif" font-size="10.3" font-weight="400" text-anchor="end">-3,00</text>
+<text x="559.276" y="580" fill="#192F40" font-family="Arial, sans-serif" font-size="10.3" font-weight="700" text-anchor="end">-3,00</text>
+<text x="36" y="600" fill="#192F40" font-family="Arial, sans-serif" font-size="10.3" font-weight="700" text-anchor="start">Tổng công ty</text>
+<text x="370" y="600" fill="#192F40" font-family="Arial, sans-serif" font-size="10.3" font-weight="400" text-anchor="end">35,00</text>
+<text x="453" y="600" fill="#192F40" font-family="Arial, sans-serif" font-size="10.3" font-weight="400" text-anchor="end">30,95</text>
+<text x="559.276" y="600" fill="#192F40" font-family="Arial, sans-serif" font-size="10.3" font-weight="700" text-anchor="end">-4,05</text>
+<text x="36" y="619" fill="#9B432A" font-family="Arial, sans-serif" font-size="9.8" font-weight="400" text-anchor="start">Cước tháng 7 còn 3,00 triệu chưa gán nhóm. Nếu đều thuộc B2B, mức thay đổi của B2B là -1,20 triệu. Đó chưa phải</text>
+<text x="36" y="633" fill="#9B432A" font-family="Arial, sans-serif" font-size="9.8" font-weight="400" text-anchor="start">toàn bộ đóng góp nhóm.</text>
+<line x1="36" y1="652" x2="559.276" y2="652" stroke="#192F40" stroke-width="0.8"/>
+<text x="36" y="676" fill="#192F40" font-family="Arial, sans-serif" font-size="10" font-weight="700" text-anchor="start">QUYẾT TẠI CUỘC HỌP</text>
+<text x="36" y="696" fill="#192F40" font-family="Arial, sans-serif" font-size="10.3" font-weight="400" text-anchor="start">Đề xuất thử 4 tuần với đơn B2B có hạn giao phù hợp giao tiêu chuẩn, cùng nhóm giữ hiện trạng. Chỉ mở sau đối</text>
+<text x="36" y="710" fill="#192F40" font-family="Arial, sans-serif" font-size="10.3" font-weight="400" text-anchor="start">soát 3 triệu cước và xác nhận hạn giao.</text>
+<text x="36" y="740" fill="#192F40" font-family="Arial, sans-serif" font-size="9.2" font-weight="700" text-anchor="start">Ai chịu trách nhiệm</text>
+<text x="36" y="755.0" fill="#4C606D" font-family="Arial, sans-serif" font-size="9.1" font-weight="400" text-anchor="start">Chủ DN duyệt/giữ/dừng; giao hàng thực hiện; kế toán chốt</text>
+<text x="36" y="767.4" fill="#4C606D" font-family="Arial, sans-serif" font-size="9.1" font-weight="400" text-anchor="start">nguồn. Vai trò là đề xuất. Tối đa 60 yêu cầu đặt hàng đủ</text>
+<text x="36" y="779.8" fill="#4C606D" font-family="Arial, sans-serif" font-size="9.1" font-weight="400" text-anchor="start">điều kiện; trần chi phí thêm 1 triệu.</text>
+<text x="310" y="740" fill="#192F40" font-family="Arial, sans-serif" font-size="9.2" font-weight="700" text-anchor="start">Giới hạn và cách đọc</text>
+<text x="310" y="755.0" fill="#4C606D" font-family="Arial, sans-serif" font-size="9.1" font-weight="400" text-anchor="start">Dừng khi đổi dịch vụ làm trễ cam kết. Chỉ giữ thử nhỏ nếu</text>
+<text x="310" y="767.4" fill="#4C606D" font-family="Arial, sans-serif" font-size="9.1" font-weight="400" text-anchor="start">đóng góp tăng ≥5.000 VND/yêu cầu đặt hàng, sau đủ giảm</text>
+<text x="310" y="779.8" fill="#4C606D" font-family="Arial, sans-serif" font-size="9.1" font-weight="400" text-anchor="start">trừ, cước và chi phí thử; không hại nhu cầu.</text>
+<text x="36" y="812" fill="#4C606D" font-family="Arial, sans-serif" font-size="8.2" font-weight="400" text-anchor="start">Đề xuất chưa phê duyệt. Đọc sau yêu cầu cuối ≥14 ngày và nguồn đủ; xem test-plan.md.</text>
+<text x="36" y="826" fill="#4C606D" font-family="Arial, sans-serif" font-size="8.2" font-weight="400" text-anchor="start">Nguồn: tài chính khóa sổ; hóa đơn và giảm trừ theo ngày ghi sổ; cước theo tháng dịch vụ.</text>
+</svg>

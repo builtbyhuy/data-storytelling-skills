@@ -1,56 +1,712 @@
 {
-  "disclosure": "Synthetic instructional fixture; verified arithmetic, no observed business result or causal price estimate.",
-  "unit": "VND; integer amounts excluding VAT",
-  "definition": "Contribution = net sales - net COGS - all recognized outbound freight; excludes overhead.",
-  "monthly": [
+  "synthetic": true,
+  "snapshot": "2026-08-07; Vietnam time; June and July 2026 closed accounting periods.",
+  "source_hashes_sha256": {
+    "invoice_lines.csv": "ac2f746936beb2780e3967f07774cfd1ca5a88ee91002b481cf5b24bfd2b89e8",
+    "credit_lines.csv": "843ff693ee472d17130e5b1a1e9c7d8d87685215a4de9cf0ab25a628df2e4bc4",
+    "carrier_charges.csv": "672a36715f6e729e6fff990e7b437867f884fb1f6c5cd6b8d74468d621d3e590",
+    "monthly_finance.csv": "78a6cedf342d4fdd024dc91d3dd218999bf5fd851ec38b25b8adacba075e1a92",
+    "source-notes.md": "783003e731b21246c3a8e81cc54173941a6f4475455c276e9248499775b60fbd"
+  },
+  "row_counts": {
+    "invoice_lines": 880,
+    "credit_lines": 60,
+    "carrier_charges": 526,
+    "monthly_finance": 2
+  },
+  "definitions": {
+    "status": "All names and data synthetic; proposal not approved or executed.",
+    "snapshot": "2026-08-07; Vietnam time; June and July 2026 closed accounting periods.",
+    "currency": "Whole VND, excluding VAT. Display in million VND where explicitly labeled.",
+    "authority": "monthly_finance.csv governs whole-company monthly KPI; invoice and credit postings reconcile sales/COGS; connected carrier export covers only two carriers.",
+    "grain": "Invoice line is unique by line_id; credits by credit_line_id; charges by shipment_charge_id. Aggregate each additive source before joining totals.",
+    "contribution": "net_sales - net_cogs - outbound_freight; not net company profit; excludes overhead.",
+    "credits": "Use credit posted month for monthly P&L; original line supplies segment only. July includes credits on June invoices.",
+    "freight": "Use expense_month, not carrier_invoice_date or invoice posted month.",
+    "segment_contribution": "Gross profit minus connected freight ONLY; unconnected freight is not assigned by an invented rule.",
+    "price": "Invoice realized revenue / invoice quantity, before later credits; no list price or discount rule in the input.",
+    "causality": "Descriptive comparison, no causal intervention effect or recoverable savings established."
+  },
+  "finance": {
+    "2026-06": {
+      "net_sales": 156700000,
+      "net_cogs": 112850000,
+      "outbound_freight": 8850000,
+      "gross_profit": 43850000,
+      "contribution": 35000000,
+      "margin": 0.22335673261008296,
+      "gross_margin": 0.27983407785577535,
+      "connected_freight": 8850000,
+      "unallocated_freight": 0
+    },
+    "2026-07": {
+      "net_sales": 200800000,
+      "net_cogs": 154150000,
+      "outbound_freight": 15700000,
+      "gross_profit": 46650000,
+      "contribution": 30950000,
+      "margin": 0.15413346613545817,
+      "gross_margin": 0.2323207171314741,
+      "connected_freight": 12700000,
+      "unallocated_freight": 3000000
+    }
+  },
+  "change": {
+    "net_sales": 44100000,
+    "net_cogs": 41300000,
+    "gross_profit": 2800000,
+    "outbound_freight": 6850000,
+    "contribution": -4050000,
+    "connected_freight": 3850000,
+    "unallocated_freight": 3000000,
+    "sales_percent": 28.14294830887045,
+    "contribution_percent": -11.571428571428571,
+    "margin_pp": -6.922326647462479
+  },
+  "display": {
+    "july_contribution_million": 30.95,
+    "june_contribution_million": 35.0,
+    "contribution_change_million": -4.05,
+    "gross_profit_change_million": 2.8,
+    "freight_change_million": 6.85,
+    "july_gap_million": 3.0
+  },
+  "segments": [
     {
       "month": "2026-06",
-      "net_sales_vnd": 156700000,
-      "net_cogs_vnd": 112850000,
-      "gross_profit_vnd": 43850000,
-      "outbound_freight_vnd": 8850000,
-      "contribution_vnd": 35000000,
-      "contribution_margin_pct": "22.33567326100829610721123165",
-      "connected_freight_vnd": 8850000,
-      "unattributed_freight_vnd": 0
+      "segment": "B2B",
+      "invoice_revenue": 110000000,
+      "invoice_cogs": 85000000,
+      "credits": 500000,
+      "cogs_reversals": 400000,
+      "connected_freight": 6000000,
+      "net_sales": 109500000,
+      "net_cogs": 84600000,
+      "gross_profit": 24900000,
+      "partial_contribution": 18900000,
+      "invoice_count": 100
+    },
+    {
+      "month": "2026-06",
+      "segment": "DIRECT",
+      "invoice_revenue": 51000000,
+      "invoice_cogs": 30500000,
+      "credits": 3800000,
+      "cogs_reversals": 2250000,
+      "connected_freight": 2850000,
+      "net_sales": 47200000,
+      "net_cogs": 28250000,
+      "gross_profit": 18950000,
+      "partial_contribution": 16100000,
+      "invoice_count": 100
     },
     {
       "month": "2026-07",
-      "net_sales_vnd": 200800000,
-      "net_cogs_vnd": 154150000,
-      "gross_profit_vnd": 46650000,
-      "outbound_freight_vnd": 15700000,
-      "contribution_vnd": 30950000,
-      "contribution_margin_pct": "15.41334661354581673306772908",
-      "connected_freight_vnd": 12700000,
-      "unattributed_freight_vnd": 3000000
+      "segment": "B2B",
+      "invoice_revenue": 169600000,
+      "invoice_cogs": 136000000,
+      "credits": 5800000,
+      "cogs_reversals": 4000000,
+      "connected_freight": 11100000,
+      "net_sales": 163800000,
+      "net_cogs": 132000000,
+      "gross_profit": 31800000,
+      "partial_contribution": 20700000,
+      "invoice_count": 160
+    },
+    {
+      "month": "2026-07",
+      "segment": "DIRECT",
+      "invoice_revenue": 40800000,
+      "invoice_cogs": 24400000,
+      "credits": 3800000,
+      "cogs_reversals": 2250000,
+      "connected_freight": 1600000,
+      "net_sales": 37000000,
+      "net_cogs": 22150000,
+      "gross_profit": 14850000,
+      "partial_contribution": 13250000,
+      "invoice_count": 80
     }
   ],
-  "bridge": {
-    "volume_mix_at_june_unit_margin_vnd": 10900000,
-    "invoice_price_at_july_quantities_vnd": -6400000,
-    "unit_cost_at_july_quantities_vnd": 0,
-    "change_in_posted_credit_effect_vnd": -1700000,
-    "change_in_freight_effect_vnd": -6850000
+  "products": [
+    {
+      "month": "2026-06",
+      "segment": "B2B",
+      "sku": "INK-BLACK-100",
+      "invoice_revenue": 60000000,
+      "invoice_cogs": 45000000,
+      "invoice_quantity": 200,
+      "invoice_realized_price": 300000.0
+    },
+    {
+      "month": "2026-06",
+      "segment": "B2B",
+      "sku": "PAPER-A4-500",
+      "invoice_revenue": 50000000,
+      "invoice_cogs": 40000000,
+      "invoice_quantity": 1000,
+      "credits": 500000,
+      "cogs_reversals": 400000,
+      "invoice_realized_price": 50000.0
+    },
+    {
+      "month": "2026-06",
+      "segment": "DIRECT",
+      "sku": "INK-BLACK-100",
+      "invoice_revenue": 38000000,
+      "invoice_cogs": 22500000,
+      "invoice_quantity": 100,
+      "credits": 3800000,
+      "cogs_reversals": 2250000,
+      "invoice_realized_price": 380000.0
+    },
+    {
+      "month": "2026-06",
+      "segment": "DIRECT",
+      "sku": "PAPER-A4-500",
+      "invoice_revenue": 13000000,
+      "invoice_cogs": 8000000,
+      "invoice_quantity": 200,
+      "invoice_realized_price": 65000.0
+    },
+    {
+      "month": "2026-07",
+      "segment": "B2B",
+      "sku": "INK-BLACK-100",
+      "invoice_revenue": 92800000,
+      "invoice_cogs": 72000000,
+      "invoice_quantity": 320,
+      "credits": 1000000,
+      "cogs_reversals": 0,
+      "invoice_realized_price": 290000.0
+    },
+    {
+      "month": "2026-07",
+      "segment": "B2B",
+      "sku": "PAPER-A4-500",
+      "invoice_revenue": 76800000,
+      "invoice_cogs": 64000000,
+      "invoice_quantity": 1600,
+      "credits": 4800000,
+      "cogs_reversals": 4000000,
+      "invoice_realized_price": 48000.0
+    },
+    {
+      "month": "2026-07",
+      "segment": "DIRECT",
+      "sku": "INK-BLACK-100",
+      "invoice_revenue": 30400000,
+      "invoice_cogs": 18000000,
+      "invoice_quantity": 80,
+      "credits": 3800000,
+      "cogs_reversals": 2250000,
+      "invoice_realized_price": 380000.0
+    },
+    {
+      "month": "2026-07",
+      "segment": "DIRECT",
+      "sku": "PAPER-A4-500",
+      "invoice_revenue": 10400000,
+      "invoice_cogs": 6400000,
+      "invoice_quantity": 160,
+      "invoice_realized_price": 65000.0
+    }
+  ],
+  "services": [
+    {
+      "month": "2026-06",
+      "segment": "B2B",
+      "service": "STANDARD",
+      "charges": 133,
+      "invoices": 100,
+      "freight_vnd": 6000000,
+      "freight_per_invoice_vnd": 60000.0
+    },
+    {
+      "month": "2026-06",
+      "segment": "DIRECT",
+      "service": "STANDARD",
+      "charges": 100,
+      "invoices": 100,
+      "freight_vnd": 2850000,
+      "freight_per_invoice_vnd": 28500.0
+    },
+    {
+      "month": "2026-07",
+      "segment": "B2B",
+      "service": "STANDARD",
+      "charges": 133,
+      "invoices": 100,
+      "freight_vnd": 6000000,
+      "freight_per_invoice_vnd": 60000.0
+    },
+    {
+      "month": "2026-07",
+      "segment": "B2B",
+      "service": "EXPRESS",
+      "charges": 80,
+      "invoices": 60,
+      "freight_vnd": 5100000,
+      "freight_per_invoice_vnd": 85000.0
+    },
+    {
+      "month": "2026-07",
+      "segment": "DIRECT",
+      "service": "STANDARD",
+      "charges": 80,
+      "invoices": 80,
+      "freight_vnd": 1600000,
+      "freight_per_invoice_vnd": 20000.0
+    }
+  ],
+  "coverage": {
+    "unallocated_july_vnd": 3000000,
+    "july_connected_share": 0.8089171974522293,
+    "credit_cross_month_rows": 10,
+    "credit_cross_month_reduction_vnd": 3800000,
+    "carrier_invoice_month_differs_rows": 50
   },
-  "b2b_july": {
-    "gross_profit_vnd": 31800000,
-    "connected_freight_vnd": 11100000,
-    "contribution_before_unattributed_freight_vnd": 20700000,
-    "contribution_floor_if_all_missing_freight_is_b2b_vnd": 17700000
+  "sensitivity": {
+    "B2B_change_if_all_gap_allocated_to_B2B_vnd": -1200000,
+    "unallocated_does_not_prove_group_loss": true
   },
-  "full_price_restoration_sensitivity": {
-    "invoice_quantity_effect_vnd": 6400000,
-    "extra_return_credit_vnd": 200000,
-    "net_contribution_effect_vnd": 6200000,
-    "assumptions": "Same July sales and return quantities, COGS, freight and service allowances. June B2B invoice prices restored only on July invoices; no demand response."
-  },
-  "cross_period_credit_lines": 10,
-  "input_sha256": {
-    "carrier_charges.csv": "672a36715f6e729e6fff990e7b437867f884fb1f6c5cd6b8d74468d621d3e590",
-    "credit_lines.csv": "843ff693ee472d17130e5b1a1e9c7d8d87685215a4de9cf0ab25a628df2e4bc4",
-    "invoice_lines.csv": "ac2f746936beb2780e3967f07774cfd1ca5a88ee91002b481cf5b24bfd2b89e8",
-    "monthly_finance.csv": "78a6cedf342d4fdd024dc91d3dd218999bf5fd851ec38b25b8adacba075e1a92",
-    "source-notes.md": "783003e731b21246c3a8e81cc54173941a6f4475455c276e9248499775b60fbd"
+  "checks": [
+    {
+      "check": "unique_line_id",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "unique_credit_line_id",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "unique_shipment_charge_id",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "unique_accounting_month",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "required_cells_present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "credit_references_valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "shipment_references_valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "invoice_attributes_consistent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "sales_reconcile_2026-06",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cogs_reconcile_2026-06",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freight_gap_nonnegative_2026-06",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "finance_closed_2026-06",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "sales_reconcile_2026-07",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cogs_reconcile_2026-07",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "freight_gap_nonnegative_2026-07",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "finance_closed_2026-07",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "contribution_bridge",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "segment_bridge",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "text_within_page_1",
+      "passed": true,
+      "detail": "MINH AN OFFICE"
+    },
+    {
+      "check": "text_within_page_2",
+      "passed": true,
+      "detail": "DỮ LIỆU GIẢ LẬP  /  07.08.2026"
+    },
+    {
+      "check": "text_within_page_3",
+      "passed": true,
+      "detail": "Thử đổi giao hàng trước,"
+    },
+    {
+      "check": "text_within_page_4",
+      "passed": true,
+      "detail": "giữ bán B2B có điều kiện"
+    },
+    {
+      "check": "text_within_page_5",
+      "passed": true,
+      "detail": "Doanh thu tăng 156,70 → 200,80 triệu VND, nhưng đóng góp sau giao hàng giảm. Chọn thử có giới hạn; chưa"
+    },
+    {
+      "check": "text_within_page_6",
+      "passed": true,
+      "detail": "đủ căn cứ để cắt B2B hay quy mức giảm cho ưu đãi."
+    },
+    {
+      "check": "text_within_page_7",
+      "passed": true,
+      "detail": "Cước tăng vượt phần lãi gộp tăng"
+    },
+    {
+      "check": "text_within_page_8",
+      "passed": true,
+      "detail": "Toàn công ty · tháng 6 → tháng 7/2026 · triệu VND"
+    },
+    {
+      "check": "text_within_page_9",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "check": "text_within_page_10",
+      "passed": true,
+      "detail": "20"
+    },
+    {
+      "check": "text_within_page_11",
+      "passed": true,
+      "detail": "40"
+    },
+    {
+      "check": "text_within_page_12",
+      "passed": true,
+      "detail": "35,00"
+    },
+    {
+      "check": "text_within_page_13",
+      "passed": true,
+      "detail": "Đóng góp T6"
+    },
+    {
+      "check": "text_within_page_14",
+      "passed": true,
+      "detail": "+2,80"
+    },
+    {
+      "check": "text_within_page_15",
+      "passed": true,
+      "detail": "Lãi gộp tăng"
+    },
+    {
+      "check": "text_within_page_16",
+      "passed": true,
+      "detail": "-6,85"
+    },
+    {
+      "check": "text_within_page_17",
+      "passed": true,
+      "detail": "Cước tăng"
+    },
+    {
+      "check": "text_within_page_18",
+      "passed": true,
+      "detail": "30,95"
+    },
+    {
+      "check": "text_within_page_19",
+      "passed": true,
+      "detail": "Đóng góp T7"
+    },
+    {
+      "check": "text_within_page_20",
+      "passed": true,
+      "detail": "Đóng góp giảm 4,05 triệu (-11,6%); chưa trừ chi phí chung."
+    },
+    {
+      "check": "text_within_page_21",
+      "passed": true,
+      "detail": "B2B chưa đủ căn cứ để cắt giảm"
+    },
+    {
+      "check": "text_within_page_22",
+      "passed": true,
+      "detail": "Đóng góp sau cước đã xác định nhóm, triệu VND"
+    },
+    {
+      "check": "text_within_page_23",
+      "passed": true,
+      "detail": "T6"
+    },
+    {
+      "check": "text_within_page_24",
+      "passed": true,
+      "detail": "T7"
+    },
+    {
+      "check": "text_within_page_25",
+      "passed": true,
+      "detail": "Thay đổi"
+    },
+    {
+      "check": "text_within_page_26",
+      "passed": true,
+      "detail": "B2B"
+    },
+    {
+      "check": "text_within_page_27",
+      "passed": true,
+      "detail": "18,90"
+    },
+    {
+      "check": "text_within_page_28",
+      "passed": true,
+      "detail": "20,70"
+    },
+    {
+      "check": "text_within_page_29",
+      "passed": true,
+      "detail": "+1,80"
+    },
+    {
+      "check": "text_within_page_30",
+      "passed": true,
+      "detail": "DIRECT"
+    },
+    {
+      "check": "text_within_page_31",
+      "passed": true,
+      "detail": "16,10"
+    },
+    {
+      "check": "text_within_page_32",
+      "passed": true,
+      "detail": "13,25"
+    },
+    {
+      "check": "text_within_page_33",
+      "passed": true,
+      "detail": "-2,85"
+    },
+    {
+      "check": "text_within_page_34",
+      "passed": true,
+      "detail": "Trừ cước chưa gán nhóm"
+    },
+    {
+      "check": "text_within_page_35",
+      "passed": true,
+      "detail": "0,00"
+    },
+    {
+      "check": "text_within_page_36",
+      "passed": true,
+      "detail": "-3,00"
+    },
+    {
+      "check": "text_within_page_37",
+      "passed": true,
+      "detail": "-3,00"
+    },
+    {
+      "check": "text_within_page_38",
+      "passed": true,
+      "detail": "Tổng công ty"
+    },
+    {
+      "check": "text_within_page_39",
+      "passed": true,
+      "detail": "35,00"
+    },
+    {
+      "check": "text_within_page_40",
+      "passed": true,
+      "detail": "30,95"
+    },
+    {
+      "check": "text_within_page_41",
+      "passed": true,
+      "detail": "-4,05"
+    },
+    {
+      "check": "text_within_page_42",
+      "passed": true,
+      "detail": "Cước tháng 7 còn 3,00 triệu chưa gán nhóm. Nếu đều thuộc B2B, mức thay đổi của B2B là -1,20 triệu. Đó chưa phải"
+    },
+    {
+      "check": "text_within_page_43",
+      "passed": true,
+      "detail": "toàn bộ đóng góp nhóm."
+    },
+    {
+      "check": "text_within_page_44",
+      "passed": true,
+      "detail": "QUYẾT TẠI CUỘC HỌP"
+    },
+    {
+      "check": "text_within_page_45",
+      "passed": true,
+      "detail": "Đề xuất thử 4 tuần với đơn B2B có hạn giao phù hợp giao tiêu chuẩn, cùng nhóm giữ hiện trạng. Chỉ mở sau đối"
+    },
+    {
+      "check": "text_within_page_46",
+      "passed": true,
+      "detail": "soát 3 triệu cước và xác nhận hạn giao."
+    },
+    {
+      "check": "text_within_page_47",
+      "passed": true,
+      "detail": "Ai chịu trách nhiệm"
+    },
+    {
+      "check": "text_within_page_48",
+      "passed": true,
+      "detail": "Chủ DN duyệt/giữ/dừng; giao hàng thực hiện; kế toán chốt"
+    },
+    {
+      "check": "text_within_page_49",
+      "passed": true,
+      "detail": "nguồn. Vai trò là đề xuất. Tối đa 60 yêu cầu đặt hàng đủ"
+    },
+    {
+      "check": "text_within_page_50",
+      "passed": true,
+      "detail": "điều kiện; trần chi phí thêm 1 triệu."
+    },
+    {
+      "check": "text_within_page_51",
+      "passed": true,
+      "detail": "Giới hạn và cách đọc"
+    },
+    {
+      "check": "text_within_page_52",
+      "passed": true,
+      "detail": "Dừng khi đổi dịch vụ làm trễ cam kết. Chỉ giữ thử nhỏ nếu"
+    },
+    {
+      "check": "text_within_page_53",
+      "passed": true,
+      "detail": "đóng góp tăng ≥5.000 VND/yêu cầu đặt hàng, sau đủ giảm"
+    },
+    {
+      "check": "text_within_page_54",
+      "passed": true,
+      "detail": "trừ, cước và chi phí thử; không hại nhu cầu."
+    },
+    {
+      "check": "text_within_page_55",
+      "passed": true,
+      "detail": "Đề xuất chưa phê duyệt. Đọc sau yêu cầu cuối ≥14 ngày và nguồn đủ; xem test-plan.md."
+    },
+    {
+      "check": "text_within_page_56",
+      "passed": true,
+      "detail": "Nguồn: tài chính khóa sổ; hóa đơn và giảm trừ theo ngày ghi sổ; cước theo tháng dịch vụ."
+    },
+    {
+      "check": "pdf_one_page",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "pdf_text_35,00",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "pdf_text_+2,80",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "pdf_text_-6,85",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "pdf_text_30,95",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "pdf_text_3,00",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "pdf_text_-1,20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "pdf_text_DỮ LIỆU GIẢ LẬP",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "pdf_text_chưa phê duyệt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "raw_sources_unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "essential_text_contrast_4.5",
+      "passed": true,
+      "detail": "{'#192F40': 13.79787236445173, '#4C606D': 6.559888950588425, '#9B432A': 6.501532175875579, '#24644E': 6.981629326500348}"
+    },
+    {
+      "check": "essential_chart_mark_contrast_3",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "contrast_ratios_on_white": {
+    "#192F40": 13.79787236445173,
+    "#4C606D": 6.559888950588425,
+    "#9B432A": 6.501532175875579,
+    "#24644E": 6.981629326500348
   }
 }

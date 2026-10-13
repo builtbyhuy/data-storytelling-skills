@@ -2,17 +2,33 @@
 name: evidence-to-narrative
 description: Turn supplied analysis or verified facts into an executive memo, data-backed email draft, slide narrative or operational message for a specific audience and decision. Viết memo cho sếp, chuyển số liệu thành câu chuyện và đề xuất. Use when the primary job is communicating evidence; delegate unresolved diagnosis or chart production only when needed.
 metadata:
-  version: "2.2.1"
+  version: "3.0.0"
 ---
 
 # Evidence to a reader-ready argument
 
-Deliver the actual requested message, memo or presentation from the evidence already available. Use [story and audience methods](references/story-and-audience.md) for an unresolved structure or audience-fit question. Reuse the [evidence contract](references/evidence-contract.md) if another selected method has already established it; otherwise consult only the parts needed for this handoff. Source scope and terminology are linked in [coverage](references/source-method-map.md) and [terms](references/terminology.md) if needed. A short memo from settled facts does not require another general-method reading pass.
+Deliver the actual requested message, memo or presentation from the evidence already available. The reader should understand the relevant change, why it matters and the decision or next step within their authority. Use [story and audience methods](references/story-and-audience.md) for an unresolved structure, audience, channel or reading problem. Reuse the [evidence contract](references/evidence-contract.md) if another selected method has already established it; otherwise consult only the parts needed for this handoff. Source scope and terminology are linked in [coverage](references/source-method-map.md) and [terms](references/terminology.md) if needed. A short memo from settled facts does not require another general-method reading pass.
 
-Frame the reader's decision, alternatives, authority and necessary detail. Reuse sufficient supplied analysis; flag a material inconsistency or unsupported claim and resolve it or scale the conclusion. Select `business-insight-diagnosis` only for unresolved analysis. Choose an evidence-supported takeaway before designing the opening; retain counterevidence that could change the decision.
+## Find what this reader needs to understand
 
-Build an argument appropriate to urgency and channel. A conclusion-first memo may work better than an arc; a chart-only or factual update needs no dramatic story. Translate technical findings into relevant implications and feasible action without inventing causal certainty, financial return or urgency. End with a concrete supported recommendation, or a discriminating bounded next step when uncertainty matters.
+Frame the actual choice, reader's authority, success measure, constraints and necessary detail. Use supplied context first. A leader choosing resources, a manager diagnosing a segment and an operator choosing cases may need different levels of the same evidence; choose the grain at which this reader can act. Infer neither a reader's mistaken belief nor permission to act from their job title.
+
+Before styling, form a plain statement of the supported takeaway, its decisive comparison and what it changes for the reader. Reuse sufficient supplied analysis; resolve a material inconsistency or scale the conclusion. Select `business-insight-diagnosis` only for unresolved analysis. If evidence supports a mixed result or uncertainty, that is the takeaway; an impressive surprise is optional.
+
+## Build the argument, then adapt it to the channel
+
+Choose evidence because it answers a reader's question: what changed; where the change is concentrated; which interpretation is supported; why the proposed response follows. Put the limitation beside the claim it qualifies. Keep material counterevidence visible, with detailed calculations available for revision or challenge.
+
+An arc can move from a familiar situation and an honest question through connected evidence to the takeaway and resolution. A conclusion-first memo or urgent request usually puts the finding and choice first. Do not make the reader retrace exploration or wait for a reveal to learn a necessary action. Read the headings or slide titles in sequence: they should form the argument without relying on the presenter to invent missing links.
+
+Translate technical findings into relevant implications without changing their meaning. Use a meaningful comparison and explain unfamiliar business terms. Do not invent causal certainty, financial return, recoverable loss or urgency. Connect the ending to a feasible recommendation, or a bounded diagnostic/test whose result changes the choice. Name proposed accountability, a useful window and measurement when relevant; distinguish a proposal from a confirmed commitment.
 
 Produce the requested medium. Read available native document/presentation methods for DOCX/PPTX/PDF exports; use `business-chart-communication` when a chart is requested or materially helps the explanation. In a text-only task deliver the text. Drafting an email grants no sending permission. Keep source calculations, definitions and caveats consistent with any chart and attachment.
 
-Check decisive numbers/claim strength, whether options and action authority fit the brief, and whether the reader can locate the requested decision. Inspect actual rendered pages/slides when producing them. A polished story must preserve adverse findings and separate targets, forecasts, assumptions and observed outcomes.
+For each channel, choose what belongs on the visible surface and what the reader can open next. A slide must communicate at presentation size; a memo must work without narration; an alert must identify the affected scope and response; a longer report can provide layered detail. Do not shrink a report into an image or turn framework fields into decorative cards merely to fill a page.
+
+## Review meaning and use separately
+
+Check decisive numbers and claim strength, adverse findings, options, authority and timing. Separate targets, forecasts, assumptions and observed outcomes. For visual formats inspect actual rendered pages/slides at the intended viewing size, including context and limitations.
+
+Then read only the delivered artifact as the intended reader: can it answer what changed, compared with what, why the evidence supports the choice and what happens next? If the action requires a calculation hidden in an appendix, an unexplained term or a missing logical link, repair the main message. A model readback is a diagnostic aid; a successful export or an internal rating does not demonstrate human understanding, approval or business impact.

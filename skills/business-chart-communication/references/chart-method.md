@@ -18,6 +18,10 @@ Use the sections needed for the actual chart. This method supports visual compar
 
 Use a map rate when region population or exposure would otherwise dominate a comparison; do not normalize away the count if the decision is about workload. A pie's suitability depends on the task and distinguishable slices, not a universal slice limit. If exact segment ranking matters, provide a common-baseline comparison rather than expecting a stacked interior or area to do that job.
 
+Write the intended reading before choosing a chart: "compare these amounts," "find where this trend changes," "see whether the total is explained by these changes," or the actual equivalent. Then select marks that expose that relation. For example, two signed component changes in the same unit can be compared on one common axis; a waterfall is useful when the reader needs the full opening-to-closing reconciliation. A row of KPI cards would make the reader perform that comparison mentally. These are task-dependent choices, not preferred templates.
+
+When several encodings are plausible, test their reading burden with the actual values, especially long labels, close differences, negative values and important exceptions. Choose the one whose visible marks answer the question without requiring several legend lookups or an unstated subtraction. Aesthetic interest may support attention, but does not justify weakening the comparison.
+
 ## Quantitative meaning before styling
 
 Inspect the plotted table or specification independently of the picture. Confirm aggregation grain, signs, totals, denominator, ordering, and units. Rate totals need the appropriate summed numerators and denominators, not the simple average of category rates. State transformations such as normalization, logarithms, smoothing, or rebasing and keep a route to original values.
@@ -32,7 +36,7 @@ Use absolute changes and relative changes together when either can materially al
 
 For an explanatory visual, name its principal question and finding before arranging the page. Read the finding headline together with the strongest mark: they should point to the same comparison. A descriptive chart label can remain as a unit/scope label; it should not replace a supported finding headline. Put supplementary business decisions and detailed sensitivity work in adjacent prose or a separate view when large KPI figures or callout boxes would compete with that comparison. Do not fill a repeated page template merely because it has empty regions.
 
-Start with the reading order: headline, principal comparison, evidence/context, then supporting notes or exact values. Use position and alignment to make relationships visible before adding decoration. Select the grouping lenses that serve the actual comparison; do not force every lens into one chart.
+Start with the reading order: headline, principal comparison, evidence/context, then supporting notes or exact values. This is a useful composition option, not a mandatory screen scan path. Use position and alignment to make relationships visible before adding decoration. Select the grouping lenses that serve the actual comparison; do not force every lens into one chart.
 
 | Gestalt lens | Useful chart application | Meaning to protect |
 |---|---|---|
@@ -48,6 +52,18 @@ Start with the reading order: headline, principal comparison, evidence/context, 
 Pre-attentive cues can make a focal item stand out: a darker line, accent fill, distinct shape, size, or position. Use them for the decision-relevant evidence and keep other material evidence readable. Emphasis should not make an uncertain or weakly supported result look settled.
 
 Use a qualitative palette for categories, a sequential palette for ordered values, and a diverging palette when a meaningful reference divides two directions. Keep category assignments stable across views. Avoid an ordered rainbow whose hue changes do not convey ordered magnitude reliably. Remove 3D perspective, heavy grids, redundant borders, and decorative effects when they interfere with measurement; retain meaningful baselines, targets, interval marks, and reference lines.
+
+## Compose a considered visual
+
+Make the hierarchy visible through relative emphasis, not through a checklist of decorative objects. Begin with the space needed to read the data and labels; arrange the finding and qualification around it. A large headline is useful only if it leaves the comparison legible. Strong emphasis should select the decision-relevant relationship, not every interesting number.
+
+- **Type has a role.** Distinguish finding, unit/scope, data labels and notes by size/weight/placement. Keep repeated roles consistent. Choose fonts that render the language correctly in the actual export. A named font, seven-level type ladder or tiny footnote convention is not a universal requirement.
+- **Space expresses grouping.** Align comparable marks and labels; use consistent gaps for comparable items and a clearer separation between unrelated groups. Whitespace around a note is useful when it keeps the note attached to its claim. Empty space is not a prompt to add another card.
+- **Color has a job.** Start with readable neutral context when that suits the task, then add emphasis or category meaning. If everything is accented, decide what must attract attention first and quiet the rest without making it disappear. Do not impose a fixed color count or 60-30-10 area ratio.
+- **Labels reduce work.** Put decisive values and explanations beside the relevant marks; keep scope/units close to the plot. Use rounding that preserves the decision and a consistent locale. Remove redundant labels when the axis already supports the task. Explain a specialist term briefly when the intended reader would otherwise misread it.
+- **Restraint protects information.** Avoid ornamental separators, decorative badges, shadowed cards or illustrations that add no meaning to this comparison. Keep boundaries when they group real content, and keep sources, uncertainty and exceptions readable. A restrained dark theme can work if contrast and hierarchy do; background color alone does not establish quality.
+
+View the result in its destination rather than only as a full-resolution image. For an embedded chart, inspect the expected displayed width. For presentation or print, inspect the actual page/slide scale. If labels cannot be read, reorganize content, reduce nonessential text, use a more suitable aspect ratio or separate questions. Shrinking all typography usually preserves the file while losing its use.
 
 ## Accessible reading at the actual destination
 
@@ -70,6 +86,6 @@ Inspect the chart inside its destination as well as on its own. Verify that:
 - No important label, note, interval, mark or control is clipped, overlapped or unreadable.
 - The delivered source can actually be edited or rebuilt; the export opens and retains the intended size and appearance.
 
-A brief reader check can help reveal a confusing comparison: can the intended reader identify what is measured, the principal pattern, and its limitation? Report observed feedback only. A timed heuristic, internal score, or completed render is not evidence of measured comprehension or business success.
+A brief reader check can help reveal a confusing comparison. Show the chart without the explanation used to create it, and ask what is measured, which comparison supports the main finding, and what qualification changes its interpretation. If the answer depends on a long verbal rescue, inspect encoding, wording, grouping or density and repair the cause. A model readback is a useful ambiguity check; report it as such. Report human feedback only when it was actually observed. A timed heuristic, internal score, or completed render is not evidence of measured comprehension or business success.
 
 Separate two review questions: whether the values, geometry and labels are correct, and whether the reading hierarchy helps someone answer the business question. A clipped-text check, contrast ratio or numeric pass cannot establish effective composition or accepted taste. Inspect the visual at its actual destination width; if several large figures, accent colors or boxed explanations compete for attention, revise the emphasis and recheck the reading task.

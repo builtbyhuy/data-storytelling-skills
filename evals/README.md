@@ -48,3 +48,7 @@ Removing repeated reference reads did not fix the completion limit. Saved artifa
 The helper separately passed **13 independent black-box test groups / 48 invocations**, using explicitly materialized joins and separate high-precision arithmetic. [Portable test source](../tools/test_join_audit.py). The new [invoice/payment example](../examples/03-join-audit/) also executes it and verifies the resulting row counts and amounts with an independent materialized join. These establish the checked deterministic behavior on supplied inputs.
 
 The new gallery's memos and charts are curated illustrations produced with the methods and an art-direction pass. They are useful deliverables, not untouched trial outputs or an additional baseline win. The broader suite's quality, speed and completion superiority remains unproven.
+
+## Book-aligned 3.0 revision
+
+[New execution, artifact and control checks](book-aligned-v3.md) document the complete reread, method changes and independently executed then curated examples. This later work does not convert earlier ties/timeouts into wins or establish superiority.

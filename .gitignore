@@ -7,4 +7,7 @@ private/
 sources/
 scratch/
 *.pdf
+!examples/01-profit-decision/brief.pdf
+!examples/02-fair-comparison/brief.pdf
+!examples/03-join-audit/brief.pdf
 *.zip

@@ -6,6 +6,10 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 NAMES = {'data-storytelling', 'business-insight-diagnosis', 'evidence-to-narrative',
          'business-chart-communication', 'data-story-redteam', 'analytics-adoption'}
+AUTHORED_EXAMPLE_PDFS = {
+    f'examples/{case}/brief.pdf'
+    for case in ('01-profit-decision', '02-fair-comparison', '03-join-audit')
+}
 
 def validate():
     failures = []
@@ -48,10 +52,14 @@ def validate():
         if not file.is_file() or '.git' in file.parts:
             continue
         if file.suffix.lower() == '.pdf':
-            failures.append(f'Original PDFs must remain outside public package: {file.name}')
+            relative = file.relative_to(ROOT).as_posix()
+            if relative not in AUTHORED_EXAMPLE_PDFS:
+                failures.append(f'Only the three authored example handoffs may be PDFs: {relative}')
+            elif not file.read_bytes().startswith(b'%PDF-'):
+                failures.append(f'Authored example is not a PDF: {relative}')
         if file.suffix.lower() in {'.md', '.json', '.yaml', '.py', '.csv'}:
             text = file.read_text(encoding='utf-8')
-            if re.search(r'[A-Za-z]:[/\\]Users[/\\]', text):
+            if re.search(r'[A-Za-z]:[/\\]+Users[/\\]+', text, re.I):
                 failures.append(f'Personal absolute path in public file: {file.relative_to(ROOT)}')
     if not (ROOT / 'LICENSE').exists() or not (ROOT / 'NOTICE.md').exists():
         failures.append('License and attribution notice required.')

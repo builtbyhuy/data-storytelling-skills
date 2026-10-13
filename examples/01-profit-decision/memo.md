@@ -1,13 +1,26 @@
-# Keep B2B. Test the discount before expanding it.
+# Minh An Office - Bản ghi nhớ quyết định
 
-**Decision requested:** approve a bounded B2B price test and complete the freight allocation before changing the channel strategy.
+**Toàn bộ tên và số liệu giả lập. Đề xuất, chưa phê duyệt hoặc thực hiện.**
 
-June to July sales rose **VND44.1m**, but contribution after delivery fell **VND4.05m**, from **35.00m to 30.95m**. Contribution margin declined from **22.34% to 15.41%**. This metric excludes overhead.
+**Chọn thử thay đổi giao hàng có giới hạn trước.** Giữ bán B2B trong phạm vi hiện tại; đối soát cước còn thiếu và kiểm tra cam kết giao trước khi đổi EXPRESS sang STANDARD. Chưa đủ bằng chứng để giảm toàn bộ B2B hoặc kết luận ưu đãi gây ra mức giảm.
 
-Gross profit actually improved **VND2.80m**. Delivery cost grew **VND6.85m**, more than consuming that improvement. The full contribution bridge is volume/mix **+10.90m**, invoice prices **−6.40m**, posted credits **−1.70m**, unchanged unit costs, and freight **−6.85m**. This reconciles the change; it does not establish why customers bought more or why delivery became more expensive.
+Doanh thu thuần tháng 6 → tháng 7/2026 tăng **156,70 → 200,80 triệu VND** (+44,10 triệu; +28,1%). Lãi gộp tăng **43,85 → 46,65 triệu**, nhưng cước giao ra tăng **8,85 → 15,70 triệu**. Vì thế lợi nhuận đóng góp sau giao hàng giảm **35,00 → 30,95 triệu** (-4,05 triệu; -11,6%). Tỷ suất giảm **22,34% → 15,41%** (-6,92 điểm phần trăm). Chỉ tiêu chưa trừ chi phí chung.
 
-Shrinking B2B is premature. July B2B gross profit was **31.80m** and connected freight was **11.10m**. Even charging B2B all **3.00m** of July freight missing from the connector leaves **17.70m** of contribution. The files cannot identify that missing freight's customer, carrier or cause.
+| Phần đóng góp theo tháng ghi sổ, triệu VND | T6 | T7 | Chênh |
+|---|---:|---:|---:|
+| B2B, sau cước đã kết nối | 18,90 | 20,70 | +1,80 |
+| DIRECT, sau cước đã kết nối | 16,10 | 13,25 | -2,85 |
+| Trừ cước ngoài kết nối chưa gán nhóm | 0,00 | -3,00 | -3,00 |
+| Tổng chính thức | 35,00 | 30,95 | -4,05 |
 
-Restoring June B2B prices at unchanged July sales and return quantities produces a **6.20m sensitivity**, after revaluing returns. It is not a forecast: demand response and retention remain unknown.
+**Giới hạn quyết định:** 3,00 triệu cước tháng 7 (19,1% tổng cước) chưa phân bổ theo nhóm. Nếu toàn bộ khoản này thuộc B2B, thay đổi đóng góp của B2B sẽ là -1,20 triệu thay vì +1,80 triệu. Đây là phép thử nhạy cảm, không phải phân bổ đã xác nhận. Không kết luận B2B tốt hơn DIRECT hoặc giải thích toàn bộ mức giảm bằng EXPRESS.
 
-Ask the commercial lead to propose a small, approved discount reduction for comparable B2B accounts, with unchanged delivery promises. Finance should reconcile all carriers. Measure net contribution per eligible account, lost orders and complaints against a concurrent holdout. Week four is an execution review; expansion waits for complete return and freight evidence. [The test plan](test-plan.md) defines ownership, stopping rules and the mature readout.
+Trong phần cước kết nối tháng 7, B2B EXPRESS là **5,10 triệu trên 60 hóa đơn** (85.000 VND/hóa đơn); STANDARD là **6,00 triệu trên 100 hóa đơn** (60.000 VND/hóa đơn). Hai nhóm khác nhau, chưa có trọng lượng, tuyến đường, lý do chọn dịch vụ hoặc thời gian giao thực tế; chênh 25.000 VND không phải khoản tiết kiệm có thể thu hồi chắc chắn.
+
+Giá thực thu trên dòng hóa đơn B2B giảm từ 50.000 xuống 48.000 VND/ram giấy và từ 300.000 xuống 290.000 VND/chai mực. Không có bảng giá hoặc điều kiện ưu đãi nên chưa tách được giá, khuyến mãi và cơ cấu khách. Lãi gộp B2B vẫn tăng 24,90 → 31,80 triệu; DIRECT giảm 18,95 → 14,85 triệu.
+
+**Quyết tại cuộc họp:** duyệt nguyên tắc một thử nghiệm giao STANDARD cho các yêu cầu B2B có cam kết cho phép, cùng một nhóm giữ hiện trạng; chốt người phụ trách, ngân sách và tiêu chí trước khi bắt đầu. Ưu đãi giữ nguyên trong thử nghiệm để dễ đọc kết quả. Nếu đối soát tìm ra cước giao lại hoặc hãng ngoài kết nối là nguyên nhân ưu tiên, đổi phạm vi thử trước khi triển khai.
+
+Đề xuất: chủ doanh nghiệp phê duyệt và quyết giữ/dừng; phụ trách giao hàng thực hiện; kế toán làm chủ định nghĩa và đối soát. Bốn tuần nhận tối đa 60 yêu cầu hợp lệ, ngừng nhận khi hết hạn hoặc chạm giới hạn 1 triệu VND chi phí tăng thêm. Dừng sớm khi thay đổi dịch vụ làm trễ cam kết. Đọc đóng góp trên **mọi yêu cầu đã phân nhóm**, cả đơn hủy/từ chối, sau credit và toàn bộ cước. Cuối tuần 4 dừng nhận và chưa mở rộng nếu kết quả chưa chốt. Tổng kết khi đơn cuối được theo dõi tối thiểu 14 ngày và kế toán xác nhận dữ liệu đủ; 14 ngày không bảo đảm mọi trả hàng đã phát sinh.
+
+Nguồn: bản xuất chốt 07/08/2026; monthly_finance.csv là nguồn tổng số; dòng hóa đơn và credit theo ngày ghi sổ; cước theo expense_month. Bản tính và định nghĩa ở analysis.xlsx / analysis.json; cách thử và quy tắc ở test-plan.md; trạng thái ở decision-record.csv.

@@ -1,0 +1,226 @@
+{
+  "status": "all_programmatic_checks_passed",
+  "checks": [
+    {
+      "check": "invoice-lines.csv: exact columns",
+      "pass": true,
+      "evidence": [
+        "invoice_id",
+        "line_id",
+        "item",
+        "net_amount_usd"
+      ]
+    },
+    {
+      "check": "invoice-lines.csv: complete records",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "check": "payment-allocations.csv: exact columns",
+      "pass": true,
+      "evidence": [
+        "invoice_id",
+        "allocation_id",
+        "received_amount_usd"
+      ]
+    },
+    {
+      "check": "payment-allocations.csv: complete records",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "check": "line_id unique",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "check": "allocation_id unique",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "check": "no orphan allocations",
+      "pass": true,
+      "evidence": []
+    },
+    {
+      "check": "helper predicts actual INNER row count",
+      "pass": true,
+      "evidence": 11
+    },
+    {
+      "check": "helper predicts actual LEFT row count",
+      "pass": true,
+      "evidence": 13
+    },
+    {
+      "check": "helper predicts actual INNER revenue",
+      "pass": true,
+      "evidence": "2350.00"
+    },
+    {
+      "check": "helper predicts actual LEFT revenue",
+      "pass": true,
+      "evidence": "2500.00"
+    },
+    {
+      "check": "helper fanout excess agrees with reconstruction",
+      "pass": true,
+      "evidence": "1300.00"
+    },
+    {
+      "check": "declared many-to-many holds but does not make naive sums valid",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "check": "INNER bridge reconciles",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "check": "cash duplication verified independently by source line counts",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "check": "delivered CSV has exactly all four unique invoice keys",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "check": "delivered revenue equals raw source",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "check": "delivered cash equals raw source",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "check": "delivered balance reconciles invoice by invoice",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "check": "unpaid invoice retained with zero received",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "check": "no invoice overpayment under supplied source contract",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "check": "expected closed-example totals",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "check": "expected demonstrated join behavior",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "check": "all page text fits assigned widths and stays in margins",
+      "pass": true,
+      "evidence": {
+        "text_elements": 67
+      }
+    },
+    {
+      "check": "PDF exactly one A4 page",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "check": "PDF includes verified content: Giá trị hóa đơn: 1.200 USD.",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "check": "PDF includes verified content: Dư 1.000 USD",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "check": "PDF includes verified content: INV-1004",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "check": "PDF includes verified content: 1.850",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "check": "PDF includes verified content: 1.050",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "check": "PDF includes verified content: Chưa trả",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "check": "PDF includes verified content: chưa gửi",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "check": "PDF has no replacement glyph",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "check": "preview full page at readable scale",
+      "pass": true,
+      "evidence": {
+        "width": 1241,
+        "height": 1754
+      }
+    },
+    {
+      "check": "SVG is editable text with semantic alternative",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "check": "essential text contrasts at least 4.5:1",
+      "pass": true,
+      "evidence": {
+        "#173342 on #FFFFFF": 13.219,
+        "#4C626D on #FFFFFF": 6.412,
+        "#173342 on #F6F8F7": 12.393,
+        "#7C4614 on #FFF3E3": 6.992,
+        "#FFFFFF on #173342": 13.219,
+        "#005B52 on #EDF5F3": 7.24,
+        "#173342 on #FFF3E3": 12.074
+      }
+    },
+    {
+      "check": "raw source bytes unchanged",
+      "pass": true,
+      "evidence": {
+        "invoice-lines.csv": "97add5edede5c9445b260fdc007699964f9225c7c38baab718f068067c89057b",
+        "payment-allocations.csv": "396e7bf876c0e6279b13f8b3b9ebca99931a473f3d52494be0c1221cd108f089",
+        "source-notes.md": "cd0601e6175d6847949d6dde27a68f19023dd7566ea993c3a53e8e07636f067f"
+      }
+    }
+  ],
+  "visual_review": "Pending direct review of the actual generated PNG; record completion in receipt.md",
+  "authority": "Source-based synthetic analysis; not production validation, implementation, or approval",
+  "deliverable_sha256": {
+    "invoice-reconciliation.csv": "50560df9203bd7ed56ac14b0e67fd39b1fc5644bb94b633e0b1370fdae75bb0a",
+    "memo.md": "6f61481bd6e8bfd2fed91ddec29b4678b59e721f3a1d2031ec66e435732d32c8",
+    "brief.pdf": "4bdf7e570ca04493caa721b14fcbee747fdee660021713f4db275284770207de",
+    "brief.svg": "62e7c1b7e79c10f515c58784355de4d575f031cb36b3d4146881b35e7f7a642b",
+    "brief.png": "a28f1554ebd54d26c13f066529616585ff446f42b8c7407ed97fe8d3f3989d8b",
+    "calculations.json": "9a578c8f3c100cfe41304b94c8df049648a17687d57a416326a01b5f465a8758"
+  }
+}
