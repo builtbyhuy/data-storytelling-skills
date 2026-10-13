@@ -1,0 +1,8 @@
+invoice_id,line_id,item,net_amount_usd
+INV-1001,LINE-01,Design consultation,240.00
+INV-1001,LINE-02,Asset delivery,60.00
+INV-1002,LINE-03,Landing page build,450.00
+INV-1002,LINE-04,Hosting setup,50.00
+INV-1003,LINE-05,Analytics setup,250.00
+INV-1004,LINE-06,Copy revision,90.00
+INV-1004,LINE-07,Image cleanup,60.00

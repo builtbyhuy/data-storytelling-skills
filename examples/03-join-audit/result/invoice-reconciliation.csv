@@ -1,0 +1,5 @@
+invoice_id,invoiced_usd,received_usd,outstanding_usd
+INV-1001,300.00,300.00,0.00
+INV-1002,500.00,500.00,0.00
+INV-1003,250.00,250.00,0.00
+INV-1004,150.00,0.00,150.00

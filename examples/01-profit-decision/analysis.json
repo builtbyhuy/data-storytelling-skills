@@ -1,0 +1,56 @@
+{
+  "disclosure": "Synthetic instructional fixture; verified arithmetic, no observed business result or causal price estimate.",
+  "unit": "VND; integer amounts excluding VAT",
+  "definition": "Contribution = net sales - net COGS - all recognized outbound freight; excludes overhead.",
+  "monthly": [
+    {
+      "month": "2026-06",
+      "net_sales_vnd": 156700000,
+      "net_cogs_vnd": 112850000,
+      "gross_profit_vnd": 43850000,
+      "outbound_freight_vnd": 8850000,
+      "contribution_vnd": 35000000,
+      "contribution_margin_pct": "22.33567326100829610721123165",
+      "connected_freight_vnd": 8850000,
+      "unattributed_freight_vnd": 0
+    },
+    {
+      "month": "2026-07",
+      "net_sales_vnd": 200800000,
+      "net_cogs_vnd": 154150000,
+      "gross_profit_vnd": 46650000,
+      "outbound_freight_vnd": 15700000,
+      "contribution_vnd": 30950000,
+      "contribution_margin_pct": "15.41334661354581673306772908",
+      "connected_freight_vnd": 12700000,
+      "unattributed_freight_vnd": 3000000
+    }
+  ],
+  "bridge": {
+    "volume_mix_at_june_unit_margin_vnd": 10900000,
+    "invoice_price_at_july_quantities_vnd": -6400000,
+    "unit_cost_at_july_quantities_vnd": 0,
+    "change_in_posted_credit_effect_vnd": -1700000,
+    "change_in_freight_effect_vnd": -6850000
+  },
+  "b2b_july": {
+    "gross_profit_vnd": 31800000,
+    "connected_freight_vnd": 11100000,
+    "contribution_before_unattributed_freight_vnd": 20700000,
+    "contribution_floor_if_all_missing_freight_is_b2b_vnd": 17700000
+  },
+  "full_price_restoration_sensitivity": {
+    "invoice_quantity_effect_vnd": 6400000,
+    "extra_return_credit_vnd": 200000,
+    "net_contribution_effect_vnd": 6200000,
+    "assumptions": "Same July sales and return quantities, COGS, freight and service allowances. June B2B invoice prices restored only on July invoices; no demand response."
+  },
+  "cross_period_credit_lines": 10,
+  "input_sha256": {
+    "carrier_charges.csv": "672a36715f6e729e6fff990e7b437867f884fb1f6c5cd6b8d74468d621d3e590",
+    "credit_lines.csv": "843ff693ee472d17130e5b1a1e9c7d8d87685215a4de9cf0ab25a628df2e4bc4",
+    "invoice_lines.csv": "ac2f746936beb2780e3967f07774cfd1ca5a88ee91002b481cf5b24bfd2b89e8",
+    "monthly_finance.csv": "78a6cedf342d4fdd024dc91d3dd218999bf5fd851ec38b25b8adacba075e1a92",
+    "source-notes.md": "783003e731b21246c3a8e81cc54173941a6f4475455c276e9248499775b60fbd"
+  }
+}

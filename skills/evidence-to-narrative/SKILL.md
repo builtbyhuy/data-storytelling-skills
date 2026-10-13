@@ -2,12 +2,12 @@
 name: evidence-to-narrative
 description: Turn supplied analysis or verified facts into an executive memo, data-backed email draft, slide narrative or operational message for a specific audience and decision. Viết memo cho sếp, chuyển số liệu thành câu chuyện và đề xuất. Use when the primary job is communicating evidence; delegate unresolved diagnosis or chart production only when needed.
 metadata:
-  version: "2.0.0-local"
+  version: "2.2.1"
 ---
 
 # Evidence to a reader-ready argument
 
-Deliver the actual requested message, memo or presentation from the evidence already available. Read [story and audience methods](references/story-and-audience.md) and the relevant parts of [the evidence contract](references/evidence-contract.md). Source scope and terminology are linked in [coverage](references/source-method-map.md) and [terms](references/terminology.md) if needed.
+Deliver the actual requested message, memo or presentation from the evidence already available. Use [story and audience methods](references/story-and-audience.md) for an unresolved structure or audience-fit question. Reuse the [evidence contract](references/evidence-contract.md) if another selected method has already established it; otherwise consult only the parts needed for this handoff. Source scope and terminology are linked in [coverage](references/source-method-map.md) and [terms](references/terminology.md) if needed. A short memo from settled facts does not require another general-method reading pass.
 
 Frame the reader's decision, alternatives, authority and necessary detail. Reuse sufficient supplied analysis; flag a material inconsistency or unsupported claim and resolve it or scale the conclusion. Select `business-insight-diagnosis` only for unresolved analysis. Choose an evidence-supported takeaway before designing the opening; retain counterevidence that could change the decision.
 

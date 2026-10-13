@@ -6,6 +6,10 @@ Use one consistent source of facts when several methods contribute to a task. Th
 
 Record the authoritative input/snapshot and which source wins a conflict. For each consequential metric establish grain/key, eligible population, period/timezone, unit/currency, definition, filters, exclusions and denominator. Distinguish booked, recognized and net revenue; returns, gross profit, contribution, cash and attributed advertising return. Inspect duplicate keys, joins and missingness where they could change the answer. Reconcile headline totals and their components. A screenshot provides only values actually visible; absent values remain unknown.
 
+Keep an unspecified currency, timezone or accounting basis explicitly unspecified; a familiar symbol or plausible default is not a confirmed definition. Use a labeled assumption only when needed to proceed, and show whether it changes the decision.
+
+When a source correction or coverage change affects a trend, separate that measurement change from the like-for-like business comparison. Identify the common population/window, show the old-to-corrected bridge where available, and avoid applying a correction calculated on a different cohort. If those records are unavailable, bound or narrow the affected claim.
+
 ## Pass facts and claims between methods
 
 For multiple artifacts, stable identifiers make contradictions easier to detect:

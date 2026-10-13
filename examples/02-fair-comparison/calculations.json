@@ -1,0 +1,34 @@
+{
+  "scope": "Synthetic four-cell fixture; observation period and coaching assignment not supplied",
+  "team_totals": {
+    "A": {
+      "eligible_leads": 80,
+      "wins": 24,
+      "rate": 0.3,
+      "high_tier_share": 0.25
+    },
+    "B": {
+      "eligible_leads": 80,
+      "wins": 36,
+      "rate": 0.45,
+      "high_tier_share": 0.75
+    }
+  },
+  "within_tier_rates": {
+    "A": {
+      "High": 0.6,
+      "Low": 0.2
+    },
+    "B": {
+      "High": 0.55,
+      "Low": 0.15
+    }
+  },
+  "common_mix": {
+    "definition": "Hypothetical 50% High / 50% Low applied to observed rates",
+    "A": 0.4,
+    "B": 0.35,
+    "status": "descriptive_standardization_not_coaching_effect"
+  },
+  "derivation": "Aggregate=sum(wins)/sum(leads); tier=wins/leads; equal_mix=0.5*High+0.5*Low"
+}

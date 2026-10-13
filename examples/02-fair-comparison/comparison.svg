@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1080" viewBox="0 0 1400 1080" role="img" aria-labelledby="title desc">
+<title id="title">Lead mix changes the ranking.</title><desc id="desc">B has the higher overall win rate, 45% versus 30%. A has a five percentage point higher rate in each supplied lead tier. Different lead mix explains the ranking reversal; no coaching effect is identified.</desc>
+<style>text{font-family:"Segoe UI",Arial,sans-serif} .number{font-variant-numeric:tabular-nums}</style>
+<rect x="0" y="0" width="1400" height="1080" fill="#F7F5F0" rx="0"/>
+<text class="number" x="64" y="66" font-size="20" fill="#08766A" font-weight="700" text-anchor="start" letter-spacing="2">DATA STORYTELLING</text>
+<text class="number" x="1336" y="66" font-size="18" fill="#52636A" font-weight="400" text-anchor="end">DECISION NOTE 02  /  SYNTHETIC EXAMPLE</text>
+<line x1="64" y1="91" x2="1336" y2="91" stroke="#D7DEDA" stroke-width="1"/>
+<text class="number" x="64" y="175" font-size="62" fill="#182D33" font-weight="650" text-anchor="start">Lead mix changes the ranking.</text>
+<text class="number" x="64" y="230" font-size="27" fill="#52636A" font-weight="400" text-anchor="start">The aggregate rates are correct. The coaching conclusion goes beyond the data.</text>
+<rect x="64" y="275" width="1272" height="67" fill="#F0E6DE" rx="7"/>
+<text class="number" x="88" y="316" font-size="18" fill="#98432C" font-weight="650" text-anchor="start" letter-spacing="1">DRAFT CLAIM</text>
+<text class="number" x="254" y="317" font-size="25" fill="#182D33" font-weight="400" text-anchor="start">“B’s coaching improves conversion by 50%. Roll it out to A.”</text>
+<text class="number" x="64" y="399" font-size="28" fill="#182D33" font-weight="650" text-anchor="start">Overall win rate</text>
+<text class="number" x="64" y="435" font-size="22" fill="#52636A" font-weight="400" text-anchor="start">The visible advantage</text>
+<text class="number" x="710" y="399" font-size="28" fill="#182D33" font-weight="650" text-anchor="start">Within the same lead tier</text>
+<text class="number" x="710" y="435" font-size="22" fill="#52636A" font-weight="400" text-anchor="start">The comparison that changes the decision</text>
+<line x1="665" y1="378" x2="665" y2="824" stroke="#D7DEDA" stroke-width="1"/>
+<line x1="118.0" y1="476" x2="118.0" y2="656" stroke="#D7DEDA" stroke-width="1"/>
+<text class="number" x="118.0" y="684" font-size="17" fill="#52636A" font-weight="400" text-anchor="middle">0%</text>
+<line x1="243.71428571428572" y1="476" x2="243.71428571428572" y2="656" stroke="#D7DEDA" stroke-width="1"/>
+<text class="number" x="243.71428571428572" y="684" font-size="17" fill="#52636A" font-weight="400" text-anchor="middle">20%</text>
+<line x1="369.42857142857144" y1="476" x2="369.42857142857144" y2="656" stroke="#D7DEDA" stroke-width="1"/>
+<text class="number" x="369.42857142857144" y="684" font-size="17" fill="#52636A" font-weight="400" text-anchor="middle">40%</text>
+<line x1="495.14285714285717" y1="476" x2="495.14285714285717" y2="656" stroke="#D7DEDA" stroke-width="1"/>
+<text class="number" x="495.14285714285717" y="684" font-size="17" fill="#52636A" font-weight="400" text-anchor="middle">60%</text>
+<line x1="558.0" y1="476" x2="558.0" y2="656" stroke="#D7DEDA" stroke-width="1"/>
+<text class="number" x="558.0" y="684" font-size="17" fill="#52636A" font-weight="400" text-anchor="middle">70%</text>
+<text class="number" x="83" y="518" font-size="25" fill="#08766A" font-weight="650" text-anchor="start">A</text>
+<rect x="118" y="486" width="188.57142857142858" height="44" fill="#08766A" rx="0"/>
+<text class="number" x="320.57142857142856" y="517" font-size="26" fill="#08766A" font-weight="650" text-anchor="start">30%</text>
+<text class="number" x="118" y="554" font-size="19" fill="#52636A" font-weight="400" text-anchor="start">24 wins / 80 leads</text>
+<text class="number" x="83" y="609" font-size="25" fill="#182D33" font-weight="650" text-anchor="start">B</text>
+<rect x="118" y="577" width="282.85714285714283" height="44" fill="#182D33" rx="0"/>
+<text class="number" x="414.85714285714283" y="608" font-size="26" fill="#182D33" font-weight="650" text-anchor="start">45%</text>
+<text class="number" x="118" y="645" font-size="19" fill="#52636A" font-weight="400" text-anchor="start">36 wins / 80 leads</text>
+<text class="number" x="64" y="734" font-size="22" fill="#182D33" font-weight="600" text-anchor="start">High-tier share of assigned leads</text>
+<text class="number" x="64" y="778" font-size="23" fill="#08766A" font-weight="650" text-anchor="start">A  25%</text>
+<text class="number" x="420" y="778" font-size="23" fill="#182D33" font-weight="650" text-anchor="start">B  75%</text>
+<text class="number" x="64" y="816" font-size="21" fill="#52636A" font-weight="400" text-anchor="start">Different populations. Different headline.</text>
+<line x1="805.0" y1="462" x2="805.0" y2="750" stroke="#D7DEDA" stroke-width="1"/>
+<text class="number" x="805.0" y="780" font-size="17" fill="#52636A" font-weight="400" text-anchor="middle">0%</text>
+<line x1="909.2857142857143" y1="462" x2="909.2857142857143" y2="750" stroke="#D7DEDA" stroke-width="1"/>
+<text class="number" x="909.2857142857143" y="780" font-size="17" fill="#52636A" font-weight="400" text-anchor="middle">20%</text>
+<line x1="1013.5714285714286" y1="462" x2="1013.5714285714286" y2="750" stroke="#D7DEDA" stroke-width="1"/>
+<text class="number" x="1013.5714285714286" y="780" font-size="17" fill="#52636A" font-weight="400" text-anchor="middle">40%</text>
+<line x1="1117.857142857143" y1="462" x2="1117.857142857143" y2="750" stroke="#D7DEDA" stroke-width="1"/>
+<text class="number" x="1117.857142857143" y="780" font-size="17" fill="#52636A" font-weight="400" text-anchor="middle">60%</text>
+<line x1="1170.0" y1="462" x2="1170.0" y2="750" stroke="#D7DEDA" stroke-width="1"/>
+<text class="number" x="1170.0" y="780" font-size="17" fill="#52636A" font-weight="400" text-anchor="middle">70%</text>
+<text class="number" x="710" y="501" font-size="23" fill="#182D33" font-weight="600" text-anchor="start">High</text>
+<text class="number" x="776" y="501" font-size="20" fill="#08766A" font-weight="650" text-anchor="start">A</text>
+<rect x="805" y="474" width="312.85714285714283" height="36" fill="#08766A" rx="0"/>
+<text class="number" x="1129.857142857143" y="500" font-size="21" fill="#08766A" font-weight="600" text-anchor="start">60% · 12 / 20</text>
+<text class="number" x="776" y="559" font-size="20" fill="#182D33" font-weight="650" text-anchor="start">B</text>
+<rect x="805" y="532" width="286.78571428571433" height="36" fill="#182D33" rx="0"/>
+<text class="number" x="1103.7857142857142" y="558" font-size="21" fill="#182D33" font-weight="600" text-anchor="start">55% · 33 / 60</text>
+<text class="number" x="710" y="663" font-size="23" fill="#182D33" font-weight="600" text-anchor="start">Low</text>
+<text class="number" x="776" y="663" font-size="20" fill="#08766A" font-weight="650" text-anchor="start">A</text>
+<rect x="805" y="636" width="104.28571428571429" height="36" fill="#08766A" rx="0"/>
+<text class="number" x="921.2857142857143" y="662" font-size="21" fill="#08766A" font-weight="600" text-anchor="start">20% · 12 / 60</text>
+<text class="number" x="776" y="721" font-size="20" fill="#182D33" font-weight="650" text-anchor="start">B</text>
+<rect x="805" y="694" width="78.21428571428571" height="36" fill="#182D33" rx="0"/>
+<text class="number" x="895.2142857142857" y="720" font-size="21" fill="#182D33" font-weight="600" text-anchor="start">15% · 3 / 20</text>
+<text class="number" x="710" y="818" font-size="21" fill="#52636A" font-weight="400" text-anchor="start">Equal 50/50 mix: A 40% · B 35% (illustrative)</text>
+<rect x="64" y="875" width="1272" height="135" fill="#182D33" rx="8"/>
+<text class="number" x="92" y="922" font-size="32" fill="#FFFFFF" font-weight="650" text-anchor="start">Review lead assignment before changing coaching.</text>
+<text class="number" x="92" y="961" font-size="22" fill="#E8EFED" font-weight="400" text-anchor="start">Compare coaching within tier, with an agreed outcome window before launch.</text>
+<text class="number" x="92" y="990" font-size="22" fill="#E8EFED" font-weight="400" text-anchor="start">These four cells do not identify a causal effect or establish future team performance.</text>
+<text class="number" x="64" y="1045" font-size="18" fill="#52636A" font-weight="400" text-anchor="start">Source: four synthetic team × tier cells. Period and coaching assignment are not supplied.</text>
+<text class="number" x="1336" y="1045" font-size="17" fill="#52636A" font-weight="400" text-anchor="end">EDITABLE SVG + SOURCE DATA</text>
+</svg>

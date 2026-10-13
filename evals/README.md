@@ -31,3 +31,20 @@ The compound A request selected and read the composing, diagnosis, economics, ch
 See [structured results](results.json), [baseline artifacts](examples/baseline/) and [candidate artifacts](examples/candidate/). Controls are in [E](examples/controls/E/) and [F](examples/controls/F/); their exact prompts are in [control briefs](control-briefs.json).
 
 Limits worth retaining: A's execution-level experiment pacing, sample adequacy and uncertainty threshold require a real plan before launch; advertising incrementality and other costs are unknown. B cannot prove coaching or team superiority. C1 does not identify the statistical meaning of the intervals. C2 has no exact bar values. D is a proposed pilot with no case data, approval or measured outcome. The baseline C2 approximate prototype satisfies the explicit labelled-prototype allowance but retains numeric-readback risk; the candidate uses unencoded unknown-value fields. No actual audience comprehension, adoption or business improvement was measured.
+
+## Subsequent local checks — 2026-10-13
+
+The first hard comparison returned two ties and one baseline preference. Narrow instruction revisions were checked on independently authored timing, allocation and raw-data fixtures. Those later artifact comparisons returned ties. One payment-pilot candidate initially timed out and then completed a matched repeat after a revision; the repeat is regression evidence, not a new unseen holdout or proof of a causal speed improvement.
+
+The raw-data fixture's public exports are now available in [the profit worked example](../examples/01-profit-decision/inputs/). Its numerical reference is net sales +VND44.10m, contribution −VND4.05m, and VND3.00m of July freight absent from carrier detail but present in the closed ledger. Missing freight attribution was unavailable to both conditions.
+
+| Raw-data run | Baseline | Candidate | Blinded saved-artifact review |
+|---|---|---|---|
+| First pair | Completed in 581.610s | Incomplete at 600.125s | Both pass; quality tie |
+| Same-input completion regression | Completed in 563.672s | Incomplete at 600.141s | Both pass; quality tie |
+
+Removing repeated reference reads did not fix the completion limit. Saved artifacts do not turn an incomplete native session into a completed handoff. Missing native usage stays unknown. Neither raw-data condition executed the join-audit helper, so those pairs do not estimate its contribution. Reader checks were model-based extraction, not measured human comprehension. Shared global guidance, possible catalog truncation, small sample and same-family review further limit attribution.
+
+The helper separately passed **13 independent black-box test groups / 48 invocations**, using explicitly materialized joins and separate high-precision arithmetic. [Portable test source](../tools/test_join_audit.py). The new [invoice/payment example](../examples/03-join-audit/) also executes it and verifies the resulting row counts and amounts with an independent materialized join. These establish the checked deterministic behavior on supplied inputs.
+
+The new gallery's memos and charts are curated illustrations produced with the methods and an art-direction pass. They are useful deliverables, not untouched trial outputs or an additional baseline win. The broader suite's quality, speed and completion superiority remains unproven.

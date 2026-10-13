@@ -15,6 +15,16 @@ Cover three responsibilities: an authoritative source/snapshot for each fact; sh
 
 Choose dates and effort from available capacity; a fixed thirty-day program, fixed insight count or quota of signed actions is not a promise. A justified stop or bounded experiment can be a valuable decision. Source stewardship, engineering, analysis, editing and independent challenge are responsibilities; they need not be five separate hires or always separate agents.
 
+## Make the readout executable
+
+Separate the work cadence from the date when evidence can support a decision. For each decisive outcome, identify the applicable last eligible action/cohort entry, full follow-up window, metric calendar period, and source finalization delay. Derive the first usable readout from the latest required availability date. Count reporting periods using the source definition and timezone; do not replace a calendar month with four weeks. If cases continue entering, close intake or evaluate explicitly matured cohorts rather than claiming the whole pilot is complete.
+
+An evidence-ready date does not extend an authorized pilot, budget, or fixed decision deadline. At a fixed deadline, apply the supplied decision rule or authorized fallback; report immature or unavailable evidence as not established, and label any later follow-up as a proposal.
+
+A weekly review can still check execution, permissions, workload and early guardrails. Label its outcome judgment provisional until the required evidence is ready. At the final readout, distinguish a measured miss from an unobserved result; give missing evidence a bounded resolution date or operational stop rule rather than silently treating it as success or failure. Do not prolong a harmful action merely to finish measurement.
+
+Choose a measure the action can still change. Rescuing an already-late case may reduce backlog age or further delay without reversing its missed original SLA. Keep the original SLA truth, and use an appropriate recovery outcome alongside it. Make the smallest useful follow-up fit the actual staff budget, including verification and logging time.
+
 ## Minimal reusable records
 
 **Metric ownership:** metric, purpose, definition, grain/population/period/unit, source and version, owner role, refresh, exception threshold, permitted changes and approval responsibility.

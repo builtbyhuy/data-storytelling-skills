@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1080" viewBox="0 0 1400 1080" role="img" aria-labelledby="title desc">
+<title id="title">A valid join can still double-count revenue.</title><desc id="desc">Seven invoice lines joined to six payment allocations inflate source revenue from 1,200 to 2,500 dollars. Many-to-many is valid, but invoice revenue is repeated per allocation. Retain one invoice-level revenue value when reconciling payments.</desc>
+<style>text{font-family:"Segoe UI",Arial,sans-serif} .number{font-variant-numeric:tabular-nums}</style>
+<rect x="0" y="0" width="1400" height="1080" fill="#F7F5F0" rx="0"/>
+<text class="number" x="64" y="66" font-size="20" fill="#08766A" font-weight="700" text-anchor="start" letter-spacing="2">DATA STORYTELLING</text>
+<text class="number" x="1336" y="66" font-size="18" fill="#52636A" font-weight="400" text-anchor="end">DECISION NOTE 03  /  SYNTHETIC EXAMPLE</text>
+<line x1="64" y1="91" x2="1336" y2="91" stroke="#D7DEDA" stroke-width="1"/>
+<text class="number" x="64" y="166" font-size="62" fill="#182D33" font-weight="650" text-anchor="start">A valid join can still</text>
+<text class="number" x="64" y="239" font-size="62" fill="#182D33" font-weight="650" text-anchor="start">double-count revenue.</text>
+<text class="number" x="64" y="290" font-size="28" fill="#52636A" font-weight="400" text-anchor="start">Reconcile at invoice grain before summing money.</text>
+<text class="number" x="64" y="373" font-size="18" fill="#52636A" font-weight="650" text-anchor="start" letter-spacing="1">SOURCE REVENUE</text>
+<text class="number" x="64" y="447" font-size="60" fill="#08766A" font-weight="650" text-anchor="start">$1,200</text>
+<text class="number" x="505" y="373" font-size="18" fill="#52636A" font-weight="650" text-anchor="start" letter-spacing="1">AFTER THE LEFT JOIN</text>
+<text class="number" x="505" y="447" font-size="60" fill="#B44F31" font-weight="650" text-anchor="start">$2,500</text>
+<text class="number" x="946" y="373" font-size="18" fill="#52636A" font-weight="650" text-anchor="start" letter-spacing="1">DUPLICATED AMOUNT</text>
+<text class="number" x="946" y="447" font-size="60" fill="#B44F31" font-weight="650" text-anchor="start">+$1,300</text>
+<line x1="64" y1="485" x2="1336" y2="485" stroke="#D7DEDA" stroke-width="1"/>
+<text class="number" x="64" y="530" font-size="28" fill="#182D33" font-weight="650" text-anchor="start">Where the extra money comes from</text>
+<text class="number" x="64" y="565" font-size="22" fill="#52636A" font-weight="400" text-anchor="start">Actual helper output · USD · unpaid invoices retained by the left join</text>
+<rect x="64" y="594" width="1272" height="49" fill="#182D33" rx="5"/>
+<text class="number" x="88" y="626" font-size="18" fill="#FFFFFF" font-weight="600" text-anchor="start">INVOICE</text>
+<text class="number" x="550" y="626" font-size="18" fill="#FFFFFF" font-weight="600" text-anchor="end">SOURCE REVENUE</text>
+<text class="number" x="834" y="626" font-size="18" fill="#FFFFFF" font-weight="600" text-anchor="end">PAYMENT ALLOCATIONS</text>
+<text class="number" x="1090" y="626" font-size="18" fill="#FFFFFF" font-weight="600" text-anchor="end">JOINED REVENUE</text>
+<text class="number" x="1312" y="626" font-size="18" fill="#FFFFFF" font-weight="600" text-anchor="end">EXCESS</text>
+<rect x="64" y="643" width="1272" height="48" fill="#F7F5F0" rx="0"/>
+<text class="number" x="88" y="675" font-size="23" fill="#182D33" font-weight="600" text-anchor="start">INV-1001</text>
+<text class="number" x="550" y="675" font-size="23" fill="#182D33" font-weight="400" text-anchor="end">$300</text>
+<text class="number" x="834" y="675" font-size="23" fill="#182D33" font-weight="400" text-anchor="end">2</text>
+<text class="number" x="1090" y="675" font-size="23" fill="#B44F31" font-weight="600" text-anchor="end">$600</text>
+<text class="number" x="1312" y="675" font-size="23" fill="#B44F31" font-weight="600" text-anchor="end">+$300</text>
+<line x1="64" y1="691" x2="1336" y2="691" stroke="#D7DEDA" stroke-width="1"/>
+<rect x="64" y="691" width="1272" height="48" fill="#E7EEE8" rx="0"/>
+<text class="number" x="88" y="723" font-size="23" fill="#182D33" font-weight="600" text-anchor="start">INV-1002</text>
+<text class="number" x="550" y="723" font-size="23" fill="#182D33" font-weight="400" text-anchor="end">$500</text>
+<text class="number" x="834" y="723" font-size="23" fill="#182D33" font-weight="400" text-anchor="end">3</text>
+<text class="number" x="1090" y="723" font-size="23" fill="#B44F31" font-weight="600" text-anchor="end">$1,500</text>
+<text class="number" x="1312" y="723" font-size="23" fill="#B44F31" font-weight="600" text-anchor="end">+$1,000</text>
+<line x1="64" y1="739" x2="1336" y2="739" stroke="#D7DEDA" stroke-width="1"/>
+<rect x="64" y="739" width="1272" height="48" fill="#F7F5F0" rx="0"/>
+<text class="number" x="88" y="771" font-size="23" fill="#182D33" font-weight="600" text-anchor="start">INV-1003</text>
+<text class="number" x="550" y="771" font-size="23" fill="#182D33" font-weight="400" text-anchor="end">$250</text>
+<text class="number" x="834" y="771" font-size="23" fill="#182D33" font-weight="400" text-anchor="end">1</text>
+<text class="number" x="1090" y="771" font-size="23" fill="#182D33" font-weight="600" text-anchor="end">$250</text>
+<text class="number" x="1312" y="771" font-size="23" fill="#52636A" font-weight="600" text-anchor="end">—</text>
+<line x1="64" y1="787" x2="1336" y2="787" stroke="#D7DEDA" stroke-width="1"/>
+<rect x="64" y="787" width="1272" height="48" fill="#F7F5F0" rx="0"/>
+<text class="number" x="88" y="819" font-size="23" fill="#182D33" font-weight="600" text-anchor="start">INV-1004</text>
+<text class="number" x="550" y="819" font-size="23" fill="#182D33" font-weight="400" text-anchor="end">$150</text>
+<text class="number" x="834" y="819" font-size="23" fill="#182D33" font-weight="400" text-anchor="end">0 · unpaid</text>
+<text class="number" x="1090" y="819" font-size="23" fill="#182D33" font-weight="600" text-anchor="end">$150</text>
+<text class="number" x="1312" y="819" font-size="23" fill="#52636A" font-weight="600" text-anchor="end">—</text>
+<line x1="64" y1="835" x2="1336" y2="835" stroke="#D7DEDA" stroke-width="1"/>
+<text class="number" x="64" y="866" font-size="22" fill="#52636A" font-weight="400" text-anchor="start">Declared many-to-many cardinality passes. Revenue still repeats for each allocation.</text>
+<rect x="64" y="881" width="1272" height="129" fill="#182D33" rx="8"/>
+<text class="number" x="92" y="927" font-size="31" fill="#FFFFFF" font-weight="650" text-anchor="start">One revenue value per invoice. Sum payments separately.</text>
+<text class="number" x="92" y="964" font-size="22" fill="#E8EFED" font-weight="400" text-anchor="start">Correct reconciliation: $1,200 invoiced · $1,050 received · $150 unpaid.</text>
+<text class="number" x="92" y="993" font-size="22" fill="#E8EFED" font-weight="400" text-anchor="start">Inner-join revenue is $2,350: it duplicates paid invoices and drops the unpaid invoice.</text>
+<text class="number" x="64" y="1045" font-size="18" fill="#52636A" font-weight="400" text-anchor="start">Source: synthetic invoice lines + payment allocations. Audit files preserve source hashes and key evidence.</text>
+<text class="number" x="1336" y="1045" font-size="17" fill="#52636A" font-weight="400" text-anchor="end">EDITABLE SVG + SOURCE DATA</text>
+</svg>

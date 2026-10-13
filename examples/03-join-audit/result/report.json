@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "status": "cardinality_holds",
+  "expected_relationship": "many-to-many",
+  "violations": [],
+  "sources": {
+    "left": {
+      "path": "examples/03-join-audit/inputs/invoice-lines.csv",
+      "sha256": "97add5edede5c9445b260fdc007699964f9225c7c38baab718f068067c89057b",
+      "rows": 7,
+      "key_columns": [
+        "invoice_id"
+      ]
+    },
+    "right": {
+      "path": "examples/03-join-audit/inputs/payment-allocations.csv",
+      "sha256": "396e7bf876c0e6279b13f8b3b9ebca99931a473f3d52494be0c1221cd108f089",
+      "rows": 6,
+      "key_columns": [
+        "invoice_id"
+      ]
+    }
+  },
+  "keys": {
+    "left_distinct": 4,
+    "right_distinct": 3,
+    "matched_distinct": 3,
+    "left_repeated_keys": 3,
+    "right_repeated_keys": 2,
+    "matched_many_to_many_keys": 2
+  },
+  "predicted_rows": {
+    "inner": 11,
+    "left": 13,
+    "full": 13,
+    "unmatched_left": 2,
+    "unmatched_right": 0,
+    "matched_left_rows_repeated_by_right": 4
+  },
+  "left_measure": {
+    "column": "net_amount_usd",
+    "source_total": "1200",
+    "matched_source_total": "1050",
+    "unmatched_left_total": "150",
+    "inner_join_total": "2350",
+    "left_join_total": "2500",
+    "duplication_excess": "1300",
+    "left_join_change": "1300"
+  },
+  "evidence": "key-audit.csv",
+  "limits": [
+    "Keys are exact strings: no trimming, case folding or numeric coercion.",
+    "Blank keys and invalid measures fail; no rows are silently dropped.",
+    "The declared relationship is checked across each full source, including unmatched keys.",
+    "Amounts assume the selected left measure is additive at the supplied row grain, in one unit.",
+    "Cardinality does not establish correct business keys, comparable populations, eligible rows or source authority.",
+    "Amounts are exact decimal strings; signed cancellation can hide monetary fanout, so inspect row counts too."
+  ]
+}

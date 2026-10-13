@@ -22,6 +22,8 @@ Translate Technical -> Business -> Action without changing the proposition. A co
 
 Useful editing prompts are opening, context, finding, impact, proposal and next step. They are not six mandatory paragraphs. An email needs a descriptive subject and a concise decision-ready body; an alert needs scoped change/threshold, impact, owner and action; a deck needs evidence-bearing takeaway slides and accessible support; a memo needs the choice, reasons, limitations and next step. Respect the user's requested length and language, without imposing universal timing/word/slide quotas.
 
+Before adding another table or framework, ask which reader action it enables. Put the preferred option, strongest relevant alternative, decisive tradeoff and condition that would change the choice close together. Separate an operational check-in from an outcome readout when their timing differs. Keep supporting reconciliations accessible without making the reader repeat the analysis to find the decision.
+
 ## Working canvas
 
 For a substantial story, capture decision/candidate hypotheses, audience, stakes, honest opening, support, main finding, action, measure, risk/rollback and portable message. Fill known context and mark unknowns; do not prewrite an expected Aha as the answer. Reuse this canvas only when it helps execution, not as an eligibility gate for a small request.
