@@ -12,7 +12,8 @@ Write a short analytical basis before transforming data:
 | Keys and joins | What uniquely identifies the record, and can a join repeat a measure? |
 | Target quantity | Are we estimating a total, typical record, rate, expected cost, tail risk, or difference? |
 | Eligible population | Which records or exposures can appear in both numerator and denominator? |
-| Period and calendar | Is this event time, cohort time, or recognition time? Is the window complete and comparable? |
+| Measurement unit and exposure | Does the source count repeatable events, distinct entities, or occupied time? What observed opportunity supports the comparison? |
+| Period and calendar | Is this event time, cohort time, or recognition time? What interval does a time label represent, and is the window complete and comparable? |
 | Definitions | Which refunds, discounts, tax, cancellations, missing records, or currency conversions affect the metric? |
 | Source and snapshot | Which file, query, or source version supports the result, and when was it current? |
 
@@ -23,6 +24,10 @@ Distinguish a source's authority from its detail. A reconciled period ledger may
 Check uniqueness at the declared grain. Compare row counts and totals before and after a join. Joining orders to lines can validly increase rows while making a repeated order-level revenue field unsafe to sum. Aggregate the measure at its own grain or allocate it under an explicit rule before combining it. Retain the exclusions and reasons needed to reproduce material totals.
 
 Align populations and periods before comparison. A new location, changed tracking rule, incomplete week, different attribution window, or switch from cohort retention to calendar retention can mimic performance change. If alignment is impossible, report the scoped contrast and its limitation rather than silently treating it as like-for-like.
+
+Describe missingness and zeros by checked field and eligible scope. A complete total field can coexist with missing components, and a positive total can contain zero components. Distinguish an absent record, a null measurement and a measured zero before aggregating or describing coverage. Keep missing measurements missing unless the source establishes a valid replacement.
+
+For repeated measures, retain the sum, observed count/exposure and result for each plotted group or bin in one computed summary. Derive denominator ranges in prose and speaker notes from those same selected rows; a whole-source count may not describe the displayed subset. State whether the unit permits repeat events rather than treating event counts as distinct people or accounts.
 
 ## Let the decision choose the next cut
 
@@ -46,6 +51,8 @@ Retain the total and the targeted contrast together when both matter. Reconcile 
 - Use a **rate** with the eligible exposure denominator when counts arise from different amounts of opportunity.
 
 Inspect spread, shape, sample size, missingness, and relevant subgroups when the summary could conceal distinct experiences. A mean-median gap is a clue about shape, not a rule for discarding a mean. Multimodal data may need meaningful segmentation rather than a single "typical" value. A coefficient of variation is unstable near a zero mean and is not a universal alarm threshold.
+
+When quantiles will be reproduced or updated in another tool, retain the interpolation/estimator convention alongside the calculation. Displayed precision need not expose implementation detail, but the rebuild evidence must distinguish conventions that could change a decision threshold.
 
 ## Transform only for a question
 
@@ -72,6 +79,8 @@ Separate **magnitude** from **precision**. Show the actual difference or ratio a
 ## Trace a trend
 
 Start with consistent intervals and a relevant horizon. Inspect partial periods, weekday/seasonal patterns, exposure, reporting delays, measurement changes, and unusual events. Put operational changes on the timeline as candidate explanations.
+
+If time bins inform an operating window, establish whether their labels denote interval starts, ends or another convention, with the timezone/calendar rule where available. Combine bins on the same eligible date or unit, require the coverage needed for the requested duration, and retain the resulting count. When the convention is undocumented, make the chosen assumption and required confirmation visible beside the proposed window; historical labels alone do not establish clock or field feasibility.
 
 A coincident release, campaign, price change, or policy is evidence of timing, not proof of causation. Compare unaffected populations or longer history when those can discriminate mechanisms. Show the raw incident and the underlying pattern when smoothing is used. A forecast must state its model or scenario assumptions; an extrapolated short incident is not observed future loss.
 

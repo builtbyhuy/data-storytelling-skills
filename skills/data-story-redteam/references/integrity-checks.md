@@ -4,7 +4,11 @@ Select checks that can change the artifact's claim or the decision it supports. 
 
 ## Reconcile the evidence first
 
-For a material assertion, compare the artifact's number to its source row/label and calculation, then compare the assertion's scope to the metric definition. Check units, signs, period boundaries, source snapshot, filters, and numerator/denominator. Compare repeated values across prose, tables, charts, and summaries. Trace a benchmark or target to its source and date before treating it as a fact.
+For a material assertion, compare the artifact's number to its source row/label and calculation, then compare the assertion's scope to the metric definition. Check units, signs, period boundaries, source snapshot, filters, and numerator/denominator. Compare repeated values across prose, tables, charts, notes, and summaries. Trace a benchmark or target to its source and date before treating it as a fact.
+
+For an absence, null or zero assertion, check and name the relevant field and eligible population. Inspect components separately when the claim includes them: a positive total does not establish positive components. Preserve the distinction between an absent record, an unmeasured value and an observed zero.
+
+For means, rates or coverage ranges, recover the exact eligibility used by the displayed calculation. Recompute its numerator and observed count/exposure together, then compare any note or caption's denominators with those same groups. Whole-source coverage and counts for a plotted subset can both be correct while answering different questions.
 
 When sources disagree, try to reconcile definitions, grain, timing, filters, rounding and refresh dates. Do not silently choose the source that makes the story stronger. If the difference remains unresolved, show both comparable states or narrow the assertion to the source that is actually established. Explain the decision consequence; unresolved disagreement need not stop unrelated supported parts of the artifact.
 
@@ -50,13 +54,32 @@ Review the chart or brief as delivered, at its intended reading size. Source cod
 | The base and difference | A prominent percentage has no original amount, exposure or comparable period | Show the relevant base and absolute or percentage-point change; retain enough context to judge consequence. |
 | The evidence for the takeaway | Equally prominent KPI cards require the reader to infer the comparison, or a dramatic isolated case stands in for the population | Give the decisive contrast a clear reading path; label an illustration as such and add the supported population evidence. |
 | The limits that control the choice | A coverage gap or counterexample is present only in tiny footer text while the main recommendation reads as unconditional | Move that condition to the claim or action it changes; revise an unconditional choice when needed. |
+| What the measure and operating window mean | Repeated events read as unique entities, or exposure/time-bin assumptions appear only in a companion workbook or speaker notes | Put the essential unit, relevant exposure and consequential interval assumption beside the evidence or window in every standalone artifact. |
 | What to do next | The ending requests action but gives no intervention, usable measure or decision condition | Replace it with a feasible proposed response or discriminating check, including the details required by this decision. |
 
 Simplicity means removing irrelevant competition while keeping evidence needed to evaluate the claim. It does not mean making a small effect look large, hiding a denominator, or dropping a contradictory group. Avoid treating a preferred palette, fixed chart count, decorative style or an internal aesthetic rating as an integrity rule. When design quality is within scope, assess concrete hierarchy, alignment, spacing, readable labels and consistency against the intended medium and audience.
 
+For a launch proposal, test whether every critical prerequisite has an observable completed state, including approved resource availability for the selected work/window. A capacity ceiling, proposed measurement method or readiness-to-submit label does not establish assigned staff, equipment or partner time. Check the gate's actual meaning and any editable status logic; it may explicitly include resource approval within an existing condition. Distinguish this completeness gap from evidence that resources are actually unavailable.
+
+Map a material completeness finding to the user's requested decision and deliverables. Verify that all used aggregates and methods are inspectable; do not require an additional national total, chart or operational record merely because it could be helpful. Label extra suggestions as optional. A real unmet prerequisite can remain material even when today's safe decision is to defer.
+
 For a consequential chart repair, a reader or an independent reviewer can state the finding, identify its evidence and name the limitation or choice without being given the intended answer. Compare those answers with the checked source. Keep numerical accuracy, rendered legibility, model comprehension proxies and observed human feedback distinct; passing one does not establish the others.
 
+## Check editable and exported formats
+
+For a multi-format handoff, check the saved native file and every required export as separate artifacts. Discover connected application sessions, supported tools or bundled runtimes and attempt the needed open/render operation before reporting a capability gap. Record which renderer and format were actually inspected; a library's presence or a successful file write does not establish a native render.
+
+For PPTX/XLSX, the optional [Office handoff checker](../scripts/check_office_handoff.py) checks OOXML category-domain/cache structure, summarizes editable objects and notes, and flags cached spreadsheet errors. Read its usage before running it with the available Python runtime. A pass covers its structural assertions only; verify source facts, factual notes and actual native rendering separately.
+
+When a native chart has an embedded workbook or caches, compare its categories and series with the computed facts, including missing positions. For series sharing a categorical axis, check the full ordered category domain independently of any shortened series, and verify that each nonmissing value remains paired with its intended label. A missing end of one series must remain an explicit gap in that series while other measured categories remain available. Inspect both stored data and the application's visible axis: matching values alone can miss a lost or shifted label.
+
+When stale calculations or chart caches are implicated, refresh/recalculate an authorized working copy, save it, then render the native file and regenerate its exports. Compare category sequence, labels, endpoint visibility, values and essential qualifications at the intended reading size. Keep legitimate blanks distinct from stale caches and zeros. If native rendering remains unavailable, complete source/data and available-renderer checks and name the unverified format behavior; an accurate PDF cannot certify the editable file's appearance.
+
 ## Narrative and action checks
+
+Read derived table headings as if the cell were detached from its footnote: do name and unit identify a contribution, raw driver or rate correctly? Name the reference for each more/less/increase/decrease statement. A correct numerical decomposition can coexist with a misleading driver label or a sentence using a different unstated comparator.
+
+Check visual effort even when the reader repeats the conclusion correctly. Ask them to locate the decisive point/series and the condition governing the next action. Flag unnecessary legend hopping, crowded or unnecessary every-point tick labels, equally prominent crossing series, paragraph tables and action blocks whose conditions are buried. Preserve the complete data/domain when simplifying visible ticks or emphasis. An understood but burdensome surface can still need repair.
 
 Check whether the headline, sequence, evidence and recommendation tell the same supported story. Remove unjustified urgency, manufactured scarcity, unauthenticated attributed quotes, and a conclusion chosen before its evidence. Keep the principal decision clear while preserving necessary complexity. Fixed chart counts, dramatic openings and rehearsal or timing quotas are optional presentation choices, not integrity tests.
 

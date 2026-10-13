@@ -1,0 +1,395 @@
+{
+  "schema": "untouched-forward-example.v1",
+  "suite_version": "3.1.2",
+  "first_completed_handoff_utc": "2026-10-13 11:47:05 UTC",
+  "owner_draft_inspection": false,
+  "owner_output_or_rebuild_code_edits": 0,
+  "data": "Real DfE public aggregates; service, budget and capacity scenario fictional. No approved or implemented programme or measured intervention effect.",
+  "source": {
+    "publisher": "Department for Education",
+    "dataset": "Absence by geographic level - autumn term",
+    "publication_date": "2026-08-06",
+    "retrieval_date": "2026-10-13",
+    "catalogue_url": "https://explore-education-statistics.service.gov.uk/data-catalogue/data-set/407a4c0a-260f-4bd0-8b6d-0f49febb207c",
+    "download_url": "https://explore-education-statistics.service.gov.uk/data-catalogue/data-set/407a4c0a-260f-4bd0-8b6d-0f49febb207c/csv",
+    "methodology_url": "https://explore-education-statistics.service.gov.uk/methodology/pupil-absence-statistics-methodology",
+    "licence": "Open Government Licence v3.0",
+    "licence_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "raw_sha256": "8adc8086fcb3dea7d201087e370165de95ab60f98d422ece6d52d825a98440ff",
+    "raw_record_count": 11254,
+    "selected_authorities": 153,
+    "matched_authority_phase_pairs": 304,
+    "selected_term_rows": 608,
+    "periods": [
+      "Autumn 2024/25",
+      "Autumn 2025/26"
+    ],
+    "phases": [
+      "State-funded primary",
+      "State-funded secondary"
+    ]
+  },
+  "registered_gates": {
+    "source_and_reasoning": "PASS",
+    "actual_native_formats_with_disclosed_limits": "PASS",
+    "visual_communication": "PASS",
+    "comprehension_model_proxy": "PASS",
+    "practical_handoff": "PASS"
+  },
+  "independent_checks": {
+    "source_count_inputs": 3952,
+    "formula_cells": 2805,
+    "native_calculated_nonempty_cells": 8684,
+    "native_charts": 3,
+    "plotted_values": 14,
+    "embedded_populated_cells": 40,
+    "pptx_slides_and_notes": 9,
+    "delivered_native_pdf_text_and_rasters_equal_pages": 9,
+    "analysis_values_independently_compared": 13072,
+    "relocated_exact_readme_recipe_exit_code": 0,
+    "relocated_rebuild_input_files_unchanged": 11,
+    "relocated_pdf_text_and_rasters_equal_pages": 9,
+    "relocated_workbook_cells_formulas_caches_equal": 8684,
+    "sealed_execution_files_hash_unchanged": 90,
+    "fresh_pixel_reader": true,
+    "fresh_practical_reader": true,
+    "owner_all_pages_directly_viewed": true
+  },
+  "published_exact_files": [
+    {
+      "path": "thu-nghiem-chuyen-can.pptx",
+      "bytes": 59828,
+      "sha256": "d2d18c0557d81be271379e333a88773668da656e3fe1a6ec09382a738219bfd2",
+      "role": "untouched_core_handoff",
+      "unchanged_from_sealed_execution": true
+    },
+    {
+      "path": "thu-nghiem-chuyen-can.pdf",
+      "bytes": 130810,
+      "sha256": "b23bb10a68349891f433c4e2381ef0cd7a1f3f8bbdec5d34eb09362b5dd4e4f1",
+      "role": "untouched_core_handoff",
+      "unchanged_from_sealed_execution": true
+    },
+    {
+      "path": "tong-hop-chuyen-can.xlsx",
+      "bytes": 125858,
+      "sha256": "2e93267bdb491748728e50eb8b5a1f1229990c2cd7ce9f02a709fa9598106a5e",
+      "role": "untouched_core_handoff",
+      "unchanged_from_sealed_execution": true
+    },
+    {
+      "path": "rebuild/analyze.py",
+      "bytes": 5023,
+      "sha256": "352498e1f4191867156ff77786458190e24b5e5ae478abd3d90c223042849f06",
+      "role": "untouched_rebuild_or_source",
+      "unchanged_from_sealed_execution": true
+    },
+    {
+      "path": "rebuild/build.mjs",
+      "bytes": 28640,
+      "sha256": "c74d7bb41321cb11b70d7d6c39f8da98ad64c26ed6d1a616da791d8b21c56c7b",
+      "role": "untouched_rebuild_or_source",
+      "unchanged_from_sealed_execution": true
+    },
+    {
+      "path": "rebuild/Build.ps1",
+      "bytes": 3907,
+      "sha256": "b86b40221ab2657187f54f136eeb5ad573b1b932ec98cb279a64dcce6e3121a4",
+      "role": "untouched_rebuild_or_source",
+      "unchanged_from_sealed_execution": true
+    },
+    {
+      "path": "rebuild/office-check.ps1",
+      "bytes": 6799,
+      "sha256": "4fba96119c6902a3383e3eba2010311018f99c692d4af7e2020ac09b731f3d69",
+      "role": "untouched_rebuild_or_source",
+      "unchanged_from_sealed_execution": true
+    },
+    {
+      "path": "rebuild/README.md",
+      "bytes": 8953,
+      "sha256": "393f7bd12aa290dc519cec30160b1cd1b8e4c1c91115dca70383969821a5c98f",
+      "role": "untouched_rebuild_or_source",
+      "unchanged_from_sealed_execution": true
+    },
+    {
+      "path": "rebuild/source/brief.vi.md",
+      "bytes": 5068,
+      "sha256": "ca3f048105cbd43e210297628a51baa2bd6d937b9e3d47395f2e5d3168199039",
+      "role": "untouched_rebuild_or_source",
+      "unchanged_from_sealed_execution": true
+    },
+    {
+      "path": "rebuild/source/cohort-config.json",
+      "bytes": 639,
+      "sha256": "af8f8c912e1c4db7e7eaadc6bca936cdd739c4c2e99af9f032a95c09f8a7fd7e",
+      "role": "untouched_rebuild_or_source",
+      "unchanged_from_sealed_execution": true
+    },
+    {
+      "path": "rebuild/source/raw/absence-geographic-autumn.csv",
+      "bytes": 6182665,
+      "sha256": "8adc8086fcb3dea7d201087e370165de95ab60f98d422ece6d52d825a98440ff",
+      "role": "untouched_rebuild_or_source",
+      "unchanged_from_sealed_execution": true
+    },
+    {
+      "path": "rebuild/source/rebuild-source-extract.py",
+      "bytes": 5905,
+      "sha256": "62b554126a5f87e9a190081bda3436ac2f7957525c412e62553993c321f0d67f",
+      "role": "untouched_rebuild_or_source",
+      "unchanged_from_sealed_execution": true
+    },
+    {
+      "path": "rebuild/source/source-schema.md",
+      "bytes": 10303,
+      "sha256": "b158b35ec33c81649b6bd719bc4bf6e27a3a1717b5cd2eac593bc9749cdac849",
+      "role": "untouched_rebuild_or_source",
+      "unchanged_from_sealed_execution": true
+    },
+    {
+      "path": "rebuild/verify.py",
+      "bytes": 7576,
+      "sha256": "5834ca0b7e094aade5d9968a593a81d3d6f663b984f8cccdd36859541d5022e3",
+      "role": "untouched_rebuild_or_source",
+      "unchanged_from_sealed_execution": true
+    },
+    {
+      "path": "preview.png",
+      "bytes": 42545,
+      "sha256": "7cfa1c65c619c00ab640fdd7d4a3d3a426ac98c60684ddd1cb80107e2b317eba",
+      "role": "unaltered_native_preview",
+      "unchanged_from_sealed_execution": false
+    },
+    {
+      "path": "readiness.png",
+      "bytes": 54380,
+      "sha256": "8e60f95f07d4b7dbeb4e70cc378aa97fdc6bdab943a5647f4c3c69c9fe56d7f9",
+      "role": "unaltered_native_preview",
+      "unchanged_from_sealed_execution": false
+    }
+  ],
+  "frozen_treatment_files": [
+    {
+      "path": "skills/analytics-adoption/agents/openai.yaml",
+      "sha256": "a0b5a51c80fbc4150d96886d34abe346fced93a5fff98a6369cea2a470b0980b"
+    },
+    {
+      "path": "skills/analytics-adoption/LICENSE",
+      "sha256": "e6a67eafc0183486069aec71e5435e103ec82809461dfe66adb504b6ad1d8f0b"
+    },
+    {
+      "path": "skills/analytics-adoption/NOTICE.md",
+      "sha256": "9c32230a1e65760a3a66495cb7b308262af474821dcb8eb5d04342fd6c7a8c3b"
+    },
+    {
+      "path": "skills/analytics-adoption/references/evidence-contract.md",
+      "sha256": "8219849dd7a6632b155e2cd868ba9a1bcbc272ab756ba140c57df4456c190c9c"
+    },
+    {
+      "path": "skills/analytics-adoption/references/practice-and-learning.md",
+      "sha256": "a0d9592f8876a72649ecb821a79bd4a88735479b7ca7b8551ef79d9878e42944"
+    },
+    {
+      "path": "skills/analytics-adoption/references/source-method-map.md",
+      "sha256": "737f94dfbf558224347b8856781547d9dd13e3a367c06559c72d0ab787aaf222"
+    },
+    {
+      "path": "skills/analytics-adoption/references/terminology.md",
+      "sha256": "609d901a389096c4cf0b51547dd228b14d15b8a3b22d33dfb6e71dac0a43a69f"
+    },
+    {
+      "path": "skills/analytics-adoption/SKILL.md",
+      "sha256": "ac0a3d719a5e82d5f1de6384a19d8fa0f306aa7a90f7bd0ad4dbb62998aa45b1"
+    },
+    {
+      "path": "skills/business-chart-communication/agents/openai.yaml",
+      "sha256": "5972e5139a4c0e707de900cb8552a1b7024069302858cea8ee9bdacebf243581"
+    },
+    {
+      "path": "skills/business-chart-communication/LICENSE",
+      "sha256": "e6a67eafc0183486069aec71e5435e103ec82809461dfe66adb504b6ad1d8f0b"
+    },
+    {
+      "path": "skills/business-chart-communication/NOTICE.md",
+      "sha256": "9c32230a1e65760a3a66495cb7b308262af474821dcb8eb5d04342fd6c7a8c3b"
+    },
+    {
+      "path": "skills/business-chart-communication/references/chart-method.md",
+      "sha256": "1dea85a6abd7841cd1d92fd719629856f47e08745dc6837c32d1c9b80b196604"
+    },
+    {
+      "path": "skills/business-chart-communication/references/evidence-contract.md",
+      "sha256": "8219849dd7a6632b155e2cd868ba9a1bcbc272ab756ba140c57df4456c190c9c"
+    },
+    {
+      "path": "skills/business-chart-communication/references/source-method-map.md",
+      "sha256": "737f94dfbf558224347b8856781547d9dd13e3a367c06559c72d0ab787aaf222"
+    },
+    {
+      "path": "skills/business-chart-communication/references/terminology.md",
+      "sha256": "609d901a389096c4cf0b51547dd228b14d15b8a3b22d33dfb6e71dac0a43a69f"
+    },
+    {
+      "path": "skills/business-chart-communication/SKILL.md",
+      "sha256": "9a9960ba197b12b974e5c489fb7de8e8184695a3bcbf02955251e9cbd24443e8"
+    },
+    {
+      "path": "skills/business-insight-diagnosis/agents/openai.yaml",
+      "sha256": "2aeef88d2d7fa50f6b518b3bed7ce6d3ee4eae5c8ba531b03c743e710b96ee60"
+    },
+    {
+      "path": "skills/business-insight-diagnosis/LICENSE",
+      "sha256": "e6a67eafc0183486069aec71e5435e103ec82809461dfe66adb504b6ad1d8f0b"
+    },
+    {
+      "path": "skills/business-insight-diagnosis/NOTICE.md",
+      "sha256": "9c32230a1e65760a3a66495cb7b308262af474821dcb8eb5d04342fd6c7a8c3b"
+    },
+    {
+      "path": "skills/business-insight-diagnosis/references/analytical-methods.md",
+      "sha256": "71e8ba44b38498c2f2bc120ea0478e810f8b605d50b1b13473d16fb40541350f"
+    },
+    {
+      "path": "skills/business-insight-diagnosis/references/evidence-contract.md",
+      "sha256": "8219849dd7a6632b155e2cd868ba9a1bcbc272ab756ba140c57df4456c190c9c"
+    },
+    {
+      "path": "skills/business-insight-diagnosis/references/explanation-and-action.md",
+      "sha256": "7e66fa05556a8bb1994e646ffbfa62c221a6b4ce1a1c28314bbe6815281d970c"
+    },
+    {
+      "path": "skills/business-insight-diagnosis/references/join-audit.md",
+      "sha256": "1fe0b140c1b6ec289b81603b6dca917a558afe7421d0d76a4c8f849bf6334139"
+    },
+    {
+      "path": "skills/business-insight-diagnosis/references/source-method-map.md",
+      "sha256": "737f94dfbf558224347b8856781547d9dd13e3a367c06559c72d0ab787aaf222"
+    },
+    {
+      "path": "skills/business-insight-diagnosis/references/terminology.md",
+      "sha256": "609d901a389096c4cf0b51547dd228b14d15b8a3b22d33dfb6e71dac0a43a69f"
+    },
+    {
+      "path": "skills/business-insight-diagnosis/scripts/join_audit.py",
+      "sha256": "b0bd9e1a39481dc37a36d15b6a9ce4fd182f37c0ec2fea81f27efb6f279c2839"
+    },
+    {
+      "path": "skills/business-insight-diagnosis/SKILL.md",
+      "sha256": "68e27fe8a92575b41f8a047b5777861c9690370c1a7faa34496dc93d81646d3c"
+    },
+    {
+      "path": "skills/data-story-redteam/agents/openai.yaml",
+      "sha256": "7db7202b56f9c6df7477562fd778ac52108136b1534959bc429470e7ae4600ef"
+    },
+    {
+      "path": "skills/data-story-redteam/LICENSE",
+      "sha256": "e6a67eafc0183486069aec71e5435e103ec82809461dfe66adb504b6ad1d8f0b"
+    },
+    {
+      "path": "skills/data-story-redteam/NOTICE.md",
+      "sha256": "9c32230a1e65760a3a66495cb7b308262af474821dcb8eb5d04342fd6c7a8c3b"
+    },
+    {
+      "path": "skills/data-story-redteam/references/evidence-contract.md",
+      "sha256": "8219849dd7a6632b155e2cd868ba9a1bcbc272ab756ba140c57df4456c190c9c"
+    },
+    {
+      "path": "skills/data-story-redteam/references/integrity-checks.md",
+      "sha256": "91ae31601611661de8bba9ca476d68a8956ce8ee3132b04c6afcc110a71eb162"
+    },
+    {
+      "path": "skills/data-story-redteam/references/source-method-map.md",
+      "sha256": "737f94dfbf558224347b8856781547d9dd13e3a367c06559c72d0ab787aaf222"
+    },
+    {
+      "path": "skills/data-story-redteam/references/terminology.md",
+      "sha256": "609d901a389096c4cf0b51547dd228b14d15b8a3b22d33dfb6e71dac0a43a69f"
+    },
+    {
+      "path": "skills/data-story-redteam/scripts/check_office_handoff.py",
+      "sha256": "7e6d1edb81dd0960e9dbf149fb2a4329087b8b06bff24cb5c0a85bb5ace7bc35"
+    },
+    {
+      "path": "skills/data-story-redteam/SKILL.md",
+      "sha256": "a4f06816cb805ac3bc9fb6b4565f8d8b893301f830201278d4020413967fa323"
+    },
+    {
+      "path": "skills/data-storytelling/agents/openai.yaml",
+      "sha256": "641666ba28533666f36433e3d3130613f31c2bcdcf78a9e0e0d06a478449c573"
+    },
+    {
+      "path": "skills/data-storytelling/LICENSE",
+      "sha256": "e6a67eafc0183486069aec71e5435e103ec82809461dfe66adb504b6ad1d8f0b"
+    },
+    {
+      "path": "skills/data-storytelling/NOTICE.md",
+      "sha256": "9c32230a1e65760a3a66495cb7b308262af474821dcb8eb5d04342fd6c7a8c3b"
+    },
+    {
+      "path": "skills/data-storytelling/references/decision-workflow.md",
+      "sha256": "5f6a4ce80f295fea630af9a01ad758eb390141a0fd92548b4f39f3e301023b82"
+    },
+    {
+      "path": "skills/data-storytelling/references/evidence-contract.md",
+      "sha256": "8219849dd7a6632b155e2cd868ba9a1bcbc272ab756ba140c57df4456c190c9c"
+    },
+    {
+      "path": "skills/data-storytelling/references/source-method-map.md",
+      "sha256": "737f94dfbf558224347b8856781547d9dd13e3a367c06559c72d0ab787aaf222"
+    },
+    {
+      "path": "skills/data-storytelling/references/terminology.md",
+      "sha256": "609d901a389096c4cf0b51547dd228b14d15b8a3b22d33dfb6e71dac0a43a69f"
+    },
+    {
+      "path": "skills/data-storytelling/SKILL.md",
+      "sha256": "34d619c974382b6deb3b2e54a04c2cbeaf50e06e446c9361dd5672bdeda5e2e4"
+    },
+    {
+      "path": "skills/evidence-to-narrative/agents/openai.yaml",
+      "sha256": "17cbf34d3a99507c45fdfe604065303cfc30712b22158ddf7a39a3d7b3ebf1af"
+    },
+    {
+      "path": "skills/evidence-to-narrative/LICENSE",
+      "sha256": "e6a67eafc0183486069aec71e5435e103ec82809461dfe66adb504b6ad1d8f0b"
+    },
+    {
+      "path": "skills/evidence-to-narrative/NOTICE.md",
+      "sha256": "9c32230a1e65760a3a66495cb7b308262af474821dcb8eb5d04342fd6c7a8c3b"
+    },
+    {
+      "path": "skills/evidence-to-narrative/references/evidence-contract.md",
+      "sha256": "8219849dd7a6632b155e2cd868ba9a1bcbc272ab756ba140c57df4456c190c9c"
+    },
+    {
+      "path": "skills/evidence-to-narrative/references/source-method-map.md",
+      "sha256": "737f94dfbf558224347b8856781547d9dd13e3a367c06559c72d0ab787aaf222"
+    },
+    {
+      "path": "skills/evidence-to-narrative/references/story-and-audience.md",
+      "sha256": "d473acce60630b388194ce6c8c331f586ef2fd422f8ce17d6617f59cc95aeaf8"
+    },
+    {
+      "path": "skills/evidence-to-narrative/references/terminology.md",
+      "sha256": "609d901a389096c4cf0b51547dd228b14d15b8a3b22d33dfb6e71dac0a43a69f"
+    },
+    {
+      "path": "skills/evidence-to-narrative/SKILL.md",
+      "sha256": "78dff6233134851645b8d7daa6609c231db9d869ef91375b78154ff793095a12"
+    }
+  ],
+  "packaging_only_changes": "New publication wrapper, source attribution and this manifest. Core handoff, tested rebuild code, original rebuild README and included source bytes are unchanged. Six distribution NOTICE copies are updated after testing; the other46 method files remain identical to frozen treatment.",
+  "archival_omissions": [
+    "three saved government HTML snapshots in original output source/raw; two additional original input HTML snapshots also remain private",
+    "source/provenance-receipt.json, including complete HTTP/source-registration evidence",
+    "five private runtime verification receipts with local-machine paths; original hashes and substantive check summaries retained here"
+  ],
+  "historical_documentation_references": "Unchanged rebuild README and source-schema retain references to the private archived receipts and methodology HTML. These references do not resolve in this public subset and are not computational dependencies. See the new publication README and SOURCES.md for public primary links and omissions.",
+  "limits": [
+    "Ordinary PowerPoint Edit Data UI and automatic cell-only chart-cache refresh unverified. Native series edits and explicit embedded-table/series synchronization tested; charts are snapshots. Use the tested rebuild path for source refresh.",
+    "Rate snapshots use six-decimal fractions; workbook count ratios retain full precision. Minor wraps, PA shorthand and display-rounding differences remain unchanged.",
+    "Current snapshot only; new periods, revised definitions or changed shortlist evidence require source/code/narrative/render review.",
+    "Human taste/comprehension, actual projection, full accessibility, local readiness, real costs/calendar fit, adoption or programme effects unmeasured. No matched baseline or general quality/speed/completion advantage."
+  ]
+}

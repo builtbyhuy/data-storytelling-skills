@@ -3,7 +3,7 @@ name: business-chart-communication
 description: Create or repair decision-focused business charts, dashboard panels, and slide visuals from data or a bounded existing graphic. Deliver an editable chart source and an inspected export with faithful values, scales, labels, and context.
 license: MIT
 metadata:
-  version: "3.0.0"
+  version: "3.1.2"
 ---
 
 # Business chart communication
@@ -37,23 +37,27 @@ Treat the mark's meaning as the baseline rule:
 
 Distinguish missing, zero, excluded, estimated, forecast, target and observed values. Use shared scales for comparable panels, scale bubble quantities by area, and display uncertainty only with supplied or validly calculated meaning and values.
 
+For a chart that places several series on shared category positions, establish the full ordered category domain before adding any series. Align every series to that domain, preserving missing positions as missing. A shorter first series must not truncate the categories of a longer series. Continuous-coordinate charts retain actual coordinates and intervals. Check both the saved chart data and the target application's actual display; see [the category-domain procedure](references/chart-method.md#preserve-the-category-domain).
+
 ## Make the reading path intentional
 
 Compose an explanatory view around its principal comparison: headline states the finding, plot demonstrates it, direct labels locate decisive values, and nearby context qualifies it. Equally prominent KPI figures, accent panels and repeated callouts can obscure that relationship. Put other questions or detailed calculations in adjacent prose or another view. Multi-purpose dashboards still need readable tasks and routes to detail.
 
 Use position, color, size or line weight to emphasize relevant evidence while preserving readable alternatives and counterevidence. Apply useful Gestalt cues such as proximity, similarity, grouping and whitespace; the reference gives concrete applications. Connections must represent real relationships. No color quota, scan path or claimed perception time is a quality gate.
 
-Keep color meaning stable across views: category, ordered magnitude, meaningful midpoint or explained status. Red is not automatically bad. Pair consequential distinctions with text, shapes, patterns or line styles.
+Keep color meaning stable across views: category, ordered magnitude, meaningful midpoint or explained status. Within a view, a title, mark and legend using the same color should not encode different dimensions. Use neutral panel titles or a different cue when panel identity and plotted series need different distinctions. Red is not automatically bad. Pair consequential distinctions with text, shapes, patterns or line styles.
 
-Titles/labels/notes jointly identify metric, unit, period, population, comparison and material limitation. Keep number formatting consistent. Preserve exact-value access where useful. Dashboards retain selected filters, refresh/as-of state, source and meaningful controls.
+Titles/labels/visible notes identify metric, unit, period, population, comparison and material limitation in each delivered artifact. A measurement distinction or assumption that changes the decision belongs beside the evidence or recommendation at readable size; speaker notes and a companion workbook cannot supply it for a standalone PDF. Keep number formatting consistent. Preserve exact-value access where useful. Dashboards retain selected filters, refresh/as-of state, source and meaningful controls.
 
-Use aligned edges, consistent type roles and spacing for finding, data reading and notes. Place labels near their marks. Remove competing decoration/repetition; retain meaningful references and uncertainty. Size type for the real slide/page/embed; simplify or separate views before shrinking essentials. A considered composition needs no fixed brand style, canvas or palette recipe.
+Use aligned edges, consistent type roles and spacing for finding, data reading and notes. Place labels near their marks; direct series labels can remove repeated legend lookups when they fit without ambiguity. Give the principal comparison the most room, keep the decisive caveat in its reading path, and use a compact table only for details the reader must look up. Reduce repeated prose or separate questions before shrinking essentials. A considered composition needs no fixed brand style, canvas or palette recipe.
 
 ## Produce and inspect the real files
 
-Use available tools for the requested format. Retain editable native charts, text-based SVG, or an editable specification with data/rebuild source; a raster alone is insufficient. Keep labels editable. Export static/interactive results and a static fallback when use requires it.
+Use available tools for the requested format. For native spreadsheet, presentation or document charts, consult the relevant artifact method and discover the actual application/runtime before choosing the creation and verification path. Retain editable native charts, text-based SVG, or an editable specification with data/rebuild source; a raster alone is insufficient. Keep labels editable. Export static/interactive results and a static fallback when use requires it.
 
-Inspect delivered files at destination size: values/geometry, scales/spans, labels, order, clipping/overlap, type, context and panel consistency. Interactive charts also need relevant control/selection, hover/keyboard and static-export checks.
+Inspect the saved editable file and every delivered export at destination size: values/geometry, scales/spans, the full category domain, labels, order, clipping/overlap, type, context and panel consistency. When native application access is available, reopen the saved file there and inspect its display or an export made by that application. A separately drawn preview, embedded data, object count or chart cache cannot establish the native render. If native access is unavailable, name that unverified surface and inspect the usable export. Interactive charts also need relevant control/selection, hover/keyboard and static-export checks.
+
+Build material values, labels, table entries and factual speaker notes from the same checked calculation results. Reconcile the delivered text as well as the plotted data against those results, including sample sizes, ranges, zeros and missingness statements. A correct workbook does not prove an independently typed note correct.
 
 Measure contrast for essential text/marks, provide useful text alternatives and redundant color distinctions. A palette name or grayscale preview does not establish accessibility. Repair observed failures and reinspect affected output.
 

@@ -32,11 +32,25 @@ Prefer aligned separate panels when unrelated units would otherwise require adju
 
 Use absolute changes and relative changes together when either can materially alter interpretation. Distinguish percentage points from relative percentages and show the starting base. Do not claim a quantifiable perceptual exaggeration merely from a visual impression.
 
+## Preserve the category domain
+
+For charts that place series on shared category positions, derive one complete ordered domain from the intended comparison, then align each series by category key. Preserve natural time or ordinal order; include eligible categories with no observation when their absence matters. Each series uses the same domain positions, including missing values at the beginning, interior or end. A union of observed categories is enough only when the intended comparison has no additional expected categories. Missing values remain native blanks/nulls or the format's supported missing representation, rather than zero, an empty string interpreted as zero, or a shortened array that shifts later values. Continuous-coordinate charts retain each actual coordinate and missing interval; do not pad them to invented categorical positions.
+
+Native chart applications may choose category labels from one series. When that series has less coverage than others, valid longer-series values can appear with absent or displaced labels. Give the chart an explicit complete domain and align all category/value ranges and caches with it. For categorical charts, check the category label at every plotted position; for continuous time, check real coordinates, visible extent and missing intervals. Label excluded points or coverage limits without discarding the domain needed to interpret the remaining data. Axis tick thinning for readability is different from losing categories or plotting values against the wrong labels.
+
+Verify the saved native file in the application that will display it whenever access exists: reopen it, inspect the chart and an export made from that file, and compare category identities and series endpoints with the checked plot table. Inspect each delivered export separately; a PDF produced by a different drawing path can be correct while the editable chart is wrong. XML, caches, embedded workbooks, shape counts and a successful open are useful source checks, but do not show what the application renders. Repair generation/data alignment, save again and repeat the affected display checks. Report unavailable native verification accurately rather than substituting a metadata pass.
+
 ## Attention and grouping
+
+Keep the complete plotted data/domain while choosing a readable cadence for displayed ticks. Data completeness does not require printing every time label. Use natural interval labels and visible endpoints that let the reader locate the period, then verify the unchanged native category/value positions. For a decision about particular peaks, exceptions or changes, mark and label those actual observations on the chart; prose below an unmarked overview makes the reader hunt for the evidence twice.
+
+Give explanatory series a clear hierarchy. Use direct labels or markers for the decisive series/points, readable supporting context for other material groups, or aligned panels when crossings make the comparison hard. Test whether the intended comparison can be located without repeatedly moving between a legend and the plot. Keep color assignments understandable across the whole handoff; reusing a prominent hue for a year in one view and a group in another requires unnecessary relearning when the views tell one story. Prefer a stable semantic role, with position, line pattern or explicit panel labeling for the other dimension. Do not remove counterevidence to make the picture cleaner.
+
+In decomposition tables, name columns as contributions/components in the displayed output unit; retain the raw driver units separately if needed. Check a column heading and one cell together: would someone mistake a currency contribution for a price or quantity? A mathematically correct subtitle or footnote does not excuse an ambiguous header.
 
 For an explanatory visual, name its principal question and finding before arranging the page. Read the finding headline together with the strongest mark: they should point to the same comparison. A descriptive chart label can remain as a unit/scope label; it should not replace a supported finding headline. Put supplementary business decisions and detailed sensitivity work in adjacent prose or a separate view when large KPI figures or callout boxes would compete with that comparison. Do not fill a repeated page template merely because it has empty regions.
 
-Start with the reading order: headline, principal comparison, evidence/context, then supporting notes or exact values. This is a useful composition option, not a mandatory screen scan path. Use position and alignment to make relationships visible before adding decoration. Select the grouping lenses that serve the actual comparison; do not force every lens into one chart.
+Start with a useful reading sequence: supported takeaway, principal comparison, nearby qualification, then supporting detail or next choice. A decision artifact can place its proposed choice first when that helps the reader, then show evidence and the consequential tradeoff. These are composition options, not mandatory screen scan paths. Use position and alignment to make relationships visible before adding decoration. Select the grouping lenses that serve the actual comparison; do not force every lens into one chart.
 
 | Gestalt lens | Useful chart application | Meaning to protect |
 |---|---|---|
@@ -51,7 +65,7 @@ Start with the reading order: headline, principal comparison, evidence/context, 
 
 Pre-attentive cues can make a focal item stand out: a darker line, accent fill, distinct shape, size, or position. Use them for the decision-relevant evidence and keep other material evidence readable. Emphasis should not make an uncertain or weakly supported result look settled.
 
-Use a qualitative palette for categories, a sequential palette for ordered values, and a diverging palette when a meaningful reference divides two directions. Keep category assignments stable across views. Avoid an ordered rainbow whose hue changes do not convey ordered magnitude reliably. Remove 3D perspective, heavy grids, redundant borders, and decorative effects when they interfere with measurement; retain meaningful baselines, targets, interval marks, and reference lines.
+Use a qualitative palette for categories, a sequential palette for ordered values, and a diverging palette when a meaningful reference divides two directions. Keep assignments stable across views and across titles, marks and legends within a view. If panels identify one dimension while lines distinguish another, use neutral panel titles and let color serve the lines, or separate the dimensions with another clear cue. Avoid an ordered rainbow whose hue changes do not convey ordered magnitude reliably. Remove 3D perspective, heavy grids, redundant borders, and decorative effects when they interfere with measurement; retain meaningful baselines, targets, interval marks, and reference lines.
 
 ## Compose a considered visual
 
@@ -62,6 +76,10 @@ Make the hierarchy visible through relative emphasis, not through a checklist of
 - **Color has a job.** Start with readable neutral context when that suits the task, then add emphasis or category meaning. If everything is accented, decide what must attract attention first and quiet the rest without making it disappear. Do not impose a fixed color count or 60-30-10 area ratio.
 - **Labels reduce work.** Put decisive values and explanations beside the relevant marks; keep scope/units close to the plot. Use rounding that preserves the decision and a consistent locale. Remove redundant labels when the axis already supports the task. Explain a specialist term briefly when the intended reader would otherwise misread it.
 - **Restraint protects information.** Avoid ornamental separators, decorative badges, shadowed cards or illustrations that add no meaning to this comparison. Keep boundaries when they group real content, and keep sources, uncertainty and exceptions readable. A restrained dark theme can work if contrast and hierarchy do; background color alone does not establish quality.
+
+Give the visual one clear center of attention, enough space to compare its marks and a short visible statement of the limit that controls the conclusion. For several lines, try adjacent endpoint or inline series labels before adding a distant legend; move or separate labels if crossings or close endpoints make identity ambiguous. Show only the ticks needed to orient the reader while keeping decisive positions and exact-value access. Essential limitations need ordinary reading size and contrast, rather than a bottom footnote that requires zooming.
+
+Use tables for exact retrieval or an operational schedule. Keep each column tied to a reader question, align numeric values, make units and any parenthetical denominator explicit, and group comparable rows. Move repeated explanations into a short shared caption, or use a separate comparison view for reasons and tradeoffs when they make the table dense. In a presentation, surface the decisive comparison above or beside the table instead of expecting the audience to parse every cell. Preserve lookup detail in an accessible table when simplifying the main view.
 
 View the result in its destination rather than only as a full-resolution image. For an embedded chart, inspect the expected displayed width. For presentation or print, inspect the actual page/slide scale. If labels cannot be read, reorganize content, reduce nonessential text, use a more suitable aspect ratio or separate questions. Shrinking all typography usually preserves the file while losing its use.
 
@@ -77,14 +95,19 @@ Primary guidance checked 2026-10-12: [WCAG 2.2 contrast minimum](https://www.w3.
 
 ## Final surface review
 
-Inspect the chart inside its destination as well as on its own. Verify that:
+First reconcile the saved data and material claims with one checked calculation result. Use that result to populate chart points, rounded labels, tables, callouts and factual notes; if a format needs separate authoring, compare its extracted content to the result. Verify statements about sample sizes, ranges, zero values, coverage and eligibility against the exact variables and scope they describe. Check what is present in each output, including speaker notes when delivered, rather than assuming one correct chart makes every statement correct.
+
+Then inspect the chart inside its destination as well as on its own. Verify that:
 
 - The title and the visible values support the same claim and scope.
 - Marks, labels, totals, endpoint spans, percentages and units agree with the accepted facts.
 - The chart shows material context and counterevidence; any hidden detail has an explicit route.
 - Limits, ticks, ordering, aspect ratio and selected filters support a faithful comparison.
+- All series retain the intended category positions and missingness; native display and delivered exports have been checked separately.
 - No important label, note, interval, mark or control is clipped, overlapped or unreadable.
 - The delivered source can actually be edited or rebuilt; the export opens and retains the intended size and appearance.
+
+Read each portable artifact independently, including a PDF that omits speaker notes and workbook context. The reader must be able to identify what is counted, the unit and denominator, the relevant period/population, and any assumption or coverage limit that changes the choice from visible content in that file. Distinguish events from unique entities, observed history from a forecast, and a source's time-bin label from an operational start/end time when those meanings matter. Retain detailed methods elsewhere, but place the decision-changing definition or assumption beside its claim. Links and companion files support deeper checking; they do not repair a misleading visible label.
 
 A brief reader check can help reveal a confusing comparison. Show the chart without the explanation used to create it, and ask what is measured, which comparison supports the main finding, and what qualification changes its interpretation. If the answer depends on a long verbal rescue, inspect encoding, wording, grouping or density and repair the cause. A model readback is a useful ambiguity check; report it as such. Report human feedback only when it was actually observed. A timed heuristic, internal score, or completed render is not evidence of measured comprehension or business success.
 

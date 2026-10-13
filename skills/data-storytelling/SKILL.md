@@ -2,7 +2,7 @@
 name: data-storytelling
 description: Compose analysis, business charts and audience-ready communication from data when a request spans several outputs; explain KPI changes and deliver a supported decision memo or deck. Kể chuyện với dữ liệu, phân tích rồi vẽ biểu đồ và viết memo. Route chart-only, audit-only and team-practice jobs to their specialists; simple KPI answers stay short.
 metadata:
-  version: "3.0.0"
+  version: "3.1.2"
 ---
 
 # Data stories: compose the requested work
@@ -29,11 +29,13 @@ A prompt can request several jobs. For “explain the change, choose an action, 
 
 Frame the work in terms of the decision or use, reader, problem, success measure and window, constraints, affected roles and prior attempts. TOSCAR is a prompt for missing context, not a compulsory questionnaire: infer settled details and clarify only gaps that change correctness or a consequential choice. An expected finding remains a hypothesis; do not decide the Aha before inspecting evidence.
 
-Connect the business process to its records: which event creates a row, which source governs the metric, who resolves conflicting definitions, and when data becomes usable. Then analyze only unresolved decision-relevant questions. Reuse sufficient supplied analysis rather than repeating EDA. Keep shared facts, units, denominators and claim limitations stable across all outputs. Independent drafting can run in parallel once the authoritative facts are settled; reconcile the combined artifact afterward.
+Connect the business process to its records: which event creates a row, which source governs the metric, who resolves conflicting definitions, and when data becomes usable. Then analyze only unresolved decision-relevant questions. Reuse sufficient supplied analysis rather than repeating EDA. Keep one checked set of computed facts, units, denominators and claim limitations for all outputs; use it to populate charts, labels, tables and factual notes. Independent drafting can run in parallel once those facts are settled; reconcile the combined artifact afterward.
 
 Before designing the artifact, write its evidence-to-choice sentence: what the evidence establishes, why it matters for this reader, which choice it supports, and what it leaves unresolved. Select the evidence needed to support that sentence, including material counterevidence. A chart, headline and recommendation must agree on both the main point and claim strength. Put detailed derivations in accessible supporting evidence; do not narrate the order in which analysis was performed.
 
-Produce the requested editable artifact and inspect its final render. Link the recommendation to the problem, desired outcome, feasible action and measurement. With unresolved causes, choose an exact diagnostic or reversible experiment when appropriate. Its measure must be one the action can still change, with a usable evidence window and stop/continue rule.
+Produce the requested editable artifact and inspect its final render. Use a clear decision/evidence/tradeoff/next-step sequence suited to the medium: give the main comparison room, attach direct labels and the controlling qualification, and keep exact lookup detail accessible. Essential units, denominators, definitions and decision-changing limits must be visible in each portable artifact; notes or a companion workbook cannot carry them for a standalone PDF. The [decision workflow](references/decision-workflow.md#make-each-artifact-work-alone) gives the independent-file check.
+
+Link the recommendation to the problem, desired outcome, feasible action and measurement. With unresolved causes, choose an exact diagnostic or reversible experiment when appropriate. Its measure must be one the action can still change, with a usable evidence window and stop/continue rule. Give that readout enough visible prominence that the reader can act on it.
 
 ## Reuse the installed stack
 
@@ -43,6 +45,8 @@ Select the existing skill router only when choices are unclear or span domains; 
 
 ## Finish with observable results
 
-Recompute decisive values, reconcile chart and prose, inspect labels/layout and consider the strongest pertinent alternative explanation. Deliver actual files or the requested answer, decisive sources/calculations, the supported choice and genuine limitations. For an action handoff, identify who checks the evidence, who can decide, who executes, what happens next and when the outcome can be revisited; use proposed roles when actual assignments are unknown. These responsibilities may be shared by a small team.
+Recompute decisive values and reconcile all delivered factual surfaces against the checked results, including chart domains, labels, tables, captions and speaker notes. Inspect the saved editable file in its native application when available and each delivered export separately; a custom preview or object inventory does not verify native display. Read each portable file on its own at its intended size, then consider the strongest pertinent alternative explanation. Repair observed contradictions or reading failures and recheck the affected surfaces.
+
+Deliver actual files or the requested answer, decisive sources/calculations, the supported choice and genuine limitations. For an action handoff, identify who checks the evidence, who can decide, who executes, what happens next and when the outcome can be revisited; use proposed roles when actual assignments are unknown. These responsibilities may be shared by a small team. State the actual checks and unavailable surfaces without turning a successful render into an acceptance claim.
 
 Keep prepared, reviewed, approved, executed and measured outcome separate. A credible recommendation can be delivered before its action is authorized or its result observed. Do not equate an internal score, render success or persuasive wording with business impact.

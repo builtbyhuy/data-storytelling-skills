@@ -1,10 +1,27 @@
-# Data Storytelling Skills · 3.0
+# Data Storytelling Skills · 3.1.2
 
 Turn business data into a choice someone can understand, check and act on. Six complementary Codex skills cover diagnosis, narrative, charts, evidence repair and recurring measurement. English instructions support Vietnamese and English requests.
+
+The 3.1.2 revision repairs errors found in unchanged native files and unfamiliar-data executions: claim scope and comparisons, category integrity, chart hierarchy and color meaning, visible qualifications, verified launch prerequisites and resource availability, and executable rebuild instructions. [Forward-test procedure, failed trials and method changes](evals/forward-v3.1.md) are recorded separately from the curated gallery.
 
 The 3.0 revision follows a complete reread of the supplied 89-page MDA guide. It changes the actual methods: decision-relevant contrasts, evidence sequencing, reader/grain/channel choices, visible qualifications, chart composition and practical action handoffs. [See the source-to-execution map](shared/source-method-map.md).
 
 ## See the work
+
+### New — Attendance support: investigate first, launch conditionally
+
+A fresh 3.1.2 execution used unfamiliar real DfE data for all 153 England authorities, two school phases and two autumn terms. The untouched handoff proposes investigating three places and opening one team only after verified local prerequisites. Its source statistics do not establish eligible families or programme impact; the service scenario is fictional.
+
+![Unaltered PowerPoint page comparing persistent absence in three candidate authorities, with direct period rates, percentage-point changes and the family-participation limit](examples/04-attendance-pilot/preview.png)
+
+[Native PowerPoint](examples/04-attendance-pilot/thu-nghiem-chuyen-can.pptx) · [Same-deck PDF](examples/04-attendance-pilot/thu-nghiem-chuyen-can.pdf) · [Formula workbook](examples/04-attendance-pilot/tong-hop-chuyen-can.xlsx) · [Brief, original recipe, source and hashes](examples/04-attendance-pilot/README.md)
+
+![Unaltered action page requiring local evidence, assigned available staff/resources, partners, safeguarding, participation and measurement before launch, with checking roles and a defer response](examples/04-attendance-pilot/readiness.png)
+
+All five pre-registered gates passed within scope: independent source/reasoning, actual native formats, visual communication, model-reader comprehension and practical handoff. The first final files were sealed before review; **the owner changed no output or rebuild code**. Actual PowerPoint exports match all nine delivered pages, actual Excel recalculation matches 8,684 cells and 2,805 formulas, and the exact relocated recipe reproduces those pages and workbook data. Ordinary chart Edit Data UI/cache refresh and human taste remain unverified. [Two failed trials, repairs and this pass](evals/forward-v3.1.md).
+
+<details>
+<summary>Earlier curated synthetic examples — 3.0</summary>
 
 ### 01 — Doanh thu tăng, đóng góp giảm: nên đổi gì?
 
@@ -32,6 +49,8 @@ A six-cell invoice example shows the repetition. The accounting table retains al
 
 These synthetic examples began as fresh independent executions of the revised skills using raw inputs and realistic briefs, without old outputs or intended answers. The published copies incorporate reader-review and portability edits. They are curated handoffs, not untouched trials, customer outcomes or aesthetic certification. [Gallery and use instructions](examples/README.md) · [3.0 checks and limits](evals/book-aligned-v3.md).
 
+</details>
+
 ## Choose the job
 
 | Skill | Job |
@@ -43,7 +62,7 @@ These synthetic examples began as fresh independent executions of the revised sk
 | `data-story-redteam` | Challenge and repair misleading claims, charts and recommendations |
 | `analytics-adoption` | Plan recurring metric stewardship, decisions and outcome learning |
 
-All six skills are version 3.0.0. A narrow KPI question stays short; a decision memo does not require all six methods.
+All six skills are version 3.1.2. A narrow KPI question stays short; a decision memo does not require all six methods.
 
 ## Give a normal request
 
@@ -72,6 +91,8 @@ Canonical shared references live under `shared/`; `python tools/sync_shared.py` 
 
 The optional [CSV join audit](skills/business-insight-diagnosis/references/join-audit.md) predicts row multiplication and repeated additive amounts with exact keys/decimals, source hashes and key-level evidence. It does not infer source authority, business key or eligible population. [Independent black-box tests](tools/test_join_audit.py) previously passed 13 groups / 48 invocations; the new invoice example also runs the unchanged helper against materialized joins.
 
+The optional [Office handoff checker](skills/data-story-redteam/scripts/check_office_handoff.py) inspects native PPTX category/data caches, notes and XLSX formula caches using the Python standard library. [Six parser controls](tools/test_office_handoff.py) cover its checked failure modes. It reports unresolved bindings and unsupported chart types as unverified; a structural pass does not certify the values, appearance or readability of a presentation.
+
 ## Source and evidence
 
 This independently authored suite adapts useful ideas from the user's MDA guide using original wording and qualified scopes. It is not an MDA or OpenAI product. [Coverage and operational qualifications](shared/source-method-map.md) include source advertising, unverified business cases and rigid heuristics. The original ebook and page images remain private. Only newly authored example PDFs are distributed. [Attribution](NOTICE.md).
@@ -83,3 +104,5 @@ Earlier matched evaluations remain in [the historical record](evals/README.md): 
 ## License
 
 [MIT](LICENSE) covers this project's original instructions, tools and synthetic examples. The source ebook and complementary third-party skills are not relicensed or redistributed.
+
+MIT also covers the project's original code, explanation and layout in the real-data example. DfE data/source information remains under Open Government Licence v3.0 with separate [attribution and scope](NOTICE.md); government website assets and private verification receipts are excluded.

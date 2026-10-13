@@ -10,6 +10,7 @@ AUTHORED_EXAMPLE_PDFS = {
     f'examples/{case}/brief.pdf'
     for case in ('01-profit-decision', '02-fair-comparison', '03-join-audit')
 }
+AUTHORED_EXAMPLE_PDFS.add('examples/04-attendance-pilot/thu-nghiem-chuyen-can.pdf')
 
 def validate():
     failures = []
@@ -54,7 +55,7 @@ def validate():
         if file.suffix.lower() == '.pdf':
             relative = file.relative_to(ROOT).as_posix()
             if relative not in AUTHORED_EXAMPLE_PDFS:
-                failures.append(f'Only the three authored example handoffs may be PDFs: {relative}')
+                failures.append(f'Only explicitly allowlisted authored example handoffs may be PDFs: {relative}')
             elif not file.read_bytes().startswith(b'%PDF-'):
                 failures.append(f'Authored example is not a PDF: {relative}')
         if file.suffix.lower() in {'.md', '.json', '.yaml', '.py', '.csv'}:

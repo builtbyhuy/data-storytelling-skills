@@ -30,11 +30,15 @@ Useful editing prompts are opening, context, finding, impact, proposal and next 
 |---|---|---|
 | Decision email | Subject identifies the finding or request; body states the choice, decisive evidence and needed response | Put the decision-changing qualification in the body; attach/link supporting analysis when useful; draft remains unsent without authorization |
 | Operational alert | Identify affected scope, observed change or threshold, consequence and response | Give eligible cases, an accountable role and the route to current detail when needed; avoid broadcasting an executive essay |
-| Live presentation | Make each slide's finding readable, with a visual comparison or evidence that supports it | Sequence slides to answer the audience's next logical question; notes/appendix carry detail, but material contrary evidence stays visible |
+| Live presentation | Make each slide's finding readable, with a visual comparison or evidence that supports it | Sequence slides to answer the audience's next logical question; notes/appendix carry elaboration, while interpretation-changing definitions, assumptions and contrary evidence stay visible |
 | Memo/report | Work without the author's narration; put the conclusion and choice where readers begin | Show reasons, important alternative, limits and next step; keep source/calculation detail accessible for challenge or implementation |
 | Shared dashboard | Let the reader locate their decision level and relevant state | Keep metric/filter/refresh meaning visible and give usable drill-down; do not substitute a fixed story for ongoing exploration |
 
 An attachment is not a dumping ground: its labels and structure should let the reader find the promised evidence. A short channel does not excuse hiding the uncertainty that changes the action.
+
+For every standalone artifact, test the meaning without its companion files or presenter. Name the measured unit in reader language: repeatable passages, transactions or sessions do not establish a count of unique people. Keep material observed exposure and time-bin/calendar assumptions near the comparison or operating window they govern. A PDF that omits speaker notes needs those essentials on its pages; the workbook or notes can retain the full derivation.
+
+Treat speaker notes and footnotes as factual output. Reuse the computed facts, eligibility and denominators behind the visible evidence; calculate a reported range from the displayed groups rather than estimating it from memory. Scope assertions about absent, null or zero values to the checked field and population. Narrative compression can shorten the explanation, but must preserve the metric's meaning.
 
 In a standalone decision memo, distinguish the choice now from the later outcome decision. Keep the operational eligibility and criterion governing the requested choice on the visible page: launch prerequisites, a stop trigger or an improvement boundary as applicable. Explain the main outcome's denominator in the reader's operating terms. Link the full protocol without making the reader open it to discover what they are approving or what would change the choice.
 
@@ -44,10 +48,14 @@ For a visual message, separate narrative roles from decoration. A heading states
 
 ## Working canvas
 
+For meeting slides, compose action and source pages around the next reading task instead of placing whole paragraphs in every table cell. A short ordered sequence can show what happens now, who acts and which completed evidence permits the next step; a separate compact comparison can carry alternatives or budget amounts. Group qualifications with the relevant step and preserve decision-changing context visibly. Keep fuller field forms, calculation details and source prose in an accessible companion. Reorganize dense content without shrinking essential type or imposing a fixed slide/word quota.
+
+Read the main action condition literally: does it require evidence already verified, or merely say that evidence needs verification? Distinguish permission to gather missing evidence from permission to launch the later intervention. Use observable completed states for the latter's prerequisites, with who checks them and the consequence of missing evidence. Do not invent eligibility rules or numeric thresholds that the brief/source cannot authorize.
+
 For a substantial story, capture decision/candidate hypotheses, audience, stakes, honest opening, support, main finding, action, measure, risk/rollback and portable message. Fill known context and mark unknowns; do not prewrite an expected Aha as the answer. Reuse this canvas only when it helps execution, not as an eligibility gate for a small request.
 
 ## Acceptance
 
-Check truth and use as separate questions. Material claims trace to facts, decisive figures agree across all outputs, the strongest contradictory evidence remains visible, and recommendation/authority/measurement fit the brief. Verify actual rendered output for visual formats at the destination size; readable typography in the source editor is insufficient.
+Check truth and use as separate questions. Material claims trace to facts, decisive figures and factual notes agree across all outputs, the strongest contradictory evidence remains visible, and recommendation/authority/measurement fit the brief. Inspect the saved editable format and each required export separately at the destination size. Compare chart categories, labels, values and essential qualifications across them; a correct export does not establish that the editable file renders identically. Use the relevant native artifact method for rendering and data/cache checks, recording any format that could not be verified.
 
 For a reader check, show only the delivered artifact and ask for the main finding, its comparison, the qualification that matters and the requested next step. If the response misses one, inspect whether wording, evidence order, grain or visible hierarchy caused the problem and repair that part. A self-check or another model's readback can locate ambiguity; it does not establish measured human comprehension, speed, professional taste, adoption, approval or realized value.

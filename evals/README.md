@@ -52,3 +52,7 @@ The new gallery's memos and charts are curated illustrations produced with the m
 ## Book-aligned 3.0 revision
 
 [New execution, artifact and control checks](book-aligned-v3.md) document the complete reread, method changes and independently executed then curated examples. This later work does not convert earlier ties/timeouts into wins or establish superiority.
+
+## Method repair and unfamiliar-data forward testing
+
+[The 3.1 record](forward-v3.1.md) uses five gates registered before outputs, fresh executors, independently prepared primary-source facts and sealed first handoffs. Failed completed outputs remain unchanged; a material partial result requires a method correction and a different dataset. These trials do not have a matched baseline, human acceptance measurement or real intervention outcome. They remain separate from the earlier synthetic comparisons and curated examples.

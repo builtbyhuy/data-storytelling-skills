@@ -31,6 +31,10 @@ For an AI-assisted workflow, generated queries, drafts and checks are working pr
 
 ## Make the readout executable
 
+Write each decision gate as an observable state, separating the activity from its result: a need to verify, an assigned verification, and verified evidence are different states. Authorizing a diagnostic step may be appropriate while the answer is unknown; a later intervention can be proposed or conditionally approved, while permission to launch becomes effective only when the stated evidence/prerequisites are satisfied. Name who checks them, what record establishes the state, and whether missing evidence means defer, revise or stop. Keep those conditions concise and visible in the decision handoff.
+
+Check operational readiness against the actual proposed work. A team count, spending ceiling or approved measurement design does not by itself confirm that the assigned people, necessary equipment, partner time and access are available for the required schedule. Identify only critical resources for that proposal, the role confirming their allocation/availability and the evidence that makes the condition complete. An existing budget or measurement-plan confirmation can include this check if its meaning is explicit. “Ready to submit” remains separate from approval and permission to launch. Keep unresolved requirements as unknown/defer states without invented staffing, equipment counts or costs.
+
 Separate the work cadence from the date when evidence can support a decision. For each decisive outcome, identify the applicable last eligible action/cohort entry, full follow-up window, metric calendar period, and source finalization delay. Derive the first usable readout from the latest required availability date. Count reporting periods using the source definition and timezone; do not replace a calendar month with four weeks. If cases continue entering, close intake or evaluate explicitly matured cohorts rather than claiming the whole pilot is complete.
 
 An evidence-ready date does not extend an authorized pilot, budget, or fixed decision deadline. At a fixed deadline, apply the supplied decision rule or authorized fallback; report immature or unavailable evidence as not established, and label any later follow-up as a proposal.
@@ -52,6 +56,8 @@ Combine these into one page or a small table when appropriate. Each field below 
 Show the decision owner and metric steward separately even when one person covers both. A metric label alone cannot reconcile two departments using different refund or eligibility rules. Link the canvas to the source definition rather than retyping a slightly different meaning in each report.
 
 An action record should answer: what changes, who has authority, who does the work, which cases are eligible, what would stop it, and what evidence permits a later judgment. A blank outcome cell means unobserved. Do not fill it with a forecast or the target.
+
+Make review conditions observable. Identify the evidence that would cause a slot, allocation or procedure to change, the accountable role and the next permitted response. A phrase such as "adjust if needed" does not tell an operator how to act. Keep genuine unknowns as prerequisites; when the brief needs independent execution, include the needed observation form and definitions rather than requiring the author to explain them later. A discussion proposal can be shorter, but its portable summary must still distinguish the measured source, planning assumptions and unapproved action.
 
 ## Worked handoff: recovering overdue cases
 

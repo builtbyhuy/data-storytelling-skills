@@ -2,7 +2,7 @@
 name: evidence-to-narrative
 description: Turn supplied analysis or verified facts into an executive memo, data-backed email draft, slide narrative or operational message for a specific audience and decision. Viết memo cho sếp, chuyển số liệu thành câu chuyện và đề xuất. Use when the primary job is communicating evidence; delegate unresolved diagnosis or chart production only when needed.
 metadata:
-  version: "3.0.0"
+  version: "3.1.2"
 ---
 
 # Evidence to a reader-ready argument
@@ -25,10 +25,10 @@ Translate technical findings into relevant implications without changing their m
 
 Produce the requested medium. Read available native document/presentation methods for DOCX/PPTX/PDF exports; use `business-chart-communication` when a chart is requested or materially helps the explanation. In a text-only task deliver the text. Drafting an email grants no sending permission. Keep source calculations, definitions and caveats consistent with any chart and attachment.
 
-For each channel, choose what belongs on the visible surface and what the reader can open next. A slide must communicate at presentation size; a memo must work without narration; an alert must identify the affected scope and response; a longer report can provide layered detail. Do not shrink a report into an image or turn framework fields into decorative cards merely to fill a page.
+Treat each requested standalone format as its own reading surface. Keep interpretation-changing units, exposure and assumptions visible beside the evidence or choice; speaker notes and attachments can elaborate. A slide must communicate at presentation size; a memo must work without narration; an alert must identify the affected scope and response; a longer report can provide layered detail. Do not shrink a report into an image or turn framework fields into decorative cards merely to fill a page.
 
 ## Review meaning and use separately
 
-Check decisive numbers and claim strength, adverse findings, options, authority and timing. Separate targets, forecasts, assumptions and observed outcomes. For visual formats inspect actual rendered pages/slides at the intended viewing size, including context and limitations.
+Check decisive numbers and claim strength, adverse findings, options, authority and timing, including factual speaker notes. Separate targets, forecasts, assumptions and observed outcomes. For visual formats inspect each required format's actual rendered pages/slides at the intended viewing size, including context and limitations; use the [acceptance checks](references/story-and-audience.md#acceptance) for a multi-format handoff.
 
 Then read only the delivered artifact as the intended reader: can it answer what changed, compared with what, why the evidence supports the choice and what happens next? If the action requires a calculation hidden in an appendix, an unexplained term or a missing logical link, repair the main message. A model readback is a diagnostic aid; a successful export or an internal rating does not demonstrate human understanding, approval or business impact.

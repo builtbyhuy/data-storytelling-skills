@@ -1,0 +1,12 @@
+{
+  "source": "raw/absence-geographic-autumn.csv",
+  "periods": ["202425", "202526"],
+  "time_identifier": "Autumn term",
+  "country_name": "England",
+  "education_phases": ["State-funded primary", "State-funded secondary"],
+  "candidate_geographic_level": "Local authority",
+  "context_geographic_levels": ["National", "Regional"],
+  "key_fields": ["new_la_code", "education_phase"],
+  "output": "authority-phase-cohort.csv",
+  "missing_value_policy": "Copy every source string unchanged. Retain x (not available), z (not applicable), blanks and any other source convention. No numeric adjustment, zero substitution or outcome filter."
+}

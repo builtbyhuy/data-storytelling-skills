@@ -2,7 +2,7 @@
 name: analytics-adoption
 description: Design a feasible recurring reporting-to-decision practice for a team, with metric ownership, shared definitions, pilot artifacts, decision logs and outcome learning. Thiết lập quy trình báo cáo, người phụ trách chỉ số và đo kết quả quyết định. Use for organizational practice; a one-off memo or KPI answer needs no rollout.
 metadata:
-  version: "3.0.0"
+  version: "3.1.2"
 ---
 
 # Make recurring analysis useful in practice
@@ -19,4 +19,4 @@ Record proposed, approved, executed and measured states distinctly. Learn separa
 
 Deliver a practical plan and editable templates scaled to the brief. For a short memo with a tracking record, keep only fields needed to decide, execute and revisit; put derivations in working evidence. Reuse the same verified facts across both outputs. A direct independent check of the decisive calculations and schedule can cover the handoff: do not create another verification framework that merely repeats those passed checks or compares a generated file to its own source object. Rerun affected checks after a change or unresolved failure, then hand over the requested files.
 
-Verify responsibility and access consistency, metric definitions and feasible cadence; use specific next steps even when names or dates remain proposed. Scheduling monitors, changing systems and sending reports need their actual authorization.
+Verify responsibility and access consistency, metric definitions and feasible cadence; use specific next steps even when names or dates remain proposed. The portable plan should give the next operator an applicable action, an observable review trigger and the record needed to apply it. If a form or operational definition is essential to the requested pilot, supply a populated example or link to the team's usable version. Keep an unrequested deployment or source update as a separate proposal. Scheduling monitors, changing systems and sending reports need their actual authorization.
