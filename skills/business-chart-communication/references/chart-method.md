@@ -30,6 +30,8 @@ Use absolute changes and relative changes together when either can materially al
 
 ## Attention and grouping
 
+For an explanatory visual, name its principal question and finding before arranging the page. Read the finding headline together with the strongest mark: they should point to the same comparison. A descriptive chart label can remain as a unit/scope label; it should not replace a supported finding headline. Put supplementary business decisions and detailed sensitivity work in adjacent prose or a separate view when large KPI figures or callout boxes would compete with that comparison. Do not fill a repeated page template merely because it has empty regions.
+
 Start with the reading order: headline, principal comparison, evidence/context, then supporting notes or exact values. Use position and alignment to make relationships visible before adding decoration. Select the grouping lenses that serve the actual comparison; do not force every lens into one chart.
 
 | Gestalt lens | Useful chart application | Meaning to protect |
@@ -69,3 +71,5 @@ Inspect the chart inside its destination as well as on its own. Verify that:
 - The delivered source can actually be edited or rebuilt; the export opens and retains the intended size and appearance.
 
 A brief reader check can help reveal a confusing comparison: can the intended reader identify what is measured, the principal pattern, and its limitation? Report observed feedback only. A timed heuristic, internal score, or completed render is not evidence of measured comprehension or business success.
+
+Separate two review questions: whether the values, geometry and labels are correct, and whether the reading hierarchy helps someone answer the business question. A clipped-text check, contrast ratio or numeric pass cannot establish effective composition or accepted taste. Inspect the visual at its actual destination width; if several large figures, accent colors or boxed explanations compete for attention, revise the emphasis and recheck the reading task.

@@ -4,11 +4,13 @@ Turn business data into a decision someone can understand, challenge and act on.
 
 ## See the work
 
-### 01 — More sales. Less contribution.
+### 01 — Freight growth erased the gross-profit gain.
 
 Sales rise **VND44.10m**, while contribution falls **VND4.05m**. A reconciled bridge explains the change; a conservative B2B bound supports a limited price test with demand guardrails.
 
-![Editable decision note: contribution bridge, source coverage and bounded B2B recommendation](examples/01-profit-decision/decision.png)
+![Gross profit rises2.80m VND but freight rises6.85m; the focused contribution bridge falls from35.00m to30.95m](examples/01-profit-decision/decision.png)
+
+The chart isolates the accounting change. The linked memo supplies the B2B contribution bound and price sensitivity behind the proposed action.
 
 [Copy the request](examples/01-profit-decision/brief.md) · [Read the memo](examples/01-profit-decision/memo.md) · [Inspect the test plan](examples/01-profit-decision/test-plan.md) · [Source, calculations and editable SVG](examples/01-profit-decision/README.md)
 
@@ -16,7 +18,7 @@ Sales rise **VND44.10m**, while contribution falls **VND4.05m**. A reconciled br
 
 The report's headline rates are correct. Its coaching conclusion is unsupported. The repaired comparison keeps the aggregate rates, shows every denominator and reveals the different lead populations.
 
-![Repaired team comparison with overall rates, same-tier rates, sample counts and a causal limitation](examples/02-fair-comparison/comparison.png)
+![B leads overall, A leads within both supplied tiers; both views use the same scale and show every denominator](examples/02-fair-comparison/comparison.png)
 
 [Request, repaired decision and source data](examples/02-fair-comparison/README.md) · [Editable SVG](examples/02-fair-comparison/comparison.svg)
 
@@ -24,7 +26,7 @@ The report's headline rates are correct. Its coaching conclusion is unsupported.
 
 **$1,200** of invoiced revenue becomes **$2,500** after a raw join. The executed audit locates **$1,300** of duplication; the corrected reconciliation keeps the unpaid invoice visible.
 
-![Invoice audit showing repeated amounts by payment allocation and the corrected revenue-and-cash reconciliation](examples/03-join-audit/join.png)
+![The same500USD invoice is carried into three payment matches, producing1500USD and1000USD of duplication](examples/03-join-audit/join.png)
 
 [Try the request and reproduce the audit](examples/03-join-audit/README.md) · [Actual tool output](examples/03-join-audit/result/report.json) · [Editable SVG](examples/03-join-audit/join.svg)
 
@@ -88,7 +90,7 @@ The pilot passed five subcases in both baseline and candidate conditions, plus t
 - Diagnosis/narrative references are loaded when an unresolved method question needs them.
 - The optional CSV join audit uses exact amounts and records key-level duplication evidence. Independent black-box checks passed 13 groups; the gallery also executes it on a practical invoice/payment example.
 
-The latest specialist versions are 2.2.1 for diagnosis/narrative, 2.1.1 for adoption and 2.1.0 for the other three. Tested utility behavior and polished worked examples support their stated scopes; neither substitutes for comparative or real-world outcome evidence.
+The latest specialist versions are 2.2.1 for diagnosis/narrative, 2.1.1 for adoption/chart communication and 2.1.0 for composing/redteam. Tested utility behavior and worked examples support their stated scopes; neither substitutes for comparative or real-world outcome evidence.
 
 ## License
 

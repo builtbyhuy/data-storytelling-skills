@@ -1,74 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1080" viewBox="0 0 1400 1080" role="img" aria-labelledby="title desc">
-<title id="title">More sales. Less contribution.</title><desc id="desc">June to July contribution falls from 35.00 to 30.95 million VND. Volume and mix add 10.90; invoice prices reduce 6.40; posted credits reduce 1.70; freight reduces 6.85. Three million freight is not attributed by the connector.</desc>
-<style>text{font-family:"Segoe UI",Arial,sans-serif} .number{font-variant-numeric:tabular-nums}</style>
-<rect x="0" y="0" width="1400" height="1080" fill="#F7F5F0" rx="0"/>
-<text class="number" x="64" y="66" font-size="20" fill="#08766A" font-weight="700" text-anchor="start" letter-spacing="2">DATA STORYTELLING</text>
-<text class="number" x="1336" y="66" font-size="18" fill="#52636A" font-weight="400" text-anchor="end">DECISION NOTE 01  /  SYNTHETIC EXAMPLE</text>
-<line x1="64" y1="91" x2="1336" y2="91" stroke="#D7DEDA" stroke-width="1"/>
-<text class="number" x="64" y="167" font-size="66" fill="#182D33" font-weight="650" text-anchor="start">More sales.</text>
-<text class="number" x="64" y="243" font-size="66" fill="#182D33" font-weight="650" text-anchor="start">Less contribution.</text>
-<text class="number" x="64" y="292" font-size="28" fill="#52636A" font-weight="400" text-anchor="start">Explain the decline before choosing the August move.</text>
-<text class="number" x="1004" y="155" font-size="18" fill="#52636A" font-weight="600" text-anchor="start" letter-spacing="1">NET SALES CHANGE</text>
-<text class="number" x="1004" y="212" font-size="50" fill="#08766A" font-weight="650" text-anchor="start">+44.10m</text>
-<text class="number" x="1004" y="250" font-size="19" fill="#52636A" font-weight="400" text-anchor="start">Contribution change</text>
-<text class="number" x="1004" y="294" font-size="35" fill="#B44F31" font-weight="650" text-anchor="start">−4.05m VND</text>
-<text class="number" x="64" y="358" font-size="27" fill="#182D33" font-weight="650" text-anchor="start">The contribution bridge</text>
-<text class="number" x="64" y="388" font-size="20" fill="#52636A" font-weight="400" text-anchor="start">June → July 2026 · million VND · contribution excludes overhead</text>
-<line x1="106" y1="742.0" x2="925" y2="742.0" stroke="#D7DEDA" stroke-width="1"/>
-<text class="number" x="91" y="748.0" font-size="17" fill="#52636A" font-weight="400" text-anchor="end">0</text>
-<line x1="106" y1="678.6" x2="925" y2="678.6" stroke="#D7DEDA" stroke-width="1"/>
-<text class="number" x="91" y="684.6" font-size="17" fill="#52636A" font-weight="400" text-anchor="end">10</text>
-<line x1="106" y1="615.2" x2="925" y2="615.2" stroke="#D7DEDA" stroke-width="1"/>
-<text class="number" x="91" y="621.2" font-size="17" fill="#52636A" font-weight="400" text-anchor="end">20</text>
-<line x1="106" y1="551.8" x2="925" y2="551.8" stroke="#D7DEDA" stroke-width="1"/>
-<text class="number" x="91" y="557.8" font-size="17" fill="#52636A" font-weight="400" text-anchor="end">30</text>
-<line x1="106" y1="488.4" x2="925" y2="488.4" stroke="#D7DEDA" stroke-width="1"/>
-<text class="number" x="91" y="494.4" font-size="17" fill="#52636A" font-weight="400" text-anchor="end">40</text>
-<line x1="106" y1="425.0" x2="925" y2="425.0" stroke="#D7DEDA" stroke-width="1"/>
-<text class="number" x="91" y="431.0" font-size="17" fill="#52636A" font-weight="400" text-anchor="end">50</text>
-<rect x="128" y="520.1" width="87" height="221.9" fill="#182D33" rx="0"/>
-<text class="number" x="171.5" y="506.1" font-size="23" fill="#182D33" font-weight="650" text-anchor="middle">35.00</text>
-<line x1="215" y1="520.1" x2="264" y2="520.1" stroke="#52636A" stroke-width="1" stroke-dasharray="4 4"/>
-<text class="number" x="171.5" y="776" font-size="20" fill="#182D33" font-weight="400" text-anchor="middle">June</text>
-<rect x="264" y="450.994" width="87" height="69.106" fill="#08766A" rx="0"/>
-<text class="number" x="307.5" y="436.994" font-size="23" fill="#08766A" font-weight="650" text-anchor="middle">+10.90</text>
-<line x1="351" y1="450.994" x2="400" y2="450.994" stroke="#52636A" stroke-width="1" stroke-dasharray="4 4"/>
-<text class="number" x="307.5" y="776" font-size="20" fill="#182D33" font-weight="400" text-anchor="middle">Volume</text>
-<text class="number" x="307.5" y="803" font-size="20" fill="#52636A" font-weight="400" text-anchor="middle">&amp; mix</text>
-<rect x="400" y="450.994" width="87" height="40.57599999999999" fill="#B44F31" rx="0"/>
-<text class="number" x="443.5" y="436.994" font-size="23" fill="#B44F31" font-weight="650" text-anchor="middle">−6.40</text>
-<line x1="487" y1="491.57" x2="536" y2="491.57" stroke="#52636A" stroke-width="1" stroke-dasharray="4 4"/>
-<text class="number" x="443.5" y="776" font-size="20" fill="#182D33" font-weight="400" text-anchor="middle">Invoice</text>
-<text class="number" x="443.5" y="803" font-size="20" fill="#52636A" font-weight="400" text-anchor="middle">prices</text>
-<rect x="536" y="491.57" width="87" height="10.778000000000018" fill="#B44F31" rx="0"/>
-<text class="number" x="579.5" y="477.57" font-size="23" fill="#B44F31" font-weight="650" text-anchor="middle">−1.70</text>
-<line x1="623" y1="502.348" x2="672" y2="502.348" stroke="#52636A" stroke-width="1" stroke-dasharray="4 4"/>
-<text class="number" x="579.5" y="776" font-size="20" fill="#182D33" font-weight="400" text-anchor="middle">Posted</text>
-<text class="number" x="579.5" y="803" font-size="20" fill="#52636A" font-weight="400" text-anchor="middle">credits</text>
-<rect x="672" y="502.348" width="87" height="43.42900000000001" fill="#B44F31" rx="0"/>
-<text class="number" x="715.5" y="488.348" font-size="23" fill="#B44F31" font-weight="650" text-anchor="middle">−6.85</text>
-<line x1="759" y1="545.777" x2="808" y2="545.777" stroke="#52636A" stroke-width="1" stroke-dasharray="4 4"/>
-<text class="number" x="715.5" y="776" font-size="20" fill="#182D33" font-weight="400" text-anchor="middle">Freight</text>
-<rect x="808" y="545.777" width="87" height="196.22299999999998" fill="#182D33" rx="0"/>
-<text class="number" x="851.5" y="531.777" font-size="23" fill="#182D33" font-weight="650" text-anchor="middle">30.95</text>
-<text class="number" x="851.5" y="776" font-size="20" fill="#182D33" font-weight="400" text-anchor="middle">July</text>
-<rect x="990" y="335" width="346" height="491" fill="#E7EEE8" rx="10"/>
-<text class="number" x="1018" y="377" font-size="27" fill="#182D33" font-weight="650" text-anchor="start">Keep B2B in the plan.</text>
-<text class="number" x="1018" y="421" font-size="23" fill="#182D33" font-weight="400" text-anchor="start">Even assigning all missing</text>
-<text class="number" x="1018" y="452" font-size="23" fill="#182D33" font-weight="400" text-anchor="start">freight to B2B leaves</text>
-<text class="number" x="1018" y="522" font-size="57" fill="#08766A" font-weight="650" text-anchor="start">17.70m</text>
-<text class="number" x="1018" y="557" font-size="24" fill="#182D33" font-weight="400" text-anchor="start">positive contribution.</text>
-<line x1="1018" y1="590" x2="1308" y2="590" stroke="#C1CEC5" stroke-width="1"/>
-<text class="number" x="1018" y="630" font-size="23" fill="#182D33" font-weight="650" text-anchor="start">Coverage changes the story.</text>
-<text class="number" x="1018" y="670" font-size="22" fill="#182D33" font-weight="400" text-anchor="start">Carrier detail: 12.70m</text>
-<text class="number" x="1018" y="701" font-size="22" fill="#182D33" font-weight="400" text-anchor="start">Closed ledger: 15.70m</text>
-<text class="number" x="1018" y="732" font-size="22" fill="#182D33" font-weight="400" text-anchor="start">The 3.00m gap is real;</text>
-<text class="number" x="1018" y="763" font-size="22" fill="#182D33" font-weight="400" text-anchor="start">its attribution is unknown.</text>
-<text class="number" x="64" y="850" font-size="22" fill="#52636A" font-weight="400" text-anchor="start">Gross profit rose 2.80m. Freight rose 6.85m. The ledger sets the total.</text>
-<rect x="64" y="885" width="1272" height="125" fill="#182D33" rx="8"/>
-<text class="number" x="92" y="931" font-size="34" fill="#FFFFFF" font-weight="650" text-anchor="start">Test a smaller discount. Keep B2B.</text>
-<text class="number" x="92" y="965" font-size="22" fill="#E8EFED" font-weight="400" text-anchor="start">Use comparable customers and measure contribution after credits and freight.</text>
-<text class="number" x="92" y="994" font-size="22" fill="#E8EFED" font-weight="400" text-anchor="start">The 6.20m price-restoration scenario holds quantity fixed; it is not a demand forecast.</text>
-<text class="number" x="64" y="1045" font-size="18" fill="#52636A" font-weight="400" text-anchor="start">Source: supplied June/July exports + closed ledger. Curated illustration; no action has been run.</text>
-<text class="number" x="1336" y="1045" font-size="17" fill="#52636A" font-weight="400" text-anchor="end">EDITABLE SVG + SOURCE DATA</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+<title id="title">Freight growth erased the gain in gross profit.</title><desc id="desc">June to July 2026: gross profit rose 2.80 million VND and freight rose 6.85 million VND. Contribution fell 4.05 million, from 35.00 to 30.95. Closed-ledger freight is authoritative; 3.00 million is unattributed.</desc>
+<style>text{font-family:"Segoe UI",Arial,sans-serif;font-variant-numeric:tabular-nums}.heading{font-family:Georgia,"Times New Roman",serif}</style>
+<rect width="1440" height="900" fill="#FFFFFF"/>
+<text x="70" y="46" font-size="15" fill="#245AE7" font-weight="600" text-anchor="start">01</text>
+<text x="106" y="46" font-size="13" fill="#5B6874" font-weight="600" text-anchor="start" letter-spacing="1.4">WORKED EXAMPLE</text>
+<text x="1370" y="46" font-size="13" fill="#5B6874" font-weight="400" text-anchor="end" letter-spacing="1.2">SYNTHETIC DATA</text>
+<line x1="70" y1="68" x2="1370" y2="68" stroke="#DFE5EA" stroke-width="1"/>
+<text class="heading" x="70" y="132" font-size="42" fill="#17252E" font-weight="400" text-anchor="start">Freight growth erased the gain in gross profit.</text>
+<text x="70" y="176" font-size="21" fill="#5B6874" font-weight="400" text-anchor="start">Contribution fell 4.05m VND from June to July 2026, despite higher sales.</text>
+<text x="70" y="239" font-size="18" fill="#17252E" font-weight="600" text-anchor="start">Contribution</text>
+<text x="1370" y="239" font-size="17" fill="#5B6874" font-weight="400" text-anchor="end">million VND  ·  excludes overhead</text>
+<line x1="112" y1="652.0" x2="1338" y2="652.0" stroke="#DFE5EA" stroke-width="1"/>
+<text x="95" y="658.0" font-size="17" fill="#5B6874" font-weight="400" text-anchor="end">0</text>
+<line x1="112" y1="568.0" x2="1338" y2="568.0" stroke="#DFE5EA" stroke-width="1"/>
+<text x="95" y="574.0" font-size="17" fill="#5B6874" font-weight="400" text-anchor="end">10</text>
+<line x1="112" y1="484.0" x2="1338" y2="484.0" stroke="#DFE5EA" stroke-width="1"/>
+<text x="95" y="490.0" font-size="17" fill="#5B6874" font-weight="400" text-anchor="end">20</text>
+<line x1="112" y1="400.0" x2="1338" y2="400.0" stroke="#DFE5EA" stroke-width="1"/>
+<text x="95" y="406.0" font-size="17" fill="#5B6874" font-weight="400" text-anchor="end">30</text>
+<line x1="112" y1="316.0" x2="1338" y2="316.0" stroke="#DFE5EA" stroke-width="1"/>
+<text x="95" y="322.0" font-size="17" fill="#5B6874" font-weight="400" text-anchor="end">40</text>
+<rect x="162" y="358.0" width="170" height="294.0" rx="0" fill="#758594"/>
+<text x="247" y="341.0" font-size="28" fill="#17252E" font-weight="600" text-anchor="middle">35.00</text>
+<text x="247" y="687" font-size="22" fill="#17252E" font-weight="400" text-anchor="middle">June</text>
+<line x1="332" y1="358.0" x2="476" y2="358.0" stroke="#758594" stroke-width="1" stroke-dasharray="4 5"/>
+<rect x="476" y="334.48" width="170" height="23.52" rx="0" fill="#758594"/>
+<text x="561" y="317.48" font-size="28" fill="#17252E" font-weight="600" text-anchor="middle">+2.80</text>
+<text x="561" y="687" font-size="22" fill="#17252E" font-weight="400" text-anchor="middle">Gross-profit gain</text>
+<line x1="646" y1="334.48" x2="790" y2="334.48" stroke="#758594" stroke-width="1" stroke-dasharray="4 5"/>
+<rect x="790" y="334.48" width="170" height="57.54" rx="0" fill="#245AE7"/>
+<text x="875" y="317.48" font-size="28" fill="#245AE7" font-weight="600" text-anchor="middle">−6.85</text>
+<text x="875" y="687" font-size="22" fill="#245AE7" font-weight="600" text-anchor="middle">Freight growth</text>
+<line x1="960" y1="392.02" x2="1104" y2="392.02" stroke="#758594" stroke-width="1" stroke-dasharray="4 5"/>
+<rect x="1104" y="392.02" width="170" height="259.98" rx="0" fill="#758594"/>
+<text x="1189" y="375.02" font-size="28" fill="#17252E" font-weight="600" text-anchor="middle">30.95</text>
+<text x="1189" y="687" font-size="22" fill="#17252E" font-weight="400" text-anchor="middle">July</text>
+<line x1="70" y1="724" x2="1370" y2="724" stroke="#DFE5EA" stroke-width="1"/>
+<text x="70" y="760" font-size="13" fill="#5B6874" font-weight="600" text-anchor="start" letter-spacing="1.2">DECISION</text>
+<text x="70" y="791" font-size="21" fill="#17252E" font-weight="400" text-anchor="start">Full memo: keep B2B; propose a bounded price test.</text>
+<text x="798" y="760" font-size="13" fill="#5B6874" font-weight="600" text-anchor="start" letter-spacing="1.2">LIMIT THAT MATTERS</text>
+<text x="798" y="791" font-size="20" fill="#17252E" font-weight="400" text-anchor="start">3.00m freight is in the ledger but unattributed.</text>
+<line x1="70" y1="817" x2="1370" y2="817" stroke="#DFE5EA" stroke-width="1"/>
+<text x="70" y="850" font-size="16" fill="#5B6874" font-weight="400" text-anchor="start">Source: June/July invoice, credit and finance exports. July ledger freight 15.70m; carrier detail 12.70m.</text>
+<text x="70" y="875" font-size="16" fill="#5B6874" font-weight="400" text-anchor="start">Proposed commercial-lead pilot: four-week execution review; expansion waits for complete return and freight evidence.</text>
 </svg>

@@ -2,7 +2,7 @@
 
 **$1,200 invoiced. $2,500 after the raw left join. $1,300 is duplication.**
 
-![Invoice-level audit showing legitimate revenue, payment multiplicity, joined revenue and duplication, including the unpaid invoice](join.png)
+![INV-1002 has500USD revenue; matching it to three payment allocations repeats that revenue three times and creates1000USD of duplication](join.png)
 
 A service business combines invoice lines with payment allocations to report revenue and collections. Both exports repeat `invoice_id` for legitimate reasons: one invoice has several services, and one customer pays in installments. Summing line amounts after the join repeats those amounts for each payment.
 

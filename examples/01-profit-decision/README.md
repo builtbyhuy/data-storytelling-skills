@@ -2,7 +2,9 @@
 
 **Use this when:** sales growth hides a decline in contribution, and the team needs to choose a bounded commercial action.
 
-![June to July contribution bridge, B2B downside bound, missing freight coverage and a bounded price-test recommendation](decision.png)
+![June to July2026 contribution:35.00m VND plus2.80m gross-profit gain minus6.85m freight growth equals30.95m; freight is the focused comparison](decision.png)
+
+The chart answers one question: which accounting change consumed the gross-profit gain? The memo below gives the separate B2B bound and price sensitivity behind the proposed action; those supporting figures are not additional focal points in the chart.
 
 The business's sales grew **VND44.10m**, while contribution fell **VND4.05m**. Gross profit rose, but freight grew faster. The useful decision is to keep B2B in the plan, reconcile the missing freight and test a smaller discount with demand and service guardrails.
 
@@ -16,7 +18,7 @@ The business's sales grew **VND44.10m**, while contribution fell **VND4.05m**. G
 
 ## What the methods contributed
 
-`business-insight-diagnosis` reconciles the accounting bridge and bounds the missing freight instead of inventing its attribution. `evidence-to-narrative` puts the choice, strongest counterargument and price sensitivity together. `business-chart-communication` makes the bridge legible with exact values and the source-coverage limitation alongside it. `analytics-adoption` gives the proposed intervention an owner, guardrails and an outcome date that waits for mature evidence.
+`business-insight-diagnosis` reconciles the accounting bridge and bounds the missing freight instead of inventing its attribution. `evidence-to-narrative` puts the choice, strongest counterargument and price sensitivity together. `business-chart-communication` isolates the decisive gross-profit/freight contrast with a finding headline, neutral context and one highlighted change. `analytics-adoption` gives the proposed intervention an owner, guardrails and an outcome date that waits for mature evidence.
 
 **The useful limit:** the VND6.20m price-restoration sensitivity holds sales and returned quantities fixed. It estimates a mechanical scenario, not demand response. The VND17.70m B2B contribution floor excludes overhead and assumes all VND3m missing freight belongs to B2B. Neither figure is an observed benefit of a test.
 

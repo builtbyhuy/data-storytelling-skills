@@ -3,7 +3,7 @@ name: business-chart-communication
 description: Create or repair decision-focused business charts, dashboard panels, and slide visuals from data or a bounded existing graphic. Deliver an editable chart source and an inspected export with faithful values, scales, labels, and context.
 license: MIT
 metadata:
-  version: "2.1.0"
+  version: "2.1.1"
 ---
 
 # Business chart communication
