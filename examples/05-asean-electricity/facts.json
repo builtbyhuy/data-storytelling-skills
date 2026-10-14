@@ -1,0 +1,586 @@
+{
+  "metric": "Published wind and solar share of domestic annual electricity generation; net imports excluded",
+  "scope": {
+    "iso": [
+      "VNM",
+      "THA",
+      "MYS",
+      "PHL",
+      "IDN"
+    ],
+    "years": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "source_rows": 200,
+    "annual_combined_observations": 50
+  },
+  "countries": {
+    "VNM": {
+      "name": "Việt Nam",
+      "share_2015_pct": 0.079,
+      "share_2024_pct": 14.697,
+      "change_2015_2024_pp": 14.618,
+      "annual_shares_pct": [
+        0.079,
+        0.115,
+        0.184,
+        0.234,
+        2.34,
+        4.984,
+        12.102,
+        13.852,
+        15.136,
+        14.697
+      ]
+    },
+    "THA": {
+      "name": "Thái Lan",
+      "share_2015_pct": 1.468,
+      "share_2024_pct": 5.802,
+      "change_2015_2024_pp": 4.334,
+      "annual_shares_pct": [
+        1.468,
+        2.098,
+        3.047,
+        3.297,
+        4.469,
+        4.446,
+        4.589,
+        4.28,
+        4.363,
+        5.802
+      ]
+    },
+    "MYS": {
+      "name": "Malaysia",
+      "share_2015_pct": 0.182,
+      "share_2024_pct": 3.016,
+      "change_2015_2024_pp": 2.834,
+      "annual_shares_pct": [
+        0.182,
+        0.198,
+        0.205,
+        0.371,
+        0.817,
+        1.183,
+        1.198,
+        1.773,
+        2.172,
+        3.016
+      ]
+    },
+    "PHL": {
+      "name": "Philippines",
+      "share_2015_pct": 1.08,
+      "share_2024_pct": 2.883,
+      "change_2015_2024_pp": 1.803,
+      "annual_shares_pct": [
+        1.08,
+        2.291,
+        2.427,
+        2.406,
+        2.16,
+        2.359,
+        2.6,
+        2.582,
+        2.716,
+        2.883
+      ]
+    },
+    "IDN": {
+      "name": "Indonesia",
+      "share_2015_pct": 0.026,
+      "share_2024_pct": 0.372,
+      "change_2015_2024_pp": 0.346,
+      "annual_shares_pct": [
+        0.026,
+        0.03,
+        0.03,
+        0.097,
+        0.176,
+        0.188,
+        0.172,
+        0.197,
+        0.266,
+        0.372
+      ]
+    }
+  },
+  "vietnam": {
+    "share_2018_pct": 0.234,
+    "share_2021_pct": 12.102,
+    "change_2018_2021_pp": 11.868,
+    "share_2023_pct": 15.136,
+    "share_2024_pct": 14.697,
+    "change_2023_2024_pp": -0.439,
+    "ws_2023_twh": 42.683,
+    "ws_2024_twh": 45.655,
+    "total_2023_twh": 282.0,
+    "total_2024_twh": 310.633,
+    "ws_growth_pct": 6.962959492069442,
+    "total_growth_pct": 10.15354609929078,
+    "gap_thailand_2024_pp": 8.895
+  },
+  "source_sha256": "1fd193cd5f4c2eda95756233869602b578cbdd7c030813c316b11f8b91eeeed4",
+  "reconciliation": [
+    {
+      "iso": "VNM",
+      "year": 2015,
+      "reported_share_pct": 0.079,
+      "generation_share_pct": 0.07904747789140852,
+      "share_diff_pp": 4.747789140852725e-05,
+      "component_share_diff_pp": 0.0,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "VNM",
+      "year": 2016,
+      "reported_share_pct": 0.115,
+      "generation_share_pct": 0.11497653027622275,
+      "share_diff_pp": -2.346972377725809e-05,
+      "component_share_diff_pp": 0.0,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "VNM",
+      "year": 2017,
+      "reported_share_pct": 0.184,
+      "generation_share_pct": 0.1838565713317276,
+      "share_diff_pp": -0.00014342866827241586,
+      "component_share_diff_pp": 0.0,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "VNM",
+      "year": 2018,
+      "reported_share_pct": 0.234,
+      "generation_share_pct": 0.23436348902313245,
+      "share_diff_pp": 0.0003634890231324591,
+      "component_share_diff_pp": 0.0,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "VNM",
+      "year": 2019,
+      "reported_share_pct": 2.34,
+      "generation_share_pct": 2.339521964151533,
+      "share_diff_pp": -0.0004780358484671952,
+      "component_share_diff_pp": 0.0,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "VNM",
+      "year": 2020,
+      "reported_share_pct": 4.984,
+      "generation_share_pct": 4.984311527652211,
+      "share_diff_pp": 0.0003115276522109087,
+      "component_share_diff_pp": 0.001,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "VNM",
+      "year": 2021,
+      "reported_share_pct": 12.102,
+      "generation_share_pct": 12.101733469291709,
+      "share_diff_pp": -0.00026653070829084634,
+      "component_share_diff_pp": 0.001,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "VNM",
+      "year": 2022,
+      "reported_share_pct": 13.852,
+      "generation_share_pct": 13.852214610932572,
+      "share_diff_pp": 0.00021461093257212123,
+      "component_share_diff_pp": 0.0,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "VNM",
+      "year": 2023,
+      "reported_share_pct": 15.136,
+      "generation_share_pct": 15.13581560283688,
+      "share_diff_pp": -0.00018439716312056736,
+      "component_share_diff_pp": 0.0,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "VNM",
+      "year": 2024,
+      "reported_share_pct": 14.697,
+      "generation_share_pct": 14.697408195523334,
+      "share_diff_pp": 0.00040819552333461027,
+      "component_share_diff_pp": 0.001,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "THA",
+      "year": 2015,
+      "reported_share_pct": 1.468,
+      "generation_share_pct": 1.467860048820179,
+      "share_diff_pp": -0.00013995117982099268,
+      "component_share_diff_pp": 0.0,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "THA",
+      "year": 2016,
+      "reported_share_pct": 2.098,
+      "generation_share_pct": 2.097633766787465,
+      "share_diff_pp": -0.0003662332125346408,
+      "component_share_diff_pp": 0.0,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "THA",
+      "year": 2017,
+      "reported_share_pct": 3.047,
+      "generation_share_pct": 3.046736025012129,
+      "share_diff_pp": -0.00026397498787127376,
+      "component_share_diff_pp": 0.0,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "THA",
+      "year": 2018,
+      "reported_share_pct": 3.297,
+      "generation_share_pct": 3.29728979644119,
+      "share_diff_pp": 0.00028979644118997045,
+      "component_share_diff_pp": 0.0,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "THA",
+      "year": 2019,
+      "reported_share_pct": 4.469,
+      "generation_share_pct": 4.469069839354783,
+      "share_diff_pp": 6.983935478311122e-05,
+      "component_share_diff_pp": 0.0,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "THA",
+      "year": 2020,
+      "reported_share_pct": 4.446,
+      "generation_share_pct": 4.445533992090603,
+      "share_diff_pp": -0.00046600790939752804,
+      "component_share_diff_pp": 0.0,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "THA",
+      "year": 2021,
+      "reported_share_pct": 4.589,
+      "generation_share_pct": 4.588669462610941,
+      "share_diff_pp": -0.00033053738905939505,
+      "component_share_diff_pp": 0.0,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "THA",
+      "year": 2022,
+      "reported_share_pct": 4.28,
+      "generation_share_pct": 4.279673640910921,
+      "share_diff_pp": -0.0003263590890797238,
+      "component_share_diff_pp": 0.0,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "THA",
+      "year": 2023,
+      "reported_share_pct": 4.363,
+      "generation_share_pct": 4.3632058234546065,
+      "share_diff_pp": 0.00020582345460658062,
+      "component_share_diff_pp": 0.001,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "THA",
+      "year": 2024,
+      "reported_share_pct": 5.802,
+      "generation_share_pct": 5.8018231934876745,
+      "share_diff_pp": -0.0001768065123256531,
+      "component_share_diff_pp": 0.0,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "MYS",
+      "year": 2015,
+      "reported_share_pct": 0.182,
+      "generation_share_pct": 0.18185088227653323,
+      "share_diff_pp": -0.00014911772346675725,
+      "component_share_diff_pp": 0.0,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "MYS",
+      "year": 2016,
+      "reported_share_pct": 0.198,
+      "generation_share_pct": 0.19787444547282418,
+      "share_diff_pp": -0.000125554527175821,
+      "component_share_diff_pp": 0.0,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "MYS",
+      "year": 2017,
+      "reported_share_pct": 0.205,
+      "generation_share_pct": 0.20543596000846645,
+      "share_diff_pp": 0.0004359600084664517,
+      "component_share_diff_pp": 0.0,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "MYS",
+      "year": 2018,
+      "reported_share_pct": 0.371,
+      "generation_share_pct": 0.37050498892002487,
+      "share_diff_pp": -0.0004950110799751433,
+      "component_share_diff_pp": 0.0,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "MYS",
+      "year": 2019,
+      "reported_share_pct": 0.817,
+      "generation_share_pct": 0.8173990016415209,
+      "share_diff_pp": 0.000399001641520956,
+      "component_share_diff_pp": 0.0,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "MYS",
+      "year": 2020,
+      "reported_share_pct": 1.183,
+      "generation_share_pct": 1.1833061308935426,
+      "share_diff_pp": 0.0003061308935426772,
+      "component_share_diff_pp": 0.0,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "MYS",
+      "year": 2021,
+      "reported_share_pct": 1.198,
+      "generation_share_pct": 1.197782506439691,
+      "share_diff_pp": -0.00021749356030910516,
+      "component_share_diff_pp": 0.0,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "MYS",
+      "year": 2022,
+      "reported_share_pct": 1.773,
+      "generation_share_pct": 1.7728819724091347,
+      "share_diff_pp": -0.00011802759086539711,
+      "component_share_diff_pp": 0.0,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "MYS",
+      "year": 2023,
+      "reported_share_pct": 2.172,
+      "generation_share_pct": 2.1715971078252463,
+      "share_diff_pp": -0.00040289217475364235,
+      "component_share_diff_pp": 0.0,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "MYS",
+      "year": 2024,
+      "reported_share_pct": 3.016,
+      "generation_share_pct": 3.016096265041413,
+      "share_diff_pp": 9.626504141272073e-05,
+      "component_share_diff_pp": 0.0,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "PHL",
+      "year": 2015,
+      "reported_share_pct": 1.08,
+      "generation_share_pct": 1.0800970873786409,
+      "share_diff_pp": 9.70873786407767e-05,
+      "component_share_diff_pp": 0.0,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "PHL",
+      "year": 2016,
+      "reported_share_pct": 2.291,
+      "generation_share_pct": 2.2910012115871794,
+      "share_diff_pp": 1.2115871792047583e-06,
+      "component_share_diff_pp": 0.0,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "PHL",
+      "year": 2017,
+      "reported_share_pct": 2.427,
+      "generation_share_pct": 2.4268757948283173,
+      "share_diff_pp": -0.00012420517168291648,
+      "component_share_diff_pp": 0.0,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "PHL",
+      "year": 2018,
+      "reported_share_pct": 2.406,
+      "generation_share_pct": 2.40625626629236,
+      "share_diff_pp": 0.0002562662923601364,
+      "component_share_diff_pp": 0.0,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "PHL",
+      "year": 2019,
+      "reported_share_pct": 2.16,
+      "generation_share_pct": 2.1597661039328493,
+      "share_diff_pp": -0.00023389606715080638,
+      "component_share_diff_pp": 0.0,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "PHL",
+      "year": 2020,
+      "reported_share_pct": 2.359,
+      "generation_share_pct": 2.3587223587223587,
+      "share_diff_pp": -0.00027764127764127766,
+      "component_share_diff_pp": 0.001,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "PHL",
+      "year": 2021,
+      "reported_share_pct": 2.6,
+      "generation_share_pct": 2.6002269288956126,
+      "share_diff_pp": 0.000226928895612708,
+      "component_share_diff_pp": 0.0,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "PHL",
+      "year": 2022,
+      "reported_share_pct": 2.582,
+      "generation_share_pct": 2.5818018825638727,
+      "share_diff_pp": -0.0001981174361272972,
+      "component_share_diff_pp": 0.0,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "PHL",
+      "year": 2023,
+      "reported_share_pct": 2.716,
+      "generation_share_pct": 2.7156686370256145,
+      "share_diff_pp": -0.0003313629743853337,
+      "component_share_diff_pp": 0.0,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "PHL",
+      "year": 2024,
+      "reported_share_pct": 2.883,
+      "generation_share_pct": 2.883144076669083,
+      "share_diff_pp": 0.0001440766690827092,
+      "component_share_diff_pp": 0.0,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "IDN",
+      "year": 2015,
+      "reported_share_pct": 0.026,
+      "generation_share_pct": 0.026244888060569214,
+      "share_diff_pp": 0.0002448880605692151,
+      "component_share_diff_pp": 0.0,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "IDN",
+      "year": 2016,
+      "reported_share_pct": 0.03,
+      "generation_share_pct": 0.03044742013045307,
+      "share_diff_pp": 0.0004474201304530702,
+      "component_share_diff_pp": 0.001,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "IDN",
+      "year": 2017,
+      "reported_share_pct": 0.03,
+      "generation_share_pct": 0.029719020172910664,
+      "share_diff_pp": -0.00028097982708933717,
+      "component_share_diff_pp": 0.0,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "IDN",
+      "year": 2018,
+      "reported_share_pct": 0.097,
+      "generation_share_pct": 0.09730141476257065,
+      "share_diff_pp": 0.00030141476257064775,
+      "component_share_diff_pp": 0.0,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "IDN",
+      "year": 2019,
+      "reported_share_pct": 0.176,
+      "generation_share_pct": 0.17593879843225962,
+      "share_diff_pp": -6.120156774036461e-05,
+      "component_share_diff_pp": 0.0,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "IDN",
+      "year": 2020,
+      "reported_share_pct": 0.188,
+      "generation_share_pct": 0.18843097005105533,
+      "share_diff_pp": 0.0004309700510553187,
+      "component_share_diff_pp": 0.0,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "IDN",
+      "year": 2021,
+      "reported_share_pct": 0.172,
+      "generation_share_pct": 0.1724295071225703,
+      "share_diff_pp": 0.0004295071225702835,
+      "component_share_diff_pp": 0.001,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "IDN",
+      "year": 2022,
+      "reported_share_pct": 0.197,
+      "generation_share_pct": 0.19742350973615597,
+      "share_diff_pp": 0.00042350973615596006,
+      "component_share_diff_pp": 0.001,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "IDN",
+      "year": 2023,
+      "reported_share_pct": 0.266,
+      "generation_share_pct": 0.26644912276263893,
+      "share_diff_pp": 0.0004491227626389425,
+      "component_share_diff_pp": 0.0,
+      "component_generation_diff_twh": 0.0
+    },
+    {
+      "iso": "IDN",
+      "year": 2024,
+      "reported_share_pct": 0.372,
+      "generation_share_pct": 0.37219351697245806,
+      "share_diff_pp": 0.00019351697245807402,
+      "component_share_diff_pp": 0.0,
+      "component_generation_diff_twh": 0.0
+    }
+  ]
+}

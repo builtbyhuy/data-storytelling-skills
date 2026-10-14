@@ -11,6 +11,7 @@ AUTHORED_EXAMPLE_PDFS = {
     for case in ('01-profit-decision', '02-fair-comparison', '03-join-audit')
 }
 AUTHORED_EXAMPLE_PDFS.add('examples/04-attendance-pilot/thu-nghiem-chuyen-can.pdf')
+AUTHORED_EXAMPLE_PDFS.add('examples/05-asean-electricity/energy-editorial.vi.pdf')
 
 def validate():
     failures = []
@@ -58,7 +59,7 @@ def validate():
                 failures.append(f'Only explicitly allowlisted authored example handoffs may be PDFs: {relative}')
             elif not file.read_bytes().startswith(b'%PDF-'):
                 failures.append(f'Authored example is not a PDF: {relative}')
-        if file.suffix.lower() in {'.md', '.json', '.yaml', '.py', '.csv'}:
+        if file.suffix.lower() in {'.md', '.json', '.yaml', '.py', '.csv', '.mjs', '.cjs', '.js', '.ps1', '.html', '.svg', '.css'}:
             text = file.read_text(encoding='utf-8')
             if re.search(r'[A-Za-z]:[/\\]+Users[/\\]+', text, re.I):
                 failures.append(f'Personal absolute path in public file: {file.relative_to(ROOT)}')

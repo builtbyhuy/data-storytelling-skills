@@ -1,14 +1,31 @@
-# Data Storytelling Skills · 3.1.2
+# Data Storytelling Skills · 3.2.0
 
 Turn business data into a choice someone can understand, check and act on. Six complementary Codex skills cover diagnosis, narrative, charts, evidence repair and recurring measurement. English instructions support Vietnamese and English requests.
 
-The 3.1.2 revision repairs errors found in unchanged native files and unfamiliar-data executions: claim scope and comparisons, category integrity, chart hierarchy and color meaning, visible qualifications, verified launch prerequisites and resource availability, and executable rebuild instructions. [Forward-test procedure, failed trials and method changes](evals/forward-v3.1.md) are recorded separately from the curated gallery.
+The 3.2 revision adds an executable visual delivery method: choose the actual reading size, retain suitable text/vector sources, reflow narrow views and inspect browser/PDF outputs separately. It includes an optional browser exporter and regression controls for undersized text and missing assets. [Primary repository methods](shared/repository-methods.md) and [the untouched new-source trial](evals/visual-v3.2.md) state what was actually examined and run.
+
+The earlier 3.1.2 revision repairs errors found in unchanged native files and unfamiliar-data executions: claim scope and comparisons, category integrity, chart hierarchy and color meaning, visible qualifications, verified launch prerequisites and resource availability, and executable rebuild instructions. [Forward-test procedure, failed trials and method changes](evals/forward-v3.1.md) are recorded separately from the curated gallery.
 
 The 3.0 revision follows a complete reread of the supplied 89-page MDA guide. It changes the actual methods: decision-relevant contrasts, evidence sequencing, reader/grain/channel choices, visible qualifications, chart composition and practical action handoffs. [See the source-to-execution map](shared/source-method-map.md).
 
 ## See the work
 
-### New — Attendance support: investigate first, launch conditionally
+### New — An editorial angle with its counterevidence
+
+An unfamiliar Ember dataset becomes a four-page Vietnamese editorial report. Vietnam's wind+solar generation share rose most among the five selected countries over 2015–2024, yet its 2024 share fell while generation grew. The report explains the denominator and proposes a two-day source check; it does not claim a policy effect or an all-ASEAN ranking.
+
+![Text-based vector chart: 2015 and 2024 generation shares in five countries, with directly labelled percentages and percentage-point changes](examples/05-asean-electricity/charts/comparison.svg)
+
+[Download the offline responsive HTML](https://github.com/builtbyhuy/data-storytelling-skills/raw/refs/heads/main/examples/05-asean-electricity/energy-editorial.vi.html) · [Four-page vector PDF](examples/05-asean-electricity/energy-editorial.vi.pdf) · [Editable SVGs](examples/05-asean-electricity/charts/) · [Frozen source, original recipe and exact-file manifest](examples/05-asean-electricity/README.md)
+
+![Text-based vector chart: Vietnam's wind+solar generation grows 6.96% but total generation grows 10.15% in 2023–2024, explaining the lower share without claiming a cause](examples/05-asean-electricity/charts/growth.svg)
+
+The HTML changes chart composition on phones and keeps text/vector content; PNG previews are secondary. **Owner output/rebuild-code edits: 0.** The completed handoff was sealed before owner artifact review. Independent source, format, actual-size/reader and relocated rebuild checks are separate from author selfchecks; [their final scope and limits](examples/05-asean-electricity/PUBLICATION.json) include the still-unmeasured human response and original chat-preview surface.
+
+<details>
+<summary>Earlier untouched real-data execution — 3.1.2</summary>
+
+### Attendance support:  investigate first, launch conditionally
 
 A fresh 3.1.2 execution used unfamiliar real DfE data for all 153 England authorities, two school phases and two autumn terms. The untouched handoff proposes investigating three places and opening one team only after verified local prerequisites. Its source statistics do not establish eligible families or programme impact; the service scenario is fictional.
 
@@ -19,6 +36,8 @@ A fresh 3.1.2 execution used unfamiliar real DfE data for all 153 England author
 ![Unaltered action page requiring local evidence, assigned available staff/resources, partners, safeguarding, participation and measurement before launch, with checking roles and a defer response](examples/04-attendance-pilot/readiness.png)
 
 All five pre-registered gates passed within scope: independent source/reasoning, actual native formats, visual communication, model-reader comprehension and practical handoff. The first final files were sealed before review; **the owner changed no output or rebuild code**. Actual PowerPoint exports match all nine delivered pages, actual Excel recalculation matches 8,684 cells and 2,805 formulas, and the exact relocated recipe reproduces those pages and workbook data. Ordinary chart Edit Data UI/cache refresh and human taste remain unverified. [Two failed trials, repairs and this pass](evals/forward-v3.1.md).
+
+</details>
 
 <details>
 <summary>Earlier curated synthetic examples — 3.0</summary>
@@ -62,7 +81,7 @@ These synthetic examples began as fresh independent executions of the revised sk
 | `data-story-redteam` | Challenge and repair misleading claims, charts and recommendations |
 | `analytics-adoption` | Plan recurring metric stewardship, decisions and outcome learning |
 
-All six skills are version 3.1.2. A narrow KPI question stays short; a decision memo does not require all six methods.
+All six skills are version 3.2.0. A narrow KPI question stays short; a decision memo does not require all six methods.
 
 ## Give a normal request
 
@@ -85,13 +104,15 @@ The first command previews. Replacement requires a backup directory and preserve
 
 ## Complement the existing stack
 
-Use available statistical methods for inference, economics for cost/capacity/scenarios, figure tools for demanding charts, native Office/PDF methods for actual formats and verification methods for numeric handoffs. Those capabilities are referenced, not bundled or required under a particular brand. The suite creates no tools, accounts or permissions.
+Use available statistical methods for inference, economics for cost/capacity/scenarios, figure tools for demanding charts, native Office/PDF methods for actual formats and verification methods for numeric handoffs. Those capabilities are referenced, not bundled or required under a particular brand. The optional helpers are local code; the skills grant no account access or execution permission.
 
 Canonical shared references live under `shared/`; `python tools/sync_shared.py` updates independently installable copies. `python tools/validate.py` checks package structure, links, source boundaries and copies. These checks do not establish output quality.
 
 The optional [CSV join audit](skills/business-insight-diagnosis/references/join-audit.md) predicts row multiplication and repeated additive amounts with exact keys/decimals, source hashes and key-level evidence. It does not infer source authority, business key or eligible population. [Independent black-box tests](tools/test_join_audit.py) previously passed 13 groups / 48 invocations; the new invoice example also runs the unchanged helper against materialized joins.
 
 The optional [Office handoff checker](skills/data-story-redteam/scripts/check_office_handoff.py) inspects native PPTX category/data caches, notes and XLSX formula caches using the Python standard library. [Six parser controls](tools/test_office_handoff.py) cover its checked failure modes. It reports unresolved bindings and unsupported chart types as unverified; a structural pass does not certify the values, appearance or readability of a presentation.
+
+The optional [browser exporter](skills/business-chart-communication/references/browser-export.md) requires an existing Node, Playwright and Chromium capability. It exports authored local HTML and measures marked essential text at actual display widths. [Ten independent regression controls](tools/test_browser_export.mjs) cover real failures found during development; these gates do not certify every overlap, data claim or human reading outcome. No browser/library download is part of skill installation.
 
 ## Source and evidence
 
@@ -105,4 +126,4 @@ Earlier matched evaluations remain in [the historical record](evals/README.md): 
 
 [MIT](LICENSE) covers this project's original instructions, tools and synthetic examples. The source ebook and complementary third-party skills are not relicensed or redistributed.
 
-MIT also covers the project's original code, explanation and layout in the real-data example. DfE data/source information remains under Open Government Licence v3.0 with separate [attribution and scope](NOTICE.md); government website assets and private verification receipts are excluded.
+MIT also covers the project's original code, explanation and layout in the real-data examples. DfE information retains OGL v3.0; Ember data/source information retains CC BY 4.0. [Attribution and scope](NOTICE.md) distinguish the data from original work. Publisher logos, website assets, original source PDFs and private verification receipts are excluded.

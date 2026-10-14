@@ -1,0 +1,25 @@
+# Visualization methods learned from original repositories
+
+These are selectively inspected primary methods, not bundled libraries or proof that a repo's stars guarantee good design. Metadata and examples were checked live on 14 October 2026; package installation/runtime is checked separately when used. The suite retains its evidence/decision method and adapts the useful rendering mechanics in original wording.
+
+| Repository | Stars observed | Upstream license inspected | Latest default-branch commit observed |
+|---|---:|---|---|
+| Observable Plot | 5,404 | ISC | [535723d](https://github.com/observablehq/plot/commit/535723d5e433727720d9b673c31622821bb03210), 1 September 2026 |
+| Vega-Lite | 5,516 | BSD-3-Clause | [85fab8d](https://github.com/vega/vega-lite/commit/85fab8d12c873b3b224ef9a33c807642953325ba), 8 October 2026 |
+| Matplotlib | 23,363 | Matplotlib license, checked directly; GitHub SPDX field null | [23b5a0d](https://github.com/matplotlib/matplotlib/commit/23b5a0d85150ee3849dc686d0a9c1778fedb1667), 13 October 2026 |
+| reveal.js | 72,420 | MIT | [e240e17](https://github.com/hakimel/reveal.js/commit/e240e175232fa2de660a02bc0d7bf5f655b159bb), 30 September 2026 |
+| Marp Core | 1,158 | MIT | [01ef3a4](https://github.com/marp-team/marp-core/commit/01ef3a4ef0888403097e2c8f7988ea71c460cf97), 4 September 2026 |
+
+All were non-archived. Counts are dated observations, not a leaderboard or a quality guarantee. Original rendered Plot bar labels, Vega-Lite bar labels and reveal.js demo slides were inspected in a browser; selected source/docs from all five were read. Their engines were not installed or run as part of this research. The ordinary default chart label sizes still require adjustment for a presentation. Marp's default 1280×720 theme uses 29px body type and generous margins; those are a reference ratio, not a universal prescription.
+
+| Original project | Transferable method | Boundary |
+|---|---|---|
+| [Observable Plot](https://github.com/observablehq/plot) | Compose marks from explicit data; separate scale/axis/mark options; use `text` and explicit offsets for nearby labels; SVG is a first-class generated element. [Getting started](https://observablehq.com/plot/getting-started), [text](https://observablehq.com/plot/marks/text), [plots](https://observablehq.com/plot/features/plots) | A default plot is an exploratory starting point. Set readable typography/margins for its real destination and select the evidence that matters. |
+| [Vega-Lite](https://github.com/vega/vega-lite) | Keep transformations/encodings in an editable specification; layer reference lines and text; specify panel size and scale resolution deliberately. [Size](https://vega.github.io/vega-lite/docs/size.html), [layering](https://vega.github.io/vega-lite/docs/layer.html), [resolve](https://vega.github.io/vega-lite/docs/resolve.html) | Container fitting does not guarantee readable labels; shared/independent scales must follow the comparison. Retain data and pinned dependencies for rebuilding. |
+| [Matplotlib](https://github.com/matplotlib/matplotlib) | SVG/PDF export; use constrained layout to reserve space for labels, legends and axes; physical figure size differs from raster DPI. [Savefig](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.savefig.html), [constrained layout](https://matplotlib.org/stable/users/explain/axes/constrainedlayout_guide.html) | Increasing DPI does not increase apparent font size on a fixed-size page. Inspect exported fonts and practical-size appearance; control defaults for the actual reader. |
+| [reveal.js](https://github.com/hakimel/reveal.js) | Web typography/layout and browser presentation; export with print/PDF styles, explicitly account for slide scale. [Presentation size](https://revealjs.com/presentation-size/), [PDF](https://revealjs.com/pdf-export/) | Web slides and image-based Office conversions are different deliverables. Browser controls/projection and print output need separate checks. |
+| [Marp Core](https://github.com/marp-team/marp-core) | Reusable CSS themes and Markdown content; browser-based PDF/HTML routes. [Marp](https://marp.app/), [CLI formats](https://github.com/marp-team/marp-cli#supported-file-types) | The usual CLI PPTX uses page images. Do not promise editable charts/text from that conversion; experimental editable features need their own actual test. |
+
+The inspected projects publish licenses for their own code. Referencing a method does not copy that code into this suite or relicense it. Any future vendoring must preserve the selected upstream license/notice and distinguish code from data/artwork. This revision vendors no upstream library, theme or screenshot.
+
+The concrete adaptation is [visual delivery](visual-delivery.md): choose the intended surface, allocate readable text/plot space, prefer text/vector output when appropriate, inspect whole pages at actual size, and keep source, export and hosted-view evidence distinct. The optional browser helper is original project code; it uses a separately available Playwright installation.

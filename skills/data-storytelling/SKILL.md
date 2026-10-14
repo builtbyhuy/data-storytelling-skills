@@ -2,7 +2,7 @@
 name: data-storytelling
 description: Compose analysis, business charts and audience-ready communication from data when a request spans several outputs; explain KPI changes and deliver a supported decision memo or deck. Kể chuyện với dữ liệu, phân tích rồi vẽ biểu đồ và viết memo. Route chart-only, audit-only and team-practice jobs to their specialists; simple KPI answers stay short.
 metadata:
-  version: "3.1.2"
+  version: "3.2.0"
 ---
 
 # Data stories: compose the requested work
@@ -33,7 +33,7 @@ Connect the business process to its records: which event creates a row, which so
 
 Before designing the artifact, write its evidence-to-choice sentence: what the evidence establishes, why it matters for this reader, which choice it supports, and what it leaves unresolved. Select the evidence needed to support that sentence, including material counterevidence. A chart, headline and recommendation must agree on both the main point and claim strength. Put detailed derivations in accessible supporting evidence; do not narrate the order in which analysis was performed.
 
-Produce the requested editable artifact and inspect its final render. Use a clear decision/evidence/tradeoff/next-step sequence suited to the medium: give the main comparison room, attach direct labels and the controlling qualification, and keep exact lookup detail accessible. Essential units, denominators, definitions and decision-changing limits must be visible in each portable artifact; notes or a companion workbook cannot carry them for a standalone PDF. The [decision workflow](references/decision-workflow.md#make-each-artifact-work-alone) gives the independent-file check.
+Produce the requested editable artifact and inspect its final render. For visual work, establish the actual display size and required medium using [visual delivery](references/visual-delivery.md). Prefer a suitable text/vector master and provide a full-size reading route beside raster previews; retain requested native formats. Use a clear decision/evidence/tradeoff/next-step sequence suited to the medium: give the main comparison room, attach direct labels and the controlling qualification, and keep exact lookup detail accessible. Essential units, denominators, definitions and decision-changing limits must be visible in each portable artifact; notes or a companion workbook cannot carry them for a standalone PDF. The [decision workflow](references/decision-workflow.md#make-each-artifact-work-alone) gives the independent-file check.
 
 Link the recommendation to the problem, desired outcome, feasible action and measurement. With unresolved causes, choose an exact diagnostic or reversible experiment when appropriate. Its measure must be one the action can still change, with a usable evidence window and stop/continue rule. Give that readout enough visible prominence that the reader can act on it.
 

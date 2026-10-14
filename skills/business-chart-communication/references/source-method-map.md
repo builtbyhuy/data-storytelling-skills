@@ -41,3 +41,7 @@ Source case periods, financial ratios, correlation-to-business-return conversion
 AI stages and organizational roles describe responsibilities, not required agents, hires, warehouse maturity, services or guaranteed time savings. A source/snapshot, stable meanings and proportionate verification can support bounded local work. The bibliography is further reading, not a claim that the suite inspected every cited book.
 
 The original PDF, page images, third-party graphics, source-case datasets and quoted passages are not distributed in this repository. MIT applies to the original instructions, tools and synthetic examples authored here; it does not relicense the ebook or complementary installed skills.
+
+## Supplemental visual delivery methods — 3.2
+
+The practical-size gate and optional browser export tool in [visual delivery](visual-delivery.md) make the channel/type/label principles executable. [Original repository methods](repository-methods.md) separately identify the inspected Plot, Vega-Lite, Matplotlib, reveal.js and Marp mechanics. These supplements are not instructions quoted from the ebook, copied themes, required libraries or measured proof of human aesthetic quality. In particular, 4K alone was insufficient to establish the user's viewing experience.

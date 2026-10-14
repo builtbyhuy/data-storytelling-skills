@@ -2,7 +2,7 @@
 name: analytics-adoption
 description: Design a feasible recurring reporting-to-decision practice for a team, with metric ownership, shared definitions, pilot artifacts, decision logs and outcome learning. Thiết lập quy trình báo cáo, người phụ trách chỉ số và đo kết quả quyết định. Use for organizational practice; a one-off memo or KPI answer needs no rollout.
 metadata:
-  version: "3.1.2"
+  version: "3.2.0"
 ---
 
 # Make recurring analysis useful in practice

@@ -1,0 +1,5 @@
+Browser export helper retained from the supplied business-chart-communication skill snapshot.
+Original method repository: https://github.com/builtbyhuy/data-storytelling-skills
+Supplied skill metadata declares license: MIT.
+Helper SHA-256 used for all final exports: 34c97412ab72856cc199466b02af793e6a569506159925a9699c1103c2e9f6a8
+The helper blocks network assets by default and does not verify data or reader outcomes.

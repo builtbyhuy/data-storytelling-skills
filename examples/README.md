@@ -1,9 +1,10 @@
 # Ví dụ dùng trong công việc
 
-Một lượt chạy nguyên bản trên dữ liệu thật và ba tình huống giả lập được biên tập. Mỗi ví dụ có yêu cầu, nguồn, file dùng được và cách tái tạo; phạm vi kiểm tra được ghi riêng.
+Hai lượt chạy nguyên bản trên dữ liệu thật và ba tình huống giả lập được biên tập. Mỗi ví dụ có yêu cầu, nguồn, file dùng được và cách tái tạo; phạm vi kiểm tra được ghi riêng.
 
 | Việc cần làm | Bản bàn giao | Mở ví dụ |
 |---|---|---|
+| Chọn góc bản tin từ dữ liệu phát điện, giữ ngoại lệ và mẫu số | HTML đọc trên desktop/điện thoại, PDF/SVG vector, phép tính và việc kiểm tra trong hai ngày | [05 — Lượt chạy mới, không sửa tay](05-asean-electricity/README.md) |
 | Ưu tiên hỗ trợ chuyên cần khi nguồn lực địa phương chưa xác minh | 9 trang PowerPoint/PDF, Excel công thức, điều kiện mở/hoãn và recipe nguyên bản | [04 — Lượt chạy dữ liệu thật, không sửa tay](04-attendance-pilot/README.md) |
 | Doanh thu tăng nhưng đóng góp giảm | Memo họp, bảng tính Excel, kế hoạch thử giao hàng và bản ghi quyết định đã điền | [01 — Quyết định lợi nhuận](01-profit-decision/README.md) |
 | Tỷ lệ gộp bị dùng để kết luận coaching có tác dụng | Báo cáo sửa, phép so sánh cùng cơ cấu và câu kết luận có thể dùng ngay | [02 — So sánh sales](02-fair-comparison/README.md) |

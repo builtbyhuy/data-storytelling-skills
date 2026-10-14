@@ -2,7 +2,7 @@
 name: evidence-to-narrative
 description: Turn supplied analysis or verified facts into an executive memo, data-backed email draft, slide narrative or operational message for a specific audience and decision. Viết memo cho sếp, chuyển số liệu thành câu chuyện và đề xuất. Use when the primary job is communicating evidence; delegate unresolved diagnosis or chart production only when needed.
 metadata:
-  version: "3.1.2"
+  version: "3.2.0"
 ---
 
 # Evidence to a reader-ready argument
@@ -25,7 +25,7 @@ Translate technical findings into relevant implications without changing their m
 
 Produce the requested medium. Read available native document/presentation methods for DOCX/PPTX/PDF exports; use `business-chart-communication` when a chart is requested or materially helps the explanation. In a text-only task deliver the text. Drafting an email grants no sending permission. Keep source calculations, definitions and caveats consistent with any chart and attachment.
 
-Treat each requested standalone format as its own reading surface. Keep interpretation-changing units, exposure and assumptions visible beside the evidence or choice; speaker notes and attachments can elaborate. A slide must communicate at presentation size; a memo must work without narration; an alert must identify the affected scope and response; a longer report can provide layered detail. Do not shrink a report into an image or turn framework fields into decorative cards merely to fill a page.
+Treat each requested standalone format as its own reading surface. For a visual memo/deck, apply [visual delivery](references/visual-delivery.md): choose the actual display size, budget readable text and chart space, and inspect the full page rather than only a high-resolution crop. A vector HTML/SVG/PDF route is useful for web-first reading; it does not replace a requested native editable deck. Keep interpretation-changing units, exposure and assumptions visible beside the evidence or choice; speaker notes and attachments can elaborate. A slide must communicate at presentation size; a memo must work without narration; an alert must identify the affected scope and response; a longer report can provide layered detail. Do not shrink a report into an image or turn framework fields into decorative cards merely to fill a page.
 
 ## Review meaning and use separately
 

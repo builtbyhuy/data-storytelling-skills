@@ -3,12 +3,12 @@ name: business-chart-communication
 description: Create or repair decision-focused business charts, dashboard panels, and slide visuals from data or a bounded existing graphic. Deliver an editable chart source and an inspected export with faithful values, scales, labels, and context.
 license: MIT
 metadata:
-  version: "3.1.2"
+  version: "3.2.0"
 ---
 
 # Business chart communication
 
-Deliver the requested chart, editable source and export inspected at its intended viewing size. A specification or critique alone does not complete a chart-making request. Work directly from a table, accepted facts or an existing graphic plus its sources; the full story suite need not run first.
+Deliver the requested chart, editable source and export inspected at its intended viewing size. A specification or critique alone does not complete a chart-making request. Work directly from a table, accepted facts or an existing graphic plus its sources; the full story suite need not run first. For a visual handoff, use [visual delivery](references/visual-delivery.md) to declare its actual reading surface and select a text/vector production path; resolution alone is not a readability check.
 
 ## Establish what the chart can say
 
@@ -53,7 +53,7 @@ Use aligned edges, consistent type roles and spacing for finding, data reading a
 
 ## Produce and inspect the real files
 
-Use available tools for the requested format. For native spreadsheet, presentation or document charts, consult the relevant artifact method and discover the actual application/runtime before choosing the creation and verification path. Retain editable native charts, text-based SVG, or an editable specification with data/rebuild source; a raster alone is insufficient. Keep labels editable. Export static/interactive results and a static fallback when use requires it.
+Use available tools for the requested format. For native spreadsheet, presentation or document charts, consult the relevant artifact method and discover the actual application/runtime before choosing the creation and verification path. Retain editable native charts, text-based SVG, or an editable specification with data/rebuild source; a raster alone is insufficient. Keep labels editable. Export static/interactive results and a static fallback when use requires it. For authored web/vector reading pages, the optional [browser export helper](references/browser-export.md) exports the actual HTML render and measures essential text at requested widths. [Original repository methods](references/repository-methods.md) describe useful library routes without requiring a particular library or implying it is installed.
 
 Inspect the saved editable file and every delivered export at destination size: values/geometry, scales/spans, the full category domain, labels, order, clipping/overlap, type, context and panel consistency. When native application access is available, reopen the saved file there and inspect its display or an export made by that application. A separately drawn preview, embedded data, object count or chart cache cannot establish the native render. If native access is unavailable, name that unverified surface and inspect the usable export. Interactive charts also need relevant control/selection, hover/keyboard and static-export checks.
 

@@ -4,3 +4,4 @@ NOTICE.md -text
 shared/** -text
 skills/** -text
 examples/04-attendance-pilot/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+examples/05-asean-electricity/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

@@ -1,0 +1,201 @@
+Area,ISO 3 code,Year,Area type,Electricity source,Is aggregated source,Generation (TWh),Generation YoY change (TWh),Generation YoY change (%),Share of generation (%),Share of generation YoY change (% points),Capacity (GW),Emissions (MtCO2e),Emissions YoY change (MtCO2e),Emissions YoY change (%),Share of emissions (%),Emissions intensity (gCO2e/kWh),Continent,Ember region,EU member,OECD member,G20 member,G7 member,ASEAN member
+Indonesia,IDN,2015,Country or economy,Solar,False,0.075,-0.002,-2.597,0.025,-0.001,0.08,0.004,0.0,0.0,0.002,53.333,Asia,Asia,False,False,True,False,True
+Indonesia,IDN,2015,Country or economy,Wind,False,0.004,0.004,,0.001,0.001,0.0,0.0,0.0,,0.0,0.0,Asia,Asia,False,False,True,False,True
+Indonesia,IDN,2015,Country or economy,Wind and solar,True,0.079,0.002,2.597,0.026,0.0,0.08,0.004,0.0,0.0,0.002,50.633,Asia,Asia,False,False,True,False,True
+Indonesia,IDN,2015,Country or economy,Total generation,True,301.011,5.715,1.935,100.0,0.0,51.949999999999996,207.433,4.339,2.136,100.0,689.121,Asia,Asia,False,False,True,False,True
+Indonesia,IDN,2016,Country or economy,Solar,False,0.091,0.016,21.333,0.029,0.004,0.09,0.004,0.0,0.0,0.002,43.956,Asia,Asia,False,False,True,False,True
+Indonesia,IDN,2016,Country or economy,Wind,False,0.006,0.002,50.0,0.002,0.001,0.0,0.0,0.0,,0.0,0.0,Asia,Asia,False,False,True,False,True
+Indonesia,IDN,2016,Country or economy,Wind and solar,True,0.097,0.018,22.785,0.03,0.004,0.09,0.004,0.0,0.0,0.002,41.237,Asia,Asia,False,False,True,False,True
+Indonesia,IDN,2016,Country or economy,Total generation,True,318.582,17.571,5.837,100.0,0.0,54.720000000000006,218.418,10.985,5.296,100.0,685.594,Asia,Asia,False,False,True,False,True
+Indonesia,IDN,2017,Country or economy,Solar,False,0.099,0.008,8.791,0.03,0.001,0.1,0.005,0.001,25.0,0.002,50.505,Asia,Asia,False,False,True,False,True
+Indonesia,IDN,2017,Country or economy,Wind,False,0.0,-0.006,-100.0,0.0,-0.002,0.0,0.0,0.0,,0.0,,Asia,Asia,False,False,True,False,True
+Indonesia,IDN,2017,Country or economy,Wind and solar,True,0.099,0.002,2.062,0.03,0.0,0.1,0.005,0.001,25.0,0.002,50.505,Asia,Asia,False,False,True,False,True
+Indonesia,IDN,2017,Country or economy,Total generation,True,333.12,14.538,4.563,100.0,0.0,57.77,229.243,10.825,4.956,100.0,688.169,Asia,Asia,False,False,True,False,True
+Indonesia,IDN,2018,Country or economy,Solar,False,0.16,0.061,61.616,0.044,0.014,0.07,0.008,0.003,60.0,0.003,50.0,Asia,Asia,False,False,True,False,True
+Indonesia,IDN,2018,Country or economy,Wind,False,0.19,0.19,,0.053,0.053,0.14,0.002,0.002,,0.001,10.526,Asia,Asia,False,False,True,False,True
+Indonesia,IDN,2018,Country or economy,Wind and solar,True,0.35,0.251,253.535,0.097,0.067,0.21000000000000002,0.01,0.005,100.0,0.004,28.571,Asia,Asia,False,False,True,False,True
+Indonesia,IDN,2018,Country or economy,Total generation,True,359.707,26.587,7.981,100.0,0.0,59.00999999999999,247.332,18.089,7.891,100.0,687.593,Asia,Asia,False,False,True,False,True
+Indonesia,IDN,2019,Country or economy,Solar,False,0.188,0.028,17.5,0.049,0.005,0.16,0.009,0.001,12.5,0.003,47.872,Asia,Asia,False,False,True,False,True
+Indonesia,IDN,2019,Country or economy,Wind,False,0.484,0.294,154.737,0.127,0.074,0.15,0.006,0.004,200.0,0.002,12.397,Asia,Asia,False,False,True,False,True
+Indonesia,IDN,2019,Country or economy,Wind and solar,True,0.672,0.322,92.0,0.176,0.079,0.31,0.015,0.005,50.0,0.006,22.321,Asia,Asia,False,False,True,False,True
+Indonesia,IDN,2019,Country or economy,Total generation,True,381.951,22.244,6.184,100.0,0.0,65.35000000000002,266.876,19.544,7.902,100.0,698.718,Asia,Asia,False,False,True,False,True
+Indonesia,IDN,2020,Country or economy,Solar,False,0.241,0.053,28.191,0.063,0.014,0.17,0.011,0.002,22.222,0.004,45.643,Asia,Asia,False,False,True,False,True
+Indonesia,IDN,2020,Country or economy,Wind,False,0.475,-0.009,-1.86,0.125,-0.002,0.15,0.006,0.0,0.0,0.002,12.632,Asia,Asia,False,False,True,False,True
+Indonesia,IDN,2020,Country or economy,Wind and solar,True,0.716,0.044,6.548,0.188,0.012,0.32,0.017,0.002,13.333,0.006,23.743,Asia,Asia,False,False,True,False,True
+Indonesia,IDN,2020,Country or economy,Total generation,True,379.98,-1.971,-0.516,100.0,0.0,69.71000000000002,263.004,-3.872,-1.451,100.0,692.152,Asia,Asia,False,False,True,False,True
+Indonesia,IDN,2021,Country or economy,Solar,False,0.263,0.022,9.129,0.065,0.002,0.22,0.012,0.001,9.091,0.004,45.627,Asia,Asia,False,False,True,False,True
+Indonesia,IDN,2021,Country or economy,Wind,False,0.437,-0.038,-8.0,0.108,-0.017,0.15,0.005,-0.001,-16.667,0.002,11.442,Asia,Asia,False,False,True,False,True
+Indonesia,IDN,2021,Country or economy,Wind and solar,True,0.7,-0.016,-2.235,0.172,-0.016,0.37,0.018,0.001,5.882,0.006,25.714,Asia,Asia,False,False,True,False,True
+Indonesia,IDN,2021,Country or economy,Total generation,True,405.963,25.983,6.838,100.0,0.0,74.01,282.948,19.944,7.583,100.0,696.98,Asia,Asia,False,False,True,False,True
+Indonesia,IDN,2022,Country or economy,Solar,False,0.514,0.251,95.437,0.117,0.052,0.31,0.024,0.012,100.0,0.008,46.693,Asia,Asia,False,False,True,False,True
+Indonesia,IDN,2022,Country or economy,Wind,False,0.356,-0.081,-18.535,0.081,-0.027,0.15,0.004,-0.001,-20.0,0.001,11.236,Asia,Asia,False,False,True,False,True
+Indonesia,IDN,2022,Country or economy,Wind and solar,True,0.87,0.17,24.286,0.197,0.025,0.45999999999999996,0.029,0.011,61.111,0.009,33.333,Asia,Asia,False,False,True,False,True
+Indonesia,IDN,2022,Country or economy,Total generation,True,440.677,34.714,8.551,100.0,0.0,82.28,309.219,26.271,9.285,100.0,701.691,Asia,Asia,False,False,True,False,True
+Indonesia,IDN,2023,Country or economy,Solar,False,0.783,0.269,52.335,0.165,0.048,0.63,0.037,0.013,54.167,0.011,47.254,Asia,Asia,False,False,True,False,True
+Indonesia,IDN,2023,Country or economy,Wind,False,0.481,0.125,35.112,0.101,0.02,0.15,0.006,0.002,50.0,0.002,12.474,Asia,Asia,False,False,True,False,True
+Indonesia,IDN,2023,Country or economy,Wind and solar,True,1.264,0.394,45.287,0.266,0.069,0.78,0.043,0.014,48.276,0.013,34.019,Asia,Asia,False,False,True,False,True
+Indonesia,IDN,2023,Country or economy,Total generation,True,474.387,33.71,7.65,100.0,0.0,89.96999999999998,337.036,27.817,8.996,100.0,710.466,Asia,Asia,False,False,True,False,True
+Indonesia,IDN,2024,Country or economy,Solar,False,1.421,0.638,81.481,0.28,0.115,0.94,0.068,0.031,83.784,0.019,47.854,Asia,Asia,False,False,True,False,True
+Indonesia,IDN,2024,Country or economy,Wind,False,0.467,-0.014,-2.911,0.092,-0.009,0.15,0.006,0.0,0.0,0.002,12.848,Asia,Asia,False,False,True,False,True
+Indonesia,IDN,2024,Country or economy,Wind and solar,True,1.888,0.624,49.367,0.372,0.106,1.0899999999999999,0.073,0.03,69.767,0.02,38.665,Asia,Asia,False,False,True,False,True
+Indonesia,IDN,2024,Country or economy,Total generation,True,507.263,32.876,6.93,100.0,0.0,97.33,360.342,23.306,6.915,100.0,710.365,Asia,Asia,False,False,True,False,True
+Malaysia,MYS,2015,Country or economy,Solar,False,0.273,0.046,20.264,0.182,0.028,0.22,0.013,0.002,18.182,0.013,47.619,Asia,Asia,False,False,False,False,True
+Malaysia,MYS,2015,Country or economy,Wind,False,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,,0.0,,Asia,Asia,False,False,False,False,True
+Malaysia,MYS,2015,Country or economy,Wind and solar,True,0.273,0.046,20.264,0.182,0.028,0.22,0.013,0.002,18.182,0.013,47.619,Asia,Asia,False,False,False,False,True
+Malaysia,MYS,2015,Country or economy,Total generation,True,150.123,2.662,1.805,100.0,0.0,30.27,100.461,2.804,2.871,100.0,669.191,Asia,Asia,False,False,False,False,True
+Malaysia,MYS,2016,Country or economy,Solar,False,0.31,0.037,13.553,0.198,0.016,0.29,0.015,0.002,15.385,0.015,48.387,Asia,Asia,False,False,False,False,True
+Malaysia,MYS,2016,Country or economy,Wind,False,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,,0.0,,Asia,Asia,False,False,False,False,True
+Malaysia,MYS,2016,Country or economy,Wind and solar,True,0.31,0.037,13.553,0.198,0.016,0.29,0.015,0.002,15.385,0.015,48.387,Asia,Asia,False,False,False,False,True
+Malaysia,MYS,2016,Country or economy,Total generation,True,156.665,6.542,4.358,100.0,0.0,32.81,101.723,1.262,1.256,100.0,649.303,Asia,Asia,False,False,False,False,True
+Malaysia,MYS,2017,Country or economy,Solar,False,0.33,0.02,6.452,0.205,0.007,0.33,0.016,0.001,6.667,0.016,48.485,Asia,Asia,False,False,False,False,True
+Malaysia,MYS,2017,Country or economy,Wind,False,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,,0.0,,Asia,Asia,False,False,False,False,True
+Malaysia,MYS,2017,Country or economy,Wind and solar,True,0.33,0.02,6.452,0.205,0.007,0.33,0.016,0.001,6.667,0.016,48.485,Asia,Asia,False,False,False,False,True
+Malaysia,MYS,2017,Country or economy,Total generation,True,160.634,3.969,2.533,100.0,0.0,34.73,99.682,-2.041,-2.006,100.0,620.554,Asia,Asia,False,False,False,False,True
+Malaysia,MYS,2018,Country or economy,Solar,False,0.632,0.302,91.515,0.371,0.166,0.48,0.03,0.014,87.5,0.028,47.468,Asia,Asia,False,False,False,False,True
+Malaysia,MYS,2018,Country or economy,Wind,False,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,,0.0,,Asia,Asia,False,False,False,False,True
+Malaysia,MYS,2018,Country or economy,Wind and solar,True,0.632,0.302,91.515,0.371,0.166,0.48,0.03,0.014,87.5,0.028,47.468,Asia,Asia,False,False,False,False,True
+Malaysia,MYS,2018,Country or economy,Total generation,True,170.578,9.944,6.19,100.0,0.0,34.69,107.511,7.829,7.854,100.0,630.275,Asia,Asia,False,False,False,False,True
+Malaysia,MYS,2019,Country or economy,Solar,False,1.459,0.827,130.854,0.817,0.446,0.83,0.069,0.039,130.0,0.062,47.293,Asia,Asia,False,False,False,False,True
+Malaysia,MYS,2019,Country or economy,Wind,False,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,,0.0,,Asia,Asia,False,False,False,False,True
+Malaysia,MYS,2019,Country or economy,Wind and solar,True,1.459,0.827,130.854,0.817,0.446,0.83,0.069,0.039,130.0,0.062,47.293,Asia,Asia,False,False,False,False,True
+Malaysia,MYS,2019,Country or economy,Total generation,True,178.493,7.915,4.64,100.0,0.0,37.49999999999999,111.872,4.361,4.056,100.0,626.758,Asia,Asia,False,False,False,False,True
+Malaysia,MYS,2020,Country or economy,Solar,False,2.059,0.6,41.124,1.183,0.366,1.48,0.098,0.029,42.029,0.089,47.596,Asia,Asia,False,False,False,False,True
+Malaysia,MYS,2020,Country or economy,Wind,False,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,,0.0,,Asia,Asia,False,False,False,False,True
+Malaysia,MYS,2020,Country or economy,Wind and solar,True,2.059,0.6,41.124,1.183,0.366,1.48,0.098,0.029,42.029,0.089,47.596,Asia,Asia,False,False,False,False,True
+Malaysia,MYS,2020,Country or economy,Total generation,True,174.004,-4.489,-2.515,100.0,0.0,36.3,110.504,-1.368,-1.223,100.0,635.066,Asia,Asia,False,False,False,False,True
+Malaysia,MYS,2021,Country or economy,Solar,False,2.139,0.08,3.885,1.198,0.015,1.58,0.102,0.004,4.082,0.093,47.686,Asia,Asia,False,False,False,False,True
+Malaysia,MYS,2021,Country or economy,Wind,False,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,,0.0,,Asia,Asia,False,False,False,False,True
+Malaysia,MYS,2021,Country or economy,Wind and solar,True,2.139,0.08,3.885,1.198,0.015,1.58,0.102,0.004,4.082,0.093,47.686,Asia,Asia,False,False,False,False,True
+Malaysia,MYS,2021,Country or economy,Total generation,True,178.58,4.576,2.63,100.0,0.0,39.489999999999995,110.168,-0.336,-0.304,100.0,616.911,Asia,Asia,False,False,False,False,True
+Malaysia,MYS,2022,Country or economy,Solar,False,3.412,1.273,59.514,1.773,0.575,2.13,0.162,0.06,58.824,0.138,47.479,Asia,Asia,False,False,False,False,True
+Malaysia,MYS,2022,Country or economy,Wind,False,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,,0.0,,Asia,Asia,False,False,False,False,True
+Malaysia,MYS,2022,Country or economy,Wind and solar,True,3.412,1.273,59.514,1.773,0.575,2.13,0.162,0.06,58.824,0.138,47.479,Asia,Asia,False,False,False,False,True
+Malaysia,MYS,2022,Country or economy,Total generation,True,192.455,13.875,7.77,100.0,0.0,40.64,117.105,6.937,6.297,100.0,608.48,Asia,Asia,False,False,False,False,True
+Malaysia,MYS,2023,Country or economy,Solar,False,4.403,0.991,29.045,2.172,0.399,2.42,0.209,0.047,29.012,0.169,47.468,Asia,Asia,False,False,False,False,True
+Malaysia,MYS,2023,Country or economy,Wind,False,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,,0.0,,Asia,Asia,False,False,False,False,True
+Malaysia,MYS,2023,Country or economy,Wind and solar,True,4.403,0.991,29.045,2.172,0.399,2.42,0.209,0.047,29.012,0.169,47.468,Asia,Asia,False,False,False,False,True
+Malaysia,MYS,2023,Country or economy,Total generation,True,202.754,10.299,5.351,100.0,0.0,41.050000000000004,123.657,6.552,5.595,100.0,609.887,Asia,Asia,False,False,False,False,True
+Malaysia,MYS,2024,Country or economy,Solar,False,6.369,1.966,44.651,3.016,0.844,3.07,0.303,0.094,44.976,0.237,47.574,Asia,Asia,False,False,False,False,True
+Malaysia,MYS,2024,Country or economy,Wind,False,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,,0.0,,Asia,Asia,False,False,False,False,True
+Malaysia,MYS,2024,Country or economy,Wind and solar,True,6.369,1.966,44.651,3.016,0.844,3.07,0.303,0.094,44.976,0.237,47.574,Asia,Asia,False,False,False,False,True
+Malaysia,MYS,2024,Country or economy,Total generation,True,211.167,8.413,4.149,100.0,0.0,40.83,127.614,3.957,3.2,100.0,604.327,Asia,Asia,False,False,False,False,True
+Thailand,THA,2015,Country or economy,Solar,False,2.378,0.445,23.021,1.29,0.178,1.42,0.113,0.021,22.826,0.105,47.519,Asia,Asia,False,False,False,False,True
+Thailand,THA,2015,Country or economy,Wind,False,0.328,-0.068,-17.172,0.178,-0.05,0.23,0.004,-0.001,-20.0,0.004,12.195,Asia,Asia,False,False,False,False,True
+Thailand,THA,2015,Country or economy,Wind and solar,True,2.706,0.377,16.187,1.468,0.128,1.65,0.117,0.02,20.619,0.109,43.237,Asia,Asia,False,False,False,False,True
+Thailand,THA,2015,Country or economy,Total generation,True,184.35,10.586,6.092,100.0,0.0,37.36,107.741,3.083,2.946,100.0,584.437,Asia,Asia,False,False,False,False,True
+Thailand,THA,2016,Country or economy,Solar,False,3.553,1.175,49.411,1.894,0.604,2.45,0.169,0.056,49.558,0.155,47.565,Asia,Asia,False,False,False,False,True
+Thailand,THA,2016,Country or economy,Wind,False,0.383,0.055,16.768,0.204,0.026,0.51,0.005,0.001,25.0,0.005,13.055,Asia,Asia,False,False,False,False,True
+Thailand,THA,2016,Country or economy,Wind and solar,True,3.936,1.23,45.455,2.098,0.63,2.96,0.174,0.057,48.718,0.16,44.207,Asia,Asia,False,False,False,False,True
+Thailand,THA,2016,Country or economy,Total generation,True,187.64,3.29,1.785,100.0,0.0,43.46,108.927,1.186,1.101,100.0,580.511,Asia,Asia,False,False,False,False,True
+Thailand,THA,2017,Country or economy,Solar,False,4.543,0.99,27.864,2.449,0.555,2.7,0.216,0.047,27.811,0.205,47.546,Asia,Asia,False,False,False,False,True
+Thailand,THA,2017,Country or economy,Wind,False,1.109,0.726,189.556,0.598,0.394,0.63,0.014,0.009,180.0,0.013,12.624,Asia,Asia,False,False,False,False,True
+Thailand,THA,2017,Country or economy,Wind and solar,True,5.652,1.716,43.598,3.047,0.949,3.33,0.23,0.056,32.184,0.219,40.694,Asia,Asia,False,False,False,False,True
+Thailand,THA,2017,Country or economy,Total generation,True,185.51,-2.13,-1.135,100.0,0.0,45.95000000000001,105.123,-3.804,-3.492,100.0,566.67,Asia,Asia,False,False,False,False,True
+Thailand,THA,2018,Country or economy,Solar,False,4.537,-0.006,-0.132,2.421,-0.028,2.97,0.216,0.0,0.0,0.209,47.609,Asia,Asia,False,False,False,False,True
+Thailand,THA,2018,Country or economy,Wind,False,1.641,0.532,47.971,0.876,0.278,1.1,0.021,0.007,50.0,0.02,12.797,Asia,Asia,False,False,False,False,True
+Thailand,THA,2018,Country or economy,Wind and solar,True,6.178,0.526,9.306,3.297,0.25,4.07,0.236,0.006,2.609,0.229,38.2,Asia,Asia,False,False,False,False,True
+Thailand,THA,2018,Country or economy,Total generation,True,187.366,1.856,1.0,100.0,0.0,47.87,103.124,-1.999,-1.902,100.0,550.388,Asia,Asia,False,False,False,False,True
+Thailand,THA,2019,Country or economy,Solar,False,5.146,0.609,13.423,2.609,0.188,2.99,0.245,0.029,13.426,0.228,47.61,Asia,Asia,False,False,False,False,True
+Thailand,THA,2019,Country or economy,Wind,False,3.67,2.029,123.644,1.86,0.984,1.51,0.046,0.025,119.048,0.043,12.534,Asia,Asia,False,False,False,False,True
+Thailand,THA,2019,Country or economy,Wind and solar,True,8.816,2.638,42.7,4.469,1.172,4.5,0.29,0.054,22.881,0.27,32.895,Asia,Asia,False,False,False,False,True
+Thailand,THA,2019,Country or economy,Total generation,True,197.267,9.901,5.284,100.0,0.0,49.33,107.32,4.196,4.069,100.0,544.034,Asia,Asia,False,False,False,False,True
+Thailand,THA,2020,Country or economy,Solar,False,5.031,-0.115,-2.235,2.711,0.102,2.98,0.239,-0.006,-2.449,0.233,47.505,Asia,Asia,False,False,False,False,True
+Thailand,THA,2020,Country or economy,Wind,False,3.22,-0.45,-12.262,1.735,-0.125,1.51,0.04,-0.006,-13.043,0.039,12.422,Asia,Asia,False,False,False,False,True
+Thailand,THA,2020,Country or economy,Wind and solar,True,8.251,-0.565,-6.409,4.446,-0.023,4.49,0.279,-0.011,-3.793,0.271,33.814,Asia,Asia,False,False,False,False,True
+Thailand,THA,2020,Country or economy,Total generation,True,185.602,-11.665,-5.913,100.0,0.0,49.489999999999995,102.785,-4.535,-4.226,100.0,553.793,Asia,Asia,False,False,False,False,True
+Thailand,THA,2021,Country or economy,Solar,False,5.015,-0.016,-0.318,2.686,-0.025,3.07,0.238,-0.001,-0.418,0.233,47.458,Asia,Asia,False,False,False,False,True
+Thailand,THA,2021,Country or economy,Wind,False,3.552,0.332,10.311,1.903,0.168,1.55,0.044,0.004,10.0,0.043,12.387,Asia,Asia,False,False,False,False,True
+Thailand,THA,2021,Country or economy,Wind and solar,True,8.567,0.316,3.83,4.589,0.143,4.62,0.283,0.004,1.434,0.277,33.034,Asia,Asia,False,False,False,False,True
+Thailand,THA,2021,Country or economy,Total generation,True,186.699,1.097,0.591,100.0,0.0,51.29,102.19,-0.595,-0.579,100.0,547.352,Asia,Asia,False,False,False,False,True
+Thailand,THA,2022,Country or economy,Solar,False,5.152,0.137,2.732,2.693,0.007,3.19,0.245,0.007,2.941,0.237,47.554,Asia,Asia,False,False,False,False,True
+Thailand,THA,2022,Country or economy,Wind,False,3.036,-0.516,-14.527,1.587,-0.316,1.55,0.038,-0.006,-13.636,0.037,12.516,Asia,Asia,False,False,False,False,True
+Thailand,THA,2022,Country or economy,Wind and solar,True,8.188,-0.379,-4.424,4.28,-0.309,4.74,0.283,0.0,0.0,0.273,34.563,Asia,Asia,False,False,False,False,True
+Thailand,THA,2022,Country or economy,Total generation,True,191.323,4.624,2.477,100.0,0.0,53.769999999999996,103.501,1.311,1.283,100.0,540.975,Asia,Asia,False,False,False,False,True
+Thailand,THA,2023,Country or economy,Solar,False,5.436,0.284,5.512,2.649,-0.044,3.3,0.258,0.013,5.306,0.239,47.461,Asia,Asia,False,False,False,False,True
+Thailand,THA,2023,Country or economy,Wind,False,3.519,0.483,15.909,1.715,0.128,1.54,0.044,0.006,15.789,0.041,12.504,Asia,Asia,False,False,False,False,True
+Thailand,THA,2023,Country or economy,Wind and solar,True,8.955,0.767,9.367,4.363,0.083,4.84,0.302,0.019,6.714,0.28,33.724,Asia,Asia,False,False,False,False,True
+Thailand,THA,2023,Country or economy,Total generation,True,205.239,13.916,7.274,100.0,0.0,54.65,107.901,4.4,4.251,100.0,525.733,Asia,Asia,False,False,False,False,True
+Thailand,THA,2024,Country or economy,Solar,False,9.105,3.669,67.494,4.19,1.541,3.39,0.433,0.175,67.829,0.38,47.556,Asia,Asia,False,False,False,False,True
+Thailand,THA,2024,Country or economy,Wind,False,3.503,-0.016,-0.455,1.612,-0.103,1.54,0.044,0.0,0.0,0.039,12.561,Asia,Asia,False,False,False,False,True
+Thailand,THA,2024,Country or economy,Wind and solar,True,12.608,3.653,40.793,5.802,1.439,4.93,0.476,0.174,57.616,0.418,37.754,Asia,Asia,False,False,False,False,True
+Thailand,THA,2024,Country or economy,Total generation,True,217.311,12.072,5.882,100.0,0.0,56.53,113.977,6.076,5.631,100.0,524.488,Asia,Asia,False,False,False,False,True
+The Philippines,PHL,2015,Country or economy,Solar,False,0.14,0.12,600.0,0.17,0.144,0.17,0.007,0.006,600.0,0.016,50.0,Asia,Asia,False,False,False,False,True
+The Philippines,PHL,2015,Country or economy,Wind,False,0.75,0.6,400.0,0.91,0.716,0.43,0.009,0.007,350.0,0.02,12.0,Asia,Asia,False,False,False,False,True
+The Philippines,PHL,2015,Country or economy,Wind and solar,True,0.89,0.72,423.529,1.08,0.86,0.6,0.016,0.013,433.333,0.036,17.978,Asia,Asia,False,False,False,False,True
+The Philippines,PHL,2015,Country or economy,Total generation,True,82.4,5.17,6.694,100.0,0.0,17.03,44.949,3.446,8.303,99.999,545.498,Asia,Asia,False,False,False,False,True
+The Philippines,PHL,2016,Country or economy,Solar,False,1.1,0.96,685.714,1.212,1.042,0.79,0.052,0.045,642.857,0.102,47.273,Asia,Asia,False,False,False,False,True
+The Philippines,PHL,2016,Country or economy,Wind,False,0.98,0.23,30.667,1.079,0.169,0.43,0.012,0.003,33.333,0.023,12.245,Asia,Asia,False,False,False,False,True
+The Philippines,PHL,2016,Country or economy,Wind and solar,True,2.08,1.19,133.708,2.291,1.211,1.22,0.065,0.049,306.25,0.127,31.25,Asia,Asia,False,False,False,False,True
+The Philippines,PHL,2016,Country or economy,Total generation,True,90.79,8.39,10.182,100.0,0.0,19.28,51.068,6.119,13.613,100.0,562.485,Asia,Asia,False,False,False,False,True
+The Philippines,PHL,2017,Country or economy,Solar,False,1.2,0.1,9.091,1.272,0.06,0.92,0.057,0.005,9.615,0.107,47.5,Asia,Asia,False,False,False,False,True
+The Philippines,PHL,2017,Country or economy,Wind,False,1.09,0.11,11.224,1.155,0.076,0.43,0.014,0.002,16.667,0.026,12.844,Asia,Asia,False,False,False,False,True
+The Philippines,PHL,2017,Country or economy,Wind and solar,True,2.29,0.21,10.096,2.427,0.136,1.35,0.071,0.006,9.231,0.133,31.004,Asia,Asia,False,False,False,False,True
+The Philippines,PHL,2017,Country or economy,Total generation,True,94.36,3.57,3.932,100.0,0.0,20.090000000000003,53.281,2.213,4.333,100.001,564.657,Asia,Asia,False,False,False,False,True
+The Philippines,PHL,2018,Country or economy,Solar,False,1.25,0.05,4.167,1.253,-0.019,0.93,0.059,0.002,3.509,0.102,47.2,Asia,Asia,False,False,False,False,True
+The Philippines,PHL,2018,Country or economy,Wind,False,1.15,0.06,5.505,1.153,-0.002,0.43,0.014,0.0,0.0,0.024,12.174,Asia,Asia,False,False,False,False,True
+The Philippines,PHL,2018,Country or economy,Wind and solar,True,2.4,0.11,4.803,2.406,-0.021,1.36,0.074,0.003,4.225,0.128,30.833,Asia,Asia,False,False,False,False,True
+The Philippines,PHL,2018,Country or economy,Total generation,True,99.74,5.38,5.702,100.0,0.0,21.07,57.648,4.367,8.196,100.0,577.983,Asia,Asia,False,False,False,False,True
+The Philippines,PHL,2019,Country or economy,Solar,False,1.25,0.0,0.0,1.179,-0.074,1.0,0.059,0.0,0.0,0.093,47.2,Asia,Asia,False,False,False,False,True
+The Philippines,PHL,2019,Country or economy,Wind,False,1.04,-0.11,-9.565,0.981,-0.172,0.44,0.013,-0.001,-7.143,0.02,12.5,Asia,Asia,False,False,False,False,True
+The Philippines,PHL,2019,Country or economy,Wind and solar,True,2.29,-0.11,-4.583,2.16,-0.246,1.44,0.072,-0.002,-2.703,0.113,31.441,Asia,Asia,False,False,False,False,True
+The Philippines,PHL,2019,Country or economy,Total generation,True,106.03,6.29,6.306,100.0,0.0,22.810000000000002,63.533,5.885,10.209,100.0,599.198,Asia,Asia,False,False,False,False,True
+The Philippines,PHL,2020,Country or economy,Solar,False,1.37,0.12,9.6,1.346,0.167,1.08,0.065,0.006,10.169,0.105,47.445,Asia,Asia,False,False,False,False,True
+The Philippines,PHL,2020,Country or economy,Wind,False,1.03,-0.01,-0.962,1.012,0.031,0.44,0.013,0.0,0.0,0.021,12.621,Asia,Asia,False,False,False,False,True
+The Philippines,PHL,2020,Country or economy,Wind and solar,True,2.4,0.11,4.803,2.359,0.199,1.52,0.078,0.006,8.333,0.127,32.5,Asia,Asia,False,False,False,False,True
+The Philippines,PHL,2020,Country or economy,Total generation,True,101.75,-4.28,-4.037,100.0,0.0,23.459999999999997,61.636,-1.897,-2.986,100.001,605.759,Asia,Asia,False,False,False,False,True
+The Philippines,PHL,2021,Country or economy,Solar,False,1.47,0.1,7.299,1.39,0.044,1.41,0.07,0.005,7.692,0.109,47.619,Asia,Asia,False,False,False,False,True
+The Philippines,PHL,2021,Country or economy,Wind,False,1.28,0.25,24.272,1.21,0.198,0.44,0.016,0.003,23.077,0.025,12.5,Asia,Asia,False,False,False,False,True
+The Philippines,PHL,2021,Country or economy,Wind and solar,True,2.75,0.35,14.583,2.6,0.241,1.8499999999999999,0.086,0.008,10.256,0.134,31.273,Asia,Asia,False,False,False,False,True
+The Philippines,PHL,2021,Country or economy,Total generation,True,105.76,4.01,3.941,100.0,0.0,23.97,64.135,2.499,4.054,100.0,606.42,Asia,Asia,False,False,False,False,True
+The Philippines,PHL,2022,Country or economy,Solar,False,1.82,0.35,23.81,1.632,0.242,1.66,0.086,0.016,22.857,0.127,47.253,Asia,Asia,False,False,False,False,True
+The Philippines,PHL,2022,Country or economy,Wind,False,1.06,-0.22,-17.188,0.95,-0.26,0.44,0.013,-0.003,-18.75,0.019,12.264,Asia,Asia,False,False,False,False,True
+The Philippines,PHL,2022,Country or economy,Wind and solar,True,2.88,0.13,4.727,2.582,-0.018,2.1,0.1,0.014,16.279,0.147,34.722,Asia,Asia,False,False,False,False,True
+The Philippines,PHL,2022,Country or economy,Total generation,True,111.55,5.79,5.475,100.0,0.0,25.709999999999997,67.95,3.815,5.948,100.0,609.144,Asia,Asia,False,False,False,False,True
+The Philippines,PHL,2023,Country or economy,Solar,False,1.82,0.0,0.0,1.559,-0.073,1.8,0.086,0.0,0.0,0.118,47.253,Asia,Asia,False,False,False,False,True
+The Philippines,PHL,2023,Country or economy,Wind,False,1.35,0.29,27.358,1.157,0.207,0.44,0.017,0.004,30.769,0.023,12.593,Asia,Asia,False,False,False,False,True
+The Philippines,PHL,2023,Country or economy,Wind and solar,True,3.17,0.29,10.069,2.716,0.134,2.24,0.103,0.003,3.0,0.142,32.492,Asia,Asia,False,False,False,False,True
+The Philippines,PHL,2023,Country or economy,Total generation,True,116.73,5.18,4.644,100.0,0.0,25.69,72.688,4.738,6.973,100.0,622.702,Asia,Asia,False,False,False,False,True
+The Philippines,PHL,2024,Country or economy,Solar,False,2.08,0.26,14.286,1.675,0.116,2.99,0.099,0.013,15.116,0.127,47.596,Asia,Asia,False,False,False,False,True
+The Philippines,PHL,2024,Country or economy,Wind,False,1.5,0.15,11.111,1.208,0.051,0.44,0.019,0.002,11.765,0.024,12.667,Asia,Asia,False,False,False,False,True
+The Philippines,PHL,2024,Country or economy,Wind and solar,True,3.58,0.41,12.934,2.883,0.167,3.43,0.118,0.015,14.563,0.151,32.961,Asia,Asia,False,False,False,False,True
+The Philippines,PHL,2024,Country or economy,Total generation,True,124.17,7.44,6.374,100.0,0.0,27.360000000000003,78.163,5.475,7.532,100.001,629.484,Asia,Asia,False,False,False,False,True
+Viet Nam,VNM,2015,Country or economy,Solar,False,0.007,0.0,0.0,0.004,-0.001,0.01,0.0,0.0,,0.0,0.0,Asia,Asia,False,False,False,False,True
+Viet Nam,VNM,2015,Country or economy,Wind,False,0.121,0.052,75.362,0.075,0.026,0.14,0.002,0.001,100.0,0.003,16.529,Asia,Asia,False,False,False,False,True
+Viet Nam,VNM,2015,Country or economy,Wind and solar,True,0.128,0.052,68.421,0.079,0.025,0.15000000000000002,0.003,0.002,200.0,0.004,23.438,Asia,Asia,False,False,False,False,True
+Viet Nam,VNM,2015,Country or economy,Total generation,True,161.928,20.678,14.639,100.0,0.0,38.01999999999999,78.787,21.712,38.041,100.0,486.556,Asia,Asia,False,False,False,False,True
+Viet Nam,VNM,2016,Country or economy,Solar,False,0.005,-0.002,-28.571,0.003,-0.001,0.01,0.0,0.0,,0.0,0.0,Asia,Asia,False,False,False,False,True
+Viet Nam,VNM,2016,Country or economy,Wind,False,0.201,0.08,66.116,0.112,0.037,0.16,0.004,0.002,100.0,0.005,19.9,Asia,Asia,False,False,False,False,True
+Viet Nam,VNM,2016,Country or economy,Wind and solar,True,0.206,0.078,60.937,0.115,0.036,0.17,0.004,0.001,33.333,0.005,19.417,Asia,Asia,False,False,False,False,True
+Viet Nam,VNM,2016,Country or economy,Total generation,True,179.167,17.239,10.646,100.0,0.0,39.599999999999994,88.082,9.295,11.798,100.0,491.62,Asia,Asia,False,False,False,False,True
+Viet Nam,VNM,2017,Country or economy,Solar,False,0.008,0.003,60.0,0.004,0.001,0.01,0.0,0.0,,0.0,0.0,Asia,Asia,False,False,False,False,True
+Viet Nam,VNM,2017,Country or economy,Wind,False,0.35,0.149,74.129,0.18,0.068,0.2,0.006,0.002,50.0,0.007,17.143,Asia,Asia,False,False,False,False,True
+Viet Nam,VNM,2017,Country or economy,Wind and solar,True,0.358,0.152,73.786,0.184,0.069,0.21000000000000002,0.006,0.002,50.0,0.007,16.76,Asia,Asia,False,False,False,False,True
+Viet Nam,VNM,2017,Country or economy,Total generation,True,194.717,15.55,8.679,100.0,0.0,41.91,84.244,-3.838,-4.357,100.001,432.648,Asia,Asia,False,False,False,False,True
+Viet Nam,VNM,2018,Country or economy,Solar,False,0.022,0.014,175.0,0.01,0.006,0.1,0.001,0.001,,0.001,45.455,Asia,Asia,False,False,False,False,True
+Viet Nam,VNM,2018,Country or economy,Wind,False,0.487,0.137,39.143,0.224,0.044,0.24,0.008,0.002,33.333,0.008,16.427,Asia,Asia,False,False,False,False,True
+Viet Nam,VNM,2018,Country or economy,Wind and solar,True,0.509,0.151,42.179,0.234,0.05,0.33999999999999997,0.009,0.003,50.0,0.009,17.682,Asia,Asia,False,False,False,False,True
+Viet Nam,VNM,2018,Country or economy,Total generation,True,217.184,22.467,11.538,100.0,0.0,44.480000000000004,105.466,21.222,25.191,100.0,485.607,Asia,Asia,False,False,False,False,True
+Viet Nam,VNM,2019,Country or economy,Solar,False,4.818,4.796,21800.0,2.034,2.024,4.99,0.229,0.228,22800.0,0.173,47.53,Asia,Asia,False,False,False,False,True
+Viet Nam,VNM,2019,Country or economy,Wind,False,0.724,0.237,48.665,0.306,0.082,0.37,0.011,0.003,37.5,0.008,15.193,Asia,Asia,False,False,False,False,True
+Viet Nam,VNM,2019,Country or economy,Wind and solar,True,5.542,5.033,988.802,2.34,2.106,5.36,0.24,0.231,2566.667,0.182,43.306,Asia,Asia,False,False,False,False,True
+Viet Nam,VNM,2019,Country or economy,Total generation,True,236.886,19.702,9.072,100.0,0.0,53.03999999999999,132.034,26.568,25.191,100.0,557.374,Asia,Asia,False,False,False,False,True
+Viet Nam,VNM,2020,Country or economy,Solar,False,11.202,6.384,132.503,4.583,2.549,16.66,0.532,0.303,132.314,0.41,47.492,Asia,Asia,False,False,False,False,True
+Viet Nam,VNM,2020,Country or economy,Wind,False,0.982,0.258,35.635,0.402,0.096,0.52,0.014,0.003,27.273,0.011,14.257,Asia,Asia,False,False,False,False,True
+Viet Nam,VNM,2020,Country or economy,Wind and solar,True,12.184,6.642,119.848,4.984,2.644,17.18,0.546,0.306,127.5,0.421,44.813,Asia,Asia,False,False,False,False,True
+Viet Nam,VNM,2020,Country or economy,Total generation,True,244.447,7.561,3.192,100.0,0.0,66.64999999999999,129.773,-2.261,-1.712,100.0,530.884,Asia,Asia,False,False,False,False,True
+Viet Nam,VNM,2021,Country or economy,Solar,False,27.516,16.314,145.635,10.791,6.208,16.66,1.308,0.776,145.865,1.079,47.536,Asia,Asia,False,False,False,False,True
+Viet Nam,VNM,2021,Country or economy,Wind,False,3.341,2.359,240.224,1.31,0.908,4.12,0.049,0.035,250.0,0.04,14.666,Asia,Asia,False,False,False,False,True
+Viet Nam,VNM,2021,Country or economy,Wind and solar,True,30.857,18.673,153.258,12.102,7.118,20.78,1.356,0.81,148.352,1.118,43.945,Asia,Asia,False,False,False,False,True
+Viet Nam,VNM,2021,Country or economy,Total generation,True,254.98,10.533,4.309,100.0,0.0,73.66000000000001,121.237,-8.536,-6.578,100.0,475.477,Asia,Asia,False,False,False,False,True
+Viet Nam,VNM,2022,Country or economy,Solar,False,27.935,0.419,1.523,10.451,-0.34,16.7,1.327,0.019,1.453,1.198,47.503,Asia,Asia,False,False,False,False,True
+Viet Nam,VNM,2022,Country or economy,Wind,False,9.091,5.75,172.104,3.401,2.091,5.07,0.129,0.08,163.265,0.116,14.19,Asia,Asia,False,False,False,False,True
+Viet Nam,VNM,2022,Country or economy,Wind and solar,True,37.026,6.169,19.992,13.852,1.75,21.77,1.456,0.1,7.375,1.314,39.324,Asia,Asia,False,False,False,False,True
+Viet Nam,VNM,2022,Country or economy,Total generation,True,267.293,12.313,4.829,100.0,0.0,77.25999999999999,110.794,-10.443,-8.614,100.0,414.504,Asia,Asia,False,False,False,False,True
+Viet Nam,VNM,2023,Country or economy,Solar,False,31.097,3.162,11.319,11.027,0.576,18.59,1.478,0.151,11.379,1.123,47.529,Asia,Asia,False,False,False,False,True
+Viet Nam,VNM,2023,Country or economy,Wind,False,11.586,2.495,27.445,4.109,0.708,5.89,0.163,0.034,26.357,0.124,14.069,Asia,Asia,False,False,False,False,True
+Viet Nam,VNM,2023,Country or economy,Wind and solar,True,42.683,5.657,15.278,15.136,1.284,24.48,1.641,0.185,12.706,1.247,38.446,Asia,Asia,False,False,False,False,True
+Viet Nam,VNM,2023,Country or economy,Total generation,True,282.0,14.707,5.502,100.0,0.0,82.27,131.562,20.768,18.745,100.0,466.532,Asia,Asia,False,False,False,False,True
+Viet Nam,VNM,2024,Country or economy,Solar,False,32.908,1.811,5.824,10.594,-0.433,18.67,1.564,0.086,5.819,1.055,47.526,Asia,Asia,False,False,False,False,True
+Viet Nam,VNM,2024,Country or economy,Wind,False,12.747,1.161,10.021,4.104,-0.005,6.18,0.178,0.015,9.202,0.12,13.964,Asia,Asia,False,False,False,False,True
+Viet Nam,VNM,2024,Country or economy,Wind and solar,True,45.655,2.972,6.963,14.697,-0.439,24.85,1.742,0.101,6.155,1.176,38.156,Asia,Asia,False,False,False,False,True
+Viet Nam,VNM,2024,Country or economy,Total generation,True,310.633,28.633,10.154,100.0,0.0,84.19,148.178,16.616,12.63,100.0,477.02,Asia,Asia,False,False,False,False,True

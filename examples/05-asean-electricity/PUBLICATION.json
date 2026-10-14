@@ -1,0 +1,192 @@
+{
+  "schema": "untouched-forward-example.v2",
+  "suite_version": "3.2.0",
+  "owner_output_or_rebuild_code_edits": 0,
+  "source": "Ember Yearly Electricity Data; five countries, 2015–2024; selected original 200 rows; CC BY 4.0",
+  "published_exact_files": [
+    {
+      "path": "energy-editorial.vi.html",
+      "bytes": 52103,
+      "sha256": "dacfc58316b43fab5702ab92edb2c0108abcb662c85d1e5e8b2322f0cca4c48f",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "energy-editorial.vi.pdf",
+      "bytes": 155978,
+      "sha256": "8338b80cee6cab96434bd02f8a8646d44ac14a9333ead57bb8e170c2b959589b",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "annual-calculations.csv",
+      "bytes": 4485,
+      "sha256": "ab84002a4648043e53814c5190926f53b43219f104384d75be2f4c1fbe402bce",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "facts.json",
+      "bytes": 16540,
+      "sha256": "5af9025bf5fd851d71779006600e8b306c1a1afdfa282cec98f5113141a89968",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "calculations.vi.md",
+      "bytes": 4056,
+      "sha256": "986fe7c53370774c4702a77a61d2241738af8a68aeb4be7343bd02c3a9023c3e",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "README-rebuild.vi.md",
+      "bytes": 4820,
+      "sha256": "54e96d06c5f0061443ba18f0595e9263962d8af3453fdc527d9b6a3d9b8baa4a",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "charts/comparison-mobile.svg",
+      "bytes": 5406,
+      "sha256": "e1a53c8b5cffb86fd064bc775bbbe61c3fbebcbc0863d7f05408d04fef630c11",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "charts/comparison.svg",
+      "bytes": 6012,
+      "sha256": "a80da1af5bd11dde30536386bd2a726f81e72706bd170a20864f74790c0d11e1",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "charts/growth-mobile.svg",
+      "bytes": 2304,
+      "sha256": "490a9758ce77b83724cfc923feffc65b6aaa90f85ca51b7d5ea400925a4e5155",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "charts/growth.svg",
+      "bytes": 2618,
+      "sha256": "18400cfd5abe92fbb06365985932a8d4724b9b19061f178a8dd62068aa6fd662",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "charts/trend-mobile.svg",
+      "bytes": 11935,
+      "sha256": "3e8e11e5472982eca102134b00a333d0515b0ca5f24230c6c3407d22e31d682b",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "charts/trend.svg",
+      "bytes": 9812,
+      "sha256": "a9255bd3c0eb9c846e8b4832eaec09d802acbbce1c0af54a2a7009703e3e2887",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "previews/pdf-page-1.png",
+      "bytes": 169687,
+      "sha256": "84a054c9e4f448abab985d7bf21e597319c6a23fcd63d23c9d7248765e24f9be",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "previews/pdf-page-2.png",
+      "bytes": 155986,
+      "sha256": "009dd23c077c511c9823a9e3b064e62841e46507d6b4c7c322b8af01eadf0081",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "previews/pdf-page-3.png",
+      "bytes": 158589,
+      "sha256": "6aa28853f3cd17c0c0f6d1428a9edb027f084932f7b520da7108d573c652dcb6",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "previews/pdf-page-4.png",
+      "bytes": 231860,
+      "sha256": "5d3143ff163121ab5e6de6838fa4fd5f121e25d40085b5ac586b86e36de20fcb",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "recipe/analyze_build.py",
+      "bytes": 31096,
+      "sha256": "4da09ec2463a0c67a4b722f68ad074c356d730001089bd0d259f029d67e0f169",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "recipe/export_web.mjs",
+      "bytes": 9211,
+      "sha256": "34c97412ab72856cc199466b02af793e6a569506159925a9699c1103c2e9f6a8",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "recipe/helper-provenance.txt",
+      "bytes": 426,
+      "sha256": "e15b4e82c1645f2031f212503420a04193cf079864de1a8eb4c42145db713a3f",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "recipe/rebuild.ps1",
+      "bytes": 1975,
+      "sha256": "7a19f50ccf90d92731641fccf437421acc4a6aa37b3db720948e86514e6ef81d",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "recipe/verify_outputs.py",
+      "bytes": 6300,
+      "sha256": "f9149cf390e491d50d0574aec0087971f0a5d2470e02a6edaa3bfe4c92473819",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "source/brief.vi.md",
+      "bytes": 3038,
+      "sha256": "355b3b0d9848b685a6c1e2539d7924e74e1b6dd887928241289119fd76db23cd",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "source/provenance.json",
+      "bytes": 6773,
+      "sha256": "5006fc67a9bba605f81165df809c399eec70e01f960173a2bb35f64039bc62b3",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "source/source-contract.md",
+      "bytes": 2147,
+      "sha256": "bb503c77d4c924490db42810c65fd91044dd624960fb94f0016e5a6ffcf82077",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "source/raw/ember-generation-five-countries-2015-2024.csv",
+      "bytes": 32569,
+      "sha256": "1fd193cd5f4c2eda95756233869602b578cbdd7c030813c316b11f8b91eeeed4",
+      "unchanged_from_first_completed_handoff": true
+    }
+  ],
+  "publication_wrapper_files": [
+    "README.md",
+    "PUBLICATION.json"
+  ],
+  "archival_omissions": [
+    "Original packageZIP and source/raw/ember-methodology-20260922.pdf remain in private originalhandoff; publicsourcecontract/provenance link the officialmethodology. Not needed by the unchanged calculation/rebuild code.",
+    "Selfverification/browser receipts, extractedPDF text and artifact-hashlists omitted; publication checks are summarized separately. Originalrecipeguide retains references to its fuller archivalhandoff."
+  ],
+  "checks_status": "All five registered gates passed within the stated scope.",
+  "limits": [
+    "One unfamiliar-source forwardexecution; no matchedbaseline comparison.",
+    "Modelreadback and localrender checks do not measure human taste/comprehension/outcomes.",
+    "Original chatPNG viewing route is unobserved; this example supplies actual text/vector reading alternatives."
+  ],
+  "first_handoff_sealed_at_utc": "2026-10-14T02:53:31.836028+00:00",
+  "registered_gates": {
+    "independent_source_and_claims": "PASS: all 50 country-years, endpoint/growth/rank claims, all 7 annual declines, actual HTML/PDF and six SVG marks/rounded labels match the frozen source/oracle; no material numeric or claim blocker.",
+    "formats": "PASS: four A4 PDF pages with searchable text/vector operators and 0 images; six SVGs with editable text and 0 image elements.",
+    "actual_size_reading": "PASS within local render scope: root viewed complete PDF pages and 375px views; browser essential-font/bounds checks passed at 960/1280/375; actual in-app HTML page visible. Author 360/390 checks are separate.",
+    "reader_and_practical_handoff": "GO for an editorial meeting and proposed two-day work from a fresh-context model reader; all 4 PDF pages, six SVGs and 390px HTML viewed.",
+    "relocated_public_rebuild": "PASS: exact recipe runs from the copied public subset without the archived methodology PDF; ten deterministic files are byte-identical; all 4 PDF pages match text, dimensions and pixels."
+  },
+  "secondary_reader_observations": [
+    "When a title is detached from the report, keep its 2015–2024 scope explicit.",
+    "A 2021 tick/annotation would ease locating that point in the narrow trend variant.",
+    "Expanding EI to Energy Institute would make the reporter source instruction clearer."
+  ],
+  "treatment_freeze_scope": {
+    "files_frozen_before_final_browser_export": 66,
+    "method_and_license_files_unchanged_in_distribution": 60,
+    "NOTICE_files_changed_after_trial_for_public_source_attribution": 6,
+    "helper_sha256": "34c97412ab72856cc199466b02af793e6a569506159925a9699c1103c2e9f6a8",
+    "timing_note": "Tool controls were completed during candidatecreation; final tool snapshot was frozen before browser export and the first completed handoff. No strict pre-first-read benchmark or baseline advantage claimed."
+  }
+}
