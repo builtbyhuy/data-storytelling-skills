@@ -3,7 +3,7 @@ name: business-insight-diagnosis
 description: Diagnose business performance and turn verified findings into a supported choice. Use when a user asks why a KPI changed, which customers/products/channels explain a result, whether an anomaly matters, or what action the evidence supports. Pure chart formatting, narrative polishing, and statistical test selection have separate methods.
 license: MIT
 metadata:
-  version: "3.2.0"
+  version: "3.3.0"
 ---
 
 # Business Insight Diagnosis

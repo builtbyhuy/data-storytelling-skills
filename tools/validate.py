@@ -12,6 +12,7 @@ AUTHORED_EXAMPLE_PDFS = {
 }
 AUTHORED_EXAMPLE_PDFS.add('examples/04-attendance-pilot/thu-nghiem-chuyen-can.pdf')
 AUTHORED_EXAMPLE_PDFS.add('examples/05-asean-electricity/energy-editorial.vi.pdf')
+AUTHORED_EXAMPLE_PDFS.add('examples/06-bank-marketing/report.pdf')
 
 def validate():
     failures = []

@@ -5,3 +5,10 @@ shared/** -text
 skills/** -text
 examples/04-attendance-pilot/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 examples/05-asean-electricity/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+examples/06-bank-marketing/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+evals/solo-v3.3/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Frozen records retain original EOF/source formatting; do not polish their bytes.
+evals/solo-v3.3/reader-*.md -text whitespace=blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
+examples/06-bank-marketing/build.py -text whitespace=blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
+examples/06-bank-marketing/calculate.py -text whitespace=blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
+examples/06-bank-marketing/source/bank-names.txt -text -whitespace

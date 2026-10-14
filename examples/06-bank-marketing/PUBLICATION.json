@@ -1,0 +1,340 @@
+{
+  "schema": "untouched-solo-example.completed.v1",
+  "suite_version": "3.3.0",
+  "example": "06-bank-marketing",
+  "publication_status": "reviewed_for_user_authorized_publication",
+  "wrapper_authored_by": "root packaging owner, separately from report author",
+  "taste_status": "Both sealed anonymous model readers GO within fictional diagnostic scope",
+  "comparison_status": "No overall winner; full pairwise evidence in evals/solo-v3.3/comparison.json",
+  "owner_output_or_recipe_code_edits": 0,
+  "first_completed_handoff": {
+    "run": "R54",
+    "sealed_at_utc": "2026-10-14T05:56:43.203218+00:00",
+    "owner_draft_inspection_before_seal": false,
+    "original_file_count": 26,
+    "private_seal_relative_path": "runs/R54/seal.json",
+    "seal_sha256": "42c50c69303ea67c51b102a0be39d4d8be21f977ba833b8b67d9f7e76acc7395",
+    "seal_itself_included": false
+  },
+  "source": {
+    "title": "Bank Marketing",
+    "repository": "UCI Machine Learning Repository",
+    "variant": "Original bank-full.csv",
+    "rows": 45211,
+    "columns": 17,
+    "observation_unit": "Original source record; unique customers cannot be established from this file",
+    "raw_csv_sha256": "d1513ec63b385506f7cfce9f2c5caa9fe99e7ba4e8c3fa264b3aaf0f849ed32d",
+    "doi": "10.24432/C5K306",
+    "page_url": "https://archive.ics.uci.edu/dataset/222/bank+marketing",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "license_and_attribution_rechecked_on": "2026-10-14",
+    "credit": "Moro, S., Rita, P., & Cortez, P. (2014). Bank Marketing [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5K306.",
+    "modification_notice": "Retained raw CSV and dictionary bytes are unchanged; report adds original aggregations, calculations, explanation and presentation. The source contract and provenance are separately authored metadata.",
+    "endorsement_claimed": false
+  },
+  "prepared_exact_files": [
+    {
+      "path": "build.py",
+      "bytes": 25587,
+      "sha256": "1053cf25151f148e2a942c56fe0274e0035e5826993fdcd4ffe3696ef81370cc",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "calculate.py",
+      "bytes": 4704,
+      "sha256": "2f2e370e8d9dd9759826ec6e0caec61961a4bec97478cbad0a05bc6bcb88c352",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "charts/attempts-desktop.svg",
+      "bytes": 2774,
+      "sha256": "33772eb6bff7d22e562ef0d98759cbdad518a104b2ce1f0f5f00781263a5012d",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "charts/attempts-phone.svg",
+      "bytes": 2920,
+      "sha256": "65fb95ee3611aee9ca16cf149c36f17a9d020845ef67caaf0bad3e5bff214060",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "charts/history-desktop.svg",
+      "bytes": 3443,
+      "sha256": "24142582ab6a3c2d0264b0ba9d4f13d408db0d93539de99f95ddf2648eee3abe",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "charts/history-phone.svg",
+      "bytes": 3596,
+      "sha256": "d11a99c2ca11b94d666eb136377994bc629a99dbe4d82b51aa2803193fdc2424",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "evidence/attempts.csv",
+      "bytes": 235,
+      "sha256": "0eb69e98019fb41f3eddf49e7972edc0f5ee7d371d282d9c6a424df8243e05d6",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "evidence/calculations.json",
+      "bytes": 5843,
+      "sha256": "01a26a389824f7a83b269d05dbc7f3eab15c87542abb505750f42a07bbd905d5",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "evidence/history-by-attempts.csv",
+      "bytes": 627,
+      "sha256": "763f8bdcbc9f075d846a43e20c9daed6b2466a33c61315fdb5882715dacfb396",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "evidence/history-by-contact.csv",
+      "bytes": 520,
+      "sha256": "31c69d2531f929f9eefa43f76eca1265489835d606fb97a7e45fc5665281395f",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "evidence/history.csv",
+      "bytes": 288,
+      "sha256": "7098a30f62a9ddecf3d9b7aafc2e97fd64b21ef983c40a8c8471782b102a9c4e",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "README.md",
+      "bytes": 4931,
+      "sha256": "d5e17021314e9315a796d2fa7e504dbf38d24fb0f132438b5b909851c07484bf",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "rebuild.ps1",
+      "bytes": 844,
+      "sha256": "e074827a0ef8ed8a29593de59e415c467bd47be75d7413ddeeaf3cf6c98d2e9b",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "render.mjs",
+      "bytes": 6160,
+      "sha256": "53b01373ef4631ac1e45178fc3797e305f9ad8a1456afd5aa8a516bd1e0bf9f3",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "report.html",
+      "bytes": 36682,
+      "sha256": "4924d1bd84127a67c3cf5aeae9332f75d7885b86be67e60bba5038df592af445",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "report.pdf",
+      "bytes": 175165,
+      "sha256": "80b6329e7acef1d87b72b504879accf3f3c83494874a407548ab1806127b6077",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "source/bank-full.csv",
+      "bytes": 4610348,
+      "sha256": "d1513ec63b385506f7cfce9f2c5caa9fe99e7ba4e8c3fa264b3aaf0f849ed32d",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "source/bank-names.txt",
+      "bytes": 3864,
+      "sha256": "3899a77082573ed676a7dfce3765a5307915c7f11b1fe2f6f55fd3c5467c12f7",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "source/brief.vi.md",
+      "bytes": 2872,
+      "sha256": "9e5cb748a80842572fee81be20a624d1f2febf4880990c1d570e8f7ecaf9f081",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "source/PROVENANCE.md",
+      "bytes": 4125,
+      "sha256": "450ce7c951034aa7edd661175302787ad17e740e1c81ad55ebb80c168d5f7634",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "source/source-contract.json",
+      "bytes": 7650,
+      "sha256": "2e479aa060fbc6b94cb84dca833623078d616a39d1301adebf28aa5120fe6c95",
+      "unchanged_from_first_completed_handoff": true
+    },
+    {
+      "path": "verify.py",
+      "bytes": 7281,
+      "sha256": "d9d846c18bd921434e0ba52e3f7bf7eefd1e26e0dfa7c1a3a2acd4ba56d65c8a",
+      "unchanged_from_first_completed_handoff": true
+    }
+  ],
+  "publication_wrapper_files": [
+    "PACKAGE.md",
+    "PUBLICATION.json"
+  ],
+  "omitted_original_files": [
+    "method-use.json",
+    "evidence/browser-checks.json",
+    "evidence/verification.json",
+    "evidence/relocation-check.json"
+  ],
+  "archival_omissions": [
+    "Author method-use and selfcheck receipts are omitted; the author README is unchanged and still names the fuller archival handoff.",
+    "Private paths, the full seal, independent receipts, extracted PDF text and review screenshots are not distributed.",
+    "Original source notes refer to source-preparation ZIPs, retrieval/license receipts, prepare_source.py, verify_source.py, source-verification.json and bank-additional-names.txt absent from the author five-source-file handoff. They are not added to the public subset.",
+    "No rival output or separately distributed font file is included."
+  ],
+  "recipe_dependency_inspection": {
+    "original_recipe_or_code_changed": false,
+    "omitted_original_files_read_by_rebuild": false,
+    "basis": "build.py uses included source/contract and calculate.py; render.mjs creates the browser receipt consumed by verify.py. The recipe does not read method-use.json, archived relocation receipts or omitted source-preparation documents.",
+    "public_subset_new_rebuild_performed": false,
+    "reason": "Existing physically relocated unaltered-recipe receipt and copied byte identity reused; no new dependency concern found."
+  },
+  "bounded_checks": {
+    "immutable_copy": {
+      "checked_original_sealed_files": 26,
+      "original_seal_mismatches": 0,
+      "copied_original_files": 22,
+      "copied_size_or_sha256_mismatches": 0
+    },
+    "independent_source_and_numbers": {
+      "assertions": 316,
+      "failed_assertions": 0,
+      "truth_basis": "Raw csv.DictReader source recomputation with Decimal, not author build/check helper; oracle created before authors were read.",
+      "sealed_files_before": 26,
+      "sealed_files_after": 26,
+      "seal_mismatches_after": 0,
+      "scope": "Actual HTML/PDF numbers and tables, calculations JSON/CSV values, SVG scales/marks/labels and accessible labels, record denominators and disclosed interpretation limits."
+    },
+    "relocated_original_recipe": {
+      "passed": true,
+      "unaltered_recipe": true,
+      "physically_relocated": true,
+      "deterministic_core_files": 10,
+      "all_deterministic_core_files_equal_bytes": true,
+      "pdf_page_counts": [
+        4,
+        4
+      ],
+      "all_four_pdf_pages_same_text_dimensions_and_pixels_at_96dpi": true,
+      "scope": "Only explicitly listed core files and4page PDF text/dimensions/96dpi pixels. PDF timestamp bytes and ancillary author receipts are not deterministic criteria; source correctness checked separately."
+    },
+    "read_only_browser": {
+      "scope": "Read-only screenshots of unchanged source; all external HTTP(S) blocked. Generic text inventory is diagnostic, not an automated comprehension/contrast/overlap gate. HTML transformed effective font sizes require visual inspection.",
+      "surfaces": [
+        {
+          "viewport_width": 1280,
+          "document_scroll_width": 1280,
+          "duplicate_ids": {},
+          "external_http_requests_blocked": 0,
+          "page_errors": 0,
+          "failed_requests": 0,
+          "ax_api_available": true
+        },
+        {
+          "viewport_width": 390,
+          "document_scroll_width": 390,
+          "duplicate_ids": {},
+          "external_http_requests_blocked": 0,
+          "page_errors": 0,
+          "failed_requests": 0,
+          "ax_api_available": true
+        }
+      ],
+      "phone_keyboard_scroll": {
+        "viewport_width": 390,
+        "passed": true,
+        "tables": 3,
+        "scope": "Browser keyboard behavior and end-state visibility at390px. No artifact edits or DOM structure changes."
+      }
+    },
+    "object_inventory": {
+      "searchable_pdf_pages": 4,
+      "pdf_image_objects": 0.0,
+      "svg_files": 4,
+      "svg_text_elements": [
+        {
+          "path": "charts/attempts-desktop.svg",
+          "text_elements": 17,
+          "image_elements": 0
+        },
+        {
+          "path": "charts/attempts-phone.svg",
+          "text_elements": 17,
+          "image_elements": 0
+        },
+        {
+          "path": "charts/history-desktop.svg",
+          "text_elements": 20,
+          "image_elements": 0
+        },
+        {
+          "path": "charts/history-phone.svg",
+          "text_elements": 20,
+          "image_elements": 0
+        }
+      ],
+      "limited_operator_counters_used_as_quality_proof": false,
+      "scope": "Object inventory; not layout or glyph-quality verification."
+    },
+    "package_structural_validation": {
+      "passed": true,
+      "tool": "tools/validate.py",
+      "scope": "Repository structural checks for six skill packages, relative links in skill documents, explicitly allowed authored PDFs and personal absolute-path absence. No behavioral or taste certification.",
+      "git_diff_check_passed": true,
+      "example_exact_inventory_files": 24,
+      "example_unexpected_or_missing_files": 0,
+      "package_wrapper_broken_relative_links": 0,
+      "separately_distributed_font_files": 0
+    }
+  },
+  "private_receipt_hashes": [
+    {
+      "private_evaluation_relative_path": "checks/numeric-review/R54-numeric-audit.json",
+      "sha256": "065711339a4c60c393fb4f540ac4500d90d9d8968211b23f055ee8835832f8bf",
+      "included_in_package": false
+    },
+    {
+      "private_evaluation_relative_path": "checks/R54-rebuild-verification.json",
+      "sha256": "e709b601230ffda18ebd0b7ed347ae52e6789f4fd3ee1cadcb97fe4aeb5007f9",
+      "included_in_package": false
+    },
+    {
+      "private_evaluation_relative_path": "checks/render/R54/web/browser-inspection.json",
+      "sha256": "bbf55c412ae4559d8f2e443552a00361a8b563a644fd3277a84f472effd6c278",
+      "included_in_package": false
+    },
+    {
+      "private_evaluation_relative_path": "checks/render/R54/scroll/scroll-check.json",
+      "sha256": "01665164eeafcb711cd6a2da6f68da7c97c469791c13fe216dc9e6341aa90335",
+      "included_in_package": false
+    },
+    {
+      "private_evaluation_relative_path": "checks/render/R54/pdf/pdf-svg-objects.json",
+      "sha256": "fbd9dd05684c4b26c479eed24e96257f9ca71d681e33b8bb8c6683813ca8fa99",
+      "included_in_package": false
+    }
+  ],
+  "limits": [
+    "Candidate reviewed for publication: independent material checks and both sealed model-reader GO. All pairwise ties/disagreements retained; no overall or universal winner claim.",
+    "Numeric, browser, format and deterministic rebuild checks prove only their stated scopes.",
+    "The existing relocated-original-recipe receipt is not a new rebuild of this copied subset and is not a cross-machine/font/runtime guarantee.",
+    "No human comprehension, screen-reader, customer, campaign, business outcome or professional-quality certification is claimed.",
+    "The proposed diagnostic and any later contact trial were not executed."
+  ],
+  "unresolved_packaging_issues": [
+    "Unchanged archival references in the author README/source notes name files intentionally omitted or absent from the five-source-file author handoff; PACKAGE.md explains them."
+  ],
+  "independent_review": {
+    "reader_files_sha256": {
+      "reader-one.json": "a5c86a4aa1c7aeef1189ba534254fed2e45e446144f7ea10f1dea889db708e43",
+      "reader-one.md": "21d667842b1ef00aee7230b200ee42b0026bc4754453ad90f4138f50c117ad32",
+      "reader-two.json": "9413b656352742dcbb5affad9e49f12185fba4645867a7e501ab8edb969b5d49",
+      "reader-two.md": "6ca8bcd1ed4f10bb12b90b105f72188bd2cc33b08d8d991a994320d795fea3a2"
+    },
+    "per_reader_images": 94,
+    "candidate_material_blockers": [],
+    "root_visual_images": 94,
+    "full_human_a11y_or_business_validation": false
+  }
+}

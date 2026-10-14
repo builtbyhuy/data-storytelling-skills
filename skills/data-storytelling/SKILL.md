@@ -2,7 +2,7 @@
 name: data-storytelling
 description: Compose analysis, business charts and audience-ready communication from data when a request spans several outputs; explain KPI changes and deliver a supported decision memo or deck. Kể chuyện với dữ liệu, phân tích rồi vẽ biểu đồ và viết memo. Route chart-only, audit-only and team-practice jobs to their specialists; simple KPI answers stay short.
 metadata:
-  version: "3.2.0"
+  version: "3.3.0"
 ---
 
 # Data stories: compose the requested work

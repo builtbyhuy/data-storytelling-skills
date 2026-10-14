@@ -77,6 +77,8 @@ When stale calculations or chart caches are implicated, refresh/recalculate an a
 
 ## Narrative and action checks
 
+Recover the operator as well as the population behind each growth statement: sum/value, quantity, row count and distinct count need their own calculation. A correct percentage attached only to a population noun can imply the wrong measure. Narrow that wording without alleging incorrect arithmetic when the calculation itself is sound. For a web visual, inspect table values and each exposed chart name at the required widths; hidden variant IDs and unmarked tables remain part of the delivered document.
+
 Read derived table headings as if the cell were detached from its footnote: do name and unit identify a contribution, raw driver or rate correctly? Name the reference for each more/less/increase/decrease statement. A correct numerical decomposition can coexist with a misleading driver label or a sentence using a different unstated comparator.
 
 Check visual effort even when the reader repeats the conclusion correctly. Ask them to locate the decisive point/series and the condition governing the next action. Flag unnecessary legend hopping, crowded or unnecessary every-point tick labels, equally prominent crossing series, paragraph tables and action blocks whose conditions are buried. Preserve the complete data/domain when simplifying visible ticks or emphasis. An understood but burdensome surface can still need repair.

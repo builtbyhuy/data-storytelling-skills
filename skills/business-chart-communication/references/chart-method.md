@@ -85,6 +85,8 @@ View the result in its destination rather than only as a full-resolution image. 
 
 ## Accessible reading at the actual destination
 
+An inline chart needs a name that remains correct after composition. Give title/description IDs a document-unique chart prefix, including desktop/phone variants, and resolve each ARIA reference. Inspect the actual exposed browser name of every visible chart; matching visible labels do not prove matching accessibility names. A native SVG title or `aria-label` can provide the name, and a deliberate external caption can be referenced. Do not reuse another chart's title/description by accident. Hide genuinely decorative SVGs; naming/reference checks do not establish full accessibility conformance.
+
 Choose type size, line thickness, and spacing for the expected slide, screen, page, or print size. Read the exported output at that size; font substitutions and rasterization can change readability. Check source notes and limitations as well as the headline.
 
 Provide redundant distinctions using direct text, markers, line patterns, or panel separation. Check important foreground/background combinations individually. A grayscale preview helps reveal lost separation but does not test every color-vision condition or accessibility need. Alt text should describe the question, main pattern, material qualification, and where exact values are available. Complex charts may also need a longer description or accessible table.

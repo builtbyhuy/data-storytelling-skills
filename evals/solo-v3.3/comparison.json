@@ -1,0 +1,273 @@
+{
+  "schema": "solo4-bank-marketing.completed.v1",
+  "date": "2026-10-14",
+  "candidate_version": "3.3.0",
+  "candidate_material_gate": "PASS within checked scope",
+  "all_four_reader_dispositions": "GO for fictional meeting/proposed diagnostic; all8readbacks recover finding/limit/action",
+  "aliases": {
+    "A": {
+      "run": "R54",
+      "method": "Suite3.3"
+    },
+    "B": {
+      "run": "R89",
+      "method": "Frontend + art direction"
+    },
+    "C": {
+      "run": "R72",
+      "method": "K-Dense"
+    },
+    "D": {
+      "run": "R31",
+      "method": "Visual Explainer MIT"
+    }
+  },
+  "judge_one": {
+    "model": "gpt-6-astra",
+    "effort": "high"
+  },
+  "judge_two": {
+    "model": "gpt-6.1-sol",
+    "effort": "high"
+  },
+  "orders": [
+    [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    [
+      "D",
+      "C",
+      "B",
+      "A"
+    ]
+  ],
+  "images_inspected_each": 94,
+  "owner_output_or_recipe_edits": 0,
+  "numerical_audits": {
+    "R31": 428,
+    "R72": 653,
+    "R54": 316,
+    "R89": 278
+  },
+  "pairwise": [
+    {
+      "pair": "A-B",
+      "dimension": "clarity",
+      "reader_one": "TIE",
+      "reader_two": "A",
+      "agreement": false,
+      "evidence_one": "A puts the current diagnostic in the opening callout and attaches yes/n counts directly under each history bar (PDF p1; phone 02). B leads with the callback decision, presents the 4+ versus 1-3 comparison beside the chart, and places the reverse-selection caveat immediately after it (PDF p1; phone 01-02). A is easier for reading the base at each mark; B connects its narrower question to its next diagnostic with fewer detours.",
+      "evidence_two": "A binds yes counts and group bases directly beneath each bar and places the 3.3%/18.5% coverage qualification alongside the first comparison. B expresses its 4+ versus 1–3 contrast and 5.5-point gap clearly, but exact per-bar bases are in the later reference table. A therefore reduces the lookup needed to interpret unequal groups.",
+      "uncertainty_one": "They answer different legitimate questions. Neither advantage consistently dominates independent readback across desktop, phone and PDF; no timed human reading was measured.",
+      "uncertainty_two": "The reports choose different valid questions. This is a reading-effort advantage, not a claim that the history question is more important than the repeat-call question."
+    },
+    {
+      "pair": "A-B",
+      "dimension": "visual_taste",
+      "reader_one": "TIE",
+      "reader_two": "A",
+      "agreement": false,
+      "evidence_one": "A has generous type, repeated page rhythm and readable chart counts (PDF pp1-3; phone 02/04); its exact phone tables require horizontal movement, with preserved row labels at the end. B balances headline, chart and side note well on desktop, and fits exact tables into 390px (desktop 01/05; phone 06), but schedule/table text is visibly smaller. Both maintain an orderly hierarchy and intact PDF compositions.",
+      "evidence_two": "A's chart labels, body, section titles and audit box remain proportionate in the desktop and PDF sequence, and phone labels retain a generous reading size. B's second desktop chart is very large relative to adjacent prose; its phone schedule/reference tables use notably smaller type, and PDF page 1 is much emptier below the decision text than pages 2–3. A has the more even hierarchy across the supplied formats.",
+      "uncertainty_one": "A's comfortable typography versus B's compact tables is a real size-specific tradeoff, not a palette preference. Neither showed a material composition failure.",
+      "uncertainty_two": "B remains coherent and legible. White space and serif type are not defects in themselves; the verdict rests on proportional balance and reading-size consistency, not palette or font preference."
+    },
+    {
+      "pair": "A-B",
+      "dimension": "practical_usefulness",
+      "reader_one": "TIE",
+      "reader_two": "TIE",
+      "agreement": true,
+      "evidence_one": "A specifies 60 sampled records, 8 minutes each, a day-2 permission/linkage stop and an all-60 verification branch (PDF p3). B defines a more informative per-attempt denominator and common result window for the callback question, plus linkage coverage and a missing-log fallback (PDF p3). A is more bounded in execution; B makes the missing causal mechanism easier to investigate.",
+      "evidence_two": "A gives a concrete 60-record check, an eight-minute limit, no substitution of difficult records, a day-2 access/linkage stop and an all-60 prerequisite for preparing a trial. B specifies the missing event-log fields and the right at-risk counts per round, result window and linkage coverage for a repeat-call diagnosis, with an explicit missing-log handoff. Both turn their distinct questions into conditional work and interpretable output.",
+      "uncertainty_one": "Which diagnostic is preferable depends on the manager's actual question and available records, neither supplied. No feasibility or execution claim follows from either plan.",
+      "uncertainty_two": "A is more bounded at record-audit level; B is more explicit about per-round outcome denominators. No external evidence establishes which diagnostic is more valuable or that either fits the real data-access situation."
+    },
+    {
+      "pair": "A-C",
+      "dimension": "clarity",
+      "reader_one": "A",
+      "reader_two": "A",
+      "agreement": true,
+      "evidence_one": "A's two charts place numerators/denominators next to direct percentage labels, followed by short explicit alternative explanations and a clearly boxed day-10 rule (PDF pp1-3; phone 02/04/07). C usefully places exact counts beside the opening chart on desktop, but inserts campaign and 12-month displays/tables before the action; at 390px that second section spans phone 03-07 and separates the action from the main history question.",
+      "evidence_two": "A places numerator/base labels under each decisive bar and readable explanatory text directly after the marks. C's main comparison has a clear baseline and adjacent exact table, but the compact desktop columns and smaller phone value labels require more concentration; its full monthly comparison adds another lookup sequence before the audit. A requires less effort to extract and qualify its central comparison.",
+      "uncertainty_one": "C's extra month evidence can be useful to a reader specifically considering scheduling. The verdict concerns the common brief's decision readback, not chart count or breadth alone.",
+      "uncertainty_two": "C's month section answers a defensible additional interpretation question and is explicitly cautioned. More content alone is not penalized; the difference is the smaller labels and extra navigation needed at the promised sizes."
+    },
+    {
+      "pair": "A-C",
+      "dimension": "visual_taste",
+      "reader_one": "A",
+      "reader_two": "A",
+      "agreement": true,
+      "evidence_one": "A's main charts and counts have a consistent, comfortable reading scale in desktop 01/03, phone 02/04 and PDF pp1-2. C's desktop evidence page has two dense chart/table columns; its month values become small on phone 05, while multiple labeled record cards stretch the layout (phone 06-07). C's cards do preserve label-value attachment; A's heavier reading hierarchy remains more balanced across the promised sizes.",
+      "evidence_two": "A preserves a larger, more even text scale through charts, prose and audit decision panels. C's desktop/PDF page 2 compresses two charts, two exact tables and several captions; its month point values at 390px are visibly much smaller than nearby headings. A's composition offers a steadier hierarchy while still supporting exact values.",
+      "uncertainty_one": "C remains readable and usable, and its landscape PDF is not itself a defect. This is a relative reading-scale/composition preference, not a blocker or accessibility certification.",
+      "uncertainty_two": "C's mobile record cards solve wide-table overflow better than A's scroll tables. Neither has a material visual blocker; visual taste remains a model-reader judgment."
+    },
+    {
+      "pair": "A-C",
+      "dimension": "practical_usefulness",
+      "reader_one": "C",
+      "reader_two": "TIE",
+      "agreement": false,
+      "evidence_one": "A's step starts by seeking recoverable linkage from historical CSV rows to original records and stops if unavailable (PDF p3). C explicitly states that the public CSV has no internal join key and instead tests a permitted current internal list, auditing up to 40 across all four histories, recording actual n and handling small strata (PDF p3; phone 08-09). It maps the historical signal to a clearer present-day diagnostic without requiring a historical row linkage.",
+      "evidence_two": "A supplies an early access stop and a fixed 60-record audit with an explicit verification gate. C supplies up to 40 randomly selected records across all four prior-outcome groups, seeds/actual counts, duplicate/late-field/error categories and three repair/proceed/defer outcomes. Each specifies what is checked, what is handed off and what changes the decision.",
+      "uncertainty_one": "C still depends on permission, a suitable current list and available internal fields. Neither packet proves those exist; this favors the proposed handoff design, not successful execution.",
+      "uncertainty_two": "A depends on recovering source-row linkage; C depends on authorized current internal records. The packets do not establish availability. A's strict all-60 gate and C's broader category coverage have different defensible purposes."
+    },
+    {
+      "pair": "A-D",
+      "dimension": "clarity",
+      "reader_one": "A",
+      "reader_two": "TIE",
+      "agreement": false,
+      "evidence_one": "A gives the diagnostic duration/resources and immediate question before its first chart, and directly labels each bar's rate and yes/n (desktop 01; phone 01-02). D's opening 3.3% title is very clear, but its precise diagnostic and branches arrive after a separate limitations section; rates sit in a far-right column and detailed caveats are spread through repeated figure/text/table blocks (desktop 01-07; phone 01-12).",
+      "evidence_two": "A gives exact yes/base pairs beneath the first chart plus a baseline caption. D gives record counts and a 3.3% coverage headline, then an 81.5% outside-group callout and the exact table nearby; phone cards keep labels bound to all values. Both make the signal and narrow coverage recoverable without a legend, with association limits close to the evidence.",
+      "uncertainty_one": "D's larger coverage headline is especially effective for an initial skim. A wins the complete metric-to-action path, not every individual element.",
+      "uncertainty_two": "A is stronger for numerator/base lookup within marks; D is stronger for immediate coverage framing and complete phone tables. These offset rather than establish a clear winner."
+    },
+    {
+      "pair": "A-D",
+      "dimension": "visual_taste",
+      "reader_one": "TIE",
+      "reader_two": "TIE",
+      "agreement": true,
+      "evidence_one": "A's restrained page architecture, directly placed labels and readable bold/subordinate hierarchy work in PDF and phone views. D has a more emphatic opening, clear chart containers and well-spaced phone record cards (phone 01-05), while its desktop chart rates require longer eye movement and the layout has more section whitespace. A's phone tables require lateral movement; D's cards require more vertical movement.",
+      "evidence_two": "A uses consistent page panels, large readable chart annotations and a bordered audit gate. D uses a strong headline, direct values, restrained figure/table separation and phone cards that retain readable numbers. Both preserve hierarchy in their full PDFs. A has a compact editorial sequence; D has more scrolling and spacing but avoids horizontally hidden table columns.",
+      "uncertainty_one": "The opposing costs persist at the promised sizes. D's more expressive composition alone does not justify a win, nor does A's shorter visual path automatically make it more pleasing.",
+      "uncertainty_two": "No objective basis is supplied for preferring A's density to D's airier composition. A's table-navigation cost and D's longer phone sequence are real but neither alone settles taste."
+    },
+    {
+      "pair": "A-D",
+      "dimension": "practical_usefulness",
+      "reader_one": "A",
+      "reader_two": "A",
+      "agreement": true,
+      "evidence_one": "A defines sample composition, fixed-seed selection, a per-record time ceiling, missing-record handling, an early stop and the exact proposed all-60 result gate (PDF p3). D defines 4/6/4/2 hours, required fields and usable/unusable counts but does not bound record volume or sampling; its detailed later trial protocol is explicitly outside the current diagnostic (PDF p4).",
+      "evidence_two": "A specifies 30 success plus 30 unknown records, fixed-seed selection, retained row list, eight-minute maximum, unresolved-case handling, an all-60 verification gate and a day-2 stop. D asks for valid IDs/timing/eligibility and usable/checked counts with reasons, but does not define a diagnostic sample or comparably specific acceptance scope. A makes the immediate audit easier to commission and review.",
+      "uncertainty_one": "A's strict all-60 gate is only proposed and not evidence-based certification; its historical linkage prerequisite may fail. D's later protocol is valuable, but added future detail does not resolve the current workload boundary.",
+      "uncertainty_two": "D's later conditional policy-test sketch adds measurement detail, but it is outside the current diagnostic and lacks an approved winning threshold. A's proposed gate is also unapproved and does not certify the whole system."
+    },
+    {
+      "pair": "B-C",
+      "dimension": "clarity",
+      "reader_one": "B",
+      "reader_two": "B",
+      "agreement": true,
+      "evidence_one": "B sustains one callback question from headline through grouped rates, within-4+ history comparison and per-attempt log handoff (PDF pp1-3; phone 01-05). C's opening history question is clear, but the intervening month comparison adds a second operational temptation and a long phone lookup sequence before returning to the diagnostic (phone 03-08). B makes it easier to retell why the next step follows from the evidence.",
+      "evidence_two": "B's opening chart, 4+ versus 1–3 aggregate comparison, 5.5-point gap and nearby limitation form a focused question at desktop and phone sizes. C conveys a clear historical-signal question, but its compact first-page table and full contact/month page require more small-value lookup and a longer phone sequence to reach the audit. B is easier to read as one argument.",
+      "uncertainty_one": "C serves a broader exploratory meeting and explicitly warns against scheduling from months. This relative result does not make that question invalid or punish the mere presence of an extra chart.",
+      "uncertainty_two": "The additional monthly comparison in C is legitimate, not inherently irrelevant. This verdict concerns the observed effort and directness, not the relative business importance of the two questions."
+    },
+    {
+      "pair": "B-C",
+      "dimension": "visual_taste",
+      "reader_one": "B",
+      "reader_two": "B",
+      "agreement": true,
+      "evidence_one": "B uses a clean heading/body contrast, direct bar labels and exact tables that remain compact at 390px (phone 01/03/06-07; PDF pp1-4). C's desktop p2 is denser, and phone month labels are appreciably smaller than the body before a long series of cards (phone 05-07). B's display hierarchy offers a steadier balance between evidence, warning and whitespace across formats.",
+      "evidence_two": "B's horizontal charts keep labels and values legible without a legend and its main evidence uses a clear single-column phone flow. C's month point annotations, captions and packed desktop/PDF page-2 tables use a noticeably smaller scale. B has the calmer visual hierarchy for these supplied sizes, despite its own small phone reference-table text.",
+      "uncertainty_one": "B also has small supporting/table type, especially its phone schedule. C's labeled cards improve association and no decisive content was unreadable; this is relative taste at size, not a material failure.",
+      "uncertainty_two": "C's grouped mobile cards are a stronger table adaptation and B's large desktop history chart is less balanced. The preference is modest and based on annotation scale/composition, not a dislike of dot plots."
+    },
+    {
+      "pair": "B-C",
+      "dimension": "practical_usefulness",
+      "reader_one": "C",
+      "reader_two": "TIE",
+      "agreement": false,
+      "evidence_one": "B asks for useful per-attempt risk populations and common observation windows, but its six-hour log-linking phase leaves data volume unspecified (PDF p3). C bounds a random audit at up to 40 records, covers four history groups, handles small groups, logs actual n/seed/errors and provides repair/permission branches on an authorized current list (PDF p3). Those specifics make its immediate diagnostic easier to assign within the stated resource cap.",
+      "evidence_two": "B defines a repeat-call diagnostic around per-round at-risk people, contact outcomes, aligned result windows, linkage coverage and stratification. C defines a prior-history availability audit with up to 40 reproducibly sampled records, pre-selection timing, uniqueness/errors and repair/defer gates. Both use the resource cap and explain what a missing-source outcome means.",
+      "uncertainty_one": "The two reports target different questions. If complete call logs already exist, B could be more valuable; the packet does not establish that prerequisite.",
+      "uncertainty_two": "C has a more concrete audit sample; B has a more concrete outcome denominator for its different operational question. Actual access, effort and comparative value were not tested."
+    },
+    {
+      "pair": "B-D",
+      "dimension": "clarity",
+      "reader_one": "B",
+      "reader_two": "TIE",
+      "agreement": false,
+      "evidence_one": "B connects its 4+ versus 1-3 comparison, reverse-selection caveat and callback-log diagnostic directly, with exact counts in a compact appendix (PDF pp1-4). D explains the coverage issue very well but repeats it through a main chart, text, outside-success indicator, table and overall strip; its action sits after the long limitations section (phone 01-12). B asks less navigation work for the complete decision readback.",
+      "evidence_two": "B names the descriptive contact-count gap and controlling selection explanation directly on the opening page. D names the narrow prior-success group in the headline, puts counts with marks and carries the 81.5% coverage complement into a readable phone table sequence. Both make the intended comparison and why it does not authorize action clear.",
+      "uncertainty_one": "D's explicit eligibility/timing explanation may help a reader unfamiliar with data leakage. This is not a claim that shorter reports are inherently clearer; the repeated elements' contribution to the decision is what differs.",
+      "uncertainty_two": "B gives an explicit percentage-point contrast; D gives more immediate group-base/coverage framing. Their differing questions prevent treating either contrast as the universally decisive one."
+    },
+    {
+      "pair": "B-D",
+      "dimension": "visual_taste",
+      "reader_one": "TIE",
+      "reader_two": "D",
+      "agreement": false,
+      "evidence_one": "B's editorial heading contrast and compact page rhythm keep its evidence path visually coherent (PDF pp1-4; desktop 01-05), although its smaller phone schedule is less comfortable. D's large type, purposeful coverage emphasis and responsive record cards are polished and easier to read locally (phone 01-05), but wider rate-label separation and long whitespace/repeated sections slow visual scanning.",
+      "evidence_two": "D pairs readable direct chart labels with fully labeled phone cards, maintains a coherent figure/table hierarchy and keeps the PDF sequence visually organized. B's phone schedule/reference tables reduce type substantially, its desktop history chart is oversized relative to neighboring text, and its PDF opening page is less balanced against its fuller later pages. D handles promised reading sizes more evenly.",
+      "uncertainty_one": "Local legibility favors D while compact whole-report composition favors B. The supplied static views do not establish one general human preference.",
+      "uncertainty_two": "D is longer at 390px and PDF page 4 is dense. B's restrained charts and serif headings remain legitimate. The verdict is about visual proportion and phone value legibility, not decorative quantity or palette."
+    },
+    {
+      "pair": "B-D",
+      "dimension": "practical_usefulness",
+      "reader_one": "TIE",
+      "reader_two": "B",
+      "agreement": false,
+      "evidence_one": "B defines per-attempt denominators, linkage coverage, common result window and an honest fallback when logs are absent (PDF p3). D defines identity/timing/eligibility outputs and adds a separately approved, randomized policy comparison with attempts counted against the cap and results per allocated person (PDF pp3-4). Both keep the immediate step within a proposed 16+2 hours, but neither specifies the record volume for its checking phase.",
+      "evidence_two": "B states the diagnostic outcome as reconciled per-round unsubscribed/contacted/subscribed counts in an agreed window, with linkage coverage, exclusion reasons and missing-log fallback. D states valid ID/timing/eligibility conditions and coverage counts, but the immediate diagnostic is less explicit about its record scope and detailed output construction. B is more directly usable for reviewing the proposed historical log investigation.",
+      "uncertainty_one": "B better operationalizes callback diagnosis; D better previews a future prioritization trial. The brief permits both and does not supply the operational question or data access needed to choose.",
+      "uncertainty_two": "The questions differ. D's conditional future policy comparison has useful rate/minute measures, but is a later separately authorized activity; neither feasibility nor business value has been externally demonstrated."
+    },
+    {
+      "pair": "C-D",
+      "dimension": "clarity",
+      "reader_one": "TIE",
+      "reader_two": "D",
+      "agreement": false,
+      "evidence_one": "C's opening integrates the exact prior-history table with the main claim and caveat, and its diagnostic explicitly asks about information present before list selection (PDF pp1/3). D uses larger plain-language limitation blocks and an information-timing diagram (PDF p3; phone 07-09), but spreads the route to action farther across the document. C's dense month detour and D's repeated sections impose different navigation costs.",
+      "evidence_two": "D attaches record counts to its first comparison and makes narrow coverage visible in the headline and 81.5% callout; its exact phone card values remain large enough to scan. C supplies the same central rates/bases but packs smaller table/plot labels together and adds a 12-month comparison with small numeric marks. D lowers the effort of recovering the central evidence and its limit.",
+      "uncertainty_one": "C is stronger at compact evidence-to-diagnostic linkage; D is stronger at explaining timing and applicability locally. No measured reader task supports a decisive overall clarity rank.",
+      "uncertainty_two": "C's opening proposal and baseline dot line are clear. Its audit is more explicit than D's, but that belongs to practical usefulness; this verdict does not penalize valid additional questions by count."
+    },
+    {
+      "pair": "C-D",
+      "dimension": "visual_taste",
+      "reader_one": "D",
+      "reader_two": "D",
+      "agreement": true,
+      "evidence_one": "D's body, warning headings and responsive cards maintain a visibly more comfortable scale at 390px (phone 02-05/07-09), and its portrait PDF keeps clear section hierarchy. C's evidence page combines dense tables and charts, with smaller monthly point labels and captions at phone size (phone 05; PDF p2). D's longer document is not the reason for the win; the local spacing/type relationships are.",
+      "evidence_two": "D keeps chart row labels, rates, body and mobile cards at a more comfortable and consistent visual scale. C's PDF page 2 and phone month chart rely on compact labels and captions; its phone tables remain bound correctly but use smaller values. D's composition better preserves a readable hierarchy across desktop, 390px and PDF.",
+      "uncertainty_one": "D has more whitespace and chart-to-rate eye travel, and C's compact landscape PDF may suit a large meeting screen. The verdict weights both required web sizes plus the supplied PDF render, not palette or decoration.",
+      "uncertainty_two": "C's concise landscape PDF arrangement and card conversion are coherent, and D requires more vertical scrolling. This is a relative preference with no material blocker in C."
+    },
+    {
+      "pair": "C-D",
+      "dimension": "practical_usefulness",
+      "reader_one": "C",
+      "reader_two": "C",
+      "agreement": true,
+      "evidence_one": "C explicitly proposes a current permitted internal list, up to 40 audits stratified across four outcomes, small-group handling, recorded seed/actual n, and repair/stop branches (PDF p3). D identifies the right eligibility fields and a useful future policy test, but its immediate six-hour checking step has no sampling or record-volume bound (PDF p4). C's present-tense diagnostic is more concrete to assign and inspect.",
+      "evidence_two": "C specifies up to 10 records per four outcome groups, random selection with seed/actual count, source-log tracing, late information, duplicate-key and definition-error handling; it separates proceed, repair and missing-rights outcomes. D states the necessary identity/timing/contact conditions and count handoff but lacks this comparable immediate audit scope. C gives more concrete instructions and result interpretation for the diagnostic.",
+      "uncertainty_one": "C's current list and access remain unconfirmed, and 40 records do not certify the system. D's later protocol may become useful after the diagnostic; neither plan demonstrates external benefit.",
+      "uncertainty_two": "D's broader eligibility inquiry and possible policy-test sketch remain defensible. The preference concerns the current bounded handoff, not proof that C's sample establishes validity of all records or that either workplan is executable."
+    }
+  ],
+  "overall": "No single overall winner; no dimension weights supplied. One reader favors K-Dense practical plan over candidate, other ties; candidate/MIT visual taste tied byboth.",
+  "protocol_qualification": "Root opened private assignment before completion solely to prepare anonymous packets, and knows author conditions. Fresh reviewers remained blinded; both first completed reviews sealed before comparative integration. The preregistered phrase about mapping after sealing applies accurately to result interpretation, not packet creation.",
+  "limits": [
+    "One unfamiliar dataset and one run per condition; descriptive, no universal/statistical superiority.",
+    "Shared global instructions, skill catalog, tools and runtime; activation comparison, not pure causal skill isolation.",
+    "Existing2rivals locally adapted; visual-explainer original pinned report subset with common brief obligations.",
+    "Two GPT-family model readers; model and order vary jointly. No human comprehension/taste validation.",
+    "Historical records, hypothetical meeting and conditional plans; no campaign or business outcome executed.",
+    "Concrete author model ID/token cost unavailable; no invented speed/cost comparison.",
+    "Charts AX naming, keyboard scroll and pixel review are bounded; no full WCAG or screen-reader conformance.",
+    "R72 rawSVG/HTML byte mismatch retained; semantic equivalence normalizes only dc:date and consistent IDs, not content."
+  ],
+  "review_files": {
+    "reader-one.json": "a5c86a4aa1c7aeef1189ba534254fed2e45e446144f7ea10f1dea889db708e43",
+    "reader-one.md": "21d667842b1ef00aee7230b200ee42b0026bc4754453ad90f4138f50c117ad32",
+    "reader-two.json": "9413b656352742dcbb5affad9e49f12185fba4645867a7e501ab8edb969b5d49",
+    "reader-two.md": "6ca8bcd1ed4f10bb12b90b105f72188bd2cc33b08d8d991a994320d795fea3a2"
+  }
+}

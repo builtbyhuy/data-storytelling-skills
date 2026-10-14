@@ -40,6 +40,8 @@ For every standalone artifact, test the meaning without its companion files or p
 
 Treat speaker notes and footnotes as factual output. Reuse the computed facts, eligibility and denominators behind the visible evidence; calculate a reported range from the displayed groups rather than estimating it from memory. Scope assertions about absent, null or zero values to the checked field and population. Narrative compression can shorten the explanation, but must preserve the metric's meaning.
 
+Retain the operator in reader language: a sum of transaction values can grow while the number of rows falls. “Eligible rows” names a population, not whether the claim measures their value, quantity, count or distinct IDs. Keep that measure explicit beside the percentage and comparator, including short chart titles and notes.
+
 In a standalone decision memo, distinguish the choice now from the later outcome decision. Keep the operational eligibility and criterion governing the requested choice on the visible page: launch prerequisites, a stop trigger or an improvement boundary as applicable. Explain the main outcome's denominator in the reader's operating terms. Link the full protocol without making the reader open it to discover what they are approving or what would change the choice.
 
 Before adding another table or framework, ask which reader action it enables. Put the preferred option, strongest relevant alternative, decisive tradeoff and condition that would change the choice close together. Separate an operational check-in from an outcome readout when their timing differs. Keep supporting reconciliations accessible without making the reader repeat the analysis to find the decision.

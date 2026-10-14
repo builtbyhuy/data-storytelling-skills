@@ -14,6 +14,10 @@ For a responsive web artifact, reflow prose at narrow widths and retain readable
 
 ## Select a real production path
 
+An exact-value table is part of the reading path when the decision depends on it, even if the author omitted a `data-essential` marker. Inspect its longest values at each promised width, including signs, decimal/grouping separators, units and the row/column identity that gives them meaning. Keep each amount recoverable as one value; avoid interleaved neighboring numbers or wrapping that makes a sign or digit look like another row. Use appropriate precision, more space, paired labeled rows or deliberate labeled scrolling according to the lookup task. Reducing font size or counting a non-clipping render alone does not resolve a crowded comparison.
+
+For inline SVG, use document-unique identifiers for chart titles/descriptions, including hidden responsive variants. A standalone SVG's generic IDs can collide when several charts are in one HTML document. Use a stable chart prefix, update every reference together, and check that each visible chart's exposed browser name identifies that chart at the required breakpoints. Valid `aria-label`, native SVG `title`, and deliberate external captions are alternatives; decorative SVGs can be hidden from the accessibility tree. DOM reference checks and browser names cover a narrower scope than screen-reader or full accessibility testing. [SVG title/description semantics](https://www.w3.org/TR/SVG2/struct.html#DescriptionAndTitleElements) and [document IDs](https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute) are the underlying constraints.
+
 | Use | Suitable path | What to verify |
 |---|---|---|
 | Independent chart / editorial reading page | SVG with editable text, or HTML with inline SVG; print to vector PDF | Actual browser-rendered labels, scaling, font loading, page breaks, SVG/PDF content and exact-value access |

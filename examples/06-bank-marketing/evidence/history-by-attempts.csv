@@ -1,0 +1,9 @@
+﻿key,label,records,yes,no,rate_pct,campaign_group,history_group
+1:success,1 lần,837,557,280,66.54719235364396,1,success
+1:not_success,1 lần,16707,2004,14703,11.994972167355002,1,not_success
+2-3:success,2–3 lần,551,363,188,65.88021778584393,2-3,success
+2-3:not_success,2–3 lần,17475,1656,15819,9.476394849785407,2-3,not_success
+4-6:success,4–6 lần,102,54,48,52.94117647058823,4-6,success
+4-6:not_success,4–6 lần,6475,494,5981,7.629343629343629,4-6,not_success
+7+:success,Từ 7 lần,21,4,17,19.047619047619047,7+,success
+7+:not_success,Từ 7 lần,3043,157,2886,5.159382188629642,7+,not_success

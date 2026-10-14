@@ -1,0 +1,7 @@
+﻿key,label,records,yes,no,rate_pct,contact,history_group
+cellular:success,cellular,1385,900,485,64.98194945848375,cellular,success
+cellular:not_success,cellular,27900,3469,24431,12.4336917562724,cellular,not_success
+telephone:success,telephone,114,75,39,65.78947368421052,telephone,success
+telephone:not_success,telephone,2792,315,2477,11.282234957020057,telephone,not_success
+unknown:success,unknown,12,3,9,25.0,unknown,success
+unknown:not_success,unknown,13008,527,12481,4.051353013530135,unknown,not_success

@@ -14,6 +14,8 @@ When a source correction or coverage change affects a trend, separate that measu
 
 ## Pass facts and claims between methods
 
+Preserve the aggregation in a comparative sentence: total value, quantity, row count and distinct-ID count are different measures even when they use the same eligible rows. Name the measured amount rather than only the population: “total value of positive rows increased” does not mean “the number of positive rows increased.” Generate the value and its measure label from the same checked result; compressing prose must retain that distinction.
+
 Every comparative phrase needs an identifiable reference: more than which group, higher than which period, or changed from what base? Name it in the sentence or an unmistakable adjacent label. A page can contain a cross-group comparison and a year-on-year comparison; sharing a page does not make their reference interchangeable. Label derived components by their meaning and displayed unit. A cost decomposition component associated with a price or usage change is a cost contribution, not the raw price or usage measurement.
 
 If a sentence or note discusses several periods, attach each displayed value to its own period. A single current-period value beside “both years” can imply the value is identical in both; use the two values or an unambiguous statement about the pattern. Keep this check on factual speaker notes as well as visible text.

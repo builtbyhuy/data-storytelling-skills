@@ -1,14 +1,26 @@
-# Data Storytelling Skills · 3.2.0
+# Data Storytelling Skills · 3.3.0
 
 Turn business data into a choice someone can understand, check and act on. Six complementary Codex skills cover diagnosis, narrative, charts, evidence repair and recurring measurement. English instructions support Vietnamese and English requests.
 
-The 3.2 revision adds an executable visual delivery method: choose the actual reading size, retain suitable text/vector sources, reflow narrow views and inspect browser/PDF outputs separately. It includes an optional browser exporter and regression controls for undersized text and missing assets. [Primary repository methods](shared/repository-methods.md) and [the untouched new-source trial](evals/visual-v3.2.md) state what was actually examined and run.
+The 3.3 revision repairs document-level SVG naming, checks long table values at the promised reading width, and preserves sum/value versus row-count meaning in short growth statements. The optional browser exporter adds name/reference and cell-fit diagnostics with positive and negative controls. [The untouched-output solo trial](evals/solo-v3.3.md) records the forward-test protocol and results separately from curated examples.
+
+The 3.2 revision introduced practical display-size checks, text/vector sources and separate browser/PDF inspection. [Primary repository methods](shared/repository-methods.md) and [its unfamiliar-source trial](evals/visual-v3.2.md) state what was actually examined and run.
 
 The earlier 3.1.2 revision repairs errors found in unchanged native files and unfamiliar-data executions: claim scope and comparisons, category integrity, chart hierarchy and color meaning, visible qualifications, verified launch prerequisites and resource availability, and executable rebuild instructions. [Forward-test procedure, failed trials and method changes](evals/forward-v3.1.md) are recorded separately from the curated gallery.
 
 The 3.0 revision follows a complete reread of the supplied 89-page MDA guide. It changes the actual methods: decision-relevant contrasts, evidence sequencing, reader/grain/channel choices, visible qualifications, chart composition and practical action handoffs. [See the source-to-execution map](shared/source-method-map.md).
 
 ## See the work
+
+### New — A diagnostic before the next contact campaign
+
+An untouched solo execution turns UCI's original Bank Marketing file into a four-page Vietnamese report. It separates the strong historical association with prior campaign success from the limits of observed contact counts, then proposes a conditional 60-record process audit. The 45,211 source records do not establish unique customers or the effect of prioritising a future list.
+
+![Original editable SVG: observed registration rates by prior campaign outcome, with source-record counts, a zero axis and the overall-rate reference](examples/06-bank-marketing/charts/history-desktop.svg)
+
+[Download the offline responsive HTML](https://github.com/builtbyhuy/data-storytelling-skills/raw/refs/heads/main/examples/06-bank-marketing/report.html) · [Four-page searchable/vector PDF](examples/06-bank-marketing/report.pdf) · [Four original SVGs](examples/06-bank-marketing/charts/) · [Original author README and recipe](examples/06-bank-marketing/README.md) · [Source credit, exact-file manifest and packaging limits](examples/06-bank-marketing/PACKAGE.md)
+
+**Owner output/rebuild-code edits: 0.** All 22 copied author files match the first completed handoff seal, including the original README. Independent numeric, browser/PDF and relocated-rebuild checks passed within the scopes recorded in [PUBLICATION.json](examples/06-bank-marketing/PUBLICATION.json). Both sealed anonymous model readers returned GO. The [four-method comparison](evals/solo-v3.3.md) retains ties and disagreements: this suite is preferred for clarity/taste over K-Dense, ties the additional MIT Visual Explainer on taste, and has no universal or overall winner claim. Human response and business execution remain unmeasured.
 
 ### New — An editorial angle with its counterevidence
 
@@ -81,7 +93,7 @@ These synthetic examples began as fresh independent executions of the revised sk
 | `data-story-redteam` | Challenge and repair misleading claims, charts and recommendations |
 | `analytics-adoption` | Plan recurring metric stewardship, decisions and outcome learning |
 
-All six skills are version 3.2.0. A narrow KPI question stays short; a decision memo does not require all six methods.
+All six skills are version 3.3.0. A narrow KPI question stays short; a decision memo does not require all six methods.
 
 ## Give a normal request
 

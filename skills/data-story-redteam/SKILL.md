@@ -3,7 +3,7 @@ name: data-story-redteam
 description: Review and repair a data story, report, chart, or recommendation against its supplied evidence. Use for fact-checking, bias and denominator review, visual integrity, unsupported causal or ROI claims, and decision-impact corrections.
 license: MIT
 metadata:
-  version: "3.2.0"
+  version: "3.3.0"
 ---
 
 # Data story redteam

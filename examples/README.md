@@ -1,9 +1,10 @@
 # Ví dụ dùng trong công việc
 
-Hai lượt chạy nguyên bản trên dữ liệu thật và ba tình huống giả lập được biên tập. Mỗi ví dụ có yêu cầu, nguồn, file dùng được và cách tái tạo; phạm vi kiểm tra được ghi riêng.
+Ba lượt chạy nguyên bản trên dữ liệu thật và ba tình huống giả lập được biên tập. Ví dụ 06 đã qua kiểm số liệu, bản đọc/xuất, dựng lại và hai lượt đọc ẩn danh; [so sánh bốn bộ phương pháp](../evals/solo-v3.3.md) giữ cả điểm hòa và bất đồng. Mỗi ví dụ có yêu cầu, nguồn, file dùng được và cách tái tạo; phạm vi kiểm tra được ghi riêng.
 
 | Việc cần làm | Bản bàn giao | Mở ví dụ |
 |---|---|---|
+| Đọc dữ liệu chiến dịch lịch sử và đề xuất chẩn đoán trước đợt liên lạc mới | HTML offline đọc trên desktop/điện thoại, PDF bốn trang, bốn SVG, phép tính và kiểm tra 60 hồ sơ có điều kiện | [06 — Lượt solo mới, không sửa tay](06-bank-marketing/PACKAGE.md) |
 | Chọn góc bản tin từ dữ liệu phát điện, giữ ngoại lệ và mẫu số | HTML đọc trên desktop/điện thoại, PDF/SVG vector, phép tính và việc kiểm tra trong hai ngày | [05 — Lượt chạy mới, không sửa tay](05-asean-electricity/README.md) |
 | Ưu tiên hỗ trợ chuyên cần khi nguồn lực địa phương chưa xác minh | 9 trang PowerPoint/PDF, Excel công thức, điều kiện mở/hoãn và recipe nguyên bản | [04 — Lượt chạy dữ liệu thật, không sửa tay](04-attendance-pilot/README.md) |
 | Doanh thu tăng nhưng đóng góp giảm | Memo họp, bảng tính Excel, kế hoạch thử giao hàng và bản ghi quyết định đã điền | [01 — Quyết định lợi nhuận](01-profit-decision/README.md) |
@@ -12,6 +13,8 @@ Hai lượt chạy nguyên bản trên dữ liệu thật và ba tình huống g
 
 ## Dùng ngay
 
+Ví dụ06 giữ nguyên 22 file tác giả, gồm HTML/PDF, bốn SVG, năm file nguồn, JSON/bốn CSV tính toán, README và năm file recipe. [Wrapper đóng gói](06-bank-marketing/PACKAGE.md) nêu nguồn UCI/CC BY4.0, các receipt riêng bị loại và phạm vi kiểm tra; [README tác giả](06-bank-marketing/README.md) được giữ nguyên byte. Chẩn đoán bên trong báo cáo là đề xuất có điều kiện, chưa thực hiện.
+
 Ví dụ04 giữ nguyên byte PPTX/PDF/XLSX, mã dựng và README của lần bàn giao đầu tiên. Nó dùng DfE thật, còn dịch vụ/ngân sách là giả lập; đề xuất chưa duyệt hoặc triển khai. Mở ba file để đọc/họp/đối chiếu, không cần dựng lại. [Nguồn và OGL](04-attendance-pilot/SOURCES.md).
 
 Mở PDF để đọc hoặc in; SVG giữ văn bản và hình vector để chỉnh sửa. Memo Markdown giữ nội dung để sao chép. CSV/JSON giữ số chính xác. Ví dụ1 có workbook với dữ liệu, công thức và giá trị lưu sẵn; các giá trị đã đối chiếu nguồn, chưa chạy lại bằng Excel.
@@ -19,6 +22,8 @@ Mở PDF để đọc hoặc in; SVG giữ văn bản và hình vector để ch�
 Để dùng skill với dữ liệu của bạn, sao chép yêu cầu trong từng ví dụ và đưa các file nguồn phù hợp. Các script của gallery tái tạo snapshot giả lập này; kết luận, ngưỡng đề xuất và bố cục cần được xem lại nếu dữ liệu đổi. Đây không phải một mẫu quyết định tự áp vào doanh nghiệp khác.
 
 ## Tái tạo
+
+Ví dụ06 dùng đúng [README và recipe tác giả](06-bank-marketing/README.md) với runtime Windows đã có và một thư mục đầu ra mới. Recipe tạo mới các receipt trình duyệt/kiểm tra cần thiết trong quá trình dựng; các bản receipt tác giả lưu riêng không phải đầu vào. Lượt dựng nguyên bản sau khi chuyển thư mục đã khớp 10 file xác định và chữ/kích thước/pixels 96dpi của cả bốn trang PDF; phạm vi đó không bảo đảm hiển thị giống nhau trên một runtime khác.
 
 Ví dụ04 cần runtime Windows/Office mô tả trong [recipe](04-attendance-pilot/rebuild/README.md). Chuyển cả thư mục `rebuild` tới nơi khác, mở PowerShell tại đó và chạy `pwsh -NoProfile -File ./Build.ps1 -SourceDir ./source -BuildDir ./build-06 -OutputDir ./generated-06` vào thư mục đầu ra mới. Snapshot biểu đồ và kỳ nguồn có giới hạn cập nhật đã nêu rõ.
 

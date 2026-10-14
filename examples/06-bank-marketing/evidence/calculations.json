@@ -1,0 +1,249 @@
+{
+  "source_sha256": "d1513ec63b385506f7cfce9f2c5caa9fe99e7ba4e8c3fa264b3aaf0f849ed32d",
+  "rows": 45211,
+  "columns": 17,
+  "yes": 5289,
+  "no": 39922,
+  "rate_pct": 11.698480458295547,
+  "history": [
+    {
+      "key": "success",
+      "label": "Thành công trước",
+      "records": 1511,
+      "yes": 978,
+      "no": 533,
+      "rate_pct": 64.72534745201853
+    },
+    {
+      "key": "failure",
+      "label": "Thất bại trước",
+      "records": 4901,
+      "yes": 618,
+      "no": 4283,
+      "rate_pct": 12.60967149561314
+    },
+    {
+      "key": "other",
+      "label": "Kết quả khác",
+      "records": 1840,
+      "yes": 307,
+      "no": 1533,
+      "rate_pct": 16.684782608695652
+    },
+    {
+      "key": "unknown",
+      "label": "Không rõ kết quả",
+      "records": 36959,
+      "yes": 3386,
+      "no": 33573,
+      "rate_pct": 9.161503287426608
+    }
+  ],
+  "attempts": [
+    {
+      "key": "1",
+      "label": "1 lần",
+      "records": 17544,
+      "yes": 2561,
+      "no": 14983,
+      "rate_pct": 14.597583219334245
+    },
+    {
+      "key": "2-3",
+      "label": "2–3 lần",
+      "records": 18026,
+      "yes": 2019,
+      "no": 16007,
+      "rate_pct": 11.200488183734606
+    },
+    {
+      "key": "4-6",
+      "label": "4–6 lần",
+      "records": 6577,
+      "yes": 548,
+      "no": 6029,
+      "rate_pct": 8.33206629162232
+    },
+    {
+      "key": "7+",
+      "label": "Từ 7 lần",
+      "records": 3064,
+      "yes": 161,
+      "no": 2903,
+      "rate_pct": 5.254569190600522
+    }
+  ],
+  "strata": [
+    {
+      "key": "1:success",
+      "label": "1 lần",
+      "records": 837,
+      "yes": 557,
+      "no": 280,
+      "rate_pct": 66.54719235364396,
+      "campaign_group": "1",
+      "history_group": "success"
+    },
+    {
+      "key": "1:not_success",
+      "label": "1 lần",
+      "records": 16707,
+      "yes": 2004,
+      "no": 14703,
+      "rate_pct": 11.994972167355002,
+      "campaign_group": "1",
+      "history_group": "not_success"
+    },
+    {
+      "key": "2-3:success",
+      "label": "2–3 lần",
+      "records": 551,
+      "yes": 363,
+      "no": 188,
+      "rate_pct": 65.88021778584393,
+      "campaign_group": "2-3",
+      "history_group": "success"
+    },
+    {
+      "key": "2-3:not_success",
+      "label": "2–3 lần",
+      "records": 17475,
+      "yes": 1656,
+      "no": 15819,
+      "rate_pct": 9.476394849785407,
+      "campaign_group": "2-3",
+      "history_group": "not_success"
+    },
+    {
+      "key": "4-6:success",
+      "label": "4–6 lần",
+      "records": 102,
+      "yes": 54,
+      "no": 48,
+      "rate_pct": 52.94117647058823,
+      "campaign_group": "4-6",
+      "history_group": "success"
+    },
+    {
+      "key": "4-6:not_success",
+      "label": "4–6 lần",
+      "records": 6475,
+      "yes": 494,
+      "no": 5981,
+      "rate_pct": 7.629343629343629,
+      "campaign_group": "4-6",
+      "history_group": "not_success"
+    },
+    {
+      "key": "7+:success",
+      "label": "Từ 7 lần",
+      "records": 21,
+      "yes": 4,
+      "no": 17,
+      "rate_pct": 19.047619047619047,
+      "campaign_group": "7+",
+      "history_group": "success"
+    },
+    {
+      "key": "7+:not_success",
+      "label": "Từ 7 lần",
+      "records": 3043,
+      "yes": 157,
+      "no": 2886,
+      "rate_pct": 5.159382188629642,
+      "campaign_group": "7+",
+      "history_group": "not_success"
+    }
+  ],
+  "contact_strata": [
+    {
+      "key": "cellular:success",
+      "label": "cellular",
+      "records": 1385,
+      "yes": 900,
+      "no": 485,
+      "rate_pct": 64.98194945848375,
+      "contact": "cellular",
+      "history_group": "success"
+    },
+    {
+      "key": "cellular:not_success",
+      "label": "cellular",
+      "records": 27900,
+      "yes": 3469,
+      "no": 24431,
+      "rate_pct": 12.4336917562724,
+      "contact": "cellular",
+      "history_group": "not_success"
+    },
+    {
+      "key": "telephone:success",
+      "label": "telephone",
+      "records": 114,
+      "yes": 75,
+      "no": 39,
+      "rate_pct": 65.78947368421052,
+      "contact": "telephone",
+      "history_group": "success"
+    },
+    {
+      "key": "telephone:not_success",
+      "label": "telephone",
+      "records": 2792,
+      "yes": 315,
+      "no": 2477,
+      "rate_pct": 11.282234957020057,
+      "contact": "telephone",
+      "history_group": "not_success"
+    },
+    {
+      "key": "unknown:success",
+      "label": "unknown",
+      "records": 12,
+      "yes": 3,
+      "no": 9,
+      "rate_pct": 25.0,
+      "contact": "unknown",
+      "history_group": "success"
+    },
+    {
+      "key": "unknown:not_success",
+      "label": "unknown",
+      "records": 13008,
+      "yes": 527,
+      "no": 12481,
+      "rate_pct": 4.051353013530135,
+      "contact": "unknown",
+      "history_group": "not_success"
+    }
+  ],
+  "success_share_records_pct": 3.34210700935613,
+  "success_share_yes_pct": 18.491208167895632,
+  "rest_yes": 4311,
+  "rest_records": 43700,
+  "rest_rate_pct": 9.864988558352403,
+  "unknown_counts": {
+    "job": 288,
+    "education": 1857,
+    "contact": 13020,
+    "poutcome": 36959
+  },
+  "pdays": {
+    "not_previously_contacted": 36954,
+    "previous_zero": 36954,
+    "pdays_sentinel_previous_positive": 0,
+    "pdays_non_sentinel_previous_zero": 0
+  },
+  "duplicates_exact": 0,
+  "campaign_min": 1,
+  "campaign_max": 63,
+  "zero_duration": 3,
+  "checks": {
+    "raw_hash_contract": true,
+    "header_and_shape": true,
+    "blank_cells": 0,
+    "all_y_domain": true,
+    "independent_csv_counts": true,
+    "history_and_attempt_reconciliation": true
+  }
+}

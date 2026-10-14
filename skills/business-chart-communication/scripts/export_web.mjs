@@ -44,6 +44,8 @@ const report={schema:'browser-visual-export.v1', source:path.basename(input),
   minimum_essential_css_px:minEssential,views:[],files:[],errors:[],
   limits:['Font size and bounds are measured heuristics, not human readability.',
     'Automated checks do not detect every overlap or verify data/claim accuracy.',
+    'SVG binding and browser accessibility-tree checks are not a screen-reader or full accessibility audit.',
+    'Essential table-cell bounds do not establish comfortable spacing or complete table semantics.',
     'Local browser export does not verify the hosted or chat-preview surface.']};
 const browser=await chromium.launch({headless:true,
   ...(opts.browser?{executablePath:path.resolve(opts.browser)}:{})});
@@ -67,6 +69,49 @@ try{
       const errors=[];
       const roots=[...document.querySelectorAll(selector)];
       if(!roots.length)errors.push(`No capture nodes match ${selector}`);
+      const normalize=text=>(text??'').replace(/\s+/g,' ').trim();
+      const ids=new Map();
+      for(const element of document.querySelectorAll('[id]')){
+        const id=element.getAttribute('id');
+        if(id)ids.set(id,[...(ids.get(id)??[]),element]);
+      }
+      const duplicateIds=[...ids].filter(([,elements])=>elements.length>1)
+        .map(([id,elements])=>({id,count:elements.length}));
+      // Responsive copies still occupy the same document ID namespace, even
+      // when display:none removes one copy from the accessibility tree.
+      for(const {id,count} of duplicateIds)errors.push(`Duplicate document id ${id}: ${count} elements`);
+      const svgNames=[...document.querySelectorAll('svg')].map((svg,index)=>{
+        const rect=svg.getBoundingClientRect(),style=getComputedStyle(svg);
+        const visible=rect.width>0&&rect.height>0&&style.visibility!=='hidden'&&style.display!=='none';
+        const decorative=!!svg.closest('[aria-hidden="true"]')||['none','presentation'].includes(svg.getAttribute('role'));
+        const title=svg.querySelector(':scope > title');
+        const desc=svg.querySelector(':scope > desc');
+        const declared=svg.getAttribute('role')==='img'||svg.hasAttribute('aria-label')||
+          svg.hasAttribute('aria-labelledby')||!!title;
+        const resolve=attribute=>{
+          const tokens=normalize(svg.getAttribute(attribute)).split(' ').filter(Boolean);
+          const targets=tokens.map(token=>{
+            const matches=ids.get(token)??[];
+            if(!decorative&&matches.length!==1)
+              errors.push(`${matches.length?'Ambiguous':'Unresolved'} SVG ${index+1} ${attribute} reference: ${token}`);
+            const target=matches[0];
+            // A regular external caption is valid. Reusing a different SVG's
+            // title/description identifies the wrong graph even with unique IDs.
+            if(!decorative&&target?.closest('svg')&&target.closest('svg')!==svg)
+              errors.push(`SVG ${index+1} ${attribute} references another SVG: ${token}`);
+            return normalize(target?.textContent);
+          });
+          return {tokens,text:normalize(targets.join(' '))};
+        };
+        const labelled=resolve('aria-labelledby'),described=resolve('aria-describedby');
+        const name=labelled.tokens.length?labelled.text:
+          normalize(svg.getAttribute('aria-label'))||normalize(title?.textContent);
+        if(visible&&!decorative&&declared&&!name)errors.push(`Missing or empty SVG ${index+1} accessible name`);
+        return {index:index+1,visible,decorative,requires_name:declared,
+          naming_scope:decorative?'decorative':declared?'declared_image':'unclassified_svg',
+          labelledby:labelled.tokens,describedby:described.tokens,
+          resolved_name:name,resolved_description:described.tokens.length?described.text:normalize(desc?.textContent)};
+      });
       // Text nodes preserve a paragraph's directly-owned text beside inline
       // children with a different font size; scanning only leaves misses it.
       const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);
@@ -108,24 +153,66 @@ try{
         const size=parseFloat(s.fontSize)*scale;
         const parent=e.closest('svg')??e.closest(selector);
         const bound=parent?.getBoundingClientRect();
-        const clipped=visible && bound && (r.left<bound.left-2||r.top<bound.top-2||r.right>bound.right+2||r.bottom>bound.bottom+2);
+        let scrollX=false,scrollY=false;
+        for(let p=e.parentElement;p&&p!==parent;p=p.parentElement){
+          const overflow=getComputedStyle(p);
+          scrollX||=['auto','scroll'].includes(overflow.overflowX)&&p.scrollWidth>p.clientWidth;
+          scrollY||=['auto','scroll'].includes(overflow.overflowY)&&p.scrollHeight>p.clientHeight;
+        }
+        const clipped=visible && bound &&
+          ((!scrollX&&(r.left<bound.left-2||r.right>bound.right+2))||
+           (!scrollY&&(r.top<bound.top-2||r.bottom>bound.bottom+2)));
+        const cell=e.closest('td,th'),cellBound=cell?.getBoundingClientRect();
+        const exceedsCell=visible&&cellBound&&[...range.getClientRects()].some(box=>
+          box.left<cellBound.left-2||box.right>cellBound.right+2||box.top<cellBound.top-2||box.bottom>cellBound.bottom+2);
         return {text:n.textContent.trim().slice(0,180),visible,
           font_css_px:Number(size.toFixed(2)),font_family:s.fontFamily,
-          clipped:!!clipped,unsupported_transform:unsupportedTransform};
+          clipped:!!clipped,exceeds_table_cell:!!exceedsCell,unsupported_transform:unsupportedTransform};
       });
       if(!texts.some(t=>t.visible))errors.push('No visible essential text; mark required reading content with data-essential.');
       for(const t of texts.filter(t=>t.visible)){
         if(t.font_css_px<minEssential)errors.push(`Essential font ${t.font_css_px}px: ${t.text}`);
         if(t.clipped)errors.push(`Essential text exceeds its SVG/view bounds: ${t.text}`);
+        if(t.exceeds_table_cell)errors.push(`Essential text exceeds its table cell: ${t.text}`);
         if(t.unsupported_transform)errors.push(`Unsupported CSS transform on essential text: ${t.text}`);
       }
       if(document.documentElement.scrollWidth>innerWidth+2)
         errors.push(`Page overflows horizontally: ${document.documentElement.scrollWidth}px at ${innerWidth}px`);
       for(const im of document.images)if(!im.complete||im.naturalWidth===0)errors.push(`Unloaded image: ${im.getAttribute('src')}`);
       return {width:innerWidth,essential_text:texts,
+        duplicate_document_ids:duplicateIds,svg_names:svgNames,
         capture_count:roots.length,svg_count:document.querySelectorAll('svg').length,
         svg_image_count:document.querySelectorAll('svg image').length,errors};
     },{selector:opts.selector,minEssential});
+    // Read Chromium's real accessibility tree without adding IDs/attributes or
+    // changing authored DOM. Keep an unavailable API distinct from a pass.
+    let cdp;
+    try{
+      cdp=await context.newCDPSession(page);
+      await cdp.send('Accessibility.enable');
+      const {root}=await cdp.send('DOM.getDocument',{depth:0});
+      const {nodeIds}=await cdp.send('DOM.querySelectorAll',{nodeId:root.nodeId,selector:'svg'});
+      const backendIds=await Promise.all(nodeIds.map(async nodeId=>
+        (await cdp.send('DOM.describeNode',{nodeId,depth:0})).node.backendNodeId));
+      const {nodes}=await cdp.send('Accessibility.getFullAXTree');
+      const byBackend=new Map(nodes.filter(node=>node.backendDOMNodeId).map(node=>[node.backendDOMNodeId,node]));
+      view.accessibility_tree={available:true,renderer:'Chromium CDP',screen_reader_execution:false};
+      for(const [index,svg] of view.svg_names.entries()){
+        const observed=byBackend.get(backendIds[index]);
+        svg.ax_observed=!!observed;
+        svg.ax_exposed=!!observed&&!observed.ignored;
+        svg.ax_name=String(observed?.name?.value??'').replace(/\s+/g,' ').trim();
+        svg.ax_role=observed?.role?.value??null;
+        if(svg.visible&&!svg.decorative&&svg.requires_name){
+          if(!svg.ax_exposed)view.errors.push(`SVG ${svg.index} declared image is absent from browser accessibility tree`);
+          else if(!svg.ax_name)view.errors.push(`SVG ${svg.index} has an empty browser accessible name`);
+          else if(svg.ax_name!==svg.resolved_name)
+            view.errors.push(`SVG ${svg.index} browser accessible name differs from its declared alternative`);
+        }
+      }
+    }catch{
+      view.accessibility_tree={available:false,reason:'Browser accessibility-tree API unavailable',screen_reader_execution:false};
+    }finally{if(cdp)await cdp.detach();}
     if(blocked.length)view.errors.push('External requests blocked; embed/localize required assets or explicitly allow network.');
     // URLs can contain private data. Keep only the number in the public receipt.
     view.blocked_request_count=blocked.length;

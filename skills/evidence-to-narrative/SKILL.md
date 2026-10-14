@@ -2,7 +2,7 @@
 name: evidence-to-narrative
 description: Turn supplied analysis or verified facts into an executive memo, data-backed email draft, slide narrative or operational message for a specific audience and decision. Viết memo cho sếp, chuyển số liệu thành câu chuyện và đề xuất. Use when the primary job is communicating evidence; delegate unresolved diagnosis or chart production only when needed.
 metadata:
-  version: "3.2.0"
+  version: "3.3.0"
 ---
 
 # Evidence to a reader-ready argument

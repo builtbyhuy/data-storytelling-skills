@@ -1,6 +1,8 @@
-# Evaluation protocol
+# Evaluation records
 
-These are synthetic acceptance exercises, not production work or a certification benchmark.
+Latest: [3.3 unfamiliar Bank Marketing four-method solo comparison](solo-v3.3.md), including unchanged completed outputs, two sealed anonymous reviews, ties and limits; [additional MIT repository screen](mit-screen-20261014.md). Earlier real-source records: [3.2](visual-v3.2.md) and [3.1](forward-v3.1.md).
+
+The original pilot protocol and observations below are synthetic acceptance exercises, not production work or a certification benchmark.
 
 ## Inputs and cases
 

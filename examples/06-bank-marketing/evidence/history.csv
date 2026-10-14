@@ -1,0 +1,5 @@
+﻿key,label,records,yes,no,rate_pct
+success,Thành công trước,1511,978,533,64.72534745201853
+failure,Thất bại trước,4901,618,4283,12.60967149561314
+other,Kết quả khác,1840,307,1533,16.684782608695652
+unknown,Không rõ kết quả,36959,3386,33573,9.161503287426608
