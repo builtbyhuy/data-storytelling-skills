@@ -1,0 +1,118 @@
+{
+  "created_utc": "2026-10-15T03:57:54.103525+00:00",
+  "mapping": {
+    "N17": "editorial",
+    "N42": "baseline-3.3",
+    "N68": "visual-explainer",
+    "N91": "candidate-3.5",
+    "N35": "kdense"
+  },
+  "author_order": [
+    "N17",
+    "N42",
+    "N68",
+    "N91",
+    "N35"
+  ],
+  "readers": [
+    {
+      "reader": "reader-01",
+      "code": "N17"
+    },
+    {
+      "reader": "reader-02",
+      "code": "N17"
+    },
+    {
+      "reader": "reader-03",
+      "code": "N42"
+    },
+    {
+      "reader": "reader-04",
+      "code": "N42"
+    },
+    {
+      "reader": "reader-05",
+      "code": "N68"
+    },
+    {
+      "reader": "reader-06",
+      "code": "N68"
+    },
+    {
+      "reader": "reader-07",
+      "code": "N91"
+    },
+    {
+      "reader": "reader-08",
+      "code": "N91"
+    },
+    {
+      "reader": "reader-09",
+      "code": "N35"
+    },
+    {
+      "reader": "reader-10",
+      "code": "N35"
+    }
+  ],
+  "visual_pairs": [
+    {
+      "id": "visual-01",
+      "left": "N91",
+      "right": "N17"
+    },
+    {
+      "id": "visual-02",
+      "left": "N17",
+      "right": "N91"
+    },
+    {
+      "id": "visual-03",
+      "left": "N91",
+      "right": "N42"
+    },
+    {
+      "id": "visual-04",
+      "left": "N42",
+      "right": "N91"
+    },
+    {
+      "id": "visual-05",
+      "left": "N91",
+      "right": "N68"
+    },
+    {
+      "id": "visual-06",
+      "left": "N68",
+      "right": "N91"
+    },
+    {
+      "id": "visual-07",
+      "left": "N91",
+      "right": "N35"
+    },
+    {
+      "id": "visual-08",
+      "left": "N35",
+      "right": "N91"
+    }
+  ],
+  "author_budget_minutes": 25,
+  "reader_combined_budget_minutes": 20,
+  "visual_budget_minutes": 15,
+  "exact_model": "unavailable; inherited common parent model without override",
+  "reasoning_effort": "inherited, no override",
+  "viewports": [
+    [
+      960,
+      900
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "dpr": 2,
+  "tile_overlap_css_px": 160
+}

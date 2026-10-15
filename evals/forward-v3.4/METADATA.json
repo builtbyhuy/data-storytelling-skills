@@ -1,0 +1,484 @@
+{
+  "official_commit": "55162fac5765d8873180d962cce7e20e75b2c092",
+  "selection_seed": "VisEval-new-sources-20261015-v34",
+  "rule": "sha256(UTF-8(seed + '|' + original case ID)); ascending hexadecimal digest",
+  "case_count": 29,
+  "requests": 59,
+  "databases": 24,
+  "new_case_db_and_source_byte_overlap": 0,
+  "official_detail_csv_uniform_duplicate_records_per_case": 3,
+  "readability_and_quality": "Not measured; raw CSV defaults0 are not interpreted as scores. Evaluator(None,None).",
+  "model_isolation": "Shared catalog/top-level instructions and model family; method-activation comparison, not pure causal A/B.",
+  "programs_untouched_sha256": {
+    "programs/L26/cases/1133.py": "5873dae8ceebb11d45a9f5d2c22e7c2eb0ce0c76deef0e98a99818c01f5da051",
+    "programs/L26/cases/1214.py": "2690ad862f5ba1304226369a7221e5461c4ac9ed52602701168cb0f794ee6922",
+    "programs/L26/cases/1254@x_name@ASC.py": "1924f67ff50f79675627921af4a90e5f907dff686b0fb9c6fcd7f356d4b743c5",
+    "programs/L26/cases/1285.py": "684f1fec0ea8d556ad4be5de8d046c1ce492975fd2831a55c238a38afab34cf5",
+    "programs/L26/cases/1310.py": "3cab51150efaa90d0b28e15ea0da7629760c104c58bdc34de44b0013fca45232",
+    "programs/L26/cases/1320@y_name@ASC.py": "2d35f1b55c252dca96e3fad03adc66630674078267301e2a418fbb840678f15d",
+    "programs/L26/cases/1349@x_name@ASC.py": "3aa833ec3f51b0a90b0d1df47af119f85bbaacc9c816b7abf128b7a383f1024d",
+    "programs/L26/cases/145@y_name@DESC.py": "95f9f0331a5cd8b21ab039f04f0c7fb050fd551a5a6d34b11c200d6412aac740",
+    "programs/L26/cases/1527.py": "1a706c655d8ecbc35401d7fb1a9c47e4bf54d3d44b8c6bf786dfac80ba7afc4a",
+    "programs/L26/cases/175.py": "29eadd102176e9c0b50e8c5d47e0e20d2deb9f2aa12fbcea9e2d927335f4dfac",
+    "programs/L26/cases/2398@y_name@DESC.py": "85d973c774a1a6d6a132bcd78780d0ef17cb0497beba33a595428bf799c7ed15",
+    "programs/L26/cases/2479.py": "ca780ac8405ea44a48fe739055d56d6e51f58e428756c7ff223b0bf0038ac092",
+    "programs/L26/cases/2506.py": "845f35fd05fb9b53d42758388a297e277a64f9d9993ad14c0ce93b8945529a80",
+    "programs/L26/cases/2548.py": "5c5f83112d99466f6e1220b2ada631838a5df208064761c473b4275a1577b2e9",
+    "programs/L26/cases/2550.py": "75a8f61777e192faa858808c80e7e21bdcaab54212159d59528b923a11c5535a",
+    "programs/L26/cases/2596@x_name@ASC.py": "1c36e1b03822872db7c11c09895b172351c5894b352409492fe9f9da24a7fa0b",
+    "programs/L26/cases/2617.py": "ba319cdba195e78cb6d87bf106ab2fb81578dfca4e973973b0a2a2eca1b4a826",
+    "programs/L26/cases/2781.py": "21229fa40789dd46376eede7c07115fc1a4f158844f7443bd4b388f268a66aad",
+    "programs/L26/cases/2805@y_name@ASC.py": "0c5f43acc492001c7c57213eff47ae020abc518d338cb6fa6d0a4836ad38fd1f",
+    "programs/L26/cases/2847.py": "a585bf98e0ea306e8f535eeb7faf073f5a45f058cc3031aabbe4c7cc6b3afe83",
+    "programs/L26/cases/354.py": "6b214a5795ab7db8a2977a49f9999aab936518ffe7b145be24ea25264530aebb",
+    "programs/L26/cases/4007.py": "d0dcfdc931efdcdead6423d86ee0bffdba6017d9732fd91a10dbf6a51c3f161a",
+    "programs/L26/cases/4018.py": "979fcfe0e1f8f274506cc47eb3467b34b3bf0f18e3d3db74726bcd87fb44d5b0",
+    "programs/L26/cases/4029.py": "4b8623d7a5424e8c41e37ead803a5ca7ce9860ec9fdc5c8eb64a2ce63a5bb8c6",
+    "programs/L26/cases/471.py": "ec93ca87ee4372b960b2bf281a50bdf16dfe5fdacc3a50f5fed23e5b40dd00c7",
+    "programs/L26/cases/680@y_name@DESC.py": "ea046f235e85ee5d94c748a07b4c61616e77832ac308ab61ca4d17eb4b346ec1",
+    "programs/L26/cases/707.py": "a33ec810325cacd20a506a940bd6d87976e0b529666ea573c4e3bd8b4814a43b",
+    "programs/L26/cases/926.py": "f4ec748c4e690fc550f041cac256a9247c99faa9cc496234ce4951487262984e",
+    "programs/L26/cases/942@x_name@DESC.py": "9dcebc43e7ae608c5148eff86d46b8844a32422aae81fa58e08fe7d8e071e55e",
+    "programs/L81/cases/1133.py": "20b7955c7ed741ba3a225114e80f68ee2892588469fb1cf77fd5737c119c1e79",
+    "programs/L81/cases/1214.py": "28c01082b405bf24b205d159c3a97cca6b1fd8ec400dc19bffb5b1bb787048d9",
+    "programs/L81/cases/1254@x_name@ASC.py": "5c5e960d8bdedc474a95fa43ac5960ae7f99c056b93e35e6aaaeecb0ce1f5bf6",
+    "programs/L81/cases/1285.py": "01b5981a67898a39178f29ba4a6670fd2ba72e54ae5af0aad033436cbc22d1b0",
+    "programs/L81/cases/1310.py": "a97d204267ee763e8dad8ad0d2a9fe164b8d46024b7547bdbb7532538dccaa6b",
+    "programs/L81/cases/1320@y_name@ASC.py": "d1e2bd7c75ed185dd7c91f622c19c5b75576a4171e8568913172e7e87c5a2a99",
+    "programs/L81/cases/1349@x_name@ASC.py": "08d2406d44d62909a2a51a585e2806903069b9e53c95b86101b115e0bd47a537",
+    "programs/L81/cases/145@y_name@DESC.py": "8e630e16edc58fad2b35ed6468f7425d538a45f204d871357c2d2cd87cdde866",
+    "programs/L81/cases/1527.py": "0632f6839ffb16b4ca631c2e5f51cb1f846f567f1fe25e8b49c5e0be3ddb3ff1",
+    "programs/L81/cases/175.py": "e7602c29cf428e2add75e9da87a1bb2c4672d072a460a801574e5ba678522096",
+    "programs/L81/cases/2398@y_name@DESC.py": "c69da084a23ef53d51bbd538ea6a0727d553ff3e6d930661ae0c535c8927aedc",
+    "programs/L81/cases/2479.py": "f41ad2cb5004f8cd7501850c369c5bcb8c6b65e5fd55bf79a9afe31713a4ffac",
+    "programs/L81/cases/2506.py": "543f30e5e160206266f8ce38de47dfbd29feb3979efbf90d8646b78b8771a9d1",
+    "programs/L81/cases/2548.py": "3bc072d7e16eae8749410a2faf848bd24e7dfca67a5b5aea9c468a013c2651c9",
+    "programs/L81/cases/2550.py": "0134c58764683044bd02de234be8c959d8f4f1c8709b57a8eee008aff73be741",
+    "programs/L81/cases/2596@x_name@ASC.py": "2ebc79bef32cd738cee75f994828571b69fdaaf970dbf8b37e072e438ead499c",
+    "programs/L81/cases/2617.py": "13509523ef217eb97838d8c8edfc77e65dbac4251d747ff1c00b2f3010f3708f",
+    "programs/L81/cases/2781.py": "2f7ce61cacf2bcb8e6882d8f750cb83675b92d92ee9f80824b0fd678cd852a1e",
+    "programs/L81/cases/2805@y_name@ASC.py": "94f53f5e101a0be64be245ae34052f376ce9b004274c7db28d29795453084b6e",
+    "programs/L81/cases/2847.py": "5a9723f307864363648cbbaf518437f14afd8483b83e0999aac422c3fd103237",
+    "programs/L81/cases/354.py": "57c72ca7c00091972725122f10ba1cf548122120507d5cbb6347ec3445900874",
+    "programs/L81/cases/4007.py": "408f54a6e64c8a904dc8cb59f3e84b3ac4366660804bb81aa37583af48992986",
+    "programs/L81/cases/4018.py": "cecff68bed2c78d049c9a13b753f347a0417ee087bf0888ee069e5097831cc3c",
+    "programs/L81/cases/4029.py": "86508fb4609954f3c75bc72ca353fce8598d4639c253f002b63a9b07deaf5944",
+    "programs/L81/cases/471.py": "55810895f6c9cea403b9952e40874928ea60ec849b43214871838f09416fda5c",
+    "programs/L81/cases/680@y_name@DESC.py": "e4a254666543ac53ba5ad8bba92a153370c3d066b4ca67e67f9b0a8e881003ab",
+    "programs/L81/cases/707.py": "97e63a312d514b6724aab866d19c5fb30ecea74695cc5b08ab7d011e69500810",
+    "programs/L81/cases/926.py": "03284f4fd39ee41894017d2d532fc8477211e3f3257e5caee39d6892fe6d4934",
+    "programs/L81/cases/942@x_name@DESC.py": "53c8e014112e24d5003ffa45f81497aca62c21fd68ed0f33372977060e91fb4c",
+    "programs/L52/cases/1133.py": "489ba5356fcda4e6a7f32c6b12169c09d9746ef82e0d6c5e0a7e663cd6360369",
+    "programs/L52/cases/1214.py": "ce6332280472b1bb3c8af03b80927e183d99624a6078d9ffdf5debef0aec24f6",
+    "programs/L52/cases/1254@x_name@ASC.py": "696bdfc1581063caafad950b7381e8bf3f69dd4e423ae018208c6e841e613965",
+    "programs/L52/cases/1285.py": "346f7d5b7ea95906dc15ff1be427c76493b11ec204b8f694837a4226f9b29434",
+    "programs/L52/cases/1310.py": "71a3ef5e3a266b3969fe30b1760ea02705fdc53ee9522fcaae325528c0923cee",
+    "programs/L52/cases/1320@y_name@ASC.py": "6eb5f0da9f466de991b069de1d067a5ff367c68e82c7da4d02c4c2393cb0969f",
+    "programs/L52/cases/1349@x_name@ASC.py": "44162f5854b8dbef39572e394b3bbaee1e355fae895e9af1ac424d115577b922",
+    "programs/L52/cases/145@y_name@DESC.py": "7f3f301316614d2e8f3ffced9cb47ecf1af23c041ee763482acc786010813f52",
+    "programs/L52/cases/1527.py": "f72801ae76e35b0ad7e50d981bc648697eaea00f86816e5d2c7fa01bc5b2f749",
+    "programs/L52/cases/175.py": "a90286956ad20f15c159379b9aa8981d9f3a5c270edbc78d81cde86a9d9da1c0",
+    "programs/L52/cases/2398@y_name@DESC.py": "7506b680c017dd37aa34f0c77bc577f73e358a347618aa95821503866129c99c",
+    "programs/L52/cases/2479.py": "c73d588d90bb0103ba6eea86f81e0577efc486c6345a5e0dfb3a0ea8b46b245e",
+    "programs/L52/cases/2506.py": "ff96941c09dc422956bf7272e42b16d41293c0419ccfd6f5d8bcf0c03d8c48d0",
+    "programs/L52/cases/2548.py": "ed503e09da71e340ebedbdec4ad748f13c8a6ac041a47c3e9ca035628252806b",
+    "programs/L52/cases/2550.py": "f5d967ef555783528032cf4391254c19d64604fe5b5cc284f45dade8f72b868a",
+    "programs/L52/cases/2596@x_name@ASC.py": "439b9f6671ead61cb19756da4a82671fa8742d18bb2be400304afd6b56a35735",
+    "programs/L52/cases/2617.py": "fc88ce241a5d6b4af414e9bf8bb9467ce764c4350dd48810d413b547296082e7",
+    "programs/L52/cases/2781.py": "158d075a3cf1b87a242b9a962513b6dd7ac1b67a73c59cfe2ee930c2e3db066c",
+    "programs/L52/cases/2805@y_name@ASC.py": "719099fff0b98a6cc55723066b799f5129f429bdccb6ce88e09f00168fec6f13",
+    "programs/L52/cases/2847.py": "465f75018c517f90709ff84c327a6827c4c97cae28f55307e55cd3b642fb5474",
+    "programs/L52/cases/354.py": "9cc3bbd620a63d0ec7ce7e9ea7a716644dcbd5dcd87293e7e6a4c28ba7272c91",
+    "programs/L52/cases/4007.py": "9b71bf0805b3af4e13f881180fc2e984b2446dbb1d7f44e56450a0cf9e560f29",
+    "programs/L52/cases/4018.py": "c82d11b72b3049f64c1eaca1d814cb8877ed5f5df97b99e4e32a4d29a754a558",
+    "programs/L52/cases/4029.py": "b6c6c0636e993540b477989efe4c76c956f7097a0ad1462286662823a69e18b4",
+    "programs/L52/cases/471.py": "e22c014914c644b8d633907482a95bcc36529727d3a565db2b691b688852ba99",
+    "programs/L52/cases/680@y_name@DESC.py": "18d9660aa4bf1b2f3dfafae865b544c858a4a6e6dafdc14057384b7071b6347f",
+    "programs/L52/cases/707.py": "a9bde56e53c5ab6fa29ee09fb7f4340b5cd450e2b0419b6a97d1f3b4d72e32a2",
+    "programs/L52/cases/926.py": "881a5c985b37b1950d20018bc7c2bd1bb9b91a63068330758b317af6d6dbff03",
+    "programs/L52/cases/942@x_name@DESC.py": "3f31a79f4387063884289a1cecfd5557cafbaec64f57ed349c8b257fabb29a48",
+    "programs/L52/chart_helpers.py": "ea71351517f30d655e8f8df81bd7ab23ece587eaeed9d84dc143d45178613f31",
+    "programs/L44/cases/1133.py": "7f7026705b932d2a6ab21d4e88e1a1748727a725c2b4d4deb4100c4cda05b252",
+    "programs/L44/cases/1214.py": "8e42170e07411169bb1d2e1f94086f7d1a5f0b3bd929cab180eae7654380e7b2",
+    "programs/L44/cases/1254@x_name@ASC.py": "011637a77f47555b0fa345ef0bace23454f4271c78eedc2a558e7b4a45476319",
+    "programs/L44/cases/1285.py": "82c6c70f2734c76ba6c22355775464fc86e2a227eaf1142249d8bdb53873e217",
+    "programs/L44/cases/1310.py": "9ee22d6618d454ed3e15fb2b67d3a317c260d715ce7e8af77d64bc0d591641e6",
+    "programs/L44/cases/1320@y_name@ASC.py": "6cd4c3437052bfeda8a5801838f3752c0e230ace27ccae107c6d2240819abd75",
+    "programs/L44/cases/1349@x_name@ASC.py": "d641314484bcd8f12a767b6e396515be5084a7312d248a5330d18d7d9f8d23bf",
+    "programs/L44/cases/145@y_name@DESC.py": "710966ab82df1c07c6624bd8975fdd6989c1b24ddbc17f2faa9b9dc14ad8961a",
+    "programs/L44/cases/1527.py": "3fe546dfcbfe0e5a0969ba9e226bd7a7921ca9bb9eb04cacd7078aa8cd4f31c4",
+    "programs/L44/cases/175.py": "ad81dedc85b5bc596cad9f52860bc940725025b8bc95f384ae269294b75fc5fc",
+    "programs/L44/cases/2398@y_name@DESC.py": "4a52e62c30ae5a9e1c8ac6d9fefa9a1975a9b139f43637dcc62a70fd60ddbe00",
+    "programs/L44/cases/2479.py": "bff33ddb9c1451869d0129c4c22878c24455e6d57d7da4651824d8ed60c4c559",
+    "programs/L44/cases/2506.py": "9e82b43b6f418a412eff09f6eda669bb58692e846a43a17e26122c26da4bfd62",
+    "programs/L44/cases/2548.py": "c927ddc3693229690937036aab4d8ebc0da62dfe6bb5333f4300a860892f50ad",
+    "programs/L44/cases/2550.py": "4cdc4ff0142634361dd7fb4b863de1b7babd1a447b768fa3d319f74dec0d260c",
+    "programs/L44/cases/2596@x_name@ASC.py": "68a1c0259b0961535716748ec15070edaed3793be1ff0856d69cd5c2f90d83cc",
+    "programs/L44/cases/2617.py": "dec44102a3fa79514878ba616f133ae00616810b57a68e1e4f8e4681569b9adf",
+    "programs/L44/cases/2781.py": "262aea73ae5effb8ac759dec787af70692237a9dadbb4cfd3d02e4789bb13b36",
+    "programs/L44/cases/2805@y_name@ASC.py": "b545c08224ebfa6ca5bf31b348cd5bdffa7bd006b950ef7f7a120095e535aaf1",
+    "programs/L44/cases/2847.py": "9b356059b197ff4b83af538434d86d97dea986d02441f5c771ecdfada5ab72c2",
+    "programs/L44/cases/354.py": "d3e5238c159e21bca7aaa407436c72ba5d7e1ff7dd1157c1b435e54e4fcd64f7",
+    "programs/L44/cases/4007.py": "50cdd3aeda81e9f6652a7aef1fa9eca57ba29aace9fa01c53b79b8e91062bd4c",
+    "programs/L44/cases/4018.py": "d25bda63f4eb0f295a3419a10707665a763c686a8fbf75f6467bff1b0e5a7038",
+    "programs/L44/cases/4029.py": "59360af1359c698cc1de5f287a8ff6c88dba3f1b2a080cc5a9f1188a6a2e7209",
+    "programs/L44/cases/471.py": "45825ffc9fd81f3a96164b0cacf931eee7b257790e6c9a86e696fbd47a1854f3",
+    "programs/L44/cases/680@y_name@DESC.py": "2f326770adbd5351c97aaf6dee398861fee55cede13ce303da10350e7bcc5ffb",
+    "programs/L44/cases/707.py": "3a71d2aa20a90a5e8ccf43b79c6d96a1eca095adf6157b1c8e415aa573f39396",
+    "programs/L44/cases/926.py": "a8391f9ceeb9294a6bb2f8ec5502262b581af6dcd8ba67719e148fcd2de5e8a8",
+    "programs/L44/cases/942@x_name@DESC.py": "3f809dd78689bc5d6e4a6405560333cf85a4ebda29cc5a74069686f191901d34",
+    "programs/L63/cases/1133.py": "d38904edb807c704796a6aac7819524bb1a723ad5fd0cf80410dedffe0eaa868",
+    "programs/L63/cases/1214.py": "800cd6fd227e2d2beaf607f5e25ff05f6957413b6755338bb99d3845643a7a63",
+    "programs/L63/cases/1254@x_name@ASC.py": "f095ad5d4d095ec229079f0273372c8fe1452f0e767e41001d146bab5e3d56ae",
+    "programs/L63/cases/1285.py": "ba2720b142b6386f754350177e8d706195455477461e794ef406a43ca3ba359f",
+    "programs/L63/cases/1310.py": "4ceb12b37462ac9bfe35e54bbce5fd2628c858c7ea848f2ebd2ae675c495208d",
+    "programs/L63/cases/1320@y_name@ASC.py": "55d2fae0edb3b0a56af338bc463d1038052878474eceebb6831b4dee3d433102",
+    "programs/L63/cases/1349@x_name@ASC.py": "4134d281961485402a8e37b7711e97cbd61d6a4fd9fd1f2de1e913da5b8e2902",
+    "programs/L63/cases/145@y_name@DESC.py": "068d776585b4f3f93f17a2eb2d4285f5c4d9708e4fa63c20515caea1145499da",
+    "programs/L63/cases/1527.py": "ce084286c8184ad0561ae1ae80a142eeb9b3d68ded94869a39a5d593afd01d80",
+    "programs/L63/cases/175.py": "cf15218032584c3db170047d93d526ba914bcd581340f8ce7ec937ae848f701f",
+    "programs/L63/cases/2398@y_name@DESC.py": "4b383f2391f9c08567b55214a6ae56f1d2d254ea944e3e0d9df467af900b72f3",
+    "programs/L63/cases/2479.py": "34409c3cf2d6e3048e238dfc812875755b49fcb159d43e9d900d07e7588054cb",
+    "programs/L63/cases/2506.py": "44fd3403b257549c0c5826454de11d57e220645853bcdf82f4f394d1f316c1c5",
+    "programs/L63/cases/2548.py": "24221e967d233d0f166059001ce9401fb3a15594cbd93eec2fcd53ffa5507868",
+    "programs/L63/cases/2550.py": "80b5fa6c61d74ddbb0691f65d1a8bbd6f523c75e80f7cee997b6c8b695ae780d",
+    "programs/L63/cases/2596@x_name@ASC.py": "6b227952696df6557a7363a668b29c4f59d66c00d34dbd5ef4b4f8bbdd32dd84",
+    "programs/L63/cases/2617.py": "887f0f818697e13762385af9bb56e801e35cd9732c88323fca1009e5a8671713",
+    "programs/L63/cases/2781.py": "377f395af45fa4aa6abbbf20ddcce1953fcad36a99ac7e31066c25fe58d990b4",
+    "programs/L63/cases/2805@y_name@ASC.py": "b117f9cee95b916eb0a457c59ad7c3fa6722802ccde7be81852f4e6539347daf",
+    "programs/L63/cases/2847.py": "867aec6f1fe69ad559b15df691253e1bee589484abaa30dcc525ad2ef4f5be49",
+    "programs/L63/cases/354.py": "1521e7cb34fa8f8761064e717b9f9e2dba1d49ea91271cc3637ad2ea2870f1f2",
+    "programs/L63/cases/4007.py": "0e3810f4c0b314c1513ba4b1dc27b1ffea7221f374db626b0632807e4aee3daa",
+    "programs/L63/cases/4018.py": "002264a1a5a6730162c5b17fb5945176666b3990b826a9bac9aaf86218893fe5",
+    "programs/L63/cases/4029.py": "03ba72a855388f6ff11dd6bc23a11a2dc17a82c1751efb05246c25ef4f85bad8",
+    "programs/L63/cases/471.py": "92e202fe4f9b83eb735e73b91aa38c9b75d19e96b2f412c8f5d1491d277c3372",
+    "programs/L63/cases/680@y_name@DESC.py": "c37c487b9dd54cbdb4df32a97ede42b9d78c6f1ce2d9b559359f34bb1443fb5c",
+    "programs/L63/cases/707.py": "c2574292b3eb786104541289e3a8cc1a165770a58a494fd5ae2a9f967fd8614c",
+    "programs/L63/cases/926.py": "dd6d35930ddc4106956710c149f0cc1819330431faaa39b9b8d3d42fa0b943c7",
+    "programs/L63/cases/942@x_name@DESC.py": "3516949d0b6bbe8c01e5e51e111521799efec84bd3944befd13d7a506a6cf1d1",
+    "programs/L63/chart_tools.py": "8f295deaa7d8f2df0bfa70e3edfeed4df116075ff996e49af3d1a6bc5b00fbd9"
+  },
+  "official_outputs_untouched_sha256": {
+    "official/L26/official_detail_records.csv": "8a70378e1eb0b84585552d27856a4795d7523d38284f2df11c29a427b2430b0b",
+    "official/L26/official_check_records.json": "c2482d134f2fc4937477eec6f2a6dd0339c6698c47de703a5fd5b8cc2a552ca0",
+    "official/L81/official_detail_records.csv": "13292ba8bfda152ff405e533362199ccb2803aa7b4b57626f56f3ac71566da54",
+    "official/L81/official_check_records.json": "465ffca17d61030b37756fa51aa4418c17f7d56d198759b24ec008c4341ad8a4",
+    "official/L52/official_detail_records.csv": "fac49f290877d08f750ddb958e198548e69c8a588e427fd06f3c58ccdb7c9624",
+    "official/L52/official_check_records.json": "59c94e607eb5f8e6e592a650648616a597f2e38b79a0354ef52ac56691db4932",
+    "official/L44/official_detail_records.csv": "463762df7e3e0df1e9be242233184a5baaa51267b449db0c85d5a62f4cc550a2",
+    "official/L44/official_check_records.json": "926e0626b59763fdc90c9afa962aed311051cd4b1f0b7ab0b5d24eaf6a9727ed",
+    "official/L63/official_detail_records.csv": "c8bc695986c80c8e649565d9561b489d059d2f7f96495850e5a25dc6652e8cfd",
+    "official/L63/official_check_records.json": "f6b579ff27117ebcb05443be9d71af4a186dc23943ceded5b8e2c3fbe21f19e2"
+  },
+  "selected": [
+    {
+      "id": "926",
+      "db_id": "customers_and_invoices",
+      "chart": "Bar",
+      "hardness": "Easy",
+      "retained_original_requests": 3,
+      "source_csv_sha256": {
+        "Accounts.csv": "65474b6a9697c9f12b543bb1f6cca63a896f308606e72f097679e1b6b529a679"
+      }
+    },
+    {
+      "id": "1320@y_name@ASC",
+      "db_id": "election",
+      "chart": "Bar",
+      "hardness": "Medium",
+      "retained_original_requests": 2,
+      "source_csv_sha256": {
+        "election.csv": "94444d0cc65a196daf144c032fb6c38f5eebe95eb4bd6fd9122ca6cc8450b2a0"
+      }
+    },
+    {
+      "id": "2805@y_name@ASC",
+      "db_id": "solvency_ii",
+      "chart": "Bar",
+      "hardness": "Hard",
+      "retained_original_requests": 2,
+      "source_csv_sha256": {
+        "Products.csv": "fcb8155e9bc381a8fe0cff530d3b1cf4c1798df3258e00ad23380b917bfec885"
+      }
+    },
+    {
+      "id": "2596@x_name@ASC",
+      "db_id": "product_catalog",
+      "chart": "Bar",
+      "hardness": "Extra Hard",
+      "retained_original_requests": 1,
+      "source_csv_sha256": {
+        "Attribute_Definitions.csv": "15b02771079ff5c540e5a2b798f96b3b90aadd54b03d2c10612c529ad57d84e3",
+        "Catalog_Contents_Additional_Attributes.csv": "93a5013ee99d64107fb18694ab231bf1c3242f49c4cf689a5c3aa04b35e6e68b"
+      }
+    },
+    {
+      "id": "4029",
+      "db_id": "soccer_1",
+      "chart": "Grouping Line",
+      "hardness": "Hard",
+      "retained_original_requests": 1,
+      "source_csv_sha256": {
+        "Player_Attributes.csv": "24810e524211d62401dcd8d9749af672539602e03bb908e0aa7c6ece285f515e",
+        "Player.csv": "046665b5261808efd8a762337baa92bba31a530cc58b8b83ade938a54a0651b1"
+      }
+    },
+    {
+      "id": "1349@x_name@ASC",
+      "db_id": "employee_hire_evaluation",
+      "chart": "Grouping Line",
+      "hardness": "Extra Hard",
+      "retained_original_requests": 3,
+      "source_csv_sha256": {
+        "hiring.csv": "a0f3975da09d7d69667669d904a859926290661e744061ef8123a72f50ad03c8"
+      }
+    },
+    {
+      "id": "2781",
+      "db_id": "soccer_1",
+      "chart": "Grouping Line",
+      "hardness": "Extra Hard",
+      "retained_original_requests": 1,
+      "source_csv_sha256": {
+        "Player_Attributes.csv": "24810e524211d62401dcd8d9749af672539602e03bb908e0aa7c6ece285f515e",
+        "Player.csv": "046665b5261808efd8a762337baa92bba31a530cc58b8b83ade938a54a0651b1"
+      }
+    },
+    {
+      "id": "942@x_name@DESC",
+      "db_id": "customers_and_invoices",
+      "chart": "Grouping Line",
+      "hardness": "Extra Hard",
+      "retained_original_requests": 1,
+      "source_csv_sha256": {
+        "Accounts.csv": "65474b6a9697c9f12b543bb1f6cca63a896f308606e72f097679e1b6b529a679"
+      }
+    },
+    {
+      "id": "1133",
+      "db_id": "department_store",
+      "chart": "Grouping Scatter",
+      "hardness": "Easy",
+      "retained_original_requests": 2,
+      "source_csv_sha256": {
+        "Products.csv": "87e593a52adf7ee32849f53ed4c579897fd62678e0b90c71a0f322fb73dae310"
+      }
+    },
+    {
+      "id": "2479",
+      "db_id": "news_report",
+      "chart": "Grouping Scatter",
+      "hardness": "Medium",
+      "retained_original_requests": 2,
+      "source_csv_sha256": {
+        "journalist.csv": "7545911f0d81fdad70066c39c8b2d6ce06c9d2ad558cacba74f2ec7ff40efe5e",
+        "news_report.csv": "05f23f36b2a0469a7653f01241a1dc2606439e5c9ba0d776c1c3f339ffaf7bdb"
+      }
+    },
+    {
+      "id": "2550",
+      "db_id": "pets_1",
+      "chart": "Grouping Scatter",
+      "hardness": "Easy",
+      "retained_original_requests": 3,
+      "source_csv_sha256": {
+        "Pets.csv": "d5817be00c474486e9efc63c990fafd00a806acd1aa837c5092c51c5fdf3dfe3"
+      }
+    },
+    {
+      "id": "1214",
+      "db_id": "dorm_1",
+      "chart": "Grouping Scatter",
+      "hardness": "Medium",
+      "retained_original_requests": 1,
+      "source_csv_sha256": {
+        "Dorm.csv": "a7641be458d8a172d3f6333bba85c5d0c0ed2b524dc421b3c2856524432e5655"
+      }
+    },
+    {
+      "id": "471",
+      "db_id": "cinema",
+      "chart": "Line",
+      "hardness": "Easy",
+      "retained_original_requests": 1,
+      "source_csv_sha256": {
+        "cinema.csv": "1d51cc491bf2924344e04ac685b9829d0a58afcca3ee8c19b2d66c8c6a50c1b0"
+      }
+    },
+    {
+      "id": "1285",
+      "db_id": "e_learning",
+      "chart": "Line",
+      "hardness": "Medium",
+      "retained_original_requests": 1,
+      "source_csv_sha256": {
+        "Student_Tests_Taken.csv": "1a6798fd74db8bacab4291d9ee8e12091d6b4ed2a32f6d213464c7b37ecbacfd"
+      }
+    },
+    {
+      "id": "2617",
+      "db_id": "products_for_hire",
+      "chart": "Line",
+      "hardness": "Hard",
+      "retained_original_requests": 1,
+      "source_csv_sha256": {
+        "Payments.csv": "c91db7224f26622733c7a7a7566c9dd4243f1d498ef35a36a50ded123536862f"
+      }
+    },
+    {
+      "id": "1254@x_name@ASC",
+      "db_id": "e_learning",
+      "chart": "Line",
+      "hardness": "Extra Hard",
+      "retained_original_requests": 2,
+      "source_csv_sha256": {
+        "Student_Course_Enrolment.csv": "2248d5f8c712ad42c60789b8df9c09d8c9a5e31f358f9391a8aa213e8aaf9881",
+        "Student_Tests_Taken.csv": "1a6798fd74db8bacab4291d9ee8e12091d6b4ed2a32f6d213464c7b37ecbacfd"
+      }
+    },
+    {
+      "id": "2506",
+      "db_id": "party_host",
+      "chart": "Pie",
+      "hardness": "Easy",
+      "retained_original_requests": 3,
+      "source_csv_sha256": {
+        "party.csv": "dc699769c880b8f88b772bda9a066108e2c9f2e0172b0c92dfd1b395629fc38a"
+      }
+    },
+    {
+      "id": "1310",
+      "db_id": "election",
+      "chart": "Pie",
+      "hardness": "Medium",
+      "retained_original_requests": 2,
+      "source_csv_sha256": {
+        "party.csv": "2d8401b611965fad0a54ff9ae963a320c7ba229c87ec20ef7a46402abbb2a885",
+        "election.csv": "94444d0cc65a196daf144c032fb6c38f5eebe95eb4bd6fd9122ca6cc8450b2a0"
+      }
+    },
+    {
+      "id": "1527",
+      "db_id": "hospital_1",
+      "chart": "Pie",
+      "hardness": "Hard",
+      "retained_original_requests": 3,
+      "source_csv_sha256": {
+        "Physician.csv": "76d4f8447610a8d6482c705f5bc9e958c92a761ac50fe9b61e467260741e5bf2",
+        "Procedures.csv": "3493102004a3a1df3e6dcf4c8a594d4043d8b4f80ef2ba36beaae43b3126972f",
+        "Trained_In.csv": "8f009b52e14984304715e6fe363bf971f67597ae9546a49cc289ca5737af456f"
+      }
+    },
+    {
+      "id": "2847",
+      "db_id": "store_1",
+      "chart": "Pie",
+      "hardness": "Extra Hard",
+      "retained_original_requests": 4,
+      "source_csv_sha256": {
+        "genres.csv": "26c28eed8410038da4ee91a3ad80c59c3b89c12fb51072121fdabc0cf47b8e02",
+        "tracks.csv": "b1f970ec7142e66fa705f1fcdedac40bb325c233b279110ae14e17e3e4c6911c"
+      }
+    },
+    {
+      "id": "707",
+      "db_id": "county_public_safety",
+      "chart": "Scatter",
+      "hardness": "Easy",
+      "retained_original_requests": 4,
+      "source_csv_sha256": {
+        "county_public_safety.csv": "4019fc84df6a6d56c2aed169dfd1e6bf01e2895cdde40394547177158ff5eb28",
+        "city.csv": "678eea20f590060c35d4f2df3fe0d152a42a96413c284cb89abf37c6d0544241"
+      }
+    },
+    {
+      "id": "175",
+      "db_id": "battle_death",
+      "chart": "Scatter",
+      "hardness": "Medium",
+      "retained_original_requests": 3,
+      "source_csv_sha256": {
+        "ship.csv": "28bb25be4315f2c1d00f645838a347526dbf683f15f0f0a490652e8ca904b99f",
+        "death.csv": "297fe1ba1a571467b1ef02902efb9651b570021f2d1b5264aaf61981133319af"
+      }
+    },
+    {
+      "id": "2548",
+      "db_id": "pets_1",
+      "chart": "Scatter",
+      "hardness": "Easy",
+      "retained_original_requests": 2,
+      "source_csv_sha256": {
+        "Pets.csv": "d5817be00c474486e9efc63c990fafd00a806acd1aa837c5092c51c5fdf3dfe3"
+      }
+    },
+    {
+      "id": "354",
+      "db_id": "body_builder",
+      "chart": "Scatter",
+      "hardness": "Easy",
+      "retained_original_requests": 5,
+      "source_csv_sha256": {
+        "body_builder.csv": "949f436011e6039cc6f5ebca2ac5af9d269bd058e8657ced4859decaefea9658"
+      }
+    },
+    {
+      "id": "4018",
+      "db_id": "customer_complaints",
+      "chart": "Stacked Bar",
+      "hardness": "Medium",
+      "retained_original_requests": 1,
+      "source_csv_sha256": {
+        "Products.csv": "e8e1c79d788110a371c572a9528bdad5a87d586f47552bdf49700100a08f988a",
+        "Complaints.csv": "bf070e7dc6c0f30797d4ea7b3d7ef22bb66a6f4c62b3de3a47e768eaa5b4a7ce"
+      }
+    },
+    {
+      "id": "680@y_name@DESC",
+      "db_id": "company_employee",
+      "chart": "Stacked Bar",
+      "hardness": "Hard",
+      "retained_original_requests": 2,
+      "source_csv_sha256": {
+        "company.csv": "28b8cdd66281ce42a1358b086763ec5d8f5ad9ff7344b10940cb8a23e84bd9f9"
+      }
+    },
+    {
+      "id": "145@y_name@DESC",
+      "db_id": "assets_maintenance",
+      "chart": "Stacked Bar",
+      "hardness": "Extra Hard",
+      "retained_original_requests": 1,
+      "source_csv_sha256": {
+        "Skills.csv": "084223ef2594fd8609a466ee5f076e16560f6045f8b90b5b0979baf4eb2bb6c6",
+        "Part_Faults.csv": "16cdc42aa4ffec913e59140198c7c088d7c588327b63b36624b8615ba640522e",
+        "Skills_Required_To_Fix.csv": "cab8c6542d55d547c98a35113d189f0b8435ec6cd32c7b9aa8f3bc56f68c5eb1"
+      }
+    },
+    {
+      "id": "4007",
+      "db_id": "browser_web",
+      "chart": "Stacked Bar",
+      "hardness": "Hard",
+      "retained_original_requests": 1,
+      "source_csv_sha256": {
+        "Web_client_accelerator.csv": "21f1c4baa566c8f2d4d8475773c18878cd94b099ba2d5f4226641107da53c548",
+        "browser.csv": "52e27c7bc381eb7ddcab9168f4e48ab4891bd3b96b3b336f9b02c94e4dafa91e",
+        "accelerator_compatible_browser.csv": "28fc9c6ee1598602e62dcbdc85972cf0c9cf9830159085de93bfa17a7b078837"
+      }
+    },
+    {
+      "id": "2398@y_name@DESC",
+      "db_id": "movie_1",
+      "chart": "Bar",
+      "hardness": "Hard",
+      "retained_original_requests": 1,
+      "source_csv_sha256": {
+        "Movie.csv": "cb4ce45b52227329fb2a8aad976a93c6ce361a2f67709b6d938bb45561c8e758",
+        "Rating.csv": "0c6fde0a6e0410d9a5156b529c05c64fb92ea527e6c13914429a00f95a30fc58"
+      }
+    }
+  ],
+  "data_distribution": "Original benchmark CSVs are not bundled here. Obtain the pinned VisEval release, use db_id/table hashes and metadata to resolve the same source tables.",
+  "scope": "Full29/practical trial is3.4.0;3.4.1 is a later focused repair, separately reported."
+}

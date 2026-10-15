@@ -2,7 +2,7 @@
 name: data-storytelling
 description: Compose analysis, business charts and audience-ready communication from data when a request spans several outputs; explain KPI changes and deliver a supported decision memo or deck. Kể chuyện với dữ liệu, phân tích rồi vẽ biểu đồ và viết memo. Route chart-only, audit-only and team-practice jobs to their specialists; simple KPI answers stay short.
 metadata:
-  version: "3.3.0"
+  version: "3.5.0"
 ---
 
 # Data stories: compose the requested work
@@ -37,9 +37,13 @@ Produce the requested editable artifact and inspect its final render. For visual
 
 Link the recommendation to the problem, desired outcome, feasible action and measurement. With unresolved causes, choose an exact diagnostic or reversible experiment when appropriate. Its measure must be one the action can still change, with a usable evidence window and stop/continue rule. Give that readout enough visible prominence that the reader can act on it.
 
+For a substantial visual artifact, establish a short [content-specific direction](references/visual-delivery.md#commit-to-a-direction-then-exercise-it), then render and exercise a difficult representative view before repeating its composition. A consistent visual system should make this evidence easier to use; it need not look like every previous report.
+
 ## Reuse the installed stack
 
 Use `statistical-analysis` for actual inference/assumptions/uncertainty, `business-economics` for unit economics/capacity/scenarios and `reliable-delivery` for material numeric/multiple-output verification when available. `scientific-visualization` contributes figure mechanics and research plots; native spreadsheet, presentation, document and PDF methods produce the requested formats. Read the relevant actual method instead of copying it into this suite. These are optional complements, not bundled dependencies or verified account entitlements.
+
+For a substantial reader-facing HTML artifact, select available `artifact-art-direction` and `frontend-design` as complementary methods and read their actual instructions. Establish the content hierarchy and recipient task with art direction, realize it with frontend craft, and reconcile every visible claim with the shared facts. Keep supporting audits accessible without turning the main reading path into an equally weighted list of checks. Preserve the requested brand and medium; this combination is optional when unavailable and does not replace native document or presentation mechanics.
 
 Select the existing skill router only when choices are unclear or span domains; it retrieves candidates and the assistant decides. Natural-language discovery is supported by these descriptions, not guaranteed in every chat. Loading instructions adds no permission for external action.
 

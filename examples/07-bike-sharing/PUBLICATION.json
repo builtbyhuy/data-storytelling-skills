@@ -1,0 +1,31 @@
+{
+  "tested_method": "3.4.0",
+  "latest_method_separately_tested": "3.4.1 focused quantity follow-up, not a full rerun",
+  "original_complete_handoff_sealed_utc": "2026-10-15T02:33:42.786176+00:00",
+  "owner_output_or_rebuild_edits": 0,
+  "archive_sha256": "94a11b31474cac45ebc09a2be9c92409cd075a9d2c47610d5da97aa566e805e3",
+  "archive_file_count": 19,
+  "original_files_sha256": {
+    "analysis.json": "a3ebecfadcf868cf657beec62fc9bf1064acbd7b96d1d9ede98c8783b40a4abf",
+    "build.py": "3d39e88c1a2a3afc6d89cd39d1e64cbb8811cd9017918c4265e477bd89325349",
+    "candidate-blocks-2011.csv": "0effebc7eb287e4dd51826f5021d64a3395ed88e8fe0e3099511c1ce47437f86",
+    "coverage-2012.svg": "79ac8306b9572973f2411029116fa1163d03dd4511373ae3ec5ca4f5d01d437b",
+    "eligibility-by-date.csv": "be80ecd501745df28e39a99c654dc3320fe88ba01e6a7bbfdd17f7ddeb383b0b",
+    "facts.csv": "ed3935a2f7c0053b3af5dda99a2d2eed3cdc68bd7d1a5a412b6199c55f40c09d",
+    "README.md": "5274096b1e9e3072055fd8b876e8acb538d86f2b5f290f8ccfb72107853ddaf7",
+    "readout-example-result.json": "92554ed30b99d365ebfdd931fa949838ab2b0c148196924daa342e63c3fdddc3",
+    "readout-example.csv": "b76ebf6b3dc1fbbd601fd22340e307e88bd33cb8372dde101ce11ed042dc5e58",
+    "readout.csv": "012791dd87d689c22ddaf91ee6272f3fcd6b5c5cd97c4dfbd890c34514bfa483",
+    "Rebuild.ps1": "a80a293f48114c379a0616df9d093fc12c9c2741243177707b70ab996e353548",
+    "report.html": "11cff68a1647645d0b9440cd69742a997ac53aa019c26a33afc70e84da1f3879",
+    "schedule.csv": "b7311269a8bb48d3606743e77af3c45199d4c259a0a624fbc90ee7c00a9256fd",
+    "selection-2011.svg": "8f843b36716cbfbcbe9e4196207a983e8a335855c76966586f0454ec291efbda",
+    "source/day.csv": "a6bcf826782d3c0fbfdcbeead17cd0884185a0dafe8ff10cd48a874ee7ba18be",
+    "source/hour.csv": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f",
+    "source/Readme.txt": "b92c8628622948bf0828c43a1b315d1517c3d7fd63654730d0dea379b8e88175",
+    "source/SOURCE.md": "84077171c7d6317a9d22c2e1697edd24a7f994f1f28177765b3cb2454de89091",
+    "validate_readout.py": "c8e5aeed85ae4c5d4bcff5ccb0567c19281cc20b485cbe31ec9f75b971ca1c03"
+  },
+  "environment_qualification": "Original README.md and Rebuild.ps1 remain byte-identical in the archive, including environment-specific Windows runner paths. Separate owner PACKAGE.md supplies context and the unchanged relative Python entrypoint. Relocated rebuild was verified on the same installed Windows runtime, not every platform.",
+  "source_license": "UCI Bike Sharing CC BY4.0; original code and layout MIT; see original SOURCE.md and owner PACKAGE.md."
+}

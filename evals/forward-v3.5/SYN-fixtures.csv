@@ -1,0 +1,5 @@
+fixture_id,source_file_raw,source_data_row_raw,assigned_person_raw,availability_raw,source_snapshot_raw,provenance_raw,scope_raw,permission_raw,record_check_raw
+SYN-A,SYN-red.csv,1,SYN Reviewer A,confirmed,confirmed,confirmed,confirmed,confirmed,done
+SYN-B,SYN-white.csv,1,SYN Reviewer B,confirmed,,unknown,confirmed,confirmed,not done
+SYN-C,SYN-red.csv,2,,unknown,confirmed,confirmed,confirmed,confirmed,done
+SYN-D,SYN-white.csv,2,SYN Reviewer B,confirmed,confirmed,confirmed,unknown,not done,done

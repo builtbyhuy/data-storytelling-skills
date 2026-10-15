@@ -1,9 +1,11 @@
 # Ví dụ dùng trong công việc
 
-Ba lượt chạy nguyên bản trên dữ liệu thật và ba tình huống giả lập được biên tập. Ví dụ 06 đã qua kiểm số liệu, bản đọc/xuất, dựng lại và hai lượt đọc ẩn danh; [so sánh bốn bộ phương pháp](../evals/solo-v3.3.md) giữ cả điểm hòa và bất đồng. Mỗi ví dụ có yêu cầu, nguồn, file dùng được và cách tái tạo; phạm vi kiểm tra được ghi riêng.
+Năm lượt chạy nguyên bản trên dữ liệu thật và ba tình huống giả lập được biên tập. Ví dụ 08 dùng nguồn Wine Quality mới với bản 3.5 phối hợp Frontend và art direction; [hồ sơ so sánh](../evals/forward-v3.5.md) tách kiểm số liệu, đọc hiểu, ghi việc và thẩm mỹ. Mỗi ví dụ có yêu cầu, nguồn, file dùng được và cách tái tạo; phạm vi kiểm tra được ghi riêng.
 
 | Việc cần làm | Bản bàn giao | Mở ví dụ |
 |---|---|---|
+| Đọc tỷ lệ và toàn bộ phân bố, không biến dòng nguồn thành số chai; chuẩn bị kiểm tra xuất xứ | HTML chữ/biểu đồ gốc, biểu mẫu ghi việc, danh sách 40 dòng HOLD, nguồn và recipe Python không cần thư viện thêm | [08 — Wine Quality, bản 3.5 không sửa tay](08-wine-quality/PACKAGE.md) |
+| Chọn khung giờ kiểm tra từ dữ liệu thuê xe, giữ kỳ chọn và kỳ xác nhận riêng | Gói nguyên bản 3.4, SVG, phép tính và kiểm tra 8 ngày có điều kiện; giữ cả kết quả thua về thẩm mỹ | [07 — Bike Sharing](07-bike-sharing/PACKAGE.md) |
 | Đọc dữ liệu chiến dịch lịch sử và đề xuất chẩn đoán trước đợt liên lạc mới | HTML offline đọc trên desktop/điện thoại, PDF bốn trang, bốn SVG, phép tính và kiểm tra 60 hồ sơ có điều kiện | [06 — Lượt solo mới, không sửa tay](06-bank-marketing/PACKAGE.md) |
 | Chọn góc bản tin từ dữ liệu phát điện, giữ ngoại lệ và mẫu số | HTML đọc trên desktop/điện thoại, PDF/SVG vector, phép tính và việc kiểm tra trong hai ngày | [05 — Lượt chạy mới, không sửa tay](05-asean-electricity/README.md) |
 | Ưu tiên hỗ trợ chuyên cần khi nguồn lực địa phương chưa xác minh | 9 trang PowerPoint/PDF, Excel công thức, điều kiện mở/hoãn và recipe nguyên bản | [04 — Lượt chạy dữ liệu thật, không sửa tay](04-attendance-pilot/README.md) |
@@ -12,6 +14,10 @@ Ba lượt chạy nguyên bản trên dữ liệu thật và ba tình huống gi
 | Ghép bảng làm tiền tăng | Minh họa tính lặp, bảng đối chiếu từng hóa đơn và audit đã thực thi | [03 — Đối chiếu hóa đơn](03-join-audit/README.md) |
 
 ## Dùng ngay
+
+Ví dụ08 giữ nguyên 16 file tác giả. Mở `report.html` để đọc ngoại tuyến; `work-form.html` tải bản ghi JSON, không gửi việc thật; `review-40.csv` giữ trạng thái HOLD. Giữ cả thư mục và chạy `python build.py` nếu cần dựng lại. Biểu đồ chính giữ đủ điểm, số đếm và tỷ lệ trên điện thoại; bảng số chính xác mở rộng còn phải kéo ngang. [Năm gói so sánh đầy đủ](../evals/practical-v3.5/README.md) cùng giữ byte gốc và recipe, không chọn hình đẹp nhất để thay đầu ra.
+
+Ví dụ07 giữ toàn bộ 19 file practical trong ZIP; [wrapper](07-bike-sharing/PACKAGE.md) phân biệt recipe phụ thuộc môi trường gốc với đầu vào dựng. Đây là đầu ra của bản 3.4, không đổi nhãn thành 3.5.
 
 Ví dụ06 giữ nguyên 22 file tác giả, gồm HTML/PDF, bốn SVG, năm file nguồn, JSON/bốn CSV tính toán, README và năm file recipe. [Wrapper đóng gói](06-bank-marketing/PACKAGE.md) nêu nguồn UCI/CC BY4.0, các receipt riêng bị loại và phạm vi kiểm tra; [README tác giả](06-bank-marketing/README.md) được giữ nguyên byte. Chẩn đoán bên trong báo cáo là đề xuất có điều kiện, chưa thực hiện.
 

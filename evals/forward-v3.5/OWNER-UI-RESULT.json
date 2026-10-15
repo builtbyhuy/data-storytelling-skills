@@ -1,0 +1,24 @@
+{
+  "verified_utc": "2026-10-15T05:13:21.928249+00:00",
+  "surface": "Original report -> original form -> native JSON download, via in-app browser UI",
+  "record_sha256": "41751f19c206b009dc4721b9caea16f469eb7bd014d31e83b50af9ddec18f1e8",
+  "original_full_seal_files_unchanged": 56,
+  "expected_values": {
+    "source_file": "winequality-red.csv",
+    "source_data_row": "2",
+    "source_field": "SYN-UI-only",
+    "original_value": "",
+    "snapshot_state": "",
+    "provenance_state": "unknown",
+    "scope_state": "not done",
+    "assignee": "",
+    "availability_state": "unknown",
+    "permission_state": "unknown",
+    "status": "HOLD",
+    "reviewer": "",
+    "review_when": "",
+    "start_decision": ""
+  },
+  "checked_values_match": true,
+  "limits": "One simulated HOLD draft; no validation/approval behavior claimed. The form deliberately relies on manual review. This is supplemental owner UI verification, separate from the frozen reader fixture tasks. Nothing sent externally."
+}

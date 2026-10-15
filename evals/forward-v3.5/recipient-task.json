@@ -1,0 +1,5 @@
+{
+  "phase": 2,
+  "task": "Dùng biểu mẫu và hướng dẫn bàn giao của trang để xử lý bốn phiếu SYN được cung cấp. Giữ nguyên các giá trị gốc, kể cả ô trống, `unknown` và `not done`. Ghi trạng thái cùng lý do còn thiếu của từng phiếu. Sau đó tạo **một dòng việc mới** cho SYN-C: giao việc xác nhận cho **SYN Coordinator**, yêu cầu xác nhận người kiểm tra và thời gian người đó có thể làm; không tự điền người kiểm tra còn trống hoặc biến `unknown` thành đã xác nhận. Dòng việc mới giữ liên kết với SYN-C và cặp tệp/vị trí gốc. Trả lại biểu mẫu đã điền hoặc các dòng CSV có thể dán vào biểu mẫu. Không bắt đầu kiểm tra và không gửi việc thật cho ai.",
+  "instructions": "Use the original supplied template and manual instructions. Create actual CSV or equivalent usable filled record files in your own assigned reader output. Preserve every raw fixture value. Write recipient.json with file paths, mapping, statuses/reasons and remaining limits. Do not read expected answers, sources, facts, analysis/build code or peer outputs. No real messages/actions. Combined20min from initial dispatch; no time extension."
+}

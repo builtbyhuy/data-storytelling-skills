@@ -1,0 +1,27 @@
+{
+  "unchanged_evaluation_receipts_sha256": {
+    "PROTOCOL.md": "868056382be4a0b802ce2dd09a08dd6f2e3286399e70f07e457c74cf6c8f7a5c",
+    "PUBLIC_BRIEF.vi.md": "9f792da4650818d262488ba460d901acba37a7b8df2fa4f1c8c46665f1052027",
+    "ASSERTIONS.md": "84debe1b80784d6c08d8ca25309e62a92ca41ef3d95f21b316d585b09ca58921",
+    "SYN-fixtures.csv": "f9514b07e7fe10a3941df7d637330146bc9059257392e1e496ebe6812bd0d9ab",
+    "SYN-expected.md": "d35ac0951ee033930bae1861d9468b3b345b0289dd29464a9e5787fee1fb8426",
+    "manager-questions.json": "2df4caabf417d05e4eaaa655f168533f1375a3017ea9aa3366b2c1ee7f8e1192",
+    "recipient-task.json": "8e595145d6e77552a29786a0fc1e8221f88e51a2e2085a1f9e65fd2be6699c89",
+    "visual-question.json": "d62d0d3df49b7977d4889e7eda416252028bac575674208e94c95d9c32a1fd8f",
+    "CANDIDATE-FROZEN.json": "6b5f7d9f45a46929d97ac8bf649fb297073d9072b0cd546fb5d1ba2617bc3093",
+    "TRIAL-FROZEN.json": "ed5f930465aae044ec8f3a636ccb0e40587b12ffdf4d0ee00931d3ddb5d4180e",
+    "RUNNER-FROZEN.json": "fb9e8396c1cc01685c7287e58bd8768d7e784b757f25acfc385ddb0b51557cf2",
+    "RECOVERY-RUNNER-FROZEN.json": "3856bbdafc52e78e402579631ac4cbf2adc21afca0c83716e33fce2983631e0e",
+    "REBUILD-RUNNER-FROZEN.json": "d3f92c3a8d26ece39328425b31b606e186663d1d1cac4f7d258a731d833b3954",
+    "REVIEW-QUESTIONS-FROZEN.json": "4cb7f14dc915a8c24cbb3d5f3670dda141088a338e840eb8cf19846e6ce9d503",
+    "OPERATIONS.json": "5047484a5a63e0d7d14f63ad024f4de0aefe03e7cf6d021bc73ea6085e42ad6f",
+    "RECOVERY-PLAN.json": "7b31619ecdf7e101b1db59801a8127fea70b9c6aa0aa732e3f3bd23ed33c9e1d",
+    "CAPTURE-REPAIR-NOTE.json": "fa70618fa3e2225b7fa71ee143f708d8ee6974b033dfece6bed224c0c9c39a3c",
+    "PACKET-ACCESS-NOTE.json": "4bd6fe573d8b47297e71f2927a01307bfd9870705a1844edda3f1184ca8f69d3",
+    "RUNTIME-AMENDMENTS.json": "fde3769bbe193127f6399642fa343cea16fbdb738dfcba0c0f78430f2866df61",
+    "SOURCE-AUDIT.md": "27a161909ad061b6b404fa956ac422f52fa8dff8f7d8035fbf5c1b3e34c35d96",
+    "ARTIFACT-AUDIT.md": "f234e6b23838d78268a9910e79327a817341374841690295103fd115c38383c5",
+    "OWNER-UI-RESULT.json": "996767cae595e22d7c76c0f423814d1253a69588678946344f6674f64936ccd5"
+  },
+  "note": "These are original plan, audit and execution-exception receipts, not authored report edits or a new benchmark score. Referenced full local capture/checker files remain retained separately; complete practical originals are published under ../practical-v3.5/. The original protocol includes intended isolation; measured restrictions/unknowns and capture/recovery deviations are explicitly qualified in ../forward-v3.5.md."
+}

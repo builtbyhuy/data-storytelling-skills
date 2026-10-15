@@ -1,8 +1,14 @@
-# Data Storytelling Skills · 3.3.0
+# Data Storytelling Skills · 3.5.0
 
 Turn business data into a choice someone can understand, check and act on. Six complementary Codex skills cover diagnosis, narrative, charts, evidence repair and recurring measurement. English instructions support Vietnamese and English requests.
 
-The 3.3 revision repairs document-level SVG naming, checks long table values at the promised reading width, and preserves sum/value versus row-count meaning in short growth statements. The optional browser exporter adds name/reference and cell-fit diagnostics with positive and negative controls. [The untouched-output solo trial](evals/solo-v3.3.md) records the forward-test protocol and results separately from curated examples.
+The 3.5 revision connects substantial HTML work with actual Frontend and art-direction methods when available, keeps one clear primary comparison with accessible supporting detail, and checks narrow-screen lookup, captions and operating rules. It retains source/quantity safeguards: requested counts must remain visible, time gaps keep their real spacing and joined-record counts cannot silently become distinct-entity counts. [Exact optional visual complements](optional-complements/README.md) make that composite activation inspectable and reproducible without overwriting an existing design stack.
+
+**Current result is mixed.** In the fresh Wine trial, the composite is preferred for polish over 3.3 and Frontend, and ties the two other rivals after swapped-position disagreement. Readability/usability ties all four. Its two readers answer 8/8 questions correctly and preserve 80/80 raw values; 1/2 completes every strict recipient check because the other omits an explicit action-HOLD field. [Failures, raw votes and usable originals](evals/forward-v3.5.md) remain visible; this is not an all-gates pass or production certification.
+
+The [3.4 forward record](evals/forward-v3.4.md) preserves the failed polish target and unchanged official VisEval scores: 21/29 fully passing tasks for the candidate, published 3.3 and Frontend. A separate source-correct handoff or successful build does not cancel a visual failure. The later focused 3.4.1 quantity repair remains a two-case follow-up, not a full benchmark rerun.
+
+The 3.3 revision repaired document-level SVG naming, long table values and sum/value versus row-count meaning. [Its untouched-output solo trial](evals/solo-v3.3.md) remains separate from later tests and curated examples.
 
 The 3.2 revision introduced practical display-size checks, text/vector sources and separate browser/PDF inspection. [Primary repository methods](shared/repository-methods.md) and [its unfamiliar-source trial](evals/visual-v3.2.md) state what was actually examined and run.
 
@@ -12,7 +18,19 @@ The 3.0 revision follows a complete reread of the supplied 89-page MDA guide. It
 
 ## See the work
 
-### New — A diagnostic before the next contact campaign
+### New — Read the difference, keep the limits, prepare the next record
+
+A fresh execution of the frozen 3.5 composite uses UCI Wine Quality, a source absent from the earlier trials. It distinguishes the higher share of scores ≤5 in the red file from the larger number of such rows in the white file. The complete ordinal distribution and source-row limits stay close to the explanation; the next step is a conditional desktop provenance check with a usable form and 40-row HOLD worklist.
+
+![Unchanged original browser opening: the red file has 744 of 1,599 rows at score ≤5, versus 1,640 of 4,898 in the white file; the hypothetical threshold and source-row qualification remain beside the comparison](examples/08-wine-quality/preview-desktop.png)
+
+[Download the complete offline package](https://github.com/builtbyhuy/data-storytelling-skills/raw/refs/heads/main/evals/practical-v3.5/N91-untouched-practical.zip) · [Original form source](examples/08-wine-quality/work-form.html) · [Original source and portable recipe](examples/08-wine-quality/README.md) · [All five complete untouched handoffs](evals/practical-v3.5/README.md) · [Separate source, reader, handoff and visual results](evals/forward-v3.5.md)
+
+Extract the package and open `report.html`; its form, sources and CSVs then resolve locally.
+
+**Owner output/rebuild-code edits: 0.** All 16 published author files match the first completed recovery handoff, including the original README, template, form and source ZIP. Five declared outputs rebuild byte for byte using standard-library Python. Native HTML/text/CSS bars remain sharp at the reading size; the PNG is only an unchanged browser preview. A disclosed exact table still needs horizontal panning on phones. The [package note](examples/08-wine-quality/PACKAGE.md) and evaluation retain that friction, interrupted-batch recovery, capture repair and model-review limits. This is a practical forward test, not a new official benchmark score or proof of human preference.
+
+### A diagnostic before the next contact campaign
 
 An untouched solo execution turns UCI's original Bank Marketing file into a four-page Vietnamese report. It separates the strong historical association with prior campaign success from the limits of observed contact counts, then proposes a conditional 60-record process audit. The 45,211 source records do not establish unique customers or the effect of prioritising a future list.
 
@@ -22,7 +40,7 @@ An untouched solo execution turns UCI's original Bank Marketing file into a four
 
 **Owner output/rebuild-code edits: 0.** All 22 copied author files match the first completed handoff seal, including the original README. Independent numeric, browser/PDF and relocated-rebuild checks passed within the scopes recorded in [PUBLICATION.json](examples/06-bank-marketing/PUBLICATION.json). Both sealed anonymous model readers returned GO. The [four-method comparison](evals/solo-v3.3.md) retains ties and disagreements: this suite is preferred for clarity/taste over K-Dense, ties the additional MIT Visual Explainer on taste, and has no universal or overall winner claim. Human response and business execution remain unmeasured.
 
-### New — An editorial angle with its counterevidence
+### An editorial angle with its counterevidence
 
 An unfamiliar Ember dataset becomes a four-page Vietnamese editorial report. Vietnam's wind+solar generation share rose most among the five selected countries over 2015–2024, yet its 2024 share fell while generation grew. The report explains the denominator and proposes a two-day source check; it does not claim a policy effect or an all-ASEAN ranking.
 
@@ -93,7 +111,7 @@ These synthetic examples began as fresh independent executions of the revised sk
 | `data-story-redteam` | Challenge and repair misleading claims, charts and recommendations |
 | `analytics-adoption` | Plan recurring metric stewardship, decisions and outcome learning |
 
-All six skills are version 3.3.0. A narrow KPI question stays short; a decision memo does not require all six methods.
+All six core skills are version 3.5.0. A narrow KPI question stays short; a decision memo does not require all six methods.
 
 ## Give a normal request
 
@@ -116,7 +134,7 @@ The first command previews. Replacement requires a backup directory and preserve
 
 ## Complement the existing stack
 
-Use available statistical methods for inference, economics for cost/capacity/scenarios, figure tools for demanding charts, native Office/PDF methods for actual formats and verification methods for numeric handoffs. Those capabilities are referenced, not bundled or required under a particular brand. The optional helpers are local code; the skills grant no account access or execution permission.
+Use available statistical methods for inference, economics for cost/capacity/scenarios, figure tools for demanding charts, native Office/PDF methods for actual formats and verification methods for numeric handoffs. Most capabilities are referenced, not bundled or required under a particular brand. The [optional visual snapshot](optional-complements/README.md) separately retains the two methods used by the 3.5 composite condition, with their license and environment qualifications; the core installer still installs only the six suite folders. The standalone fallback remains usable but is not a separate measured 3.5 Wine condition. The optional helpers are local code; skills grant no account access or execution permission.
 
 Canonical shared references live under `shared/`; `python tools/sync_shared.py` updates independently installable copies. `python tools/validate.py` checks package structure, links, source boundaries and copies. These checks do not establish output quality.
 
@@ -132,10 +150,10 @@ This independently authored suite adapts useful ideas from the user's MDA guide 
 
 The 3.0 checks cover actual artifacts, source calculations, narrow controls and model reader inspection. No human comprehension, accepted taste, beneficial adoption or real intervention outcome has been measured. The profit workbook's cached values and formula presence were checked; an Excel recalculation engine was not run.
 
-Earlier matched evaluations remain in [the historical record](evals/README.md): quality ties and candidate completion-limit failures are retained. The suite has no demonstrated overall quality, speed or completion advantage over an unassisted model. The new runs use different output requirements and no matched baseline, so they do not change that conclusion.
+Earlier evaluations remain in [the historical record](evals/README.md): quality ties, candidate completion-limit failures and negative polish comparisons are retained. The suite has no demonstrated overall quality, speed or completion advantage over an unassisted model. Matched activations on a shared model/catalog do not establish an isolated causal effect; no human taste or business-outcome advantage is claimed.
 
 ## License
 
-[MIT](LICENSE) covers this project's original instructions, tools and synthetic examples. The source ebook and complementary third-party skills are not relicensed or redistributed.
+[MIT](LICENSE) covers this project's original instructions, tools and synthetic examples. The source ebook is not redistributed. Optional Frontend Design retains its included Apache-2.0 license; original artifact-art-direction instructions retain project MIT scope. Other complementary methods are referenced rather than bundled.
 
-MIT also covers the project's original code, explanation and layout in the real-data examples. DfE information retains OGL v3.0; Ember data/source information retains CC BY 4.0. [Attribution and scope](NOTICE.md) distinguish the data from original work. Publisher logos, website assets, original source PDFs and private verification receipts are excluded.
+MIT also covers the project's original code, explanation and layout in the real-data examples. DfE information retains OGL v3.0; Ember and UCI data/source information retain CC BY 4.0. [Attribution and scope](NOTICE.md) distinguish the data from original work. Publisher logos, website assets, original source PDFs and private account evidence are excluded.

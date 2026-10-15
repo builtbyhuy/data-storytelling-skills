@@ -8,6 +8,8 @@ Record the authoritative input/snapshot and which source wins a conflict. For ea
 
 Keep an unspecified currency, timezone or accounting basis explicitly unspecified; a familiar symbol or plausible default is not a confirmed definition. Use a labeled assumption only when needed to proceed, and show whether it changes the decision.
 
+Before combining tables, identify the eligible key population: intersection, one authoritative side or union. Check unmatched keys and multiplicity, then reconcile eligible entities and decisive totals before and after joining. For example, “each activity” may include activities recorded in only one participant table; an inner join silently drops them. Choose from the question and source meaning. Preserve an absent measurement as missing unless the source or a visible scenario rule justifies zero; a tidy joined table does not establish complete coverage.
+
 Profile missing, zero and invalid values by field and eligible population. A zero in one component is compatible with a positive total; an absent row is a different state. Attach a claim such as "no zeros" or a sample-size range to its actual field, filters and period, using the computed result rather than a recollection of the analysis.
 
 When a source correction or coverage change affects a trend, separate that measurement change from the like-for-like business comparison. Identify the common population/window, show the old-to-corrected bridge where available, and avoid applying a correction calculated on a different cohort. If those records are unavailable, bound or narrow the affected claim.

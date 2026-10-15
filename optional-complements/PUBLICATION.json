@@ -1,0 +1,36 @@
+{
+  "tested_activation": "3.5.0 composite candidate: six core suite skills plus these exact available complements",
+  "archive_sha256": "30c27caace71816d6b1673dbce14781a975e5daf61e7df022455d22005a53d80",
+  "file_count": 10,
+  "original_files_sha256": {
+    "artifact-art-direction/agents/openai.yaml": "bf122a17eb25b6662c5945af5f4c4b6a036ca73402b42080da0bb3ef5e1d8108",
+    "artifact-art-direction/PROVENANCE.json": "d17bd047e5364c7b789b6bb0d2b1f249de13fdcd530850a7dfc97588530fb29d",
+    "artifact-art-direction/references/documents.md": "4700af2311c9aa0a2ed5dcd4a2fc4036bdd6f3b8d09a0eb8e66e1b950d7965b0",
+    "artifact-art-direction/references/pdf.md": "2d853ee196f0aa794eb173ef1080cd29d4ce97c55ae4358e9b88e72d7876af75",
+    "artifact-art-direction/references/presentations.md": "926e190b424af307242c4caefb0ac55fe128e3d3a9818a8be41d3d5c85213c0b",
+    "artifact-art-direction/references/workbooks.md": "37b056b930073370376b1ba6b53ae5a4541b3504e85cb5e0080013f8fe37c430",
+    "artifact-art-direction/SKILL.md": "788a4fad03dce5bce915ff5799b685527e2fed0f093d073a45ccb1d6800137fa",
+    "frontend-design/LICENSE.txt": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+    "frontend-design/references/local-browser-checks.md": "62ca057c79c02b7f89c5006151e4e6b812d3eb005b855b07540fa1ff6b7e1431",
+    "frontend-design/SKILL.md": "adf4f401317ca73e925cf4bf7f7d18a8cece37f5ef2e7877dac294ca8b975566"
+  },
+  "owner_method_body_edits_after_freeze": 0,
+  "license_scope": {
+    "frontend-design": "Apache-2.0; original LICENSE.txt retained; source includes local verification addendum",
+    "artifact-art-direction": "Original project-authored method; project MIT license applies"
+  },
+  "environment_specific_original_receipts": [
+    "frontend-design/SKILL.md",
+    "frontend-design/references/local-browser-checks.md"
+  ],
+  "publication_note": "Two optional local-kit references remain unchanged original bytes. They are not portable commands or required runtime dependencies. Use current project tools and an available browser. The original artifact PROVENANCE describes its earlier draft origin, not this later trial result.",
+  "candidate_frozen_manifest_sha256": "b8360eaa1e6737c23aca5e69f1a2a840eb0b2f348b72d0a832f821a09cb118ca",
+  "distribution_archive": "visual-complements-v3.5-distribution.zip",
+  "distribution_archive_sha256": "fbe61d0cc40bf7db23579250c519f0765ae5555c6521404ea1418c31fddd03f0",
+  "distribution_files_sha256": {
+    "LICENSE": "e6a67eafc0183486069aec71e5435e103ec82809461dfe66adb504b6ad1d8f0b",
+    "README.md": "faa06ab56a868693d319d2e5bfce55b66c285241c239812ca5ac9c147e33b332",
+    "visual-complements-v3.5.zip": "30c27caace71816d6b1673dbce14781a975e5daf61e7df022455d22005a53d80"
+  },
+  "distribution_note": "Three-file outer packaging includes project MIT notice plus README and the unchanged ten-file snapshot. Frontend Apache license remains inside that snapshot."
+}

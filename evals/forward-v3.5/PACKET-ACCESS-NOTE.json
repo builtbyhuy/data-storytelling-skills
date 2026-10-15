@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-15T04:45:02.943490+00:00",
+  "before_any_reader_or_visual_reviewer": true,
+  "reason": "A report links its source HTML template. Mechanical capture retained that page as an observed link, but the presealed reader boundary forbids source/build code. Blind packets therefore include only original content PNG/text and forms, exclude source template renderings/capture metadata/QA/build inputs. Same semantic rule applies to all5, no original byte or screenshot edited. All source-link captures remain in rendered for artifact/rebuild audit.",
+  "original_unused_packet_roots": [
+    "review-input/reports/R01",
+    "review-input/reports/R02"
+  ],
+  "active_packet_root": "review-input/content-reports",
+  "prepare_reviews_sha256": "11121183bfe2a35518fb257ca6274a1e145ef628d3fc22ef518385bc0bbc7a83"
+}

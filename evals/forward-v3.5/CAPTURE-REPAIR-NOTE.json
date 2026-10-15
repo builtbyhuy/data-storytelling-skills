@@ -1,0 +1,57 @@
+{
+  "utc": "2026-10-15T04:56:49.841777+00:00",
+  "mechanical_capture_repair": "Original CSS smooth scrolling can make screenshot positions drift. Native scrollTo/scrollIntoView behavior:instant now reaches each target without changing any DOM/CSS/source. All5reports recaptured using the same algorithm; requested and observed vertical/horizontal positions verified.",
+  "first_two_invalid_input_pilots": {
+    "reader-01": {
+      "status": "Interrupted; invalid mechanical capture inputs. No accepted stage1 or stage2, excluded from result. Restart both fresh regardless of any partial answer, not a best-answer selection.",
+      "files": {}
+    },
+    "reader-02": {
+      "status": "Interrupted; invalid mechanical capture inputs. No accepted stage1 or stage2, excluded from result. Restart both fresh regardless of any partial answer, not a best-answer selection.",
+      "files": {}
+    }
+  },
+  "active_images_root": "rendered-v2",
+  "active_blind_packets": "review-input/final-content",
+  "active_accepted_readers_root": "final-readers",
+  "same_questions_fixtures_order_caps": true,
+  "original_method_body_or_authored_output_edits": 0,
+  "checks": {
+    "N17": {
+      "source_unchanged": true,
+      "positions_verified": true,
+      "default_tiles": 15,
+      "disclosure_and_appendix_tiles": 30,
+      "pan_images": 0
+    },
+    "N42": {
+      "source_unchanged": true,
+      "positions_verified": true,
+      "default_tiles": 18,
+      "disclosure_and_appendix_tiles": 47,
+      "pan_images": 0
+    },
+    "N68": {
+      "source_unchanged": true,
+      "positions_verified": true,
+      "default_tiles": 18,
+      "disclosure_and_appendix_tiles": 31,
+      "pan_images": 4
+    },
+    "N91": {
+      "source_unchanged": true,
+      "positions_verified": true,
+      "default_tiles": 18,
+      "disclosure_and_appendix_tiles": 36,
+      "pan_images": 2
+    },
+    "N35": {
+      "source_unchanged": true,
+      "positions_verified": true,
+      "default_tiles": 16,
+      "disclosure_and_appendix_tiles": 29,
+      "pan_images": 0
+    }
+  },
+  "blinding_limit": "Original method credits in disclosed N35 report and some phase2README/license files expose method identities. Preserve attribution; do not claim complete blinding or an isolated causal preference effect. Neutral filenames and fresh contexts remain."
+}

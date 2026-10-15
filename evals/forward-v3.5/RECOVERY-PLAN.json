@@ -1,0 +1,93 @@
+{
+  "sealed_utc": "2026-10-15T04:29:49.322128+00:00",
+  "reason": "All three agents vanished from collaboration state after an aborted wait. Own traces stop around04:03\u201304:04Z without FINAL, next owner clock04:28Z. Cause unknown. Do not diagnose as a specific backend failure.",
+  "original_wall_clock_deadline_missed": true,
+  "original_attempts": {
+    "N17": {
+      "status": "incomplete; no FINAL declaration found in corresponding own author trace",
+      "files": {
+        "analyze.py": "5496f62676b460be598afc79477097e6e99fe7c877615627211a5201ba0795c9",
+        "DESIGN-NOTES.md": "c366004848b9a20b2eabcc7d38fdd54cbd502dd192a7ec7658dee85495d597bd",
+        "practical/build.py": "cfe7dc5efc2e16f086f0f68b792fd61f7579a6261e935c81d8c661d55b448431",
+        "practical/facts.csv": "1c2ca9ca6f15a9dfebe7eda756beb1410fa43ecb3508e80025316ba9e404cd7f",
+        "practical/README.md": "a4f019272df6401bbb8374a469d92ed40c0969c1715b5be75dab8aea5f9bb278",
+        "practical/report.html": "6fe1bdfbc6bc5decd18d265076b1f3fd799bdfd03326df389d5adea644bcfc97",
+        "practical/review-list.csv": "e46a7714339842731ac5f79d474cab43b038c783468bfdc6e07ff42834e7a6b0",
+        "practical/self-review.md": "e139df9b05daaf524f7b55d9346b615c7fc7eeefa50b39071ee7ee33c510b37d",
+        "practical/source/LICENSE-CC-BY-4.0.txt": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+        "practical/source/PROVENANCE.md": "208152584849e09ddb1d3396d82956d074fb20b5d103b30829707701cd13502b",
+        "practical/source/snapshot.json": "6b74ab81f1cf79ca746e5ace53d37c10d100fb97b568cca92fd953c58381f477",
+        "practical/source/winequality-red.csv": "4a402cf041b025d4566d954c3b9ba8635a3a8a01e039005d97d6a710278cf05e",
+        "practical/source/winequality-white.csv": "76c3f809815c17c07212622f776311faeb31e87610d52c26d87d6e361b169836",
+        "practical/source/winequality.names": "15d215e73b39105952380fd487e4ce1bf5a6b83a425abb285c2ec55193d3ca92",
+        "practical/verification/browser-checks.json": "1ca421b02571d0ae22921ccb8926de65be2ab7a5845343131b52544947ee350a",
+        "practical/verification/form-1280-full.png": "60755687b7cb7fdb891a5984cc4765adaad9ae8db3426dedcbfb1349c505bbe2",
+        "practical/verification/form-1280-opening.png": "723f27e3bc4f1ca129ebab65b6a9a7bdb504e3d53d575808b08675a119c293f7",
+        "practical/verification/form-1280-raw-test.json": "61c777a3631195fb407709f39e8f2373a683a76a372846d56ef02269c7cfa8be",
+        "practical/verification/form-390-full.png": "8e283e75bd46d6a9e23ef979805d9cc9a592e075ef9a59fb2366229c146268f4",
+        "practical/verification/form-390-opening.png": "f2ee80228448590735a6a11e406367117e24dacde2af9e49ae7ffdbd425337ee",
+        "practical/verification/form-390-raw-test.json": "61c777a3631195fb407709f39e8f2373a683a76a372846d56ef02269c7cfa8be",
+        "practical/verification/report-1280-distribution.png": "62a1b304353cffa02ec6e4bd57d1c0811be0be68835c4d58a08fddeffacb2074",
+        "practical/verification/report-1280-full.png": "9745e7b082f8db4caad36db3bf67f52ae8b5fd17387d66713e6e40dd256d9fdd",
+        "practical/verification/report-1280-opening.png": "f735da3e4b1c2d046f144ea7f7e0ac2336274c9b77b444a23ae16dcf0ba94733",
+        "practical/verification/report-1280-plan.png": "ca0a3db44075fe6ea491ffea8adba6f529cf6853d665154052a6dce1fde745df",
+        "practical/verification/report-1280-sources.png": "4e4da1bacca23154fac5182d8741faefd63f48b8a2f2ad1c53eb9b846faf3ffb",
+        "practical/verification/report-1280-table-expanded.png": "ee49abcf47dad8617319cc359389dfc3383cddd8124d9734a1982a5b5cfdb047",
+        "practical/verification/report-390-distribution.png": "f5582915765077d29ebc527c863c3aa2141f7e2b061ce7e5dce302b1903adb40",
+        "practical/verification/report-390-full.png": "28e2a752b3f862c0c56a99f4683973c35f0306ebcf9cdf6d331de6242c936d4c",
+        "practical/verification/report-390-opening.png": "c2a42e4147d9bf854fbd930413d7946635600a7f67bbcd139052121464f0f787",
+        "practical/verification/report-390-plan.png": "edfd2e089a5c7464cf63ef0f919139ad3a3bd000d475bd20b35c1028e60b5d35",
+        "practical/verification/report-390-sources.png": "a857635d2cefaaa288ff8a339b9e54d5c31efb1d5f71a3a24bbfa02bf8f84b76",
+        "practical/verification/report-390-table-expanded.png": "f654bf5e3e9678b91c34539de59a5ee0fd7d6b9f8d3d2f0ff3fde4c6e886424d",
+        "practical/verify.mjs": "ca104968b379db19a817f35fd7b69ff9a8ffb61c9d88428880438ed139cf9a07",
+        "practical/work-form.html": "b2ae070e36a413fd4fcd463dfd219a1376df2096209e9fabbf1c551a485e86a1",
+        "practical/work-log-template.csv": "05c64490ec8487b4e5dd1189016a93c7f7a5449fb97311476efaa1e988c5f9cc"
+      }
+    },
+    "N42": {
+      "status": "incomplete; no FINAL declaration found in corresponding own author trace",
+      "files": {
+        "CHECKPOINT.md": "6698d6c8fb3024107b550e5b84e47dc96e7750ad3d392003b74d594d640a7e10",
+        "inspect.py": "61abb06e3b16c6c4bdc7cec7c07b35414c138e53e0766e9d0f4ca6e42a0bf624",
+        "practical/build.py": "b9ecefcd861efed4849c3f8560dad4b1ed1ac0a558ee97c32f4333a61b1fcc26",
+        "practical/calculation-summary.json": "6e866f99d3019864ac42307d1ec6a47cb9fbe54e2b3ced554ce97fbbf988a846",
+        "practical/facts.csv": "5a7601493d344da3712ada3aaab93f912d5f516e5f54e3a3b3dfa76bc7a97e03",
+        "practical/report.html": "7a352f58318244fae22ada7638da23239ccb173a24c71e6978c5c87a9c236b5f",
+        "practical/review-queue.csv": "4bbf6a67a299dadf713cca19a62ee46bd49c1c465ce100c63654310833380524",
+        "practical/source/LICENSE-CC-BY-4.0.txt": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+        "practical/source/wine+quality.zip": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+        "practical/source/winequality-red.csv": "4a402cf041b025d4566d954c3b9ba8635a3a8a01e039005d97d6a710278cf05e",
+        "practical/source/winequality-white.csv": "76c3f809815c17c07212622f776311faeb31e87610d52c26d87d6e361b169836",
+        "practical/source/winequality.names": "15d215e73b39105952380fd487e4ce1bf5a6b83a425abb285c2ec55193d3ca92",
+        "practical/source-manifest.csv": "6a82582e601b3eba835fe8ddf7c81309639c3ed558e29e5af840e504c32398fd",
+        "practical/SOURCE.md": "208152584849e09ddb1d3396d82956d074fb20b5d103b30829707701cd13502b",
+        "practical/work-form.html": "761f9c03d31e9aab41a78fe811a8a9173d3a9a8a6264c69a70c57f8045146cf7",
+        "practical/work-record-example.csv": "0cb155217761a360cc7db96ad31e2001bf2a6d6aa8e6addb37ab4f1d0b673c56",
+        "practical/work-record-template.csv": "b8e7b7f414247ec00f791fa15934bd8c703bd969dad5775f46fca2798916bde0"
+      }
+    },
+    "N68": {
+      "status": "incomplete; no FINAL declaration found in corresponding own author trace",
+      "files": {
+        "analyze.py": "e4dd21f2dea8124a89a151b84c60a3ac254fd59ba7b971619a23e2d1084e2fed",
+        "practical/build.py": "28bf46742e8e2d868d4a2adf5db583e757a37410bb75ee00b04d2fc5a04d680e",
+        "practical/facts.csv": "6b2d74337e54a83a552b4d40d0c4975fc3b8f72d3ce615c2ff5ec6a7561be660",
+        "practical/report.html": "f047723ee30ee6fd981e8b482e00dc2b8ddfc0064bf75963d1c81d9e8aa82e9d",
+        "practical/report.template.html": "858b3c4245bc60733cc8501ad162021d063edc23f9fefaf6c35d840bc60aef8f",
+        "practical/review-list.csv": "8de0411a87ae4eb4e4ecb25750c97c51bd39e79388dc423cb64028755fb5c447",
+        "practical/source/LICENSE-CC-BY-4.0.txt": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+        "practical/source/wine+quality.zip": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+        "practical/source/winequality-red.csv": "4a402cf041b025d4566d954c3b9ba8635a3a8a01e039005d97d6a710278cf05e",
+        "practical/source/winequality-white.csv": "76c3f809815c17c07212622f776311faeb31e87610d52c26d87d6e361b169836",
+        "practical/source/winequality.names": "15d215e73b39105952380fd487e4ce1bf5a6b83a425abb285c2ec55193d3ca92",
+        "practical/source-manifest.json": "6754aa25eb1730471a6b399cd65ccbb806eac3a8dc6aba391fab6171435e05ec",
+        "practical/SOURCE.md": "208152584849e09ddb1d3396d82956d074fb20b5d103b30829707701cd13502b",
+        "practical/work-record-template.csv": "cc848ba7450f6eb21aa7196fa6605a4bb8becc27c8c2c0f0a3789dc61994022b"
+      }
+    }
+  },
+  "policy": "Keep all interrupted original attempts. Discard none; do not grade them as accepted finals. Restart ALL FIVE conditions in fresh contexts from the identical frozen methods/inputs/25min cap, not just failed rivals. No best-attempt selection or old-output access. Owner has not visually inspected original drafts; only file metadata and own trace commentary to establish interruption/noFINAL. Source answer values already known independently before author start.",
+  "active_runs_root": "recovery-runs",
+  "same_presealed_mapping_order_questions_fixtures": true,
+  "restart_limitation": "First3conditions now have prior interrupted generations in the record. Report the restart and do not claim five successful single generations or an unamended primary trial. New authors cannot see prior attempts. No official benchmark score is created."
+}

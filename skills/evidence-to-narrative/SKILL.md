@@ -2,7 +2,7 @@
 name: evidence-to-narrative
 description: Turn supplied analysis or verified facts into an executive memo, data-backed email draft, slide narrative or operational message for a specific audience and decision. Viết memo cho sếp, chuyển số liệu thành câu chuyện và đề xuất. Use when the primary job is communicating evidence; delegate unresolved diagnosis or chart production only when needed.
 metadata:
-  version: "3.3.0"
+  version: "3.5.0"
 ---
 
 # Evidence to a reader-ready argument
@@ -27,8 +27,12 @@ Produce the requested medium. Read available native document/presentation method
 
 Treat each requested standalone format as its own reading surface. For a visual memo/deck, apply [visual delivery](references/visual-delivery.md): choose the actual display size, budget readable text and chart space, and inspect the full page rather than only a high-resolution crop. A vector HTML/SVG/PDF route is useful for web-first reading; it does not replace a requested native editable deck. Keep interpretation-changing units, exposure and assumptions visible beside the evidence or choice; speaker notes and attachments can elaborate. A slide must communicate at presentation size; a memo must work without narration; an alert must identify the affected scope and response; a longer report can provide layered detail. Do not shrink a report into an image or turn framework fields into decorative cards merely to fill a page.
 
+For a substantial visual narrative, use the [direction-and-usage procedure](references/visual-delivery.md#commit-to-a-direction-then-exercise-it) before multiplying pages. Match emphasis to this reader's choice and test a difficult evidence view with real labels. Concise wording must preserve the measured entity, unit and comparison; short generic labels can hide the argument.
+
 ## Review meaning and use separately
 
 Check decisive numbers and claim strength, adverse findings, options, authority and timing, including factual speaker notes. Separate targets, forecasts, assumptions and observed outcomes. For visual formats inspect each required format's actual rendered pages/slides at the intended viewing size, including context and limitations; use the [acceptance checks](references/story-and-audience.md#acceptance) for a multi-format handoff.
 
 Then read only the delivered artifact as the intended reader: can it answer what changed, compared with what, why the evidence supports the choice and what happens next? If the action requires a calculation hidden in an appendix, an unexplained term or a missing logical link, repair the main message. A model readback is a diagnostic aid; a successful export or an internal rating does not demonstrate human understanding, approval or business impact.
+
+For an operational handoff, follow one eligible case through the actual instructions or readout. Check which condition triggers the response, who acts, what they record and what changes the next decision. A polished action list that cannot support that small task needs a clearer handoff, not another quality badge.

@@ -1,0 +1,1785 @@
+[
+  {
+    "id": "926",
+    "results": [
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "data check",
+          "rationale": "The data on the charts is consistent with the ground truth."
+        }
+      ],
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "data check",
+          "rationale": "The data on the charts is consistent with the ground truth."
+        }
+      ],
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "data check",
+          "rationale": "The data on the charts is consistent with the ground truth."
+        }
+      ]
+    ]
+  },
+  {
+    "id": "1320@y_name@ASC",
+    "results": [
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "data check",
+          "rationale": "The data on the charts is consistent with the ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "order check",
+          "rationale": "Sorted."
+        }
+      ],
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "data check",
+          "rationale": "The data on the charts is consistent with the ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "order check",
+          "rationale": "Sorted."
+        }
+      ]
+    ]
+  },
+  {
+    "id": "2805@y_name@ASC",
+    "results": [
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": false,
+          "aspect": "data check",
+          "rationale": "visualization data length 9 != ground truth length 4."
+        }
+      ],
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": false,
+          "aspect": "data check",
+          "rationale": "visualization data length 9 != ground truth length 4."
+        }
+      ]
+    ]
+  },
+  {
+    "id": "2596@x_name@ASC",
+    "results": [
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "data check",
+          "rationale": "The data on the charts is consistent with the ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "order check",
+          "rationale": "Sorted."
+        }
+      ]
+    ]
+  },
+  {
+    "id": "4029",
+    "results": [
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": false,
+          "aspect": "chart type check",
+          "rationale": "Chart type is not consistent with ground truth."
+        },
+        {
+          "answer": false,
+          "aspect": "data check",
+          "rationale": "visualization data length 10 != ground truth length 20."
+        }
+      ]
+    ]
+  },
+  {
+    "id": "1349@x_name@ASC",
+    "results": [
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": false,
+          "aspect": "chart type check",
+          "rationale": "Chart type is not consistent with ground truth."
+        },
+        {
+          "answer": false,
+          "aspect": "data check",
+          "rationale": "{\"field_x\": \"2010\", \"field_y\": 1, \"field_classify\": \"F\"} not found."
+        }
+      ],
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": false,
+          "aspect": "chart type check",
+          "rationale": "Chart type is not consistent with ground truth."
+        },
+        {
+          "answer": false,
+          "aspect": "data check",
+          "rationale": "{\"field_x\": \"2010\", \"field_y\": 1, \"field_classify\": \"F\"} not found."
+        }
+      ],
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": false,
+          "aspect": "chart type check",
+          "rationale": "Chart type is not consistent with ground truth."
+        },
+        {
+          "answer": false,
+          "aspect": "data check",
+          "rationale": "{\"field_x\": \"2010\", \"field_y\": 1, \"field_classify\": \"F\"} not found."
+        }
+      ]
+    ]
+  },
+  {
+    "id": "2781",
+    "results": [
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": false,
+          "aspect": "chart type check",
+          "rationale": "Chart type is not consistent with ground truth."
+        },
+        {
+          "answer": false,
+          "aspect": "data check",
+          "rationale": "visualization data length 31 != ground truth length 61."
+        }
+      ]
+    ]
+  },
+  {
+    "id": "942@x_name@DESC",
+    "results": [
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": false,
+          "aspect": "chart type check",
+          "rationale": "Chart type is not consistent with ground truth."
+        },
+        {
+          "answer": false,
+          "aspect": "data check",
+          "rationale": "visualization data length 9 != ground truth length 13."
+        }
+      ]
+    ]
+  },
+  {
+    "id": "1133",
+    "results": [
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": false,
+          "aspect": "chart type check",
+          "rationale": "Chart type is not consistent with ground truth."
+        },
+        {
+          "answer": false,
+          "aspect": "data check",
+          "rationale": "visualization data length 1 != ground truth length 2."
+        }
+      ],
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": false,
+          "aspect": "chart type check",
+          "rationale": "Chart type is not consistent with ground truth."
+        },
+        {
+          "answer": false,
+          "aspect": "data check",
+          "rationale": "visualization data length 1 != ground truth length 2."
+        }
+      ]
+    ]
+  },
+  {
+    "id": "2479",
+    "results": [
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": false,
+          "aspect": "chart type check",
+          "rationale": "Chart type is not consistent with ground truth."
+        },
+        {
+          "answer": false,
+          "aspect": "data check",
+          "rationale": "visualization data length 1 != ground truth length 3."
+        }
+      ],
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": false,
+          "aspect": "chart type check",
+          "rationale": "Chart type is not consistent with ground truth."
+        },
+        {
+          "answer": false,
+          "aspect": "data check",
+          "rationale": "visualization data length 1 != ground truth length 3."
+        }
+      ]
+    ]
+  },
+  {
+    "id": "2550",
+    "results": [
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": false,
+          "aspect": "chart type check",
+          "rationale": "Chart type is not consistent with ground truth."
+        },
+        {
+          "answer": false,
+          "aspect": "data check",
+          "rationale": "visualization data length 1 != ground truth length 2."
+        }
+      ],
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": false,
+          "aspect": "chart type check",
+          "rationale": "Chart type is not consistent with ground truth."
+        },
+        {
+          "answer": false,
+          "aspect": "data check",
+          "rationale": "visualization data length 1 != ground truth length 2."
+        }
+      ],
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": false,
+          "aspect": "chart type check",
+          "rationale": "Chart type is not consistent with ground truth."
+        },
+        {
+          "answer": false,
+          "aspect": "data check",
+          "rationale": "visualization data length 1 != ground truth length 2."
+        }
+      ]
+    ]
+  },
+  {
+    "id": "1214",
+    "results": [
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": false,
+          "aspect": "chart type check",
+          "rationale": "Chart type is not consistent with ground truth."
+        },
+        {
+          "answer": false,
+          "aspect": "data check",
+          "rationale": "visualization data length 1 != ground truth length 3."
+        }
+      ]
+    ]
+  },
+  {
+    "id": "471",
+    "results": [
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "data check",
+          "rationale": "The data on the charts is consistent with the ground truth."
+        }
+      ]
+    ]
+  },
+  {
+    "id": "1285",
+    "results": [
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": false,
+          "aspect": "data check",
+          "rationale": "visualization data length 8 != ground truth length 5."
+        }
+      ]
+    ]
+  },
+  {
+    "id": "2617",
+    "results": [
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": false,
+          "aspect": "data check",
+          "rationale": "visualization data length 14 != ground truth length 9."
+        }
+      ]
+    ]
+  },
+  {
+    "id": "1254@x_name@ASC",
+    "results": [
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "data check",
+          "rationale": "The data on the charts is consistent with the ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "order check",
+          "rationale": "Sorted."
+        }
+      ],
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "data check",
+          "rationale": "The data on the charts is consistent with the ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "order check",
+          "rationale": "Sorted."
+        }
+      ]
+    ]
+  },
+  {
+    "id": "2506",
+    "results": [
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": false,
+          "aspect": "data check",
+          "rationale": "{\"field_x\": \"Heineken Music Hall Amsterdam\", \"field_y\": 2} not found."
+        }
+      ],
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": false,
+          "aspect": "data check",
+          "rationale": "{\"field_x\": \"Heineken Music Hall Amsterdam\", \"field_y\": 2} not found."
+        }
+      ],
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": false,
+          "aspect": "data check",
+          "rationale": "{\"field_x\": \"Heineken Music Hall Amsterdam\", \"field_y\": 2} not found."
+        }
+      ]
+    ]
+  },
+  {
+    "id": "1310",
+    "results": [
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "data check",
+          "rationale": "The data on the charts is consistent with the ground truth."
+        }
+      ],
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "data check",
+          "rationale": "The data on the charts is consistent with the ground truth."
+        }
+      ]
+    ]
+  },
+  {
+    "id": "1527",
+    "results": [
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "data check",
+          "rationale": "The data on the charts is consistent with the ground truth."
+        }
+      ],
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "data check",
+          "rationale": "The data on the charts is consistent with the ground truth."
+        }
+      ],
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "data check",
+          "rationale": "The data on the charts is consistent with the ground truth."
+        }
+      ]
+    ]
+  },
+  {
+    "id": "2847",
+    "results": [
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "data check",
+          "rationale": "The data on the charts is consistent with the ground truth."
+        }
+      ],
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "data check",
+          "rationale": "The data on the charts is consistent with the ground truth."
+        }
+      ],
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "data check",
+          "rationale": "The data on the charts is consistent with the ground truth."
+        }
+      ],
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "data check",
+          "rationale": "The data on the charts is consistent with the ground truth."
+        }
+      ]
+    ]
+  },
+  {
+    "id": "707",
+    "results": [
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "data check",
+          "rationale": "The data on the charts is consistent with the ground truth."
+        }
+      ],
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "data check",
+          "rationale": "The data on the charts is consistent with the ground truth."
+        }
+      ],
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "data check",
+          "rationale": "The data on the charts is consistent with the ground truth."
+        }
+      ],
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "data check",
+          "rationale": "The data on the charts is consistent with the ground truth."
+        }
+      ]
+    ]
+  },
+  {
+    "id": "175",
+    "results": [
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "data check",
+          "rationale": "The data on the charts is consistent with the ground truth."
+        }
+      ],
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "data check",
+          "rationale": "The data on the charts is consistent with the ground truth."
+        }
+      ],
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "data check",
+          "rationale": "The data on the charts is consistent with the ground truth."
+        }
+      ]
+    ]
+  },
+  {
+    "id": "2548",
+    "results": [
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "data check",
+          "rationale": "The data on the charts is consistent with the ground truth."
+        }
+      ],
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "data check",
+          "rationale": "The data on the charts is consistent with the ground truth."
+        }
+      ]
+    ]
+  },
+  {
+    "id": "354",
+    "results": [
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "data check",
+          "rationale": "The data on the charts is consistent with the ground truth."
+        }
+      ],
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "data check",
+          "rationale": "The data on the charts is consistent with the ground truth."
+        }
+      ],
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "data check",
+          "rationale": "The data on the charts is consistent with the ground truth."
+        }
+      ],
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "data check",
+          "rationale": "The data on the charts is consistent with the ground truth."
+        }
+      ],
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "data check",
+          "rationale": "The data on the charts is consistent with the ground truth."
+        }
+      ]
+    ]
+  },
+  {
+    "id": "4018",
+    "results": [
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "data check",
+          "rationale": "The data on the charts is consistent with the ground truth."
+        }
+      ]
+    ]
+  },
+  {
+    "id": "680@y_name@DESC",
+    "results": [
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "data check",
+          "rationale": "The data on the charts is consistent with the ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "order check",
+          "rationale": "Sorted."
+        }
+      ],
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "data check",
+          "rationale": "The data on the charts is consistent with the ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "order check",
+          "rationale": "Sorted."
+        }
+      ]
+    ]
+  },
+  {
+    "id": "145@y_name@DESC",
+    "results": [
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "data check",
+          "rationale": "The data on the charts is consistent with the ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "order check",
+          "rationale": "Sorted."
+        }
+      ]
+    ]
+  },
+  {
+    "id": "4007",
+    "results": [
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "data check",
+          "rationale": "The data on the charts is consistent with the ground truth."
+        }
+      ]
+    ]
+  },
+  {
+    "id": "2398@y_name@DESC",
+    "results": [
+      [
+        {
+          "answer": true,
+          "aspect": "code execution",
+          "rationale": "Code executed successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "surface-form check",
+          "rationale": "Plotted visualization."
+        },
+        {
+          "answer": true,
+          "aspect": "deconstruction",
+          "rationale": "Deconstructed the chart successfully."
+        },
+        {
+          "answer": true,
+          "aspect": "chart type check",
+          "rationale": "Chart type is consistent with ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "data check",
+          "rationale": "The data on the charts is consistent with the ground truth."
+        },
+        {
+          "answer": true,
+          "aspect": "order check",
+          "rationale": "Sorted."
+        }
+      ]
+    ]
+  }
+]

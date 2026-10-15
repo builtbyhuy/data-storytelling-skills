@@ -1,0 +1,302 @@
+{
+  "conditions": [
+    {
+      "code": "Q17",
+      "cases": [
+        {
+          "case": "3021",
+          "status": "pass",
+          "observed_category_counts": {
+            "a": 2,
+            "c": 1,
+            "i": 1,
+            "r": 1
+          },
+          "expected_category_counts": {
+            "c": 1,
+            "i": 1,
+            "a": 2,
+            "r": 1
+          },
+          "missing_identities": {},
+          "extra_identities": {},
+          "wrong_values": {},
+          "total_observed": 5,
+          "total_expected": 5,
+          "total_pass": true,
+          "raw_answer_sha256": "28f45fbc2e0db301e276de94ba1ba3e9b46a002716a837837814c0c496aa977f"
+        },
+        {
+          "case": "718",
+          "status": "pass",
+          "observed_category_counts": {
+            "Anne Walker": 2,
+            "Gustaaf Deloor": 1,
+            "Kearsley Brown": 1,
+            "Lucy Wong": 1,
+            "Vicente Carretero": 1,
+            "John Deloor": 0,
+            "Joseph Huts": 0
+          },
+          "expected_category_counts": {
+            "Joseph Huts": 0,
+            "Gustaaf Deloor": 1,
+            "Vicente Carretero": 1,
+            "John Deloor": 0,
+            "Kearsley Brown": 1,
+            "Anne Walker": 2,
+            "Lucy Wong": 1
+          },
+          "missing_identities": {},
+          "extra_identities": {},
+          "wrong_values": {},
+          "total_observed": 6,
+          "total_expected": 6,
+          "total_pass": true,
+          "raw_answer_sha256": "28f45fbc2e0db301e276de94ba1ba3e9b46a002716a837837814c0c496aa977f"
+        }
+      ],
+      "all_requested_identity_counts_and_totals_recovered": true
+    },
+    {
+      "code": "Q42",
+      "cases": [
+        {
+          "case": "3021",
+          "status": "pass",
+          "observed_category_counts": {
+            "a": 2,
+            "c": 1,
+            "i": 1,
+            "r": 1
+          },
+          "expected_category_counts": {
+            "c": 1,
+            "i": 1,
+            "a": 2,
+            "r": 1
+          },
+          "missing_identities": {},
+          "extra_identities": {},
+          "wrong_values": {},
+          "total_observed": 5,
+          "total_expected": 5,
+          "total_pass": true,
+          "raw_answer_sha256": "e9c661fc88810641897aa52fd975215c055a12fd5f32960efb6c2bb909c8381e"
+        },
+        {
+          "case": "718",
+          "status": "pass",
+          "observed_category_counts": {
+            "Anne Walker": 2,
+            "Gustaaf Deloor": 1,
+            "Kearsley Brown": 1,
+            "Lucy Wong": 1,
+            "Vicente Carretero": 1,
+            "John Deloor": 0,
+            "Joseph Huts": 0
+          },
+          "expected_category_counts": {
+            "Joseph Huts": 0,
+            "Gustaaf Deloor": 1,
+            "Vicente Carretero": 1,
+            "John Deloor": 0,
+            "Kearsley Brown": 1,
+            "Anne Walker": 2,
+            "Lucy Wong": 1
+          },
+          "missing_identities": {},
+          "extra_identities": {},
+          "wrong_values": {},
+          "total_observed": 6,
+          "total_expected": 6,
+          "total_pass": true,
+          "raw_answer_sha256": "e9c661fc88810641897aa52fd975215c055a12fd5f32960efb6c2bb909c8381e"
+        }
+      ],
+      "all_requested_identity_counts_and_totals_recovered": true
+    },
+    {
+      "code": "Q68",
+      "cases": [
+        {
+          "case": "3021",
+          "status": "pass",
+          "observed_category_counts": {
+            "a": 2,
+            "c": 1,
+            "i": 1,
+            "r": 1
+          },
+          "expected_category_counts": {
+            "c": 1,
+            "i": 1,
+            "a": 2,
+            "r": 1
+          },
+          "missing_identities": {},
+          "extra_identities": {},
+          "wrong_values": {},
+          "total_observed": 5,
+          "total_expected": 5,
+          "total_pass": true,
+          "raw_answer_sha256": "cb51c7771d19661bd996435933a6c6c168545c039d2bf1bda952d9ffdaec3e4f"
+        },
+        {
+          "case": "718",
+          "status": "pass",
+          "observed_category_counts": {
+            "Anne Walker": 2,
+            "Gustaaf Deloor": 1,
+            "Vicente Carretero": 1,
+            "Kearsley Brown": 1,
+            "Lucy Wong": 1,
+            "Joseph Huts": 0,
+            "John Deloor": 0
+          },
+          "expected_category_counts": {
+            "Joseph Huts": 0,
+            "Gustaaf Deloor": 1,
+            "Vicente Carretero": 1,
+            "John Deloor": 0,
+            "Kearsley Brown": 1,
+            "Anne Walker": 2,
+            "Lucy Wong": 1
+          },
+          "missing_identities": {},
+          "extra_identities": {},
+          "wrong_values": {},
+          "total_observed": 6,
+          "total_expected": 6,
+          "total_pass": true,
+          "raw_answer_sha256": "cb51c7771d19661bd996435933a6c6c168545c039d2bf1bda952d9ffdaec3e4f"
+        }
+      ],
+      "all_requested_identity_counts_and_totals_recovered": true
+    },
+    {
+      "code": "Q91",
+      "cases": [
+        {
+          "case": "3021",
+          "status": "pass",
+          "observed_category_counts": {
+            "a": 2,
+            "c": 1,
+            "i": 1,
+            "r": 1
+          },
+          "expected_category_counts": {
+            "c": 1,
+            "i": 1,
+            "a": 2,
+            "r": 1
+          },
+          "missing_identities": {},
+          "extra_identities": {},
+          "wrong_values": {},
+          "total_observed": 5,
+          "total_expected": 5,
+          "total_pass": true,
+          "raw_answer_sha256": "612fb3833576b30017ebaed109c07c9b3e999479b0c2e5b9e899f6adf572bb17"
+        },
+        {
+          "case": "718",
+          "status": "readback_error",
+          "observed_category_counts": {
+            "Anne Walker": 2,
+            "Gustaaf Deloor": 1,
+            "Vicente Carretero": 1,
+            "Kearsley Brown": 1,
+            "Lucy Wong": 1,
+            "Joseph Huts": 0,
+            "John Delor": 0
+          },
+          "expected_category_counts": {
+            "Joseph Huts": 0,
+            "Gustaaf Deloor": 1,
+            "Vicente Carretero": 1,
+            "John Deloor": 0,
+            "Kearsley Brown": 1,
+            "Anne Walker": 2,
+            "Lucy Wong": 1
+          },
+          "missing_identities": {
+            "John Deloor": 0
+          },
+          "extra_identities": {
+            "John Delor": 0
+          },
+          "wrong_values": {},
+          "total_observed": 6,
+          "total_expected": 6,
+          "total_pass": true,
+          "raw_answer_sha256": "612fb3833576b30017ebaed109c07c9b3e999479b0c2e5b9e899f6adf572bb17",
+          "attribution": "Original Q91 SVG correctly spells John Deloor; reader transcribes John Delor in both count and zero-category lists. Preserve this model identity transcription error; no original source/figure correction."
+        }
+      ],
+      "all_requested_identity_counts_and_totals_recovered": false
+    },
+    {
+      "code": "Q35",
+      "cases": [
+        {
+          "case": "3021",
+          "status": "pass",
+          "observed_category_counts": {
+            "a": 2,
+            "c": 1,
+            "i": 1,
+            "r": 1
+          },
+          "expected_category_counts": {
+            "c": 1,
+            "i": 1,
+            "a": 2,
+            "r": 1
+          },
+          "missing_identities": {},
+          "extra_identities": {},
+          "wrong_values": {},
+          "total_observed": 5,
+          "total_expected": 5,
+          "total_pass": true,
+          "raw_answer_sha256": "7be5060dc1881d6a433370e360beb8946f57469f08288ccab95ff01aba981121"
+        },
+        {
+          "case": "718",
+          "status": "pass",
+          "observed_category_counts": {
+            "Anne Walker": 2,
+            "Gustaaf Deloor": 1,
+            "Kearsley Brown": 1,
+            "Lucy Wong": 1,
+            "Vicente Carretero": 1,
+            "John Deloor": 0,
+            "Joseph Huts": 0
+          },
+          "expected_category_counts": {
+            "Joseph Huts": 0,
+            "Gustaaf Deloor": 1,
+            "Vicente Carretero": 1,
+            "John Deloor": 0,
+            "Kearsley Brown": 1,
+            "Anne Walker": 2,
+            "Lucy Wong": 1
+          },
+          "missing_identities": {},
+          "extra_identities": {},
+          "wrong_values": {},
+          "total_observed": 6,
+          "total_expected": 6,
+          "total_pass": true,
+          "raw_answer_sha256": "7be5060dc1881d6a433370e360beb8946f57469f08288ccab95ff01aba981121"
+        }
+      ],
+      "all_requested_identity_counts_and_totals_recovered": true
+    }
+  ],
+  "source_and_rebuild_scope": "All10original figures/facts match independently computed source counts/shares; all5unchanged rebuilds pass. Readback assessed separately.",
+  "interpretation": "Two new-source focused cases. Changed SVG task/format and lighter workload relative to main29-caseMPLbatch; no causal effect, full benchmark or general superiority claim. All5methodsget samefocusedbrief/cap. Questions instantiated afterfirst2handoffs but beforeowneroutputinspection; seeREVIEW-FROZEN.",
+  "owner_answer_edits": 0
+}

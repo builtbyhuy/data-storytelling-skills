@@ -1,0 +1,137 @@
+{
+  "totals": {
+    "readers": 10,
+    "neutral_reports": 5,
+    "manager_answers": 40,
+    "manager_correct": 40,
+    "manager_incorrect": 0,
+    "manager_missing": 0,
+    "manager_justified_abstention": 0,
+    "raw_fixture_values_checked": 400,
+    "raw_fixture_values_preserved": 400,
+    "raw_fixture_mismatches": 0,
+    "actual_derived_statuses_checked": 40,
+    "actual_derived_statuses_correct": 37,
+    "actual_derived_statuses_incorrect": 3,
+    "logical_saved_linked_actions": 10,
+    "linked_actions_meeting_core_identity_owner_request_and_preservation": 10,
+    "linked_actions_meeting_all_frozen_checks": 8,
+    "recipient_full_frozen_pass": 6,
+    "recipient_full_frozen_total": 10
+  },
+  "conditions": [
+    {
+      "alias": "R01",
+      "readers": [
+        "reader-01",
+        "reader-02"
+      ],
+      "manager_correct": 8.0,
+      "manager_total": 8,
+      "raw_preserved": 80.0,
+      "raw_total": 80,
+      "statuses_correct": 7.0,
+      "statuses_total": 8,
+      "actions_full_pass": 2,
+      "actions_total": 2,
+      "recipient_end_to_end_pass": 1,
+      "code": "N17",
+      "condition": "Frontend + art direction"
+    },
+    {
+      "alias": "R02",
+      "readers": [
+        "reader-03",
+        "reader-04"
+      ],
+      "manager_correct": 8.0,
+      "manager_total": 8,
+      "raw_preserved": 80.0,
+      "raw_total": 80,
+      "statuses_correct": 8.0,
+      "statuses_total": 8,
+      "actions_full_pass": 2,
+      "actions_total": 2,
+      "recipient_end_to_end_pass": 2,
+      "code": "N42",
+      "condition": "Suite 3.3"
+    },
+    {
+      "alias": "R03",
+      "readers": [
+        "reader-05",
+        "reader-06"
+      ],
+      "manager_correct": 8.0,
+      "manager_total": 8,
+      "raw_preserved": 80.0,
+      "raw_total": 80,
+      "statuses_correct": 8.0,
+      "statuses_total": 8,
+      "actions_full_pass": 2,
+      "actions_total": 2,
+      "recipient_end_to_end_pass": 2,
+      "code": "N68",
+      "condition": "Visual Explainer"
+    },
+    {
+      "alias": "R04",
+      "readers": [
+        "reader-07",
+        "reader-08"
+      ],
+      "manager_correct": 8.0,
+      "manager_total": 8,
+      "raw_preserved": 80.0,
+      "raw_total": 80,
+      "statuses_correct": 8.0,
+      "statuses_total": 8,
+      "actions_full_pass": 1,
+      "actions_total": 2,
+      "recipient_end_to_end_pass": 1,
+      "code": "N91",
+      "condition": "Suite 3.5 + Frontend / art direction"
+    },
+    {
+      "alias": "R05",
+      "readers": [
+        "reader-09",
+        "reader-10"
+      ],
+      "manager_correct": 8.0,
+      "manager_total": 8,
+      "raw_preserved": 80.0,
+      "raw_total": 80,
+      "statuses_correct": 6.0,
+      "statuses_total": 8,
+      "actions_full_pass": 1,
+      "actions_total": 2,
+      "recipient_end_to_end_pass": 0,
+      "code": "N35",
+      "condition": "K-Dense"
+    }
+  ],
+  "strict_failures": {
+    "SYN_A_actual_HOLD_instead_of_frozen_READY_FOR_REVIEW": [
+      "reader-02",
+      "reader-09",
+      "reader-10"
+    ],
+    "action_not_explicitly_HOLD": [
+      "reader-08",
+      "reader-10"
+    ]
+  },
+  "interpretation": "All ten saved action records preserve source identity, coordinator request and the missing reviewer/availability, with no invented start. Draft/not-done lifecycle states were not silently converted to the explicit action-HOLD gate. Conservative template/evidence mismatches remain failures under the frozen rubric. No all-gates-pass or production-ready claim.",
+  "limits": [
+    "No method winner or causal method attribution is made; neutral aliases stay blinded.",
+    "All manager answers are model-context outcomes, not population/human comprehension evidence.",
+    "Status mismatches for readers02/09/10 arise from a reasonable template evidence requirement absent from the simplified fixture; frozen expectation is preserved.",
+    "Actions08/10 are usable saved coordination records with conservative draft/not-done boundaries but lack explicit action HOLD; this is distinct from missing action records or fabricated reviewers.",
+    "Static visible-text evidence supplements sealed reader citations; this audit does not independently repeat every image view or establish UI behavior.",
+    "No original answer, artifact, fixture or seal was repaired or modified.",
+    "Candidate mobile exact table retains66px pan/row-identity friction.",
+    "Current Wine trial is not a new official VisEval score.",
+    "Visual preferences and reader outcomes are model proxies on one source, not human or business outcomes."
+  ]
+}

@@ -3,7 +3,7 @@ name: business-chart-communication
 description: Create or repair decision-focused business charts, dashboard panels, and slide visuals from data or a bounded existing graphic. Deliver an editable chart source and an inspected export with faithful values, scales, labels, and context.
 license: MIT
 metadata:
-  version: "3.3.0"
+  version: "3.5.0"
 ---
 
 # Business chart communication
@@ -41,6 +41,8 @@ For a chart that places several series on shared category positions, establish t
 
 ## Make the reading path intentional
 
+For substantial visual work, use the [direction-and-usage procedure](references/visual-delivery.md#commit-to-a-direction-then-exercise-it): commit to a content-specific direction, render a difficult representative view, exercise its reading task, then repeat the sound composition. This is a working discipline, not a new visible template or a requirement to redesign an existing brand.
+
 Compose an explanatory view around its principal comparison: headline states the finding, plot demonstrates it, direct labels locate decisive values, and nearby context qualifies it. Equally prominent KPI figures, accent panels and repeated callouts can obscure that relationship. Put other questions or detailed calculations in adjacent prose or another view. Multi-purpose dashboards still need readable tasks and routes to detail.
 
 Use position, color, size or line weight to emphasize relevant evidence while preserving readable alternatives and counterevidence. Apply useful Gestalt cues such as proximity, similarity, grouping and whitespace; the reference gives concrete applications. Connections must represent real relationships. No color quota, scan path or claimed perception time is a quality gate.
@@ -61,7 +63,7 @@ Build material values, labels, table entries and factual speaker notes from the 
 
 Measure contrast for essential text/marks, provide useful text alternatives and redundant color distinctions. A palette name or grayscale preview does not establish accessibility. Repair observed failures and reinspect affected output.
 
-Review use separately from numeric/export checks. Can the reader identify the comparison, main pattern and decision-changing qualification without layout explanation? Does the first attracting mark/text serve that task? Repair competing emphasis, unclear grouping, unexplained terms or density. A render, contrast pass or internal rating does not certify taste or human understanding; distinguish reader feedback from model inspection.
+Review use separately from numeric/export checks. Without the author's explanation, identify the entity/unit, distinguish series, retrieve a decisive value, locate the qualification and state the supported next step. Check the first attracting element against that task. Repair the cause of a failed retrieval or inference and inspect again; collision-free boxes do not establish clear identity. A render, contrast pass or internal rating does not certify taste or human understanding; distinguish reader feedback from model inspection.
 
 ## Compose only the missing capability
 

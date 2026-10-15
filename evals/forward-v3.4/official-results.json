@@ -1,0 +1,6441 @@
+{
+  "benchmark": "Microsoft VisEval",
+  "official_commit": "55162fac5765d8873180d962cce7e20e75b2c092",
+  "adaptation": "29metadata-selected chart instances /59original paraphrases; entirely new case IDs, db_ids and source CSV byte hashes versus earlier trial; one authored program per case replayed across paraphrases",
+  "completed_conditions": 5,
+  "conditions": [
+    {
+      "code": "L52",
+      "method": "editorial",
+      "status": "completed",
+      "official_metrics": {
+        "invalid_rate": 0.0,
+        "illegal rate": 0.27586206896551724,
+        "pass_rate": 0.7241379310344828
+      },
+      "fully_passing_cases": 21,
+      "passing_replays": 46,
+      "replays": 59,
+      "programs": 29,
+      "readability": null,
+      "quality": null,
+      "per_case": [
+        {
+          "id": "926",
+          "chart": "Bar",
+          "hardness": "Easy",
+          "requests": 3,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "1320@y_name@ASC",
+          "chart": "Bar",
+          "hardness": "Medium",
+          "requests": 2,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "2805@y_name@ASC",
+          "chart": "Bar",
+          "hardness": "Hard",
+          "requests": 2,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "2596@x_name@ASC",
+          "chart": "Bar",
+          "hardness": "Extra Hard",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "4029",
+          "chart": "Grouping Line",
+          "hardness": "Hard",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "1349@x_name@ASC",
+          "chart": "Grouping Line",
+          "hardness": "Extra Hard",
+          "requests": 3,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "2781",
+          "chart": "Grouping Line",
+          "hardness": "Extra Hard",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "942@x_name@DESC",
+          "chart": "Grouping Line",
+          "hardness": "Extra Hard",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "1133",
+          "chart": "Grouping Scatter",
+          "hardness": "Easy",
+          "requests": 2,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "2479",
+          "chart": "Grouping Scatter",
+          "hardness": "Medium",
+          "requests": 2,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "2550",
+          "chart": "Grouping Scatter",
+          "hardness": "Easy",
+          "requests": 3,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "1214",
+          "chart": "Grouping Scatter",
+          "hardness": "Medium",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "471",
+          "chart": "Line",
+          "hardness": "Easy",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "1285",
+          "chart": "Line",
+          "hardness": "Medium",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "2617",
+          "chart": "Line",
+          "hardness": "Hard",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "1254@x_name@ASC",
+          "chart": "Line",
+          "hardness": "Extra Hard",
+          "requests": 2,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "2506",
+          "chart": "Pie",
+          "hardness": "Easy",
+          "requests": 3,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "1310",
+          "chart": "Pie",
+          "hardness": "Medium",
+          "requests": 2,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "1527",
+          "chart": "Pie",
+          "hardness": "Hard",
+          "requests": 3,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "2847",
+          "chart": "Pie",
+          "hardness": "Extra Hard",
+          "requests": 4,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 3,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "707",
+          "chart": "Scatter",
+          "hardness": "Easy",
+          "requests": 4,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 3,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "175",
+          "chart": "Scatter",
+          "hardness": "Medium",
+          "requests": 3,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "2548",
+          "chart": "Scatter",
+          "hardness": "Easy",
+          "requests": 2,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "354",
+          "chart": "Scatter",
+          "hardness": "Easy",
+          "requests": 5,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 3,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 4,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "4018",
+          "chart": "Stacked Bar",
+          "hardness": "Medium",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "680@y_name@DESC",
+          "chart": "Stacked Bar",
+          "hardness": "Hard",
+          "requests": 2,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "145@y_name@DESC",
+          "chart": "Stacked Bar",
+          "hardness": "Extra Hard",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "4007",
+          "chart": "Stacked Bar",
+          "hardness": "Hard",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "2398@y_name@DESC",
+          "chart": "Bar",
+          "hardness": "Hard",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        }
+      ],
+      "by_group": {
+        "chart": {
+          "Bar": {
+            "cases": 5,
+            "mean_pass_rate": 0.8
+          },
+          "Grouping Line": {
+            "cases": 4,
+            "mean_pass_rate": 0.0
+          },
+          "Grouping Scatter": {
+            "cases": 4,
+            "mean_pass_rate": 1.0
+          },
+          "Line": {
+            "cases": 4,
+            "mean_pass_rate": 0.5
+          },
+          "Pie": {
+            "cases": 4,
+            "mean_pass_rate": 0.75
+          },
+          "Scatter": {
+            "cases": 4,
+            "mean_pass_rate": 1.0
+          },
+          "Stacked Bar": {
+            "cases": 4,
+            "mean_pass_rate": 1.0
+          }
+        },
+        "hardness": {
+          "Easy": {
+            "cases": 8,
+            "mean_pass_rate": 0.875
+          },
+          "Extra Hard": {
+            "cases": 7,
+            "mean_pass_rate": 0.5714285714285714
+          },
+          "Hard": {
+            "cases": 7,
+            "mean_pass_rate": 0.5714285714285714
+          },
+          "Medium": {
+            "cases": 7,
+            "mean_pass_rate": 0.8571428571428571
+          }
+        }
+      },
+      "failed_aspects": {
+        "data check": 13
+      },
+      "failed_queries": [
+        {
+          "id": "2805@y_name@ASC",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "visualization data length 9 != ground truth length 4."
+            }
+          ]
+        },
+        {
+          "id": "2805@y_name@ASC",
+          "query_index": 1,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "visualization data length 9 != ground truth length 4."
+            }
+          ]
+        },
+        {
+          "id": "4029",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "{\"field_x\": 1980, \"field_y\": 129, \"field_classify\": \"left\"} not found."
+            }
+          ]
+        },
+        {
+          "id": "1349@x_name@ASC",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "{\"field_x\": \"2009\", \"field_y\": 0, \"field_classify\": \"F\"} not found\n"
+            }
+          ]
+        },
+        {
+          "id": "1349@x_name@ASC",
+          "query_index": 1,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "{\"field_x\": \"2009\", \"field_y\": 0, \"field_classify\": \"F\"} not found\n"
+            }
+          ]
+        },
+        {
+          "id": "1349@x_name@ASC",
+          "query_index": 2,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "{\"field_x\": \"2009\", \"field_y\": 0, \"field_classify\": \"F\"} not found\n"
+            }
+          ]
+        },
+        {
+          "id": "2781",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "{\"field_x\": 1970, \"field_y\": 1, \"field_classify\": \"left\"} not found\n"
+            }
+          ]
+        },
+        {
+          "id": "942@x_name@DESC",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "{\"field_x\": \"2013\", \"field_y\": 0, \"field_classify\": \"Regular\"} not found\n"
+            }
+          ]
+        },
+        {
+          "id": "1285",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "visualization data length 8 != ground truth length 5."
+            }
+          ]
+        },
+        {
+          "id": "2617",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "visualization data length 14 != ground truth length 9."
+            }
+          ]
+        },
+        {
+          "id": "2506",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "{\"field_x\": \"Heineken Music Hall Amsterdam\", \"field_y\": 2} not found."
+            }
+          ]
+        },
+        {
+          "id": "2506",
+          "query_index": 1,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "{\"field_x\": \"Heineken Music Hall Amsterdam\", \"field_y\": 2} not found."
+            }
+          ]
+        },
+        {
+          "id": "2506",
+          "query_index": 2,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "{\"field_x\": \"Heineken Music Hall Amsterdam\", \"field_y\": 2} not found."
+            }
+          ]
+        }
+      ],
+      "receipt_sha256": "26e1708cce8593902a615d7dc4b89c957144a4d82ddad17b97afbf6615ba1e4b",
+      "checks_sha256": "59c94e607eb5f8e6e592a650648616a597f2e38b79a0354ef52ac56691db4932",
+      "all_sealed_files_unchanged": true,
+      "owner_output_or_code_edits": 0
+    },
+    {
+      "code": "L81",
+      "method": "baseline-3.3",
+      "status": "completed",
+      "official_metrics": {
+        "invalid_rate": 0.0,
+        "illegal rate": 0.27586206896551724,
+        "pass_rate": 0.7241379310344828
+      },
+      "fully_passing_cases": 21,
+      "passing_replays": 43,
+      "replays": 59,
+      "programs": 29,
+      "readability": null,
+      "quality": null,
+      "per_case": [
+        {
+          "id": "926",
+          "chart": "Bar",
+          "hardness": "Easy",
+          "requests": 3,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "1320@y_name@ASC",
+          "chart": "Bar",
+          "hardness": "Medium",
+          "requests": 2,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "2805@y_name@ASC",
+          "chart": "Bar",
+          "hardness": "Hard",
+          "requests": 2,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "2596@x_name@ASC",
+          "chart": "Bar",
+          "hardness": "Extra Hard",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "4029",
+          "chart": "Grouping Line",
+          "hardness": "Hard",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "1349@x_name@ASC",
+          "chart": "Grouping Line",
+          "hardness": "Extra Hard",
+          "requests": 3,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "2781",
+          "chart": "Grouping Line",
+          "hardness": "Extra Hard",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "942@x_name@DESC",
+          "chart": "Grouping Line",
+          "hardness": "Extra Hard",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "1133",
+          "chart": "Grouping Scatter",
+          "hardness": "Easy",
+          "requests": 2,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "2479",
+          "chart": "Grouping Scatter",
+          "hardness": "Medium",
+          "requests": 2,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "2550",
+          "chart": "Grouping Scatter",
+          "hardness": "Easy",
+          "requests": 3,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "1214",
+          "chart": "Grouping Scatter",
+          "hardness": "Medium",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "471",
+          "chart": "Line",
+          "hardness": "Easy",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "1285",
+          "chart": "Line",
+          "hardness": "Medium",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "2617",
+          "chart": "Line",
+          "hardness": "Hard",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "1254@x_name@ASC",
+          "chart": "Line",
+          "hardness": "Extra Hard",
+          "requests": 2,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "2506",
+          "chart": "Pie",
+          "hardness": "Easy",
+          "requests": 3,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "1310",
+          "chart": "Pie",
+          "hardness": "Medium",
+          "requests": 2,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "1527",
+          "chart": "Pie",
+          "hardness": "Hard",
+          "requests": 3,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "2847",
+          "chart": "Pie",
+          "hardness": "Extra Hard",
+          "requests": 4,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 3,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "707",
+          "chart": "Scatter",
+          "hardness": "Easy",
+          "requests": 4,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 3,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "175",
+          "chart": "Scatter",
+          "hardness": "Medium",
+          "requests": 3,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "2548",
+          "chart": "Scatter",
+          "hardness": "Easy",
+          "requests": 2,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "354",
+          "chart": "Scatter",
+          "hardness": "Easy",
+          "requests": 5,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 3,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 4,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "4018",
+          "chart": "Stacked Bar",
+          "hardness": "Medium",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "680@y_name@DESC",
+          "chart": "Stacked Bar",
+          "hardness": "Hard",
+          "requests": 2,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "145@y_name@DESC",
+          "chart": "Stacked Bar",
+          "hardness": "Extra Hard",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "4007",
+          "chart": "Stacked Bar",
+          "hardness": "Hard",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "2398@y_name@DESC",
+          "chart": "Bar",
+          "hardness": "Hard",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        }
+      ],
+      "by_group": {
+        "chart": {
+          "Bar": {
+            "cases": 5,
+            "mean_pass_rate": 0.8
+          },
+          "Grouping Line": {
+            "cases": 4,
+            "mean_pass_rate": 0.5
+          },
+          "Grouping Scatter": {
+            "cases": 4,
+            "mean_pass_rate": 1.0
+          },
+          "Line": {
+            "cases": 4,
+            "mean_pass_rate": 0.25
+          },
+          "Pie": {
+            "cases": 4,
+            "mean_pass_rate": 0.5
+          },
+          "Scatter": {
+            "cases": 4,
+            "mean_pass_rate": 1.0
+          },
+          "Stacked Bar": {
+            "cases": 4,
+            "mean_pass_rate": 1.0
+          }
+        },
+        "hardness": {
+          "Easy": {
+            "cases": 8,
+            "mean_pass_rate": 0.875
+          },
+          "Extra Hard": {
+            "cases": 7,
+            "mean_pass_rate": 0.5714285714285714
+          },
+          "Hard": {
+            "cases": 7,
+            "mean_pass_rate": 0.5714285714285714
+          },
+          "Medium": {
+            "cases": 7,
+            "mean_pass_rate": 0.8571428571428571
+          }
+        }
+      },
+      "failed_aspects": {
+        "data check": 16
+      },
+      "failed_queries": [
+        {
+          "id": "2805@y_name@ASC",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "visualization data length 9 != ground truth length 4."
+            }
+          ]
+        },
+        {
+          "id": "2805@y_name@ASC",
+          "query_index": 1,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "visualization data length 9 != ground truth length 4."
+            }
+          ]
+        },
+        {
+          "id": "1349@x_name@ASC",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "{\"field_x\": \"2009\", \"field_y\": 0, \"field_classify\": \"F\"} not found\n"
+            }
+          ]
+        },
+        {
+          "id": "1349@x_name@ASC",
+          "query_index": 1,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "{\"field_x\": \"2009\", \"field_y\": 0, \"field_classify\": \"F\"} not found\n"
+            }
+          ]
+        },
+        {
+          "id": "1349@x_name@ASC",
+          "query_index": 2,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "{\"field_x\": \"2009\", \"field_y\": 0, \"field_classify\": \"F\"} not found\n"
+            }
+          ]
+        },
+        {
+          "id": "942@x_name@DESC",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "{\"field_x\": \"2013\", \"field_y\": 0, \"field_classify\": \"Regular\"} not found\n"
+            }
+          ]
+        },
+        {
+          "id": "1285",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "visualization data length 8 != ground truth length 5."
+            }
+          ]
+        },
+        {
+          "id": "2617",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "The data on the charts cannot be understood."
+            }
+          ]
+        },
+        {
+          "id": "1254@x_name@ASC",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "The data on the charts cannot be understood."
+            }
+          ]
+        },
+        {
+          "id": "1254@x_name@ASC",
+          "query_index": 1,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "The data on the charts cannot be understood."
+            }
+          ]
+        },
+        {
+          "id": "2506",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "{\"field_x\": \"Heineken Music Hall Amsterdam\", \"field_y\": 2} not found."
+            }
+          ]
+        },
+        {
+          "id": "2506",
+          "query_index": 1,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "{\"field_x\": \"Heineken Music Hall Amsterdam\", \"field_y\": 2} not found."
+            }
+          ]
+        },
+        {
+          "id": "2506",
+          "query_index": 2,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "{\"field_x\": \"Heineken Music Hall Amsterdam\", \"field_y\": 2} not found."
+            }
+          ]
+        },
+        {
+          "id": "1527",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "{\"field_x\": \"Christopher Turk\", \"field_y\": 1} not found."
+            }
+          ]
+        },
+        {
+          "id": "1527",
+          "query_index": 1,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "{\"field_x\": \"Christopher Turk\", \"field_y\": 1} not found."
+            }
+          ]
+        },
+        {
+          "id": "1527",
+          "query_index": 2,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "{\"field_x\": \"Christopher Turk\", \"field_y\": 1} not found."
+            }
+          ]
+        }
+      ],
+      "receipt_sha256": "971ab0f200145094e0827f8d5fb42965ab83e500a065707a82dd43a87119aba5",
+      "checks_sha256": "465ffca17d61030b37756fa51aa4418c17f7d56d198759b24ec008c4341ad8a4",
+      "all_sealed_files_unchanged": true,
+      "owner_output_or_code_edits": 0
+    },
+    {
+      "code": "L26",
+      "method": "candidate-3.4",
+      "status": "completed",
+      "official_metrics": {
+        "invalid_rate": 0.0,
+        "illegal rate": 0.27586206896551724,
+        "pass_rate": 0.7241379310344828
+      },
+      "fully_passing_cases": 21,
+      "passing_replays": 45,
+      "replays": 59,
+      "programs": 29,
+      "readability": null,
+      "quality": null,
+      "per_case": [
+        {
+          "id": "926",
+          "chart": "Bar",
+          "hardness": "Easy",
+          "requests": 3,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "1320@y_name@ASC",
+          "chart": "Bar",
+          "hardness": "Medium",
+          "requests": 2,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "2805@y_name@ASC",
+          "chart": "Bar",
+          "hardness": "Hard",
+          "requests": 2,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "2596@x_name@ASC",
+          "chart": "Bar",
+          "hardness": "Extra Hard",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "4029",
+          "chart": "Grouping Line",
+          "hardness": "Hard",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "1349@x_name@ASC",
+          "chart": "Grouping Line",
+          "hardness": "Extra Hard",
+          "requests": 3,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "2781",
+          "chart": "Grouping Line",
+          "hardness": "Extra Hard",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "942@x_name@DESC",
+          "chart": "Grouping Line",
+          "hardness": "Extra Hard",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "1133",
+          "chart": "Grouping Scatter",
+          "hardness": "Easy",
+          "requests": 2,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "2479",
+          "chart": "Grouping Scatter",
+          "hardness": "Medium",
+          "requests": 2,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "2550",
+          "chart": "Grouping Scatter",
+          "hardness": "Easy",
+          "requests": 3,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "1214",
+          "chart": "Grouping Scatter",
+          "hardness": "Medium",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "471",
+          "chart": "Line",
+          "hardness": "Easy",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "1285",
+          "chart": "Line",
+          "hardness": "Medium",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "2617",
+          "chart": "Line",
+          "hardness": "Hard",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "1254@x_name@ASC",
+          "chart": "Line",
+          "hardness": "Extra Hard",
+          "requests": 2,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "2506",
+          "chart": "Pie",
+          "hardness": "Easy",
+          "requests": 3,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "1310",
+          "chart": "Pie",
+          "hardness": "Medium",
+          "requests": 2,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "1527",
+          "chart": "Pie",
+          "hardness": "Hard",
+          "requests": 3,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "2847",
+          "chart": "Pie",
+          "hardness": "Extra Hard",
+          "requests": 4,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 3,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "707",
+          "chart": "Scatter",
+          "hardness": "Easy",
+          "requests": 4,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 3,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "175",
+          "chart": "Scatter",
+          "hardness": "Medium",
+          "requests": 3,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "2548",
+          "chart": "Scatter",
+          "hardness": "Easy",
+          "requests": 2,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "354",
+          "chart": "Scatter",
+          "hardness": "Easy",
+          "requests": 5,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 3,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 4,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "4018",
+          "chart": "Stacked Bar",
+          "hardness": "Medium",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "680@y_name@DESC",
+          "chart": "Stacked Bar",
+          "hardness": "Hard",
+          "requests": 2,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "145@y_name@DESC",
+          "chart": "Stacked Bar",
+          "hardness": "Extra Hard",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "4007",
+          "chart": "Stacked Bar",
+          "hardness": "Hard",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "2398@y_name@DESC",
+          "chart": "Bar",
+          "hardness": "Hard",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        }
+      ],
+      "by_group": {
+        "chart": {
+          "Bar": {
+            "cases": 5,
+            "mean_pass_rate": 0.8
+          },
+          "Grouping Line": {
+            "cases": 4,
+            "mean_pass_rate": 0.25
+          },
+          "Grouping Scatter": {
+            "cases": 4,
+            "mean_pass_rate": 1.0
+          },
+          "Line": {
+            "cases": 4,
+            "mean_pass_rate": 0.25
+          },
+          "Pie": {
+            "cases": 4,
+            "mean_pass_rate": 0.75
+          },
+          "Scatter": {
+            "cases": 4,
+            "mean_pass_rate": 1.0
+          },
+          "Stacked Bar": {
+            "cases": 4,
+            "mean_pass_rate": 1.0
+          }
+        },
+        "hardness": {
+          "Easy": {
+            "cases": 8,
+            "mean_pass_rate": 0.875
+          },
+          "Extra Hard": {
+            "cases": 7,
+            "mean_pass_rate": 0.42857142857142855
+          },
+          "Hard": {
+            "cases": 7,
+            "mean_pass_rate": 0.7142857142857143
+          },
+          "Medium": {
+            "cases": 7,
+            "mean_pass_rate": 0.8571428571428571
+          }
+        }
+      },
+      "failed_aspects": {
+        "data check": 14,
+        "chart type check": 3
+      },
+      "failed_queries": [
+        {
+          "id": "2805@y_name@ASC",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "visualization data length 9 != ground truth length 4."
+            }
+          ]
+        },
+        {
+          "id": "2805@y_name@ASC",
+          "query_index": 1,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "visualization data length 9 != ground truth length 4."
+            }
+          ]
+        },
+        {
+          "id": "1349@x_name@ASC",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "{\"field_x\": \"2009\", \"field_y\": 0, \"field_classify\": \"F\"} not found\n"
+            }
+          ]
+        },
+        {
+          "id": "1349@x_name@ASC",
+          "query_index": 1,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "{\"field_x\": \"2009\", \"field_y\": 0, \"field_classify\": \"F\"} not found\n"
+            }
+          ]
+        },
+        {
+          "id": "1349@x_name@ASC",
+          "query_index": 2,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "{\"field_x\": \"2009\", \"field_y\": 0, \"field_classify\": \"F\"} not found\n"
+            }
+          ]
+        },
+        {
+          "id": "2781",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "{\"field_x\": 1967, \"field_y\": 0, \"field_classify\": \"left\"} not found."
+            }
+          ]
+        },
+        {
+          "id": "942@x_name@DESC",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "{\"field_x\": \"2013\", \"field_y\": 0, \"field_classify\": \"Regular\"} not found\n"
+            }
+          ]
+        },
+        {
+          "id": "1285",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "visualization data length 8 != ground truth length 5."
+            }
+          ]
+        },
+        {
+          "id": "2617",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "The data on the charts cannot be understood."
+            }
+          ]
+        },
+        {
+          "id": "1254@x_name@ASC",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "The data on the charts cannot be understood."
+            }
+          ]
+        },
+        {
+          "id": "1254@x_name@ASC",
+          "query_index": 1,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "The data on the charts cannot be understood."
+            }
+          ]
+        },
+        {
+          "id": "2506",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": false,
+              "aspect": "chart type check",
+              "rationale": "Cannot recognize the chart type."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "The data on the charts cannot be understood."
+            }
+          ]
+        },
+        {
+          "id": "2506",
+          "query_index": 1,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": false,
+              "aspect": "chart type check",
+              "rationale": "Cannot recognize the chart type."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "The data on the charts cannot be understood."
+            }
+          ]
+        },
+        {
+          "id": "2506",
+          "query_index": 2,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": false,
+              "aspect": "chart type check",
+              "rationale": "Cannot recognize the chart type."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "The data on the charts cannot be understood."
+            }
+          ]
+        }
+      ],
+      "receipt_sha256": "c554320d270a2939b13524eee1e71d1833703b84678883ff282fbb615a0d9f1a",
+      "checks_sha256": "c2482d134f2fc4937477eec6f2a6dd0339c6698c47de703a5fd5b8cc2a552ca0",
+      "all_sealed_files_unchanged": true,
+      "owner_output_or_code_edits": 0
+    },
+    {
+      "code": "L44",
+      "method": "kdense",
+      "status": "completed",
+      "official_metrics": {
+        "invalid_rate": 0.0,
+        "illegal rate": 0.4482758620689655,
+        "pass_rate": 0.5517241379310345
+      },
+      "fully_passing_cases": 16,
+      "passing_replays": 37,
+      "replays": 59,
+      "programs": 29,
+      "readability": null,
+      "quality": null,
+      "per_case": [
+        {
+          "id": "926",
+          "chart": "Bar",
+          "hardness": "Easy",
+          "requests": 3,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "1320@y_name@ASC",
+          "chart": "Bar",
+          "hardness": "Medium",
+          "requests": 2,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "2805@y_name@ASC",
+          "chart": "Bar",
+          "hardness": "Hard",
+          "requests": 2,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "2596@x_name@ASC",
+          "chart": "Bar",
+          "hardness": "Extra Hard",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "4029",
+          "chart": "Grouping Line",
+          "hardness": "Hard",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "1349@x_name@ASC",
+          "chart": "Grouping Line",
+          "hardness": "Extra Hard",
+          "requests": 3,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "2781",
+          "chart": "Grouping Line",
+          "hardness": "Extra Hard",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "942@x_name@DESC",
+          "chart": "Grouping Line",
+          "hardness": "Extra Hard",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "1133",
+          "chart": "Grouping Scatter",
+          "hardness": "Easy",
+          "requests": 2,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "2479",
+          "chart": "Grouping Scatter",
+          "hardness": "Medium",
+          "requests": 2,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "2550",
+          "chart": "Grouping Scatter",
+          "hardness": "Easy",
+          "requests": 3,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "1214",
+          "chart": "Grouping Scatter",
+          "hardness": "Medium",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "471",
+          "chart": "Line",
+          "hardness": "Easy",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "1285",
+          "chart": "Line",
+          "hardness": "Medium",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "2617",
+          "chart": "Line",
+          "hardness": "Hard",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "1254@x_name@ASC",
+          "chart": "Line",
+          "hardness": "Extra Hard",
+          "requests": 2,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "2506",
+          "chart": "Pie",
+          "hardness": "Easy",
+          "requests": 3,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "1310",
+          "chart": "Pie",
+          "hardness": "Medium",
+          "requests": 2,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "1527",
+          "chart": "Pie",
+          "hardness": "Hard",
+          "requests": 3,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "2847",
+          "chart": "Pie",
+          "hardness": "Extra Hard",
+          "requests": 4,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 3,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "707",
+          "chart": "Scatter",
+          "hardness": "Easy",
+          "requests": 4,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 3,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "175",
+          "chart": "Scatter",
+          "hardness": "Medium",
+          "requests": 3,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "2548",
+          "chart": "Scatter",
+          "hardness": "Easy",
+          "requests": 2,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "354",
+          "chart": "Scatter",
+          "hardness": "Easy",
+          "requests": 5,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 3,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 4,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "4018",
+          "chart": "Stacked Bar",
+          "hardness": "Medium",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "680@y_name@DESC",
+          "chart": "Stacked Bar",
+          "hardness": "Hard",
+          "requests": 2,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "145@y_name@DESC",
+          "chart": "Stacked Bar",
+          "hardness": "Extra Hard",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "4007",
+          "chart": "Stacked Bar",
+          "hardness": "Hard",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "2398@y_name@DESC",
+          "chart": "Bar",
+          "hardness": "Hard",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        }
+      ],
+      "by_group": {
+        "chart": {
+          "Bar": {
+            "cases": 5,
+            "mean_pass_rate": 0.8
+          },
+          "Grouping Line": {
+            "cases": 4,
+            "mean_pass_rate": 0.0
+          },
+          "Grouping Scatter": {
+            "cases": 4,
+            "mean_pass_rate": 0.0
+          },
+          "Line": {
+            "cases": 4,
+            "mean_pass_rate": 0.5
+          },
+          "Pie": {
+            "cases": 4,
+            "mean_pass_rate": 0.75
+          },
+          "Scatter": {
+            "cases": 4,
+            "mean_pass_rate": 1.0
+          },
+          "Stacked Bar": {
+            "cases": 4,
+            "mean_pass_rate": 0.75
+          }
+        },
+        "hardness": {
+          "Easy": {
+            "cases": 8,
+            "mean_pass_rate": 0.625
+          },
+          "Extra Hard": {
+            "cases": 7,
+            "mean_pass_rate": 0.42857142857142855
+          },
+          "Hard": {
+            "cases": 7,
+            "mean_pass_rate": 0.5714285714285714
+          },
+          "Medium": {
+            "cases": 7,
+            "mean_pass_rate": 0.5714285714285714
+          }
+        }
+      },
+      "failed_aspects": {
+        "data check": 22,
+        "chart type check": 14
+      },
+      "failed_queries": [
+        {
+          "id": "2805@y_name@ASC",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "visualization data length 9 != ground truth length 4."
+            }
+          ]
+        },
+        {
+          "id": "2805@y_name@ASC",
+          "query_index": 1,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "visualization data length 9 != ground truth length 4."
+            }
+          ]
+        },
+        {
+          "id": "4029",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": false,
+              "aspect": "chart type check",
+              "rationale": "Chart type is not consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "visualization data length 10 != ground truth length 20."
+            }
+          ]
+        },
+        {
+          "id": "1349@x_name@ASC",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": false,
+              "aspect": "chart type check",
+              "rationale": "Chart type is not consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "{\"field_x\": \"2010\", \"field_y\": 1, \"field_classify\": \"F\"} not found."
+            }
+          ]
+        },
+        {
+          "id": "1349@x_name@ASC",
+          "query_index": 1,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": false,
+              "aspect": "chart type check",
+              "rationale": "Chart type is not consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "{\"field_x\": \"2010\", \"field_y\": 1, \"field_classify\": \"F\"} not found."
+            }
+          ]
+        },
+        {
+          "id": "1349@x_name@ASC",
+          "query_index": 2,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": false,
+              "aspect": "chart type check",
+              "rationale": "Chart type is not consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "{\"field_x\": \"2010\", \"field_y\": 1, \"field_classify\": \"F\"} not found."
+            }
+          ]
+        },
+        {
+          "id": "2781",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": false,
+              "aspect": "chart type check",
+              "rationale": "Chart type is not consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "visualization data length 31 != ground truth length 61."
+            }
+          ]
+        },
+        {
+          "id": "942@x_name@DESC",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": false,
+              "aspect": "chart type check",
+              "rationale": "Chart type is not consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "visualization data length 9 != ground truth length 13."
+            }
+          ]
+        },
+        {
+          "id": "1133",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": false,
+              "aspect": "chart type check",
+              "rationale": "Chart type is not consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "visualization data length 1 != ground truth length 2."
+            }
+          ]
+        },
+        {
+          "id": "1133",
+          "query_index": 1,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": false,
+              "aspect": "chart type check",
+              "rationale": "Chart type is not consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "visualization data length 1 != ground truth length 2."
+            }
+          ]
+        },
+        {
+          "id": "2479",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": false,
+              "aspect": "chart type check",
+              "rationale": "Chart type is not consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "visualization data length 1 != ground truth length 3."
+            }
+          ]
+        },
+        {
+          "id": "2479",
+          "query_index": 1,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": false,
+              "aspect": "chart type check",
+              "rationale": "Chart type is not consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "visualization data length 1 != ground truth length 3."
+            }
+          ]
+        },
+        {
+          "id": "2550",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": false,
+              "aspect": "chart type check",
+              "rationale": "Chart type is not consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "visualization data length 1 != ground truth length 2."
+            }
+          ]
+        },
+        {
+          "id": "2550",
+          "query_index": 1,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": false,
+              "aspect": "chart type check",
+              "rationale": "Chart type is not consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "visualization data length 1 != ground truth length 2."
+            }
+          ]
+        },
+        {
+          "id": "2550",
+          "query_index": 2,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": false,
+              "aspect": "chart type check",
+              "rationale": "Chart type is not consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "visualization data length 1 != ground truth length 2."
+            }
+          ]
+        },
+        {
+          "id": "1214",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": false,
+              "aspect": "chart type check",
+              "rationale": "Chart type is not consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "visualization data length 1 != ground truth length 3."
+            }
+          ]
+        },
+        {
+          "id": "1285",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "visualization data length 8 != ground truth length 5."
+            }
+          ]
+        },
+        {
+          "id": "2617",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "visualization data length 14 != ground truth length 9."
+            }
+          ]
+        },
+        {
+          "id": "2506",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "{\"field_x\": \"Heineken Music Hall Amsterdam\", \"field_y\": 2} not found."
+            }
+          ]
+        },
+        {
+          "id": "2506",
+          "query_index": 1,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "{\"field_x\": \"Heineken Music Hall Amsterdam\", \"field_y\": 2} not found."
+            }
+          ]
+        },
+        {
+          "id": "2506",
+          "query_index": 2,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "{\"field_x\": \"Heineken Music Hall Amsterdam\", \"field_y\": 2} not found."
+            }
+          ]
+        },
+        {
+          "id": "145@y_name@DESC",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "{\"field_x\": \"TV, Video\", \"field_y\": 4, \"field_classify\": \"MW\"} not found."
+            }
+          ]
+        }
+      ],
+      "receipt_sha256": "35a05694a3d44ad4278ce4fae4a71ef7215aea5e1b531ee99200446be746c109",
+      "checks_sha256": "926e0626b59763fdc90c9afa962aed311051cd4b1f0b7ab0b5d24eaf6a9727ed",
+      "all_sealed_files_unchanged": true,
+      "owner_output_or_code_edits": 0
+    },
+    {
+      "code": "L63",
+      "method": "visual-explainer",
+      "status": "completed",
+      "official_metrics": {
+        "invalid_rate": 0.0,
+        "illegal rate": 0.41379310344827586,
+        "pass_rate": 0.5862068965517241
+      },
+      "fully_passing_cases": 17,
+      "passing_replays": 38,
+      "replays": 59,
+      "programs": 29,
+      "readability": null,
+      "quality": null,
+      "per_case": [
+        {
+          "id": "926",
+          "chart": "Bar",
+          "hardness": "Easy",
+          "requests": 3,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "1320@y_name@ASC",
+          "chart": "Bar",
+          "hardness": "Medium",
+          "requests": 2,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "2805@y_name@ASC",
+          "chart": "Bar",
+          "hardness": "Hard",
+          "requests": 2,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "2596@x_name@ASC",
+          "chart": "Bar",
+          "hardness": "Extra Hard",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "4029",
+          "chart": "Grouping Line",
+          "hardness": "Hard",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "1349@x_name@ASC",
+          "chart": "Grouping Line",
+          "hardness": "Extra Hard",
+          "requests": 3,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "2781",
+          "chart": "Grouping Line",
+          "hardness": "Extra Hard",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "942@x_name@DESC",
+          "chart": "Grouping Line",
+          "hardness": "Extra Hard",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "1133",
+          "chart": "Grouping Scatter",
+          "hardness": "Easy",
+          "requests": 2,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "2479",
+          "chart": "Grouping Scatter",
+          "hardness": "Medium",
+          "requests": 2,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "2550",
+          "chart": "Grouping Scatter",
+          "hardness": "Easy",
+          "requests": 3,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "1214",
+          "chart": "Grouping Scatter",
+          "hardness": "Medium",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "471",
+          "chart": "Line",
+          "hardness": "Easy",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "1285",
+          "chart": "Line",
+          "hardness": "Medium",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "2617",
+          "chart": "Line",
+          "hardness": "Hard",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "1254@x_name@ASC",
+          "chart": "Line",
+          "hardness": "Extra Hard",
+          "requests": 2,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "2506",
+          "chart": "Pie",
+          "hardness": "Easy",
+          "requests": 3,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": false,
+              "pass": false
+            }
+          ],
+          "mean_pass_rate": 0.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 1.0
+        },
+        {
+          "id": "1310",
+          "chart": "Pie",
+          "hardness": "Medium",
+          "requests": 2,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "1527",
+          "chart": "Pie",
+          "hardness": "Hard",
+          "requests": 3,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "2847",
+          "chart": "Pie",
+          "hardness": "Extra Hard",
+          "requests": 4,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 3,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "707",
+          "chart": "Scatter",
+          "hardness": "Easy",
+          "requests": 4,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 3,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "175",
+          "chart": "Scatter",
+          "hardness": "Medium",
+          "requests": 3,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "2548",
+          "chart": "Scatter",
+          "hardness": "Easy",
+          "requests": 2,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "354",
+          "chart": "Scatter",
+          "hardness": "Easy",
+          "requests": 5,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 2,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 3,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 4,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "4018",
+          "chart": "Stacked Bar",
+          "hardness": "Medium",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "680@y_name@DESC",
+          "chart": "Stacked Bar",
+          "hardness": "Hard",
+          "requests": 2,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            },
+            {
+              "query_index": 1,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "145@y_name@DESC",
+          "chart": "Stacked Bar",
+          "hardness": "Extra Hard",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "4007",
+          "chart": "Stacked Bar",
+          "hardness": "Hard",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        },
+        {
+          "id": "2398@y_name@DESC",
+          "chart": "Bar",
+          "hardness": "Hard",
+          "requests": 1,
+          "query_outcomes": [
+            {
+              "query_index": 0,
+              "valid": true,
+              "legal": true,
+              "pass": true
+            }
+          ],
+          "mean_pass_rate": 1.0,
+          "mean_invalid_rate": 0.0,
+          "mean_illegal_rate": 0.0
+        }
+      ],
+      "by_group": {
+        "chart": {
+          "Bar": {
+            "cases": 5,
+            "mean_pass_rate": 0.8
+          },
+          "Grouping Line": {
+            "cases": 4,
+            "mean_pass_rate": 0.0
+          },
+          "Grouping Scatter": {
+            "cases": 4,
+            "mean_pass_rate": 0.0
+          },
+          "Line": {
+            "cases": 4,
+            "mean_pass_rate": 0.5
+          },
+          "Pie": {
+            "cases": 4,
+            "mean_pass_rate": 0.75
+          },
+          "Scatter": {
+            "cases": 4,
+            "mean_pass_rate": 1.0
+          },
+          "Stacked Bar": {
+            "cases": 4,
+            "mean_pass_rate": 1.0
+          }
+        },
+        "hardness": {
+          "Easy": {
+            "cases": 8,
+            "mean_pass_rate": 0.625
+          },
+          "Extra Hard": {
+            "cases": 7,
+            "mean_pass_rate": 0.5714285714285714
+          },
+          "Hard": {
+            "cases": 7,
+            "mean_pass_rate": 0.5714285714285714
+          },
+          "Medium": {
+            "cases": 7,
+            "mean_pass_rate": 0.5714285714285714
+          }
+        }
+      },
+      "failed_aspects": {
+        "data check": 21,
+        "chart type check": 14
+      },
+      "failed_queries": [
+        {
+          "id": "2805@y_name@ASC",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "visualization data length 9 != ground truth length 4."
+            }
+          ]
+        },
+        {
+          "id": "2805@y_name@ASC",
+          "query_index": 1,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "visualization data length 9 != ground truth length 4."
+            }
+          ]
+        },
+        {
+          "id": "4029",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": false,
+              "aspect": "chart type check",
+              "rationale": "Chart type is not consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "visualization data length 10 != ground truth length 20."
+            }
+          ]
+        },
+        {
+          "id": "1349@x_name@ASC",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": false,
+              "aspect": "chart type check",
+              "rationale": "Chart type is not consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "{\"field_x\": \"2010\", \"field_y\": 1, \"field_classify\": \"F\"} not found."
+            }
+          ]
+        },
+        {
+          "id": "1349@x_name@ASC",
+          "query_index": 1,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": false,
+              "aspect": "chart type check",
+              "rationale": "Chart type is not consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "{\"field_x\": \"2010\", \"field_y\": 1, \"field_classify\": \"F\"} not found."
+            }
+          ]
+        },
+        {
+          "id": "1349@x_name@ASC",
+          "query_index": 2,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": false,
+              "aspect": "chart type check",
+              "rationale": "Chart type is not consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "{\"field_x\": \"2010\", \"field_y\": 1, \"field_classify\": \"F\"} not found."
+            }
+          ]
+        },
+        {
+          "id": "2781",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": false,
+              "aspect": "chart type check",
+              "rationale": "Chart type is not consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "visualization data length 31 != ground truth length 61."
+            }
+          ]
+        },
+        {
+          "id": "942@x_name@DESC",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": false,
+              "aspect": "chart type check",
+              "rationale": "Chart type is not consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "visualization data length 9 != ground truth length 13."
+            }
+          ]
+        },
+        {
+          "id": "1133",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": false,
+              "aspect": "chart type check",
+              "rationale": "Chart type is not consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "visualization data length 1 != ground truth length 2."
+            }
+          ]
+        },
+        {
+          "id": "1133",
+          "query_index": 1,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": false,
+              "aspect": "chart type check",
+              "rationale": "Chart type is not consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "visualization data length 1 != ground truth length 2."
+            }
+          ]
+        },
+        {
+          "id": "2479",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": false,
+              "aspect": "chart type check",
+              "rationale": "Chart type is not consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "visualization data length 1 != ground truth length 3."
+            }
+          ]
+        },
+        {
+          "id": "2479",
+          "query_index": 1,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": false,
+              "aspect": "chart type check",
+              "rationale": "Chart type is not consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "visualization data length 1 != ground truth length 3."
+            }
+          ]
+        },
+        {
+          "id": "2550",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": false,
+              "aspect": "chart type check",
+              "rationale": "Chart type is not consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "visualization data length 1 != ground truth length 2."
+            }
+          ]
+        },
+        {
+          "id": "2550",
+          "query_index": 1,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": false,
+              "aspect": "chart type check",
+              "rationale": "Chart type is not consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "visualization data length 1 != ground truth length 2."
+            }
+          ]
+        },
+        {
+          "id": "2550",
+          "query_index": 2,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": false,
+              "aspect": "chart type check",
+              "rationale": "Chart type is not consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "visualization data length 1 != ground truth length 2."
+            }
+          ]
+        },
+        {
+          "id": "1214",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": false,
+              "aspect": "chart type check",
+              "rationale": "Chart type is not consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "visualization data length 1 != ground truth length 3."
+            }
+          ]
+        },
+        {
+          "id": "1285",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "visualization data length 8 != ground truth length 5."
+            }
+          ]
+        },
+        {
+          "id": "2617",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "visualization data length 14 != ground truth length 9."
+            }
+          ]
+        },
+        {
+          "id": "2506",
+          "query_index": 0,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "{\"field_x\": \"Heineken Music Hall Amsterdam\", \"field_y\": 2} not found."
+            }
+          ]
+        },
+        {
+          "id": "2506",
+          "query_index": 1,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "{\"field_x\": \"Heineken Music Hall Amsterdam\", \"field_y\": 2} not found."
+            }
+          ]
+        },
+        {
+          "id": "2506",
+          "query_index": 2,
+          "checks": [
+            {
+              "answer": true,
+              "aspect": "code execution",
+              "rationale": "Code executed successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "surface-form check",
+              "rationale": "Plotted visualization."
+            },
+            {
+              "answer": true,
+              "aspect": "deconstruction",
+              "rationale": "Deconstructed the chart successfully."
+            },
+            {
+              "answer": true,
+              "aspect": "chart type check",
+              "rationale": "Chart type is consistent with ground truth."
+            },
+            {
+              "answer": false,
+              "aspect": "data check",
+              "rationale": "{\"field_x\": \"Heineken Music Hall Amsterdam\", \"field_y\": 2} not found."
+            }
+          ]
+        }
+      ],
+      "receipt_sha256": "78f33c345f254df3cf537f6640a8bad504e3605d7ec84389256e8408ef8a4c7d",
+      "checks_sha256": "f6b579ff27117ebcb05443be9d71af4a186dc23943ceded5b8e2c3fbe21f19e2",
+      "all_sealed_files_unchanged": true,
+      "owner_output_or_code_edits": 0
+    }
+  ],
+  "frozen_surfaces_verified": [
+    296,
+    15
+  ],
+  "readability_quality_status": "N/A for official no-vision/no-webdriver execution; separate practical/render/readback/visual evidence is required",
+  "limits": [
+    "Not full1150case leaderboard or published-model reproduction",
+    "One generation per method; not generation variance or reliability",
+    "Shared top-level instructions/catalog; method activation comparison, not pure causal A/B",
+    "Small new subset differs from prior50: compare rerun3.3 versus3.4 here, never raw old/new percentages",
+    "Public data may have been in model training",
+    "No corrected official score for parser incompatibility; diagnose separately"
+  ],
+  "computed_utc": "2026-10-15T02:55:31.293735+00:00"
+}

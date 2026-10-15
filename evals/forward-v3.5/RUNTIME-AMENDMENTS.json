@@ -1,0 +1,12 @@
+{
+  "recorded_at_phase": "After matched recapture and before first accepted manager-answer seals; original answer contents not read by owner",
+  "reason": "The only drift in the original 217-file freeze is the mechanical capture helper. Native instant scrolling fixes the independently observed smooth-scroll screenshot position error for all five unchanged reports. This amendment changes no method, input, question, oracle, fixture, scorer or author output.",
+  "changes": {
+    "checks/capture_report.mjs": {
+      "original_sha256": "989fb7d8a224da5ea8a177978a5a80fc66f75212c08c98120403aa76ba2e47b0",
+      "amended_sha256": "bcfcf3450635a7350787e155529ea4aa00cd13bc9e8cabb3afebdcea13723b51"
+    }
+  },
+  "evidence": ["CAPTURE-REPAIR-NOTE.json", "rendered-v2", "artifact-audit/REPORT.md"],
+  "other_216_frozen_files": "Must still match their original hashes; any further mismatch blocks sealing"
+}

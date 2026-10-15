@@ -1,0 +1,231 @@
+{
+  "created_utc": "2026-10-15T03:46:16.580856+00:00",
+  "completed_episodes": 8,
+  "expected_episodes": 8,
+  "raw_votes": [
+    {
+      "episode": "visual-01",
+      "dimension": "polish",
+      "A": "L26",
+      "B": "L81",
+      "raw_choice": "B",
+      "mapped_winner": "L81",
+      "raw_sha256": "d01e22b3c00197876bf3cf5082422ac910a3fb09fb8385c9616ccb97c4dce8f0",
+      "raw_relative_path": "visual-reviews/visual-01/verdict.json"
+    },
+    {
+      "episode": "visual-01",
+      "dimension": "readability",
+      "A": "L26",
+      "B": "L81",
+      "raw_choice": "tie",
+      "mapped_winner": "tie",
+      "raw_sha256": "d01e22b3c00197876bf3cf5082422ac910a3fb09fb8385c9616ccb97c4dce8f0",
+      "raw_relative_path": "visual-reviews/visual-01/verdict.json"
+    },
+    {
+      "episode": "visual-02",
+      "dimension": "polish",
+      "A": "L81",
+      "B": "L26",
+      "raw_choice": "tie",
+      "mapped_winner": "tie",
+      "raw_sha256": "32629ee13167ddcbdfa090603eb4bf4c6a6ff5e68ddabf75035cf61b0249b202",
+      "raw_relative_path": "visual-reviews/visual-02/verdict.json"
+    },
+    {
+      "episode": "visual-02",
+      "dimension": "readability",
+      "A": "L81",
+      "B": "L26",
+      "raw_choice": "B",
+      "mapped_winner": "L26",
+      "raw_sha256": "32629ee13167ddcbdfa090603eb4bf4c6a6ff5e68ddabf75035cf61b0249b202",
+      "raw_relative_path": "visual-reviews/visual-02/verdict.json"
+    },
+    {
+      "episode": "visual-03",
+      "dimension": "polish",
+      "A": "L26",
+      "B": "L52",
+      "raw_choice": "B",
+      "mapped_winner": "L52",
+      "raw_sha256": "9aa37c8bf1db0fdd3f4fce32a9ddddfb8ff60c8a611f9a8ea3cb988df9efbbe4",
+      "raw_relative_path": "visual-reviews/visual-03/verdict.json"
+    },
+    {
+      "episode": "visual-03",
+      "dimension": "readability",
+      "A": "L26",
+      "B": "L52",
+      "raw_choice": "B",
+      "mapped_winner": "L52",
+      "raw_sha256": "9aa37c8bf1db0fdd3f4fce32a9ddddfb8ff60c8a611f9a8ea3cb988df9efbbe4",
+      "raw_relative_path": "visual-reviews/visual-03/verdict.json"
+    },
+    {
+      "episode": "visual-04",
+      "dimension": "polish",
+      "A": "L52",
+      "B": "L26",
+      "raw_choice": "A",
+      "mapped_winner": "L52",
+      "raw_sha256": "d7ddd9d297340c9e2b27de380bbafbdf7f3f3c88dfdbd0a5546d2dc0a8dc209f",
+      "raw_relative_path": "visual-reviews/visual-04/verdict.json"
+    },
+    {
+      "episode": "visual-04",
+      "dimension": "readability",
+      "A": "L52",
+      "B": "L26",
+      "raw_choice": "tie",
+      "mapped_winner": "tie",
+      "raw_sha256": "d7ddd9d297340c9e2b27de380bbafbdf7f3f3c88dfdbd0a5546d2dc0a8dc209f",
+      "raw_relative_path": "visual-reviews/visual-04/verdict.json"
+    },
+    {
+      "episode": "visual-05",
+      "dimension": "polish",
+      "A": "L26",
+      "B": "L44",
+      "raw_choice": "B",
+      "mapped_winner": "L44",
+      "raw_sha256": "94d19a36004beccf193acd31522eb7283f5c889008ca4d828cfdb9c440428b60",
+      "raw_relative_path": "visual-reviews/visual-05/verdict.json"
+    },
+    {
+      "episode": "visual-05",
+      "dimension": "readability",
+      "A": "L26",
+      "B": "L44",
+      "raw_choice": "tie",
+      "mapped_winner": "tie",
+      "raw_sha256": "94d19a36004beccf193acd31522eb7283f5c889008ca4d828cfdb9c440428b60",
+      "raw_relative_path": "visual-reviews/visual-05/verdict.json"
+    },
+    {
+      "episode": "visual-06",
+      "dimension": "polish",
+      "A": "L44",
+      "B": "L26",
+      "raw_choice": "A",
+      "mapped_winner": "L44",
+      "raw_sha256": "2458478258dd71623d91328e386ea1d7308aeef871d157f55141ca0695b235f6",
+      "raw_relative_path": "visual-reviews/visual-06/verdict.json"
+    },
+    {
+      "episode": "visual-06",
+      "dimension": "readability",
+      "A": "L44",
+      "B": "L26",
+      "raw_choice": "tie",
+      "mapped_winner": "tie",
+      "raw_sha256": "2458478258dd71623d91328e386ea1d7308aeef871d157f55141ca0695b235f6",
+      "raw_relative_path": "visual-reviews/visual-06/verdict.json"
+    },
+    {
+      "episode": "visual-07",
+      "dimension": "polish",
+      "A": "L26",
+      "B": "L63",
+      "raw_choice": "B",
+      "mapped_winner": "L63",
+      "raw_sha256": "1f4a9cf3215a9d5c9aaafd5aa10fb99b103ff0296feab20431b824e0dcd454fa",
+      "raw_relative_path": "visual-reviews/visual-07/verdict.json"
+    },
+    {
+      "episode": "visual-07",
+      "dimension": "readability",
+      "A": "L26",
+      "B": "L63",
+      "raw_choice": "B",
+      "mapped_winner": "L63",
+      "raw_sha256": "1f4a9cf3215a9d5c9aaafd5aa10fb99b103ff0296feab20431b824e0dcd454fa",
+      "raw_relative_path": "visual-reviews/visual-07/verdict.json"
+    },
+    {
+      "episode": "visual-08",
+      "dimension": "polish",
+      "A": "L63",
+      "B": "L26",
+      "raw_choice": "A",
+      "mapped_winner": "L63",
+      "raw_sha256": "b5215538363b6017be2a33af4963f41e547bf25434a068417fbd35571a8dd36d",
+      "raw_relative_path": "visual-reviews/visual-08/verdict.json"
+    },
+    {
+      "episode": "visual-08",
+      "dimension": "readability",
+      "A": "L63",
+      "B": "L26",
+      "raw_choice": "tie",
+      "mapped_winner": "tie",
+      "raw_sha256": "b5215538363b6017be2a33af4963f41e547bf25434a068417fbd35571a8dd36d",
+      "raw_relative_path": "visual-reviews/visual-08/verdict.json"
+    }
+  ],
+  "pairwise": [
+    {
+      "rival": "L81",
+      "polish": "tie",
+      "polish_display": "Hòa / không thống nhất",
+      "polish_raw_winners": [
+        "L81",
+        "tie"
+      ],
+      "readability": "tie",
+      "readability_display": "Hòa / không thống nhất",
+      "readability_raw_winners": [
+        "tie",
+        "L26"
+      ]
+    },
+    {
+      "rival": "L52",
+      "polish": "L52",
+      "polish_display": "Ưu tiên bộ đối chiếu",
+      "polish_raw_winners": [
+        "L52",
+        "L52"
+      ],
+      "readability": "tie",
+      "readability_display": "Hòa / không thống nhất",
+      "readability_raw_winners": [
+        "L52",
+        "tie"
+      ]
+    },
+    {
+      "rival": "L44",
+      "polish": "L44",
+      "polish_display": "Ưu tiên bộ đối chiếu",
+      "polish_raw_winners": [
+        "L44",
+        "L44"
+      ],
+      "readability": "tie",
+      "readability_display": "Hòa / không thống nhất",
+      "readability_raw_winners": [
+        "tie",
+        "tie"
+      ]
+    },
+    {
+      "rival": "L63",
+      "polish": "L63",
+      "polish_display": "Ưu tiên bộ đối chiếu",
+      "polish_raw_winners": [
+        "L63",
+        "L63"
+      ],
+      "readability": "tie",
+      "readability_display": "Hòa / không thống nhất",
+      "readability_raw_winners": [
+        "L63",
+        "tie"
+      ]
+    }
+  ],
+  "swap_rule": "Both mapped votes must agree; different winners or winner/tie disagreement =>tie. Never majority-pool across rivals or construct a beauty total.",
+  "interpretation": "Native shared-model visual preferences from original960/390images, not human taste or causal method improvement."
+}

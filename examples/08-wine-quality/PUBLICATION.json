@@ -1,0 +1,56 @@
+{
+  "version_used": "3.5.0 frozen composite: suite + Frontend / art direction",
+  "original_files_sha256": {
+    "build.py": "1a9fb21747b9d8e7e2bf819b93dd073b0d0651814165bd27745ecb4590d0fcad",
+    "facts.csv": "4b2a7f1b163737d845bd2333ffd6aee9d6173d2c7660b87f2a644436f09e2721",
+    "input/source/LICENSE-CC-BY-4.0.txt": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+    "input/source/wine+quality.zip": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+    "input/source/winequality-red.csv": "4a402cf041b025d4566d954c3b9ba8635a3a8a01e039005d97d6a710278cf05e",
+    "input/source/winequality-white.csv": "76c3f809815c17c07212622f776311faeb31e87610d52c26d87d6e361b169836",
+    "input/source/winequality.names": "15d215e73b39105952380fd487e4ce1bf5a6b83a425abb285c2ec55193d3ca92",
+    "PROVENANCE.md": "208152584849e09ddb1d3396d82956d074fb20b5d103b30829707701cd13502b",
+    "README.md": "90ef81a445ac4cedce831cf6b257a501ddd7a0ec85d6ea4e01d0c88bd7904f48",
+    "report.html": "a2728292d1b376ae89126856eb858f43c406c5c3c85d67dade2a8ced0dd88fe9",
+    "report.template.html": "4dac3f311370107e361a22d025f407a37f7430c0998f6bec2f6c9bc4f58c0ca6",
+    "review-40.csv": "1ce85d181cb6a6b21232f5512265044bddcc9aefd0e2fc0c1ffa229b20ac8f91",
+    "SELF-REVIEW.md": "4cbc9b0ff06a980b6a3a2fa33c85bc693cab467d65b16204b2e1e4b943b98b94",
+    "source-manifest.json": "ebec52e4b8de96b791541c2616a1af21a1e8620369fd5e8eb76eef95a72d9cd7",
+    "work-form.html": "581e099d70f5bbc01670c35faa7844573abbe5052a8cea311417172967fe5bec",
+    "work-record-template.csv": "8138291d61e09a47b07f2a92c8e1692fd8f5368f534fc30fa6d7caff549dedf5"
+  },
+  "file_count": 16,
+  "owner_output_or_rebuild_code_edits": 0,
+  "owner_wrappers": [
+    "PACKAGE.md",
+    "PUBLICATION.json"
+  ],
+  "previews": {
+    "preview-desktop.png": {
+      "sha256": "9932bf59c0ac926382283e27d5cf9dcd1508ee55708f352987d46ff4788763af",
+      "original_capture": "default/960-tile-01.png",
+      "viewport_css_px": [
+        960,
+        900
+      ],
+      "dpr": 2
+    },
+    "preview-phone-distribution.png": {
+      "sha256": "ce68960d02f4b7ef4fb84cd41c052ee2ff91f96743f76dfd1b2a005a06906ff9",
+      "original_capture": "default/390-tile-04.png",
+      "viewport_css_px": [
+        390,
+        844
+      ],
+      "dpr": 2
+    }
+  },
+  "declared_rebuilt_outputs": 5,
+  "whole_comparison": "../../evals/practical-v3.5/PUBLICATION.json",
+  "source_license": "UCI Wine Quality; Cortez et al. (2009); CC BY 4.0; doi:10.24432/C56S3T",
+  "limits": [
+    "Model reading/preferences are proxies, not a human study.",
+    "The mobile disclosed exact table needs horizontal panning and loses the left score labels in its rightmost view; the main chart already shows all scores, counts and rounded rates.",
+    "First completed recovery output after all-five restart; not five uninterrupted single generations.",
+    "Self-review remains the author's own original statement, not independent verification."
+  ]
+}

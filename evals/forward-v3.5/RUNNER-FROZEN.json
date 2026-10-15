@@ -1,0 +1,12 @@
+{
+  "frozen_utc": "2026-10-15T04:00:57.128785+00:00",
+  "extension": "Mechanical sealing/capture/question-copy routines implementing the already frozen protocol; no output observed. Original217file trial freeze remains unchanged.",
+  "files": {
+    "checks/capture_disclosures.mjs": "e3679563b7ce7dd75c5b8184beb5e88c7f4be4c6a2d995de35f24bf1ac5b4c3c",
+    "checks/capture_report.mjs": "989fb7d8a224da5ea8a177978a5a80fc66f75212c08c98120403aa76ba2e47b0",
+    "checks/freeze_candidate.py": "7ad9119bc7a1bd6d05abcabfb166c6fb91b4143a677fcb9ad94a1bd268a7a32d",
+    "checks/prepare_reviews.py": "9b58c97f3251e305d99c5c753d05dac04be0a224517506c68605792844e30bb8",
+    "checks/prepare_trial.py": "4b207db60fa22890a8c1733ef9ce24360dc82d5b9cb2e0cb08bee925964a11de",
+    "checks/seal.py": "c9fbd8292ea6922ccaf9e42599c276da739bd97b67259ff22e20059f31e6d94c"
+  }
+}

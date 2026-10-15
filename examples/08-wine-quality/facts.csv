@@ -1,0 +1,67 @@
+﻿metric,source_file,group,value,denominator,unit,definition
+original_rows,winequality-red.csv,Rượu đỏ,1599,,rows,All data records; header excluded; duplicates retained
+quality_le_5,winequality-red.csv,Rượu đỏ,744,1599,rows,"Valid integer quality in [0,5]"
+quality_le_5_rate,winequality-red.csv,Rượu đỏ,0.4652908067542214,1599,fraction,quality_le_5/original_rows; no silent denominator exclusion
+quality_missing,winequality-red.csv,Rượu đỏ,0,1599,rows,Blank/whitespace quality
+quality_invalid,winequality-red.csv,Rượu đỏ,0,1599,rows,"Non-numeric, non-integer, non-finite or outside [0,10]"
+distinct_record_patterns,winequality-red.csv,Rượu đỏ,1359,1599,patterns,Equality of all 12 parsed field strings
+duplicate_extra_rows,winequality-red.csv,Rượu đỏ,240,1599,rows,Sum(group size - 1) across identical 12-field patterns; not deleted
+duplicate_record_groups,winequality-red.csv,Rượu đỏ,220,,groups,Identical 12-field patterns with count >1
+duplicate_group_members,winequality-red.csv,Rượu đỏ,460,1599,rows,All records in repeated patterns including first occurrence
+quality_0_count,winequality-red.csv,Rượu đỏ,0,1599,rows,quality = 0; full ordinal domain 0-10
+quality_0_rate,winequality-red.csv,Rượu đỏ,0.0,1599,fraction,quality = 0/original_rows
+quality_1_count,winequality-red.csv,Rượu đỏ,0,1599,rows,quality = 1; full ordinal domain 0-10
+quality_1_rate,winequality-red.csv,Rượu đỏ,0.0,1599,fraction,quality = 1/original_rows
+quality_2_count,winequality-red.csv,Rượu đỏ,0,1599,rows,quality = 2; full ordinal domain 0-10
+quality_2_rate,winequality-red.csv,Rượu đỏ,0.0,1599,fraction,quality = 2/original_rows
+quality_3_count,winequality-red.csv,Rượu đỏ,10,1599,rows,quality = 3; full ordinal domain 0-10
+quality_3_rate,winequality-red.csv,Rượu đỏ,0.006253908692933083,1599,fraction,quality = 3/original_rows
+quality_4_count,winequality-red.csv,Rượu đỏ,53,1599,rows,quality = 4; full ordinal domain 0-10
+quality_4_rate,winequality-red.csv,Rượu đỏ,0.03314571607254534,1599,fraction,quality = 4/original_rows
+quality_5_count,winequality-red.csv,Rượu đỏ,681,1599,rows,quality = 5; full ordinal domain 0-10
+quality_5_rate,winequality-red.csv,Rượu đỏ,0.425891181988743,1599,fraction,quality = 5/original_rows
+quality_6_count,winequality-red.csv,Rượu đỏ,638,1599,rows,quality = 6; full ordinal domain 0-10
+quality_6_rate,winequality-red.csv,Rượu đỏ,0.3989993746091307,1599,fraction,quality = 6/original_rows
+quality_7_count,winequality-red.csv,Rượu đỏ,199,1599,rows,quality = 7; full ordinal domain 0-10
+quality_7_rate,winequality-red.csv,Rượu đỏ,0.12445278298936835,1599,fraction,quality = 7/original_rows
+quality_8_count,winequality-red.csv,Rượu đỏ,18,1599,rows,quality = 8; full ordinal domain 0-10
+quality_8_rate,winequality-red.csv,Rượu đỏ,0.01125703564727955,1599,fraction,quality = 8/original_rows
+quality_9_count,winequality-red.csv,Rượu đỏ,0,1599,rows,quality = 9; full ordinal domain 0-10
+quality_9_rate,winequality-red.csv,Rượu đỏ,0.0,1599,fraction,quality = 9/original_rows
+quality_10_count,winequality-red.csv,Rượu đỏ,0,1599,rows,quality = 10; full ordinal domain 0-10
+quality_10_rate,winequality-red.csv,Rượu đỏ,0.0,1599,fraction,quality = 10/original_rows
+original_rows,winequality-white.csv,Rượu trắng,4898,,rows,All data records; header excluded; duplicates retained
+quality_le_5,winequality-white.csv,Rượu trắng,1640,4898,rows,"Valid integer quality in [0,5]"
+quality_le_5_rate,winequality-white.csv,Rượu trắng,0.33483054307880766,4898,fraction,quality_le_5/original_rows; no silent denominator exclusion
+quality_missing,winequality-white.csv,Rượu trắng,0,4898,rows,Blank/whitespace quality
+quality_invalid,winequality-white.csv,Rượu trắng,0,4898,rows,"Non-numeric, non-integer, non-finite or outside [0,10]"
+distinct_record_patterns,winequality-white.csv,Rượu trắng,3961,4898,patterns,Equality of all 12 parsed field strings
+duplicate_extra_rows,winequality-white.csv,Rượu trắng,937,4898,rows,Sum(group size - 1) across identical 12-field patterns; not deleted
+duplicate_record_groups,winequality-white.csv,Rượu trắng,772,,groups,Identical 12-field patterns with count >1
+duplicate_group_members,winequality-white.csv,Rượu trắng,1709,4898,rows,All records in repeated patterns including first occurrence
+quality_0_count,winequality-white.csv,Rượu trắng,0,4898,rows,quality = 0; full ordinal domain 0-10
+quality_0_rate,winequality-white.csv,Rượu trắng,0.0,4898,fraction,quality = 0/original_rows
+quality_1_count,winequality-white.csv,Rượu trắng,0,4898,rows,quality = 1; full ordinal domain 0-10
+quality_1_rate,winequality-white.csv,Rượu trắng,0.0,4898,fraction,quality = 1/original_rows
+quality_2_count,winequality-white.csv,Rượu trắng,0,4898,rows,quality = 2; full ordinal domain 0-10
+quality_2_rate,winequality-white.csv,Rượu trắng,0.0,4898,fraction,quality = 2/original_rows
+quality_3_count,winequality-white.csv,Rượu trắng,20,4898,rows,quality = 3; full ordinal domain 0-10
+quality_3_rate,winequality-white.csv,Rượu trắng,0.004083299305839118,4898,fraction,quality = 3/original_rows
+quality_4_count,winequality-white.csv,Rượu trắng,163,4898,rows,quality = 4; full ordinal domain 0-10
+quality_4_rate,winequality-white.csv,Rượu trắng,0.03327888934258881,4898,fraction,quality = 4/original_rows
+quality_5_count,winequality-white.csv,Rượu trắng,1457,4898,rows,quality = 5; full ordinal domain 0-10
+quality_5_rate,winequality-white.csv,Rượu trắng,0.2974683544303797,4898,fraction,quality = 5/original_rows
+quality_6_count,winequality-white.csv,Rượu trắng,2198,4898,rows,quality = 6; full ordinal domain 0-10
+quality_6_rate,winequality-white.csv,Rượu trắng,0.44875459371171905,4898,fraction,quality = 6/original_rows
+quality_7_count,winequality-white.csv,Rượu trắng,880,4898,rows,quality = 7; full ordinal domain 0-10
+quality_7_rate,winequality-white.csv,Rượu trắng,0.17966516945692118,4898,fraction,quality = 7/original_rows
+quality_8_count,winequality-white.csv,Rượu trắng,175,4898,rows,quality = 8; full ordinal domain 0-10
+quality_8_rate,winequality-white.csv,Rượu trắng,0.03572886892609228,4898,fraction,quality = 8/original_rows
+quality_9_count,winequality-white.csv,Rượu trắng,5,4898,rows,quality = 9; full ordinal domain 0-10
+quality_9_rate,winequality-white.csv,Rượu trắng,0.0010208248264597796,4898,fraction,quality = 9/original_rows
+quality_10_count,winequality-white.csv,Rượu trắng,0,4898,rows,quality = 10; full ordinal domain 0-10
+quality_10_rate,winequality-white.csv,Rượu trắng,0.0,4898,fraction,quality = 10/original_rows
+red_minus_white_threshold_rate_pp,winequality-red.csv | winequality-white.csv,Đỏ trừ trắng,13.046026367541366,,percentage_points,100*(red_low/red_n - white_low/white_n)
+review_records,,Đề xuất,40,,records,20 first source data rows per file; convenience selection
+review_person_minutes,,Giả định,120,,person_minutes,40 records * 3 minutes/record
+review_parallel_elapsed_minutes,,Giả định,60,,minutes,120 person minutes / 2 only if both truly available in parallel

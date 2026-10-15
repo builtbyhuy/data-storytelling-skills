@@ -1,0 +1,34 @@
+{
+  "recorded_utc": "2026-10-15T05:36:04.004576+00:00",
+  "reason": "Distribution-only attribution/license correction for optional redistribution and UCI sources after author/reader/visual episodes. No SKILL or shared method instruction body changed.",
+  "core_files_matching_tested_bytes": 60,
+  "only_changed_core_files": {
+    "analytics-adoption/NOTICE.md": {
+      "tested_sha256": "d895955c4cce22483f30b86f94ae218fb0fcf712861b8000da41c58856525318",
+      "distribution_sha256": "3f2a537ba9337c54f3ce9922021041db390d9b573c02b2ffbfc5e850e8474d39"
+    },
+    "business-chart-communication/NOTICE.md": {
+      "tested_sha256": "d895955c4cce22483f30b86f94ae218fb0fcf712861b8000da41c58856525318",
+      "distribution_sha256": "3f2a537ba9337c54f3ce9922021041db390d9b573c02b2ffbfc5e850e8474d39"
+    },
+    "business-insight-diagnosis/NOTICE.md": {
+      "tested_sha256": "d895955c4cce22483f30b86f94ae218fb0fcf712861b8000da41c58856525318",
+      "distribution_sha256": "3f2a537ba9337c54f3ce9922021041db390d9b573c02b2ffbfc5e850e8474d39"
+    },
+    "data-story-redteam/NOTICE.md": {
+      "tested_sha256": "d895955c4cce22483f30b86f94ae218fb0fcf712861b8000da41c58856525318",
+      "distribution_sha256": "3f2a537ba9337c54f3ce9922021041db390d9b573c02b2ffbfc5e850e8474d39"
+    },
+    "data-storytelling/NOTICE.md": {
+      "tested_sha256": "d895955c4cce22483f30b86f94ae218fb0fcf712861b8000da41c58856525318",
+      "distribution_sha256": "3f2a537ba9337c54f3ce9922021041db390d9b573c02b2ffbfc5e850e8474d39"
+    },
+    "evidence-to-narrative/NOTICE.md": {
+      "tested_sha256": "d895955c4cce22483f30b86f94ae218fb0fcf712861b8000da41c58856525318",
+      "distribution_sha256": "3f2a537ba9337c54f3ce9922021041db390d9b573c02b2ffbfc5e850e8474d39"
+    }
+  },
+  "tested_notice_copy": "TESTED-NOTICE.md",
+  "strict_snapshot_reconstruction": "For exact original66core hashes, substitute TESTED-NOTICE.md at the six listed NOTICE.md locations; keep the current60otherfiles unchanged. The actual ten complementary method files remain unchanged inside the retained snapshot ZIP.",
+  "original_candidate_manifest_sha256": "b8360eaa1e6737c23aca5e69f1a2a840eb0b2f348b72d0a832f821a09cb118ca"
+}

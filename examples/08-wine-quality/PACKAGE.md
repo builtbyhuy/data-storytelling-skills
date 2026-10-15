@@ -1,0 +1,11 @@
+# Wine Quality — exact 3.5 composite output
+
+Open [the original offline report](report.html). Its main comparison, ordinal distribution, qualifications and conditional record-review plan use native HTML/text/CSS bars. View the [original record form](work-form.html), [40-row HOLD worklist](review-40.csv), [facts](facts.csv), and [original author README/rebuild recipe](README.md). Keep this entire folder to rebuild with standard-library Python: `python build.py`.
+
+All 16 author files are copied byte for byte from the first completed recovery handoff, including its source ZIP, template, build program, form and self-review. The owner edited none of those files. This wrapper, the exact-file [publication receipt](PUBLICATION.json), and the two unchanged native browser previews are separate packaging. The [five complete originals](../../evals/practical-v3.5/README.md) permit comparison; [the evaluation](../../evals/forward-v3.5.md) preserves negative results and limitations.
+
+The package's five generated outputs reproduced byte for byte from a relocated unchanged recipe. Independent checks covered source arithmetic, all 66 facts, 40 row addresses with their 12 original values, chart quantities and actual 960/390 CSS-pixel captures. Those checks do not establish taste or human understanding. Read the evaluation for separate fresh-reader and swapped visual comparisons.
+
+**Retained narrow-screen limitation:** the disclosed exact distribution table needs a 66 CSS-pixel horizontal pan; its left score labels leave the rightmost view. Stable overlapping rows permit lookup, and the main chart already displays all score labels/counts and one-decimal rates without panning. No owner fixed this output before evaluating it.
+
+Wine Quality is attributed to Cortez, Cerdeira, Almeida, Matos and Reis (2009), [UCI DOI 10.24432/C56S3T](https://doi.org/10.24432/C56S3T), CC BY 4.0. Original source bytes, dictionary and license are retained under `input/source/`. Project MIT covers original code, narrative and layout, not relicensing the data. The <=5 threshold and 40-record plan are hypothetical; no real tasting, staffing, approval or intervention occurred. Author self-review is retained as provenance, not adopted as independent proof.

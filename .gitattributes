@@ -2,7 +2,7 @@
 LICENSE -text
 NOTICE.md -text
 shared/** -text
-skills/** -text
+skills/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 examples/04-attendance-pilot/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 examples/05-asean-electricity/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 examples/06-bank-marketing/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
@@ -12,3 +12,10 @@ evals/solo-v3.3/reader-*.md -text whitespace=blank-at-eol,-blank-at-eof,space-be
 examples/06-bank-marketing/build.py -text whitespace=blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
 examples/06-bank-marketing/calculate.py -text whitespace=blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
 examples/06-bank-marketing/source/bank-names.txt -text -whitespace
+examples/07-bike-sharing/** -text whitespace=blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
+examples/08-wine-quality/** -text whitespace=blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
+examples/08-wine-quality/input/source/** -text -whitespace
+evals/forward-v3.4/** -text whitespace=blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
+evals/forward-v3.5/** -text whitespace=blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
+evals/practical-v3.5/** -text whitespace=blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
+optional-complements/** -text whitespace=blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol

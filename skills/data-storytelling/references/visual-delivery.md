@@ -12,6 +12,31 @@ Write one principal reader question per view. Allocate space to the comparison b
 
 For a responsive web artifact, reflow prose at narrow widths and retain readable chart text. Either redesign/facet the chart for that width, or offer a clearly labeled scrollable chart and accessible exact-value table. Do not shrink an entire desktop slide into a phone screen and call it responsive. Test the widths required by the request; do not infer mobile verification from a desktop render.
 
+## Commit to a direction, then exercise it
+
+For substantial visual work, make a short working direction from the actual brief: reader task, principal comparison, first attraction, quiet supporting context, type/color roles, alignment and intended reading width. Keep it out of the reader-facing artifact. Preserve a supplied brand or working template. Explain open choices by their purpose for this content; a fashionable theme, palette quota or compulsory novelty is not a purpose.
+
+Build one representative view with real content in the final renderer before repeating its layout. Include a genuine difficulty such as long identities, close values, an exception or dense time data. Check that the comparison, labels and controlling qualification have room at destination size. Adjust the composition before spreading it across pages. Reuse consistent type, spacing and color roles without forcing different questions into identical cards.
+
+For a substantial reader-facing HTML report, use available `artifact-art-direction` and `frontend-design` methods together with this evidence contract. Read their actual instructions when available: let art direction establish the reading path and let frontend craft realize and inspect it in the browser. Keep the data, requested quantities and decision limits authoritative across that work. These optional complements are not bundled dependencies; use the internal direction and rendering method when they are unavailable. A short summary of another method is not evidence that its full workflow was exercised.
+
+Choose one primary expression of the decisive comparison. Repeating it in a headline, paragraph, cards, chart and table needs a distinct reading purpose each time; otherwise move the detailed reconciliation into accessible supporting evidence. Keep the governing qualification beside the comparison. A concise main path may coexist with a complete audit trail without displaying every internal check at equal prominence.
+
+Exercise narrow-screen lookup as a task. Keep table captions, scope notes and scroll instructions outside a horizontal scrolling region. Retain enough row/column identity to bind each value, or reflow into labelled records; a long technical field name must not consume the whole viewport while its meaning sits offscreen. Make operating conditions and responses individually findable, such as distinct rule rows or short steps, rather than burying several rules in one paragraph. Test a specific value lookup and the next action at that width; the presence of the text elsewhere in the document is insufficient.
+
+Exercise the view without its author's explanation: identify the measured entity/unit, distinguish the series, retrieve a decisive value, locate the qualification, and state the choice or next step. Then perform one relevant recipient task, such as finding an eligible case or completing a readout row. Record concrete failures, revise the responsible wording/encoding/layout and inspect again. Numerical, file-format and reading checks answer different questions; an internal score cannot replace the task.
+
+Check the requested quantity against the visible values, not only against the plot's internal data. A count question needs retrievable category counts; percentages alone do not answer it. If shares help, retain the counts and the eligible total beside them or in an adjacent exact-value table. Conversely, raw counts without a denominator do not answer a rate question. Preserve the measured entity, unit and aggregation when changing the encoding; show any useful derived quantity as additional evidence. Before delivery, read one requested value with its category and unit from the rendered view without opening analysis code or recalculating from another file.
+
+Two useful counterexamples:
+
+- A dense date series is not repaired by giving unequal intervals equal spacing and exporting a wider canvas with tiny labels. Preserve actual coordinates; reduce displayed ticks, change aspect ratio, facet or offer deliberate readable scrolling. Recheck the whole view at its promised width.
+- Nearby direct labels remove legend searches, but colliding long names may obscure the marks. Try offsets/leader lines, adjacent label columns or an ordered aligned legend with unambiguous mark matching. Retrieve an identity and its value before deciding; neither direct labels nor legends always win.
+
+For each prominent color, shape, line pattern or enclosure, identify the distinction it serves. Quiet distracting cues while retaining redundant identification where color alone loses meaning. Short labels must still identify the entity, measure and unit: product price and manufacturer revenue cannot become ambiguous generic quantities merely to fit.
+
+When an automated checker misreads valid styling, retain its actual score and diagnose compatibility separately. Preserve true time spacing, meaningful redundant cues and readable formatting rather than optimizing a parser at the recipient's expense.
+
 ## Select a real production path
 
 An exact-value table is part of the reading path when the decision depends on it, even if the author omitted a `data-essential` marker. Inspect its longest values at each promised width, including signs, decimal/grouping separators, units and the row/column identity that gives them meaning. Keep each amount recoverable as one value; avoid interleaved neighboring numbers or wrapping that makes a sign or digit look like another row. Use appropriate precision, more space, paired labeled rows or deliberate labeled scrolling according to the lookup task. Reducing font size or counting a non-clipping render alone does not resolve a crowded comparison.

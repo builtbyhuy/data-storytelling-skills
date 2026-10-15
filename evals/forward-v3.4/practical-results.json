@@ -1,0 +1,1153 @@
+{
+  "created_utc": "2026-10-15T03:46:16.550856+00:00",
+  "classification": "Separate source/rebuild/model-recipient gates; not a beauty score or human/field outcome.",
+  "conditions": {
+    "L26": {
+      "tested_version": "3.4.0",
+      "source_status_display": "Số liệu đã đối chiếu",
+      "rebuild_status_display": "Đạt, giữ nguyên mã",
+      "use_status_display": "Quản lý 2/2 đầy đủ; điền mẫu 2/2",
+      "manager_assertion_statuses": {
+        "pass": 16
+      },
+      "operator_assertion_statuses": {
+        "pass": 16
+      },
+      "manager_episodes_all_critical_complete": 2,
+      "recipient_episodes": 2,
+      "reader_operator_basis": "unchanged delivered CLI plus separately checked original HTML",
+      "owner_original_html_scenarios_tested": [
+        "A READY FOR REVIEW64",
+        "B HOLD R2/62",
+        "C HOLD R3/64"
+      ],
+      "sealed_original_files_unchanged": 103,
+      "source_scope_qualification": "Current source calculations/visible values pass. L81 generalized duplicate-bin policy is not explicit in reader-visible text; see independent grader. Missing finer reader statements remain missing, not assumed correct.",
+      "readers": [
+        {
+          "episode": "reader-03",
+          "manager": [
+            {
+              "id": "M1.selected_windows",
+              "status": "pass",
+              "explanation": "Both group-specific starts, exclusive ends and three hr bins match the independent oracle.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M1.split_and_tie",
+              "status": "pass",
+              "explanation": "Recovers 2011-only selection, 2012 frozen validation, starts 06..19 and earliest exact tie.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M2.rates_and_comparator",
+              "status": "pass",
+              "explanation": "All six displayed values are attached to the correct 2012 group/window and are within half the last displayed digit of independently bound values.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M2.denominator_and_eligibility",
+              "status": "pass",
+              "explanation": "Recovers aggregate 16-bin 06..21 denominator on same eligible dates, valid nonnegative cnt, consistent binary flag, exactly one row/bin, whole-date exclusion for missing/duplicate bins, no zero fill and no daily-ratio averaging.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M3.resources",
+              "status": "pass",
+              "explanation": "Recovers 4 weeks, 8 distinct dates, 4 per flag, 2 per week, 2 observers, 3 observation +1 preparation hour/person/date, and 64 planned staff-hours.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M3.schedule_status",
+              "status": "pass",
+              "explanation": "Identifies schedule slots/draft and absence of approved actual site/dates.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M4.prelaunch_hold",
+              "status": "pass",
+              "explanation": "HOLD pending manager site authorization and matching scope plus actual hr/timezone/local-calendar confirmation; historical data do not authorize deployment.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M4.evidence_limit",
+              "status": "pass",
+              "explanation": "Correctly limits evidence to historical recorded-rental coverage and rejects unmet-demand, causal staffing/benefit, current-state and station-suitability inference.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            }
+          ],
+          "operator_common": [
+            {
+              "id": "O.input_transfer",
+              "status": "pass"
+            },
+            {
+              "id": "O.synthetic_label",
+              "status": "pass"
+            },
+            {
+              "id": "O.originals_unchanged",
+              "status": "pass"
+            },
+            {
+              "id": "O.no_invented_effect",
+              "status": "pass"
+            },
+            {
+              "id": "O.rule_interpretation",
+              "status": "pass"
+            }
+          ],
+          "scenarios": [
+            {
+              "id": "O.scenario_A",
+              "status": "pass",
+              "execution_basis": "supplied author CLI utility execution reported; actual saved results examined; no HTML execution inferred"
+            },
+            {
+              "id": "O.scenario_B",
+              "status": "pass",
+              "execution_basis": "supplied author CLI utility execution reported; actual saved results examined; no HTML execution inferred"
+            },
+            {
+              "id": "O.scenario_C",
+              "status": "pass",
+              "execution_basis": "supplied author CLI utility execution reported; actual saved results examined; no HTML execution inferred"
+            }
+          ]
+        },
+        {
+          "episode": "reader-04",
+          "manager": [
+            {
+              "id": "M1.selected_windows",
+              "status": "pass",
+              "explanation": "Both group-specific starts, exclusive ends and three hr bins match the independent oracle.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M1.split_and_tie",
+              "status": "pass",
+              "explanation": "Recovers 2011-only selection, 2012 frozen validation, starts 06..19 and earliest exact tie.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M2.rates_and_comparator",
+              "status": "pass",
+              "explanation": "All six displayed values are attached to the correct 2012 group/window and are within half the last displayed digit of independently bound values.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M2.denominator_and_eligibility",
+              "status": "pass",
+              "explanation": "Recovers aggregate 16-bin 06..21 denominator on same eligible dates, valid nonnegative cnt, consistent binary flag, exactly one row/bin, whole-date exclusion for missing/duplicate bins, no zero fill and no daily-ratio averaging.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M3.resources",
+              "status": "pass",
+              "explanation": "Recovers 4 weeks, 8 distinct dates, 4 per flag, 2 per week, 2 observers, 3 observation +1 preparation hour/person/date, and 64 planned staff-hours.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M3.schedule_status",
+              "status": "pass",
+              "explanation": "Identifies schedule slots/draft and absence of approved actual site/dates.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M4.prelaunch_hold",
+              "status": "pass",
+              "explanation": "HOLD pending manager site authorization and matching scope plus actual hr/timezone/local-calendar confirmation; historical data do not authorize deployment.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M4.evidence_limit",
+              "status": "pass",
+              "explanation": "Correctly limits evidence to historical recorded-rental coverage and rejects unmet-demand, causal staffing/benefit, current-state and station-suitability inference.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            }
+          ],
+          "operator_common": [
+            {
+              "id": "O.input_transfer",
+              "status": "pass"
+            },
+            {
+              "id": "O.synthetic_label",
+              "status": "pass"
+            },
+            {
+              "id": "O.originals_unchanged",
+              "status": "pass"
+            },
+            {
+              "id": "O.no_invented_effect",
+              "status": "pass"
+            },
+            {
+              "id": "O.rule_interpretation",
+              "status": "pass"
+            }
+          ],
+          "scenarios": [
+            {
+              "id": "O.scenario_A",
+              "status": "pass",
+              "execution_basis": "supplied author CLI utility execution reported; actual saved results examined; no HTML execution inferred"
+            },
+            {
+              "id": "O.scenario_B",
+              "status": "pass",
+              "execution_basis": "supplied author CLI utility execution reported; actual saved results examined; no HTML execution inferred"
+            },
+            {
+              "id": "O.scenario_C",
+              "status": "pass",
+              "execution_basis": "supplied author CLI utility execution reported; actual saved results examined; no HTML execution inferred"
+            }
+          ]
+        }
+      ]
+    },
+    "L81": {
+      "tested_version": "frozen comparison method",
+      "source_status_display": "Số liệu đã đối chiếu",
+      "rebuild_status_display": "Đạt, giữ nguyên mã",
+      "use_status_display": "Quản lý 0/2 đầy đủ; điền mẫu 2/2",
+      "manager_assertion_statuses": {
+        "pass": 14,
+        "missing": 2
+      },
+      "operator_assertion_statuses": {
+        "pass": 16
+      },
+      "manager_episodes_all_critical_complete": 0,
+      "recipient_episodes": 2,
+      "reader_operator_basis": "unchanged delivered CLI plus separately checked original HTML",
+      "owner_original_html_scenarios_tested": [
+        "A READY FOR REVIEW64",
+        "B HOLD R2/62",
+        "C HOLD R3/64"
+      ],
+      "sealed_original_files_unchanged": 152,
+      "source_scope_qualification": "Current source calculations/visible values pass. L81 generalized duplicate-bin policy is not explicit in reader-visible text; see independent grader. Missing finer reader statements remain missing, not assumed correct.",
+      "readers": [
+        {
+          "episode": "reader-07",
+          "manager": [
+            {
+              "id": "M1.selected_windows",
+              "status": "pass",
+              "explanation": "Both group-specific starts, exclusive ends and three hr bins match the independent oracle.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M1.split_and_tie",
+              "status": "pass",
+              "explanation": "Recovers 2011-only selection, 2012 frozen validation, starts 06..19 and earliest exact tie.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M2.rates_and_comparator",
+              "status": "pass",
+              "explanation": "All six displayed values are attached to the correct 2012 group/window and are within half the last displayed digit of independently bound values.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M2.denominator_and_eligibility",
+              "status": "missing",
+              "explanation": "The response reports the missing duplicate-bin rule and does not recover exactly-one-bin eligibility, nonnegative valid cnt, and consistent binary daily workingday as a complete eligibility rule.",
+              "attribution": "artifact instruction gap plus incomplete model readback of visible nonnegative/flag checks; observed uniqueness is not an explicit general duplicate eligibility policy",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M3.resources",
+              "status": "pass",
+              "explanation": "Recovers 4 weeks, 8 distinct dates, 4 per flag, 2 per week, 2 observers, 3 observation +1 preparation hour/person/date, and 64 planned staff-hours.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M3.schedule_status",
+              "status": "pass",
+              "explanation": "Identifies schedule slots/draft and absence of approved actual site/dates.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M4.prelaunch_hold",
+              "status": "pass",
+              "explanation": "HOLD pending manager site authorization and matching scope plus actual hr/timezone/local-calendar confirmation; historical data do not authorize deployment.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M4.evidence_limit",
+              "status": "pass",
+              "explanation": "Correctly limits evidence to historical recorded-rental coverage and rejects unmet-demand, causal staffing/benefit, current-state and station-suitability inference.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            }
+          ],
+          "operator_common": [
+            {
+              "id": "O.input_transfer",
+              "status": "pass"
+            },
+            {
+              "id": "O.synthetic_label",
+              "status": "pass"
+            },
+            {
+              "id": "O.originals_unchanged",
+              "status": "pass"
+            },
+            {
+              "id": "O.no_invented_effect",
+              "status": "pass"
+            },
+            {
+              "id": "O.rule_interpretation",
+              "status": "pass"
+            }
+          ],
+          "scenarios": [
+            {
+              "id": "O.scenario_A",
+              "status": "pass",
+              "execution_basis": "supplied author CLI utility execution reported; actual saved results examined; no HTML execution inferred"
+            },
+            {
+              "id": "O.scenario_B",
+              "status": "pass",
+              "execution_basis": "supplied author CLI utility execution reported; actual saved results examined; no HTML execution inferred"
+            },
+            {
+              "id": "O.scenario_C",
+              "status": "pass",
+              "execution_basis": "supplied author CLI utility execution reported; actual saved results examined; no HTML execution inferred"
+            }
+          ]
+        },
+        {
+          "episode": "reader-08",
+          "manager": [
+            {
+              "id": "M1.selected_windows",
+              "status": "pass",
+              "explanation": "Both group-specific starts, exclusive ends and three hr bins match the independent oracle.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M1.split_and_tie",
+              "status": "pass",
+              "explanation": "Recovers 2011-only selection, 2012 frozen validation, starts 06..19 and earliest exact tie.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M2.rates_and_comparator",
+              "status": "pass",
+              "explanation": "All six displayed values are attached to the correct 2012 group/window and are within half the last displayed digit of independently bound values.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M2.denominator_and_eligibility",
+              "status": "missing",
+              "explanation": "The response does not recover exactly-one-bin eligibility, nonnegative valid cnt, and consistent binary daily workingday; it says duplicate handling is not stated.",
+              "attribution": "artifact instruction gap plus incomplete model readback of visible nonnegative/flag checks; observed uniqueness is not an explicit general duplicate eligibility policy",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M3.resources",
+              "status": "pass",
+              "explanation": "Recovers 4 weeks, 8 distinct dates, 4 per flag, 2 per week, 2 observers, 3 observation +1 preparation hour/person/date, and 64 planned staff-hours.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M3.schedule_status",
+              "status": "pass",
+              "explanation": "Identifies schedule slots/draft and absence of approved actual site/dates.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M4.prelaunch_hold",
+              "status": "pass",
+              "explanation": "HOLD pending manager site authorization and matching scope plus actual hr/timezone/local-calendar confirmation; historical data do not authorize deployment.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M4.evidence_limit",
+              "status": "pass",
+              "explanation": "Correctly limits evidence to historical recorded-rental coverage and rejects unmet-demand, causal staffing/benefit, current-state and station-suitability inference.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            }
+          ],
+          "operator_common": [
+            {
+              "id": "O.input_transfer",
+              "status": "pass"
+            },
+            {
+              "id": "O.synthetic_label",
+              "status": "pass"
+            },
+            {
+              "id": "O.originals_unchanged",
+              "status": "pass"
+            },
+            {
+              "id": "O.no_invented_effect",
+              "status": "pass"
+            },
+            {
+              "id": "O.rule_interpretation",
+              "status": "pass"
+            }
+          ],
+          "scenarios": [
+            {
+              "id": "O.scenario_A",
+              "status": "pass",
+              "execution_basis": "supplied author CLI utility execution reported; actual saved results examined; no HTML execution inferred"
+            },
+            {
+              "id": "O.scenario_B",
+              "status": "pass",
+              "execution_basis": "supplied author CLI utility execution reported; actual saved results examined; no HTML execution inferred"
+            },
+            {
+              "id": "O.scenario_C",
+              "status": "pass",
+              "execution_basis": "supplied author CLI utility execution reported; actual saved results examined; no HTML execution inferred"
+            }
+          ]
+        }
+      ]
+    },
+    "L52": {
+      "tested_version": "frozen comparison method",
+      "source_status_display": "Số liệu đã đối chiếu",
+      "rebuild_status_display": "Đạt, giữ nguyên mã",
+      "use_status_display": "Quản lý 0/2 đầy đủ; điền mẫu 2/2",
+      "manager_assertion_statuses": {
+        "pass": 12,
+        "missing": 4
+      },
+      "operator_assertion_statuses": {
+        "pass": 16
+      },
+      "manager_episodes_all_critical_complete": 0,
+      "recipient_episodes": 2,
+      "reader_operator_basis": "manual public-rule application; original HTML separately checked by owner",
+      "owner_original_html_scenarios_tested": [
+        "A READY FOR REVIEW64",
+        "B HOLD R2/62",
+        "C HOLD R3/64"
+      ],
+      "sealed_original_files_unchanged": 115,
+      "source_scope_qualification": "Current source calculations/visible values pass. L81 generalized duplicate-bin policy is not explicit in reader-visible text; see independent grader. Missing finer reader statements remain missing, not assumed correct.",
+      "readers": [
+        {
+          "episode": "reader-09",
+          "manager": [
+            {
+              "id": "M1.selected_windows",
+              "status": "pass",
+              "explanation": "Both group-specific starts, exclusive ends and three hr bins match the independent oracle.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M1.split_and_tie",
+              "status": "missing",
+              "explanation": "Selection year, frozen 2012 validation and earliest tie are recovered, but integer candidate starts 06 through 19 are absent from the answer.",
+              "attribution": "model readback omission of a frozen scored statement; this is not an observed wrong window, rate or decision. Source/chart content does not fill the sealed answer",
+              "question_scoring_alignment_limit": "Public M1 asks selected hours, bins, selection year, tie and validation year; it does not explicitly ask candidate bounds 06..19. The frozen assertion is finer than that wording. Missing bounds are retained as a missing statement, not a wrong selected window or tie decision. L52 visible narrative says total/earliest but not bounds; reader cites candidate chart without transcribing bounds."
+            },
+            {
+              "id": "M2.rates_and_comparator",
+              "status": "pass",
+              "explanation": "All six displayed values are attached to the correct 2012 group/window and are within half the last displayed digit of independently bound values.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M2.denominator_and_eligibility",
+              "status": "missing",
+              "explanation": "Exactly one row/bin, same dates, consistent binary flag, and whole-date exclusion are recovered. The response says cnt is valid but does not recover the nonnegative condition explicitly; its aggregate ratio wording supports ratio-of-sums.",
+              "attribution": "model readback omission of a frozen scored statement; this is not an observed wrong window, rate or decision. Source/chart content does not fill the sealed answer",
+              "question_scoring_alignment_limit": "Public M2 asks denominator/date/bin and missing/duplicate treatment; the frozen eligibility assertion additionally requires explicit nonnegative cnt. Reader says cnt valid but does not unpack this. This missing statement is not an observed negative-data acceptance or wrong denominator."
+            },
+            {
+              "id": "M3.resources",
+              "status": "pass",
+              "explanation": "Recovers 4 weeks, 8 distinct dates, 4 per flag, 2 per week, 2 observers, 3 observation +1 preparation hour/person/date, and 64 planned staff-hours.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M3.schedule_status",
+              "status": "pass",
+              "explanation": "Identifies schedule slots/draft and absence of approved actual site/dates.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M4.prelaunch_hold",
+              "status": "pass",
+              "explanation": "HOLD pending manager site authorization and matching scope plus actual hr/timezone/local-calendar confirmation; historical data do not authorize deployment.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M4.evidence_limit",
+              "status": "pass",
+              "explanation": "Correctly limits evidence to historical recorded-rental coverage and rejects unmet-demand, causal staffing/benefit, current-state and station-suitability inference.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            }
+          ],
+          "operator_common": [
+            {
+              "id": "O.input_transfer",
+              "status": "pass"
+            },
+            {
+              "id": "O.synthetic_label",
+              "status": "pass"
+            },
+            {
+              "id": "O.originals_unchanged",
+              "status": "pass"
+            },
+            {
+              "id": "O.no_invented_effect",
+              "status": "pass"
+            },
+            {
+              "id": "O.rule_interpretation",
+              "status": "pass"
+            }
+          ],
+          "scenarios": [
+            {
+              "id": "O.scenario_A",
+              "status": "pass",
+              "execution_basis": "manual public-rule application; original HTML not executed"
+            },
+            {
+              "id": "O.scenario_B",
+              "status": "pass",
+              "execution_basis": "manual public-rule application; original HTML not executed"
+            },
+            {
+              "id": "O.scenario_C",
+              "status": "pass",
+              "execution_basis": "manual public-rule application; original HTML not executed"
+            }
+          ]
+        },
+        {
+          "episode": "reader-10",
+          "manager": [
+            {
+              "id": "M1.selected_windows",
+              "status": "pass",
+              "explanation": "Both group-specific starts, exclusive ends and three hr bins match the independent oracle.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M1.split_and_tie",
+              "status": "missing",
+              "explanation": "Selection year, frozen 2012 validation and earliest tie are recovered, but integer candidate starts 06 through 19 are absent from the answer.",
+              "attribution": "model readback omission of a frozen scored statement; this is not an observed wrong window, rate or decision. Source/chart content does not fill the sealed answer",
+              "question_scoring_alignment_limit": "Public M1 asks selected hours, bins, selection year, tie and validation year; it does not explicitly ask candidate bounds 06..19. The frozen assertion is finer than that wording. Missing bounds are retained as a missing statement, not a wrong selected window or tie decision. L52 visible narrative says total/earliest but not bounds; reader cites candidate chart without transcribing bounds."
+            },
+            {
+              "id": "M2.rates_and_comparator",
+              "status": "pass",
+              "explanation": "All six displayed values are attached to the correct 2012 group/window and are within half the last displayed digit of independently bound values.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M2.denominator_and_eligibility",
+              "status": "missing",
+              "explanation": "Exactly one row/bin, same dates, consistent binary flag, and whole-date exclusion are recovered. The response says cnt is valid but does not recover the nonnegative condition explicitly; its aggregate ratio wording supports ratio-of-sums.",
+              "attribution": "model readback omission of a frozen scored statement; this is not an observed wrong window, rate or decision. Source/chart content does not fill the sealed answer",
+              "question_scoring_alignment_limit": "Public M2 asks denominator/date/bin and missing/duplicate treatment; the frozen eligibility assertion additionally requires explicit nonnegative cnt. Reader says cnt valid but does not unpack this. This missing statement is not an observed negative-data acceptance or wrong denominator."
+            },
+            {
+              "id": "M3.resources",
+              "status": "pass",
+              "explanation": "Recovers 4 weeks, 8 distinct dates, 4 per flag, 2 per week, 2 observers, 3 observation +1 preparation hour/person/date, and 64 planned staff-hours.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M3.schedule_status",
+              "status": "pass",
+              "explanation": "Identifies schedule slots/draft and absence of approved actual site/dates.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M4.prelaunch_hold",
+              "status": "pass",
+              "explanation": "HOLD pending manager site authorization and matching scope plus actual hr/timezone/local-calendar confirmation; historical data do not authorize deployment.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M4.evidence_limit",
+              "status": "pass",
+              "explanation": "Correctly limits evidence to historical recorded-rental coverage and rejects unmet-demand, causal staffing/benefit, current-state and station-suitability inference.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            }
+          ],
+          "operator_common": [
+            {
+              "id": "O.input_transfer",
+              "status": "pass"
+            },
+            {
+              "id": "O.synthetic_label",
+              "status": "pass"
+            },
+            {
+              "id": "O.originals_unchanged",
+              "status": "pass"
+            },
+            {
+              "id": "O.no_invented_effect",
+              "status": "pass"
+            },
+            {
+              "id": "O.rule_interpretation",
+              "status": "pass"
+            }
+          ],
+          "scenarios": [
+            {
+              "id": "O.scenario_A",
+              "status": "pass",
+              "execution_basis": "manual public-rule application; original HTML not executed"
+            },
+            {
+              "id": "O.scenario_B",
+              "status": "pass",
+              "execution_basis": "manual public-rule application; original HTML not executed"
+            },
+            {
+              "id": "O.scenario_C",
+              "status": "pass",
+              "execution_basis": "manual public-rule application; original HTML not executed"
+            }
+          ]
+        }
+      ]
+    },
+    "L44": {
+      "tested_version": "frozen comparison method",
+      "source_status_display": "Số liệu đã đối chiếu",
+      "rebuild_status_display": "Đạt, giữ nguyên mã",
+      "use_status_display": "Quản lý 2/2 đầy đủ; điền mẫu 2/2",
+      "manager_assertion_statuses": {
+        "pass": 16
+      },
+      "operator_assertion_statuses": {
+        "pass": 16
+      },
+      "manager_episodes_all_critical_complete": 2,
+      "recipient_episodes": 2,
+      "reader_operator_basis": "unchanged delivered CLI plus separately checked original HTML",
+      "owner_original_html_scenarios_tested": [
+        "A READY FOR REVIEW64",
+        "B HOLD R2/62",
+        "C HOLD R3/64"
+      ],
+      "sealed_original_files_unchanged": 72,
+      "source_scope_qualification": "Current source calculations/visible values pass. L81 generalized duplicate-bin policy is not explicit in reader-visible text; see independent grader. Missing finer reader statements remain missing, not assumed correct.",
+      "readers": [
+        {
+          "episode": "reader-01",
+          "manager": [
+            {
+              "id": "M1.selected_windows",
+              "status": "pass",
+              "explanation": "Both group-specific starts, exclusive ends and three hr bins match the independent oracle.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M1.split_and_tie",
+              "status": "pass",
+              "explanation": "Recovers 2011-only selection, 2012 frozen validation, starts 06..19 and earliest exact tie.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M2.rates_and_comparator",
+              "status": "pass",
+              "explanation": "All six displayed values are attached to the correct 2012 group/window and are within half the last displayed digit of independently bound values.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M2.denominator_and_eligibility",
+              "status": "pass",
+              "explanation": "Recovers aggregate 16-bin 06..21 denominator on same eligible dates, valid nonnegative cnt, consistent binary flag, exactly one row/bin, whole-date exclusion for missing/duplicate bins, no zero fill and no daily-ratio averaging.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M3.resources",
+              "status": "pass",
+              "explanation": "Recovers 4 weeks, 8 distinct dates, 4 per flag, 2 per week, 2 observers, 3 observation +1 preparation hour/person/date, and 64 planned staff-hours.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M3.schedule_status",
+              "status": "pass",
+              "explanation": "Identifies schedule slots/draft and absence of approved actual site/dates.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M4.prelaunch_hold",
+              "status": "pass",
+              "explanation": "HOLD pending manager site authorization and matching scope plus actual hr/timezone/local-calendar confirmation; historical data do not authorize deployment.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M4.evidence_limit",
+              "status": "pass",
+              "explanation": "Correctly limits evidence to historical recorded-rental coverage and rejects unmet-demand, causal staffing/benefit, current-state and station-suitability inference.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            }
+          ],
+          "operator_common": [
+            {
+              "id": "O.input_transfer",
+              "status": "pass"
+            },
+            {
+              "id": "O.synthetic_label",
+              "status": "pass"
+            },
+            {
+              "id": "O.originals_unchanged",
+              "status": "pass"
+            },
+            {
+              "id": "O.no_invented_effect",
+              "status": "pass"
+            },
+            {
+              "id": "O.rule_interpretation",
+              "status": "pass"
+            }
+          ],
+          "scenarios": [
+            {
+              "id": "O.scenario_A",
+              "status": "pass",
+              "execution_basis": "supplied author CLI utility execution reported; actual saved results examined; no HTML execution inferred"
+            },
+            {
+              "id": "O.scenario_B",
+              "status": "pass",
+              "execution_basis": "supplied author CLI utility execution reported; actual saved results examined; no HTML execution inferred"
+            },
+            {
+              "id": "O.scenario_C",
+              "status": "pass",
+              "execution_basis": "supplied author CLI utility execution reported; actual saved results examined; no HTML execution inferred"
+            }
+          ]
+        },
+        {
+          "episode": "reader-02",
+          "manager": [
+            {
+              "id": "M1.selected_windows",
+              "status": "pass",
+              "explanation": "Both group-specific starts, exclusive ends and three hr bins match the independent oracle.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M1.split_and_tie",
+              "status": "pass",
+              "explanation": "Recovers 2011-only selection, 2012 frozen validation, starts 06..19 and earliest exact tie.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M2.rates_and_comparator",
+              "status": "pass",
+              "explanation": "All six displayed values are attached to the correct 2012 group/window and are within half the last displayed digit of independently bound values.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M2.denominator_and_eligibility",
+              "status": "pass",
+              "explanation": "Recovers aggregate 16-bin 06..21 denominator on same eligible dates, valid nonnegative cnt, consistent binary flag, exactly one row/bin, whole-date exclusion for missing/duplicate bins, no zero fill and no daily-ratio averaging.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M3.resources",
+              "status": "pass",
+              "explanation": "Recovers 4 weeks, 8 distinct dates, 4 per flag, 2 per week, 2 observers, 3 observation +1 preparation hour/person/date, and 64 planned staff-hours.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M3.schedule_status",
+              "status": "pass",
+              "explanation": "Identifies schedule slots/draft and absence of approved actual site/dates.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M4.prelaunch_hold",
+              "status": "pass",
+              "explanation": "HOLD pending manager site authorization and matching scope plus actual hr/timezone/local-calendar confirmation; historical data do not authorize deployment.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M4.evidence_limit",
+              "status": "pass",
+              "explanation": "Correctly limits evidence to historical recorded-rental coverage and rejects unmet-demand, causal staffing/benefit, current-state and station-suitability inference.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            }
+          ],
+          "operator_common": [
+            {
+              "id": "O.input_transfer",
+              "status": "pass"
+            },
+            {
+              "id": "O.synthetic_label",
+              "status": "pass"
+            },
+            {
+              "id": "O.originals_unchanged",
+              "status": "pass"
+            },
+            {
+              "id": "O.no_invented_effect",
+              "status": "pass"
+            },
+            {
+              "id": "O.rule_interpretation",
+              "status": "pass"
+            }
+          ],
+          "scenarios": [
+            {
+              "id": "O.scenario_A",
+              "status": "pass",
+              "execution_basis": "supplied author CLI utility execution reported; actual saved results examined; no HTML execution inferred"
+            },
+            {
+              "id": "O.scenario_B",
+              "status": "pass",
+              "execution_basis": "supplied author CLI utility execution reported; actual saved results examined; no HTML execution inferred"
+            },
+            {
+              "id": "O.scenario_C",
+              "status": "pass",
+              "execution_basis": "supplied author CLI utility execution reported; actual saved results examined; no HTML execution inferred"
+            }
+          ]
+        }
+      ]
+    },
+    "L63": {
+      "tested_version": "frozen comparison method",
+      "source_status_display": "Số liệu đã đối chiếu",
+      "rebuild_status_display": "Đạt, giữ nguyên mã",
+      "use_status_display": "Quản lý 2/2 đầy đủ; điền mẫu 2/2",
+      "manager_assertion_statuses": {
+        "pass": 16
+      },
+      "operator_assertion_statuses": {
+        "pass": 16
+      },
+      "manager_episodes_all_critical_complete": 2,
+      "recipient_episodes": 2,
+      "reader_operator_basis": "unchanged delivered CLI plus separately checked original HTML",
+      "owner_original_html_scenarios_tested": [
+        "A READY FOR REVIEW64",
+        "B HOLD R2/62",
+        "C HOLD R3/64"
+      ],
+      "sealed_original_files_unchanged": 129,
+      "source_scope_qualification": "Current source calculations/visible values pass. L81 generalized duplicate-bin policy is not explicit in reader-visible text; see independent grader. Missing finer reader statements remain missing, not assumed correct.",
+      "readers": [
+        {
+          "episode": "reader-05",
+          "manager": [
+            {
+              "id": "M1.selected_windows",
+              "status": "pass",
+              "explanation": "Both group-specific starts, exclusive ends and three hr bins match the independent oracle.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M1.split_and_tie",
+              "status": "pass",
+              "explanation": "Recovers 2011-only selection, 2012 frozen validation, starts 06..19 and earliest exact tie.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M2.rates_and_comparator",
+              "status": "pass",
+              "explanation": "All six displayed values are attached to the correct 2012 group/window and are within half the last displayed digit of independently bound values.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M2.denominator_and_eligibility",
+              "status": "pass",
+              "explanation": "Recovers aggregate 16-bin 06..21 denominator on same eligible dates, valid nonnegative cnt, consistent binary flag, exactly one row/bin, whole-date exclusion for missing/duplicate bins, no zero fill and no daily-ratio averaging.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M3.resources",
+              "status": "pass",
+              "explanation": "Recovers 4 weeks, 8 distinct dates, 4 per flag, 2 per week, 2 observers, 3 observation +1 preparation hour/person/date, and 64 planned staff-hours.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M3.schedule_status",
+              "status": "pass",
+              "explanation": "Identifies schedule slots/draft and absence of approved actual site/dates.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M4.prelaunch_hold",
+              "status": "pass",
+              "explanation": "HOLD pending manager site authorization and matching scope plus actual hr/timezone/local-calendar confirmation; historical data do not authorize deployment.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M4.evidence_limit",
+              "status": "pass",
+              "explanation": "Correctly limits evidence to historical recorded-rental coverage and rejects unmet-demand, causal staffing/benefit, current-state and station-suitability inference.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            }
+          ],
+          "operator_common": [
+            {
+              "id": "O.input_transfer",
+              "status": "pass"
+            },
+            {
+              "id": "O.synthetic_label",
+              "status": "pass"
+            },
+            {
+              "id": "O.originals_unchanged",
+              "status": "pass"
+            },
+            {
+              "id": "O.no_invented_effect",
+              "status": "pass"
+            },
+            {
+              "id": "O.rule_interpretation",
+              "status": "pass"
+            }
+          ],
+          "scenarios": [
+            {
+              "id": "O.scenario_A",
+              "status": "pass",
+              "execution_basis": "supplied author CLI utility execution reported; actual saved results examined; no HTML execution inferred"
+            },
+            {
+              "id": "O.scenario_B",
+              "status": "pass",
+              "execution_basis": "supplied author CLI utility execution reported; actual saved results examined; no HTML execution inferred"
+            },
+            {
+              "id": "O.scenario_C",
+              "status": "pass",
+              "execution_basis": "supplied author CLI utility execution reported; actual saved results examined; no HTML execution inferred"
+            }
+          ]
+        },
+        {
+          "episode": "reader-06",
+          "manager": [
+            {
+              "id": "M1.selected_windows",
+              "status": "pass",
+              "explanation": "Both group-specific starts, exclusive ends and three hr bins match the independent oracle.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M1.split_and_tie",
+              "status": "pass",
+              "explanation": "Recovers 2011-only selection, 2012 frozen validation, starts 06..19 and earliest exact tie.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M2.rates_and_comparator",
+              "status": "pass",
+              "explanation": "All six displayed values are attached to the correct 2012 group/window and are within half the last displayed digit of independently bound values.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M2.denominator_and_eligibility",
+              "status": "pass",
+              "explanation": "Recovers aggregate 16-bin 06..21 denominator on same eligible dates, valid nonnegative cnt, consistent binary flag, exactly one row/bin, whole-date exclusion for missing/duplicate bins, no zero fill and no daily-ratio averaging.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M3.resources",
+              "status": "pass",
+              "explanation": "Recovers 4 weeks, 8 distinct dates, 4 per flag, 2 per week, 2 observers, 3 observation +1 preparation hour/person/date, and 64 planned staff-hours.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M3.schedule_status",
+              "status": "pass",
+              "explanation": "Identifies schedule slots/draft and absence of approved actual site/dates.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M4.prelaunch_hold",
+              "status": "pass",
+              "explanation": "HOLD pending manager site authorization and matching scope plus actual hr/timezone/local-calendar confirmation; historical data do not authorize deployment.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            },
+            {
+              "id": "M4.evidence_limit",
+              "status": "pass",
+              "explanation": "Correctly limits evidence to historical recorded-rental coverage and rejects unmet-demand, causal staffing/benefit, current-state and station-suitability inference.",
+              "attribution": "none",
+              "question_scoring_alignment_limit": null
+            }
+          ],
+          "operator_common": [
+            {
+              "id": "O.input_transfer",
+              "status": "pass"
+            },
+            {
+              "id": "O.synthetic_label",
+              "status": "pass"
+            },
+            {
+              "id": "O.originals_unchanged",
+              "status": "pass"
+            },
+            {
+              "id": "O.no_invented_effect",
+              "status": "pass"
+            },
+            {
+              "id": "O.rule_interpretation",
+              "status": "pass"
+            }
+          ],
+          "scenarios": [
+            {
+              "id": "O.scenario_A",
+              "status": "pass",
+              "execution_basis": "supplied author CLI utility execution reported; actual saved results examined; no HTML execution inferred"
+            },
+            {
+              "id": "O.scenario_B",
+              "status": "pass",
+              "execution_basis": "supplied author CLI utility execution reported; actual saved results examined; no HTML execution inferred"
+            },
+            {
+              "id": "O.scenario_C",
+              "status": "pass",
+              "execution_basis": "supplied author CLI utility execution reported; actual saved results examined; no HTML execution inferred"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "grading_summary": {
+    "manager_status_counts": {
+      "pass": 74,
+      "missing": 6
+    },
+    "operator_common_status_counts": {
+      "pass": 50
+    },
+    "operator_scenario_status_counts": {
+      "pass": 30
+    },
+    "all_sixty_displayed_rates_within_tolerance": true,
+    "all_twenty_phase_seals_unchanged_before_after": true,
+    "sealed_files_verified": 112,
+    "selected_final_csvs": 30,
+    "selected_final_raw_values_checked": 2400,
+    "all_saved_csvs_checked": 48,
+    "all_saved_csv_raw_values_checked": 3840,
+    "author_original_files_verified": 571,
+    "all_author_originals_unchanged": true,
+    "actual_CLI_result_summaries_verified": 24,
+    "all_actual_CLI_result_summaries_match": true,
+    "all_phase1_seal_timestamps_precede_phase2": true
+  },
+  "question_scoring_alignment_qualification": "Six missing finer statements remain missing; some details were finer than the public wording. No observed wrong rate/window/resource/decision. Do not turn missing into an observed wrong operational decision."
+}

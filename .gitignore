@@ -14,3 +14,9 @@ scratch/
 !examples/05-asean-electricity/energy-editorial.vi.pdf
 !examples/06-bank-marketing/report.pdf
 *.zip
+!examples/07-bike-sharing/untouched-practical.zip
+!optional-complements/visual-complements-v3.5.zip
+!optional-complements/visual-complements-v3.5-distribution.zip
+!evals/practical-v3.5/*-untouched-practical.zip
+!examples/08-wine-quality/input/source/wine+quality.zip
+!evals/forward-v3.5/original-review-receipts.zip

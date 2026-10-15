@@ -1,0 +1,13 @@
+{
+  "frozen_utc": "2026-10-15T04:02:11.263876+00:00",
+  "before_any_author_output_inspection": true,
+  "reason": "Actual network isolation boundary made explicit; no full-process firewall claim. Declared unmodified portable recipe with retained dependencies and offline browser verified separately.",
+  "files": {
+    "checks/rebuild_verify.py": "84017d2eb903604b0fabcfe7f4d5b75233e88802e2ed2ed770c62047f44591da"
+  },
+  "pre_use_scratch_path_amendment": {
+    "utc": "2026-10-15T04:03:15.321921+00:00",
+    "reason": "Use the existing single task-owned temporary root, before any artifact inspection/rebuild. No method, question, input or output change.",
+    "sha256": "8a5197b1a57396898684d33a9de6fe81b0ac52537561c3248562bbfb0062fc69"
+  }
+}

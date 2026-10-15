@@ -1,0 +1,260 @@
+{
+  "completed_utc": "2026-10-15T05:34:28.635128+00:00",
+  "candidate": "N91",
+  "candidate_activation": "suite3.5+Frontend/art-direction",
+  "episodes": [
+    {
+      "id": "visual-01",
+      "left": "N91",
+      "right": "N17",
+      "original_archive_member": "visual/visual-01/verdict.json",
+      "original_sha256": "cc623dd07240f7ea8df9797e9a5a0b02f4607610d8c8a05b872713cd917cd716",
+      "dimensions": {
+        "polish": {
+          "raw_vote": "left",
+          "mapped_vote": "N91"
+        },
+        "readability_usability": {
+          "raw_vote": "tie",
+          "mapped_vote": "tie"
+        }
+      }
+    },
+    {
+      "id": "visual-02",
+      "left": "N17",
+      "right": "N91",
+      "original_archive_member": "visual/visual-02/verdict.json",
+      "original_sha256": "91c359ff308b55aaa8c454869a45eb35c375d497692c61be22e77ba734888409",
+      "dimensions": {
+        "polish": {
+          "raw_vote": "right",
+          "mapped_vote": "N91"
+        },
+        "readability_usability": {
+          "raw_vote": "right",
+          "mapped_vote": "N91"
+        }
+      }
+    },
+    {
+      "id": "visual-03",
+      "left": "N91",
+      "right": "N42",
+      "original_archive_member": "visual/visual-03/verdict.json",
+      "original_sha256": "b605824d987b9e1906541210d6565d4fab6c3c9940a4a89d9c9efb62e28db1fb",
+      "dimensions": {
+        "polish": {
+          "raw_vote": "left",
+          "mapped_vote": "N91"
+        },
+        "readability_usability": {
+          "raw_vote": "right",
+          "mapped_vote": "N42"
+        }
+      }
+    },
+    {
+      "id": "visual-04",
+      "left": "N42",
+      "right": "N91",
+      "original_archive_member": "visual/visual-04/verdict.json",
+      "original_sha256": "aaa185d5866d3c3410af914b6870e1472dba7588a9d741e6b49f6d13f6a1528e",
+      "dimensions": {
+        "polish": {
+          "raw_vote": "right",
+          "mapped_vote": "N91"
+        },
+        "readability_usability": {
+          "raw_vote": "right",
+          "mapped_vote": "N91"
+        }
+      }
+    },
+    {
+      "id": "visual-05",
+      "left": "N91",
+      "right": "N68",
+      "original_archive_member": "visual/visual-05/verdict.json",
+      "original_sha256": "c6bb827f154098a489a6629e76c0baeef24c0f653786a8b8103a92aaf37879a6",
+      "dimensions": {
+        "polish": {
+          "raw_vote": "right",
+          "mapped_vote": "N68"
+        },
+        "readability_usability": {
+          "raw_vote": "right",
+          "mapped_vote": "N68"
+        }
+      }
+    },
+    {
+      "id": "visual-06",
+      "left": "N68",
+      "right": "N91",
+      "original_archive_member": "visual/visual-06/verdict.json",
+      "original_sha256": "82db4f388b6e59d669ec65db3555899f3d804faacc3ddd773ea4d9c08bbe7115",
+      "dimensions": {
+        "polish": {
+          "raw_vote": "right",
+          "mapped_vote": "N91"
+        },
+        "readability_usability": {
+          "raw_vote": "right",
+          "mapped_vote": "N91"
+        }
+      }
+    },
+    {
+      "id": "visual-07",
+      "left": "N91",
+      "right": "N35",
+      "original_archive_member": "visual/visual-07/verdict.json",
+      "original_sha256": "5b065cf7f907cc6c3a913b11f37f3e844c23bb8a971d2fb1b9d284727e3c307d",
+      "dimensions": {
+        "polish": {
+          "raw_vote": "right",
+          "mapped_vote": "N35"
+        },
+        "readability_usability": {
+          "raw_vote": "right",
+          "mapped_vote": "N35"
+        }
+      }
+    },
+    {
+      "id": "visual-08",
+      "left": "N35",
+      "right": "N91",
+      "original_archive_member": "visual/visual-08/verdict.json",
+      "original_sha256": "872c74e7bbfcaa38041608660e80ae866cabca0cb9a9263baac4ebe86375b8e4",
+      "dimensions": {
+        "polish": {
+          "raw_vote": "right",
+          "mapped_vote": "N91"
+        },
+        "readability_usability": {
+          "raw_vote": "right",
+          "mapped_vote": "N91"
+        }
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "candidate": "N91",
+      "rival": "N17",
+      "rival_condition": "editorial",
+      "episodes": [
+        "visual-01",
+        "visual-02"
+      ],
+      "polish": {
+        "mapped_votes": [
+          "N91",
+          "N91"
+        ],
+        "resolved": "N91",
+        "label": "candidate preferred",
+        "order_sensitive": false
+      },
+      "readability_usability": {
+        "mapped_votes": [
+          "tie",
+          "N91"
+        ],
+        "resolved": "tie",
+        "label": "tie",
+        "order_sensitive": true
+      }
+    },
+    {
+      "candidate": "N91",
+      "rival": "N42",
+      "rival_condition": "baseline-3.3",
+      "episodes": [
+        "visual-03",
+        "visual-04"
+      ],
+      "polish": {
+        "mapped_votes": [
+          "N91",
+          "N91"
+        ],
+        "resolved": "N91",
+        "label": "candidate preferred",
+        "order_sensitive": false
+      },
+      "readability_usability": {
+        "mapped_votes": [
+          "N42",
+          "N91"
+        ],
+        "resolved": "tie",
+        "label": "tie",
+        "order_sensitive": true
+      }
+    },
+    {
+      "candidate": "N91",
+      "rival": "N68",
+      "rival_condition": "visual-explainer",
+      "episodes": [
+        "visual-05",
+        "visual-06"
+      ],
+      "polish": {
+        "mapped_votes": [
+          "N68",
+          "N91"
+        ],
+        "resolved": "tie",
+        "label": "tie",
+        "order_sensitive": true
+      },
+      "readability_usability": {
+        "mapped_votes": [
+          "N68",
+          "N91"
+        ],
+        "resolved": "tie",
+        "label": "tie",
+        "order_sensitive": true
+      }
+    },
+    {
+      "candidate": "N91",
+      "rival": "N35",
+      "rival_condition": "kdense",
+      "episodes": [
+        "visual-07",
+        "visual-08"
+      ],
+      "polish": {
+        "mapped_votes": [
+          "N35",
+          "N91"
+        ],
+        "resolved": "tie",
+        "label": "tie",
+        "order_sensitive": true
+      },
+      "readability_usability": {
+        "mapped_votes": [
+          "N35",
+          "N91"
+        ],
+        "resolved": "tie",
+        "label": "tie",
+        "order_sensitive": true
+      }
+    }
+  ],
+  "resolution_rule": "Per dimension, map left/right to condition first. Both mapped votes must agree for a preference; any disagreement resolves to tie; any cannot-judge resolves to unresolved.",
+  "limits": [
+    "Eight fresh model contexts, not human participants.",
+    "Same inherited parent model/effort; exact backend ID and token usage unavailable.",
+    "Method credits can expose identity in original disclosures; not fully blind.",
+    "One new source; no isolated causal effect, statistical significance or overall winner."
+  ]
+}

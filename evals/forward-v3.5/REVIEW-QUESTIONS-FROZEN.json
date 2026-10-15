@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-10-15T04:00:39.043445+00:00",
+  "derived_from_pre_author_frozen_plan": true,
+  "author_outputs_not_inspected": true,
+  "files": {
+    "manager-questions.json": "2df4caabf417d05e4eaaa655f168533f1375a3017ea9aa3366b2c1ee7f8e1192",
+    "recipient-task.json": "8e595145d6e77552a29786a0fc1e8221f88e51a2e2085a1f9e65fd2be6699c89",
+    "SYN-fixtures.csv": "f9514b07e7fe10a3941df7d637330146bc9059257392e1e496ebe6812bd0d9ab",
+    "visual-question.json": "d62d0d3df49b7977d4889e7eda416252028bac575674208e94c95d9c32a1fd8f"
+  }
+}

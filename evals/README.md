@@ -1,6 +1,10 @@
 # Evaluation records
 
-Latest: [3.3 unfamiliar Bank Marketing four-method solo comparison](solo-v3.3.md), including unchanged completed outputs, two sealed anonymous reviews, ties and limits; [additional MIT repository screen](mit-screen-20261014.md). Earlier real-source records: [3.2](visual-v3.2.md) and [3.1](forward-v3.1.md).
+Recent: [3.5 Wine Quality practical forward evaluation](forward-v3.5.md) separates source/build correctness, ten two-stage model readers and eight swapped visual judgments. The actual Frontend/art-direction composite, complete untouched handoffs, runtime interruptions and mobile navigation limits are explicit. This is not a new official VisEval score.
+
+Previous: [3.4 five-method forward evaluation](forward-v3.4.md), including original public VisEval scores, a separate UCI Bike Sharing handoff, fresh model readers and negative polish results. The focused 3.4.1 two-source quantity repair is recorded separately within that report. No retrospective score correction or universal winner is claimed.
+
+Earlier: [3.3 unfamiliar Bank Marketing four-method solo comparison](solo-v3.3.md), including unchanged outputs, two sealed anonymous reviews, ties and limits; [additional MIT repository screen](mit-screen-20261014.md). Other real-source records: [3.2](visual-v3.2.md) and [3.1](forward-v3.1.md).
 
 The original pilot protocol and observations below are synthetic acceptance exercises, not production work or a certification benchmark.
 

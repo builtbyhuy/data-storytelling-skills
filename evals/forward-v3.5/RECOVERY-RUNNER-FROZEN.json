@@ -1,0 +1,18 @@
+{
+  "frozen_utc": "2026-10-15T04:29:49.380995+00:00",
+  "before_any_recovery_author_dispatch": true,
+  "files": {
+    "checks/seal.py": "00f2c345a6a118d9b2d90f8fd7b4babf9129ea97e6e0a40b44e5c626b5113c7c",
+    "checks/prepare_reviews.py": "c2f6de2319f61bd5cb463db445f6deb973bea1cde15ee1e5da7cea1352b64205",
+    "checks/rebuild_verify.py": "2ed1fe913c88362ac521b5d53701b8ee168550d577cf428120ad3f73bfe1eaf4",
+    "checks/capture_report.mjs": "989fb7d8a224da5ea8a177978a5a80fc66f75212c08c98120403aa76ba2e47b0",
+    "checks/capture_disclosures.mjs": "e3679563b7ce7dd75c5b8184beb5e88c7f4be4c6a2d995de35f24bf1ac5b4c3c",
+    "RECOVERY-PLAN.json": "7b31619ecdf7e101b1db59801a8127fea70b9c6aa0aa732e3f3bd23ed33c9e1d"
+  },
+  "pre_inspection_packet_extension": {
+    "utc": "2026-10-15T04:35:49.894806+00:00",
+    "reason": "Copy original interactive form HTML and local UI assets as usable recipient handoff, not only CSV/manual notes. Main report source, facts, data and analysis/build code remain excluded; phase1 answer sealed first. No output inspected.",
+    "file": "checks/prepare_reviews.py",
+    "sha256": "1394bdf38664f8706188f1e832d95a989a85bcd479331f99b2eed86df015aa17"
+  }
+}
