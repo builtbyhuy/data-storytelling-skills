@@ -1,10 +1,14 @@
-# Data Storytelling Skills · 3.5.0
+# Data Storytelling Skills · 3.5.1
 
-Turn business data into a choice someone can understand, check and act on. Six complementary Codex skills cover diagnosis, narrative, charts, evidence repair and recurring measurement. English instructions support Vietnamese and English requests.
+Turn data into explanations and decisions people can understand, check and use. This English-first repository provides six complementary Codex skills for analysis, narrative, charts, evidence review and recurring measurement. Use them across languages, audiences and domains, including business, research, education and public reporting. The requested task determines which methods are relevant.
+
+**Language and scope:** repository documentation and skill UI metadata are English. Deliver artifacts in the language and locale requested for their audience, even when those differ from the chat language. Otherwise follow the user's language, using English when no language is established. There is no Vietnamese or VI/EN-only restriction. Preserve authoritative source values, identifiers and units; localize explanatory text and presentation conventions without silently converting the data. Choose the requested medium and available tools rather than forcing every task into a Vietnamese business memo, HTML report or operational audit. Actual format/renderer availability still needs verification.
+
+The [3.5.1 correction and two fresh language checks](evals/language-scope-v3.5.1.md) make this policy explicit and translate maintained navigation and skill metadata into English. Historical test artifacts remain in their original requested languages. The Wine comparisons below measure the frozen **3.5.0** composite, not a new 3.5.1 benchmark run.
 
 The 3.5 revision connects substantial HTML work with actual Frontend and art-direction methods when available, keeps one clear primary comparison with accessible supporting detail, and checks narrow-screen lookup, captions and operating rules. It retains source/quantity safeguards: requested counts must remain visible, time gaps keep their real spacing and joined-record counts cannot silently become distinct-entity counts. [Exact optional visual complements](optional-complements/README.md) make that composite activation inspectable and reproducible without overwriting an existing design stack.
 
-**Current result is mixed.** In the fresh Wine trial, the composite is preferred for polish over 3.3 and Frontend, and ties the two other rivals after swapped-position disagreement. Readability/usability ties all four. Its two readers answer 8/8 questions correctly and preserve 80/80 raw values; 1/2 completes every strict recipient check because the other omits an explicit action-HOLD field. [Failures, raw votes and usable originals](evals/forward-v3.5.md) remain visible; this is not an all-gates pass or production certification.
+**Latest full trial (3.5.0) is mixed.** In the fresh Wine trial, the composite is preferred for polish over 3.3 and Frontend, and ties the two other rivals after swapped-position disagreement. Readability/usability ties all four. Its two readers answer 8/8 questions correctly and preserve 80/80 raw values; 1/2 completes every strict recipient check because the other omits an explicit action-HOLD field. [Failures, raw votes and usable originals](evals/forward-v3.5.md) remain visible; this is not an all-gates pass or production certification.
 
 The [3.4 forward record](evals/forward-v3.4.md) preserves the failed polish target and unchanged official VisEval scores: 21/29 fully passing tasks for the candidate, published 3.3 and Frontend. A separate source-correct handoff or successful build does not cancel a visual failure. The later focused 3.4.1 quantity repair remains a two-case follow-up, not a full benchmark rerun.
 
@@ -17,6 +21,8 @@ The earlier 3.1.2 revision repairs errors found in unchanged native files and un
 The 3.0 revision follows a complete reread of the supplied 89-page MDA guide. It changes the actual methods: decision-relevant contrasts, evidence sequencing, reader/grain/channel choices, visible qualifications, chart composition and practical action handoffs. [See the source-to-execution map](shared/source-method-map.md).
 
 ## See the work
+
+The archived examples below retain their original requested language, mostly Vietnamese. Their language, market, currency and operational scenario are case choices, not suite defaults. English guides distinguish curated examples from untouched trial artifacts; the original trial outputs are not translated or edited after sealing.
 
 ### New — Read the difference, keep the limits, prepare the next record
 
@@ -72,7 +78,7 @@ All five pre-registered gates passed within scope: independent source/reasoning,
 <details>
 <summary>Earlier curated synthetic examples — 3.0</summary>
 
-### 01 — Doanh thu tăng, đóng góp giảm: nên đổi gì?
+### 01 — Revenue rises while contribution falls: what should change?
 
 A meeting memo reconciles the change, exposes unallocated freight and proposes a bounded delivery test. Its workbook, plan and populated decision record separate checked facts from an unexecuted proposal.
 
@@ -80,7 +86,7 @@ A meeting memo reconciles the change, exposes unallocated freight and proposes a
 
 [Open the one-page PDF](examples/01-profit-decision/brief.pdf) · [Editable SVG](examples/01-profit-decision/brief.svg) · [Workbook](examples/01-profit-decision/analysis.xlsx) · [Request, source, plan and rebuild](examples/01-profit-decision/README.md)
 
-### 02 — “Tăng 50%” chưa chứng minh coaching có hiệu quả
+### 02 — A 50% increase does not establish a coaching effect
 
 The corrected report preserves the true overall rates, shows the different lead populations and keeps the causal limit beside the conclusion. The proposed next decision follows from that evidence.
 
@@ -88,7 +94,7 @@ The corrected report preserves the true overall rates, shows the different lead 
 
 [Open the one-page PDF](examples/02-fair-comparison/brief.pdf) · [Editable SVG](examples/02-fair-comparison/brief.svg) · [Ready-to-use repaired claim](examples/02-fair-comparison/memo.md) · [Request and source](examples/02-fair-comparison/README.md)
 
-### 03 — Tiền bị tính lặp ở đâu khi ghép bảng?
+### 03 — Where a join counts money twice
 
 A six-cell invoice example shows the repetition. The accounting table retains all four invoices, separates billed revenue from cash and preserves the unpaid balance. The executed audit is checked against literal joins.
 
@@ -111,13 +117,15 @@ These synthetic examples began as fresh independent executions of the revised sk
 | `data-story-redteam` | Challenge and repair misleading claims, charts and recommendations |
 | `analytics-adoption` | Plan recurring metric stewardship, decisions and outcome learning |
 
-All six core skills are version 3.5.0. A narrow KPI question stays short; a decision memo does not require all six methods.
+All six core skills are version 3.5.1. A narrow KPI question stays short; a decision memo does not require all six methods.
 
 ## Give a normal request
 
-> Từ dữ liệu này, giải thích biến động, chọn việc nên làm, tạo biểu đồ và viết memo ngắn cho giám đốc. Kiểm số liệu và giữ rõ các giới hạn kết luận.
+> Explain the change in this dataset, show the decisive comparison and produce an English briefing for the intended reader. Preserve the units, denominators and limits of the evidence.
 
 > Repair this chart and its conclusion. Preserve the source, show relevant denominators, and deliver an editable chart plus a concise decision-ready explanation.
+
+> Write a Spanish public-facing explanation of these library statistics. Use the supplied definitions and local number formatting; keep the underlying source identifiers unchanged.
 
 The assistant can select complementary methods for one prompt. Direct invocation such as `$data-storytelling` is also available. Descriptions support discovery; they are not an autonomous scheduler or a guarantee that every client selects correctly.
 

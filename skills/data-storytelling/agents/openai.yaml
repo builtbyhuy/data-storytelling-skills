@@ -1,6 +1,6 @@
 interface:
-  display_name: "Bộ kể chuyện với dữ liệu"
-  short_description: "Phối hợp phân tích, biểu đồ và lập luận có căn cứ"
+  display_name: "Data Storytelling"
+  short_description: "Compose analysis, charts and evidence-led communication"
 
 policy:
   allow_implicit_invocation: true

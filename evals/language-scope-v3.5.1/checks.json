@@ -1,0 +1,23 @@
+{
+  "verified_utc": "2026-10-15T07:19:26.449150+00:00",
+  "scope": "Owner review of two first completed text responses; not a visual, human, all-language or comparative evaluation.",
+  "checks": {
+    "english-research": {
+      "output_sha256": "0a3708e6f16aa2a360f7ba0f52db729fc351ebdbc90e38ab125642a6beceec71",
+      "word_count_including_table": 116,
+      "within_180_words": true,
+      "owner_output_edits": 0
+    },
+    "spanish-library": {
+      "output_sha256": "57da5f53da2de885ec078a31909758af13a309cca730b131e3db8f00195350f8",
+      "word_count_including_table": 92,
+      "within_180_words": true,
+      "owner_output_edits": 0
+    }
+  },
+  "core_files_unchanged_since_freeze": 66,
+  "historical_example_files_unchanged": 130,
+  "changed_document_local_links_resolve": 187,
+  "package_validator": "Passed for six skills; also checks frozen original archives and reference copies.",
+  "skill_creator_quick_validator": "Unavailable: bundled Python lacks its optional PyYAML dependency. No environment or dependency installation was performed; repository standard-library validator was used."
+}

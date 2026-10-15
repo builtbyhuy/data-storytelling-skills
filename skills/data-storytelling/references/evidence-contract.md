@@ -2,6 +2,12 @@
 
 Use one consistent source of facts when several methods contribute to a task. This can be a short note or a calculation file; a database, schema service and formal ID system are optional.
 
+## Follow the requested audience and language
+
+Repository English is a maintenance convention, not an output-language restriction. Follow the language and locale requested for the artifact, even if they differ from the conversation. Otherwise use the user's language, with English as the fallback when none is established. Apply the methods to the supplied domain, audience and medium; example industries, languages, currencies and audit scenarios are not defaults or required deliverables.
+
+Preserve authoritative source values, field keys, identifiers and units. Translate explanatory labels when appropriate; keep any source-to-display mapping clear. Use the requested decimal, date and number conventions without silently converting currency, timezone or measurement units. For translated material, preserve uncertainty, qualifications and action-state meaning rather than only the headline.
+
 ## Establish meaning before comparing
 
 Record the authoritative input/snapshot and which source wins a conflict. For each consequential metric establish grain/key, eligible population, period/timezone, unit/currency, definition, filters, exclusions and denominator. Distinguish booked, recognized and net revenue; returns, gross profit, contribution, cash and attributed advertising return. Inspect duplicate keys, joins and missingness where they could change the answer. Reconcile headline totals and their components. A screenshot provides only values actually visible; absent values remain unknown.

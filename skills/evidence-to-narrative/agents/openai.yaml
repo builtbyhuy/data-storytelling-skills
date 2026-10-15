@@ -1,6 +1,6 @@
 interface:
-  display_name: "Bằng chứng thành câu chuyện"
-  short_description: "Viết memo và slide giúp người đọc chọn hành động"
+  display_name: "Evidence to Narrative"
+  short_description: "Turn verified findings into audience-ready narratives"
 
 policy:
   allow_implicit_invocation: true

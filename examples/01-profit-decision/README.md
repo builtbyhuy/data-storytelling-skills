@@ -1,30 +1,30 @@
-# Doanh thu tăng, đóng góp giảm: nên đổi gì?
+# Revenue rises, contribution falls: what should change?
 
-[PDF một trang](brief.pdf) · [SVG sửa được](brief.svg) · [Bảng tính Excel](analysis.xlsx) · [Memo đầy đủ](memo.md)
+[One-page PDF](brief.pdf) · [Editable SVG](brief.svg) · [Excel workbook](analysis.xlsx) · [Full memo](memo.md)
 
-![Memo họp: bridge đóng góp và giới hạn 3 triệu cước chưa phân bổ, cùng đề xuất thử giao hàng có điều kiện](brief.png)
+![Meeting memo: contribution bridge, the limit caused by VND 3 million of unallocated freight, and a conditional delivery trial proposal](brief.png)
 
-Doanh thu tăng 44,10 triệu VND, nhưng đóng góp giảm 4,05 triệu. Cước tăng 6,85 triệu vượt phần lãi gộp tăng 2,80 triệu. Chi tiết cước còn thiếu 3 triệu nên chưa thể xác định đầy đủ kết quả từng nhóm.
+Revenue rose by VND 44.10 million, but contribution fell by VND 4.05 million. The VND 6.85 million freight increase exceeded the VND 2.80 million gross-profit increase. Freight detail is still missing for VND 3 million, so segment results cannot yet be fully determined.
 
-**Hướng đề xuất:** giữ B2B trong phạm vi hiện tại và chuẩn bị thử giao tiêu chuẩn cho đơn có hạn giao phù hợp. Chỉ mở thử sau đối soát phần cước chưa gán nhóm và xác nhận cam kết/giá/người/ngân sách. Kế hoạch giữ nhóm hiện trạng, theo dõi mọi yêu cầu đã phân nhóm và tách ngày dừng nhận khỏi ngày đủ kết quả. Không coi chênh cước EXPRESS/STANDARD là khoản tiết kiệm chắc chắn.
+**Proposed direction:** keep B2B within its current scope and prepare a standard-delivery trial for orders with suitable delivery deadlines. Launch only after reconciling unallocated freight and confirming commitments, pricing, staffing, and budget. The plan retains a current-practice group, tracks every assigned request, and separates the intake cutoff from the date when results are complete. The EXPRESS/STANDARD freight difference is not a guaranteed saving.
 
-## Giao yêu cầu
+## Supply the request
 
-Copy [brief.md](brief.md) cùng năm file trong [inputs/](inputs/). Các source exports giữ nguyên bytes; tiền là VND nguyên, chưa VAT, credit theo tháng ghi sổ và cước theo tháng dịch vụ. Finance khóa sổ là tổng chính thức; overhead chưa trừ.
+Copy [brief.md](brief.md) together with the five files in [inputs/](inputs/). Source exports retain their original bytes; amounts are whole VND, excluding VAT, with credits assigned to the posting month and freight to the service month. Finance's month-end close is the official total; overhead has not been deducted.
 
-## Bàn giao vận hành
+## Operational handoff
 
-- [Kế hoạch thử bốn tuần](test-plan.md): điều kiện mở, đơn vị phân nhóm, capacity, giới hạn, metric, ngày đọc và quy tắc giữ/dừng.
-- [Bản ghi đã điền](decision-record.csv): trạng thái đề xuất, phê duyệt, thực thi và kết quả tách riêng.
-- [Phép tính và nguồn](analysis.json): totals, segment, độ phủ, sensitivity và SHA256.
-- [Workbook](analysis.xlsx): bảng nguồn, tổng hợp, segment, giá và định nghĩa. Công thức có giá trị lưu sẵn được kiểm từ nguồn; chưa tính lại bằng Excel.
+- [Four-week trial plan](test-plan.md): launch conditions, assignment unit, capacity, limits, metrics, reading dates, and keep/stop rules.
+- [Completed decision record](decision-record.csv): proposal, approval, execution, and outcome statuses are kept separate.
+- [Calculations and sources](analysis.json): totals, segments, coverage, sensitivity, and SHA256.
+- [Workbook](analysis.xlsx): source, summary, segment, price, and definition sheets. Formula caches were checked against the sources; the workbook has not been recalculated in Excel.
 
-## Tái tạo
+## Rebuild
 
 ```text
 python examples/01-profit-decision/rebuild.py --output ./scratch/profit-v3
 ```
 
-Dependencies và giới hạn trong [gallery](../README.md). Script gắn với snapshot và từ chối nguồn đổi để tránh giữ lời kết luận cũ. Workbook có thể chỉnh sửa; nội dung memo phải được kiểm lại khi số liệu thay đổi.
+See the [gallery](../README.md) for dependencies and limits. The script is tied to this snapshot and rejects changed sources to avoid retaining outdated conclusions. The workbook is editable; memo content needs review when the numbers change.
 
-Dữ liệu/tên giả lập. Bản này bắt đầu từ lượt thực thi độc lập dùng sáu skill 3.0, rồi được biên tập theo đọc trang và kiểm nguồn. Các giới hạn,60 yêu cầu, 1 triệu, 5.000 VND và lịch thử là đề xuất cần xác nhận, không phải chính sách hiện có, hiệu quả dự báo hoặc việc đã làm.
+The data and names are synthetic. This curated version began with an independent execution using six version 3.0 skills, then received edits based on page reading and source checks. The limits, 60 requests, VND 1 million, VND 5,000, and trial schedule are proposals requiring confirmation, not existing policies, predicted effects, or completed work. The original report and artifact files retain the Vietnamese requested for that run; they illustrate an example, not a language restriction. New work follows its intended audience and requested language, format, and domain.

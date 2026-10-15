@@ -3,10 +3,12 @@ name: data-story-redteam
 description: Review and repair a data story, report, chart, or recommendation against its supplied evidence. Use for fact-checking, bias and denominator review, visual integrity, unsupported causal or ROI claims, and decision-impact corrections.
 license: MIT
 metadata:
-  version: "3.5.0"
+  version: "3.5.1"
 ---
 
 # Data story redteam
+
+Use the requested artifact language and locale; otherwise follow the user's language, with English as the fallback. Adapt to the actual audience, subject and medium; historical examples do not set language or scenario defaults.
 
 Given an artifact and its available sources, check the claims that matter to the user's decision, repair demonstrated problems, and return the usable artifact with the effect on the decision. Do not stop at a generic critique or make the user assemble the corrections. A clean result is valid: never create findings to justify a review.
 

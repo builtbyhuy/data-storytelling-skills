@@ -1,5 +1,7 @@
 # Evaluation records
 
+Current scope correction: [3.5.1 English-first repository and multilingual output](language-scope-v3.5.1.md), with two fresh English/Spanish text checks. This is separate from the full visual comparisons below; historical artifacts and scores remain unchanged.
+
 Recent: [3.5 Wine Quality practical forward evaluation](forward-v3.5.md) separates source/build correctness, ten two-stage model readers and eight swapped visual judgments. The actual Frontend/art-direction composite, complete untouched handoffs, runtime interruptions and mobile navigation limits are explicit. This is not a new official VisEval score.
 
 Previous: [3.4 five-method forward evaluation](forward-v3.4.md), including original public VisEval scores, a separate UCI Bike Sharing handoff, fresh model readers and negative polish results. The focused 3.4.1 two-source quantity repair is recorded separately within that report. No retrospective score correction or universal winner is claimed.

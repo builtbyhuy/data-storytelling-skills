@@ -1,11 +1,13 @@
 ---
 name: data-storytelling
-description: Compose analysis, business charts and audience-ready communication from data when a request spans several outputs; explain KPI changes and deliver a supported decision memo or deck. Kể chuyện với dữ liệu, phân tích rồi vẽ biểu đồ và viết memo. Route chart-only, audit-only and team-practice jobs to their specialists; simple KPI answers stay short.
+description: Compose data analysis, charts and audience-ready communication when a request spans several outputs, across languages and subject areas; explain findings and deliver the requested evidence-based memo, report or presentation. Route chart-only, audit-only and team-practice jobs to their specialists; simple KPI answers stay short.
 metadata:
-  version: "3.5.0"
+  version: "3.5.1"
 ---
 
 # Data stories: compose the requested work
+
+Use the requested artifact language and locale; otherwise follow the user's language, with English as the fallback. Adapt to the actual audience, subject and medium; historical examples do not set language or scenario defaults.
 
 Start with the question and its intended use. A current-state question may need one sourced KPI; monitoring needs a condition, threshold and response; an explanation or choice needs evidence and a supported recommendation. A report supports detail/reconciliation, a dashboard supports monitoring/exploration, and a story supports understanding/decision. Choose or combine these roles from the request rather than turning every answer into a narrative.
 
@@ -29,7 +31,7 @@ A prompt can request several jobs. For “explain the change, choose an action, 
 
 Frame the work in terms of the decision or use, reader, problem, success measure and window, constraints, affected roles and prior attempts. TOSCAR is a prompt for missing context, not a compulsory questionnaire: infer settled details and clarify only gaps that change correctness or a consequential choice. An expected finding remains a hypothesis; do not decide the Aha before inspecting evidence.
 
-Connect the business process to its records: which event creates a row, which source governs the metric, who resolves conflicting definitions, and when data becomes usable. Then analyze only unresolved decision-relevant questions. Reuse sufficient supplied analysis rather than repeating EDA. Keep one checked set of computed facts, units, denominators and claim limitations for all outputs; use it to populate charts, labels, tables and factual notes. Independent drafting can run in parallel once those facts are settled; reconcile the combined artifact afterward.
+Connect the process or subject being studied to its records: which event creates a row, which source governs the metric, who resolves conflicting definitions, and when data becomes usable. Then analyze only unresolved decision-relevant questions. Reuse sufficient supplied analysis rather than repeating EDA. Keep one checked set of computed facts, units, denominators and claim limitations for all outputs; use it to populate charts, labels, tables and factual notes. Independent drafting can run in parallel once those facts are settled; reconcile the combined artifact afterward.
 
 Before designing the artifact, write its evidence-to-choice sentence: what the evidence establishes, why it matters for this reader, which choice it supports, and what it leaves unresolved. Select the evidence needed to support that sentence, including material counterevidence. A chart, headline and recommendation must agree on both the main point and claim strength. Put detailed derivations in accessible supporting evidence; do not narrate the order in which analysis was performed.
 

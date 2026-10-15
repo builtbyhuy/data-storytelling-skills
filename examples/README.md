@@ -1,39 +1,41 @@
-# Ví dụ dùng trong công việc
+# Worked examples
 
-Năm lượt chạy nguyên bản trên dữ liệu thật và ba tình huống giả lập được biên tập. Ví dụ 08 dùng nguồn Wine Quality mới với bản 3.5 phối hợp Frontend và art direction; [hồ sơ so sánh](../evals/forward-v3.5.md) tách kiểm số liệu, đọc hiểu, ghi việc và thẩm mỹ. Mỗi ví dụ có yêu cầu, nguồn, file dùng được và cách tái tạo; phạm vi kiểm tra được ghi riêng.
+Five untouched runs on real source data and three curated synthetic scenarios. Example 08 uses a new Wine Quality source with version 3.5, combining Frontend and art direction; the [comparison record](../evals/forward-v3.5.md) separates numerical checks, comprehension reviews, work recording, and aesthetics. Each example includes a request, sources, usable files, and rebuild instructions, with its verification scope stated separately.
 
-| Việc cần làm | Bản bàn giao | Mở ví dụ |
+The historical reports and artifacts retain the Vietnamese requested for those runs. They are examples, not a language restriction. New work follows the intended audience and requested language, format, and domain.
+
+| Task | Deliverables | Open the example |
 |---|---|---|
-| Đọc tỷ lệ và toàn bộ phân bố, không biến dòng nguồn thành số chai; chuẩn bị kiểm tra xuất xứ | HTML chữ/biểu đồ gốc, biểu mẫu ghi việc, danh sách 40 dòng HOLD, nguồn và recipe Python không cần thư viện thêm | [08 — Wine Quality, bản 3.5 không sửa tay](08-wine-quality/PACKAGE.md) |
-| Chọn khung giờ kiểm tra từ dữ liệu thuê xe, giữ kỳ chọn và kỳ xác nhận riêng | Gói nguyên bản 3.4, SVG, phép tính và kiểm tra 8 ngày có điều kiện; giữ cả kết quả thua về thẩm mỹ | [07 — Bike Sharing](07-bike-sharing/PACKAGE.md) |
-| Đọc dữ liệu chiến dịch lịch sử và đề xuất chẩn đoán trước đợt liên lạc mới | HTML offline đọc trên desktop/điện thoại, PDF bốn trang, bốn SVG, phép tính và kiểm tra 60 hồ sơ có điều kiện | [06 — Lượt solo mới, không sửa tay](06-bank-marketing/PACKAGE.md) |
-| Chọn góc bản tin từ dữ liệu phát điện, giữ ngoại lệ và mẫu số | HTML đọc trên desktop/điện thoại, PDF/SVG vector, phép tính và việc kiểm tra trong hai ngày | [05 — Lượt chạy mới, không sửa tay](05-asean-electricity/README.md) |
-| Ưu tiên hỗ trợ chuyên cần khi nguồn lực địa phương chưa xác minh | 9 trang PowerPoint/PDF, Excel công thức, điều kiện mở/hoãn và recipe nguyên bản | [04 — Lượt chạy dữ liệu thật, không sửa tay](04-attendance-pilot/README.md) |
-| Doanh thu tăng nhưng đóng góp giảm | Memo họp, bảng tính Excel, kế hoạch thử giao hàng và bản ghi quyết định đã điền | [01 — Quyết định lợi nhuận](01-profit-decision/README.md) |
-| Tỷ lệ gộp bị dùng để kết luận coaching có tác dụng | Báo cáo sửa, phép so sánh cùng cơ cấu và câu kết luận có thể dùng ngay | [02 — So sánh sales](02-fair-comparison/README.md) |
-| Ghép bảng làm tiền tăng | Minh họa tính lặp, bảng đối chiếu từng hóa đơn và audit đã thực thi | [03 — Đối chiếu hóa đơn](03-join-audit/README.md) |
+| Read rates and the full distribution without treating source rows as bottle counts; prepare a provenance review | Original HTML text/charts, a work-recording form, a list of 40 HOLD rows, sources, and a Python recipe requiring no additional libraries | [08 — Wine Quality, untouched version 3.5](08-wine-quality/PACKAGE.md) |
+| Select time windows to investigate in bike rental data, keeping selection and confirmation periods separate | Untouched 3.4 package, SVG, calculations, and a conditional 8-day check; the weaker aesthetic result is retained | [07 — Bike Sharing](07-bike-sharing/PACKAGE.md) |
+| Read historical campaign data and propose a diagnostic before a new contact campaign | Offline HTML for desktop/mobile, a four-page PDF, four SVGs, calculations, and a conditional review of 60 records | [06 — Fresh solo run, untouched](06-bank-marketing/PACKAGE.md) |
+| Choose a newsletter angle from electricity generation data while retaining exceptions and denominators | Desktop/mobile HTML, vector PDF/SVG, calculations, and a two-day review task | [05 — Fresh run, untouched](05-asean-electricity/README.md) |
+| Prioritize attendance support while local resources remain unverified | 9-page PowerPoint/PDF, an Excel workbook with formulas, launch/hold conditions, and the original recipe | [04 — Real-data run, untouched](04-attendance-pilot/README.md) |
+| Revenue rises while contribution falls | Meeting memo, Excel workbook, delivery trial plan, and a completed decision record | [01 — Profit decision](01-profit-decision/README.md) |
+| An aggregate rate is used to claim that coaching works | Corrected report, comparison at a common lead mix, and ready-to-use conclusion wording | [02 — Sales comparison](02-fair-comparison/README.md) |
+| A table join inflates money totals | Illustration of repeated amounts, reconciliation for each invoice, and an executed audit | [03 — Invoice reconciliation](03-join-audit/README.md) |
 
-## Dùng ngay
+## Use the files
 
-Ví dụ08 giữ nguyên 16 file tác giả. Mở `report.html` để đọc ngoại tuyến; `work-form.html` tải bản ghi JSON, không gửi việc thật; `review-40.csv` giữ trạng thái HOLD. Giữ cả thư mục và chạy `python build.py` nếu cần dựng lại. Biểu đồ chính giữ đủ điểm, số đếm và tỷ lệ trên điện thoại; bảng số chính xác mở rộng còn phải kéo ngang. [Năm gói so sánh đầy đủ](../evals/practical-v3.5/README.md) cùng giữ byte gốc và recipe, không chọn hình đẹp nhất để thay đầu ra.
+Example 08 preserves all 16 author files unchanged. Open `report.html` to read offline; `work-form.html` downloads a JSON record and does not send a real task; `review-40.csv` retains HOLD status. Keep the whole directory and run `python build.py` to rebuild if needed. The main chart retains every point, count, and rate on mobile; the expanded exact-value table still requires horizontal scrolling. The [five complete comparison packages](../evals/practical-v3.5/README.md) also preserve original bytes and recipes; a preferred image has not been substituted for the output.
 
-Ví dụ07 giữ toàn bộ 19 file practical trong ZIP; [wrapper](07-bike-sharing/PACKAGE.md) phân biệt recipe phụ thuộc môi trường gốc với đầu vào dựng. Đây là đầu ra của bản 3.4, không đổi nhãn thành 3.5.
+Example 07 retains all 19 practical files in its ZIP; the [wrapper](07-bike-sharing/PACKAGE.md) distinguishes a recipe dependent on the original environment from rebuild inputs. This is version 3.4 output and has not been relabeled as 3.5.
 
-Ví dụ06 giữ nguyên 22 file tác giả, gồm HTML/PDF, bốn SVG, năm file nguồn, JSON/bốn CSV tính toán, README và năm file recipe. [Wrapper đóng gói](06-bank-marketing/PACKAGE.md) nêu nguồn UCI/CC BY4.0, các receipt riêng bị loại và phạm vi kiểm tra; [README tác giả](06-bank-marketing/README.md) được giữ nguyên byte. Chẩn đoán bên trong báo cáo là đề xuất có điều kiện, chưa thực hiện.
+Example 06 preserves all 22 author files unchanged: HTML/PDF, four SVGs, five source files, JSON/four calculation CSVs, a README, and five recipe files. The [packaging wrapper](06-bank-marketing/PACKAGE.md) states the UCI/CC BY 4.0 source, excluded private receipts, and verification scope; the [author README](06-bank-marketing/README.md) remains byte-for-byte unchanged. The diagnostic proposed in the report is conditional and has not been carried out.
 
-Ví dụ04 giữ nguyên byte PPTX/PDF/XLSX, mã dựng và README của lần bàn giao đầu tiên. Nó dùng DfE thật, còn dịch vụ/ngân sách là giả lập; đề xuất chưa duyệt hoặc triển khai. Mở ba file để đọc/họp/đối chiếu, không cần dựng lại. [Nguồn và OGL](04-attendance-pilot/SOURCES.md).
+Example 04 preserves the PPTX/PDF/XLSX, build code, and README from the first handoff byte-for-byte. It uses real DfE data, while the service and budget are hypothetical; the proposal has not been approved or implemented. Open the three files to read, discuss, or reconcile them without rebuilding. [Sources and OGL](04-attendance-pilot/SOURCES.md).
 
-Mở PDF để đọc hoặc in; SVG giữ văn bản và hình vector để chỉnh sửa. Memo Markdown giữ nội dung để sao chép. CSV/JSON giữ số chính xác. Ví dụ1 có workbook với dữ liệu, công thức và giá trị lưu sẵn; các giá trị đã đối chiếu nguồn, chưa chạy lại bằng Excel.
+Open PDFs to read or print; SVGs retain editable text and vector graphics. Markdown memos provide copyable text. CSV/JSON files retain exact values. Example 1 includes a workbook with data, formulas, and cached values; those values were reconciled to the sources but have not been recalculated in Excel.
 
-Để dùng skill với dữ liệu của bạn, sao chép yêu cầu trong từng ví dụ và đưa các file nguồn phù hợp. Các script của gallery tái tạo snapshot giả lập này; kết luận, ngưỡng đề xuất và bố cục cần được xem lại nếu dữ liệu đổi. Đây không phải một mẫu quyết định tự áp vào doanh nghiệp khác.
+To use the skills with your data, copy a relevant example request and supply suitable source files. The gallery scripts reproduce these fixed snapshots; conclusions, proposed thresholds, and layouts need review when data changes. An example decision should not be applied automatically to another business.
 
-## Tái tạo
+## Rebuild
 
-Ví dụ06 dùng đúng [README và recipe tác giả](06-bank-marketing/README.md) với runtime Windows đã có và một thư mục đầu ra mới. Recipe tạo mới các receipt trình duyệt/kiểm tra cần thiết trong quá trình dựng; các bản receipt tác giả lưu riêng không phải đầu vào. Lượt dựng nguyên bản sau khi chuyển thư mục đã khớp 10 file xác định và chữ/kích thước/pixels 96dpi của cả bốn trang PDF; phạm vi đó không bảo đảm hiển thị giống nhau trên một runtime khác.
+Example 06 uses the exact [author README and recipe](06-bank-marketing/README.md), the existing Windows runtime, and a fresh output directory. The recipe creates the browser/check receipts it needs while building; the separately stored author receipts are not inputs. After relocation, the original rebuild matched 10 deterministic files and the text, dimensions, and 96dpi pixels of all four PDF pages; that scope does not guarantee identical rendering on another runtime.
 
-Ví dụ04 cần runtime Windows/Office mô tả trong [recipe](04-attendance-pilot/rebuild/README.md). Chuyển cả thư mục `rebuild` tới nơi khác, mở PowerShell tại đó và chạy `pwsh -NoProfile -File ./Build.ps1 -SourceDir ./source -BuildDir ./build-06 -OutputDir ./generated-06` vào thư mục đầu ra mới. Snapshot biểu đồ và kỳ nguồn có giới hạn cập nhật đã nêu rõ.
+Example 04 needs the Windows/Office runtime described in its [recipe](04-attendance-pilot/rebuild/README.md). Move the whole `rebuild` directory, open PowerShell there, and run `pwsh -NoProfile -File ./Build.ps1 -SourceDir ./source -BuildDir ./build-06 -OutputDir ./generated-06` into a fresh output directory. The chart snapshot and source period have stated freshness limits.
 
-Với Python và các thư viện có sẵn phù hợp:
+With Python and the appropriate installed libraries:
 
 ```text
 python examples/01-profit-decision/rebuild.py --output ./scratch/profit-v3
@@ -41,14 +43,14 @@ python examples/02-fair-comparison/rebuild.py --output ./scratch/comparison-v3
 python examples/03-join-audit/rebuild.py --output ./scratch/join-v3
 ```
 
-Dùng các thư mục đầu ra riêng. Script giữ nguồn và dựng lại phép tính, văn bản, SVG, PDF, PNG cùng bản tính/bảng đối chiếu liên quan. Chúng không tải thư viện hoặc gọi tài khoản/dịch vụ.
+Use separate output directories. The scripts preserve sources and rebuild calculations, text, SVG, PDF, PNG, and the relevant workbook/reconciliation tables. They do not download libraries or call accounts/services.
 
-Rebuild 1 cần `reportlab`, `xlsxwriter`, `pypdf` và Poppler. Rebuild 2 cần `reportlab`, `pypdf`, `pypdfium2`. Rebuild 3 cần `reportlab`, `pypdf`, `Pillow` và Poppler; `--poppler` cho phép chỉ vị trí renderer. Các bản xuất đã kiểm dùng Arial có sẵn trên Windows, không phân phối file font. Các skill và công cụ join audit vẫn dùng được độc lập, không cần bộ dựng PDF này.
+Rebuild 1 requires `reportlab`, `xlsxwriter`, `pypdf`, and Poppler. Rebuild 2 requires `reportlab`, `pypdf`, and `pypdfium2`. Rebuild 3 requires `reportlab`, `pypdf`, `Pillow`, and Poppler; `--poppler` specifies the renderer location. The checked exports used Arial installed on Windows; font files are not distributed. The skills and join-audit tools remain usable independently of this PDF build setup.
 
-## Các ví dụ được làm như thế nào
+## How the examples were made
 
-Ví dụ04: source author, executor mới, oracle số liệu và hai lượt đọc độc lập có vai trò riêng. Nguồn, brief và skill 3.1.2 được freeze trước output; owner không xem nháp, không gợi ý nội dung và không sửa đầu ra/mã dựng sau bàn giao. Hai lượt trước không đạt được giữ lại, sửa skill rồi đổi bộ dữ liệu. Năm nhóm kiểm tra của lượt thứ ba đạt; [hồ sơ đầy đủ về phạm vi và giới hạn](../evals/forward-v3.1.md). Wrapper công bố giải thích các HTML/receipt riêng bị loại, không sửa các file bàn giao.
+Example 04 used separate roles for the source author, fresh executor, numerical oracle, and two independent readers. Sources, brief, and skill 3.1.2 were frozen before output; the owner did not view drafts, suggest content, or edit output/build code after handoff. Two earlier unsuccessful runs were retained; the skill was revised and the dataset changed. The third run passed five groups of checks; see the [full record of scope and limits](../evals/forward-v3.1.md). The publication wrapper explains which private HTML/receipts were excluded without changing the delivered files.
 
-Ba agent mới chạy bản skill đã freeze từ nguồn và brief, không nhận hình cũ hoặc đáp án. Dữ liệu là các fixture tổng hợp đã có: đây là lượt chạy lại độc lập theo cùng input, không phải holdout mới hoặc so sánh baseline. Owner tính lại nguồn riêng, xem bản xuất và cho một reviewer chỉ đọc pixels. Bản công bố bổ sung các sửa về thuật ngữ, điều kiện quyết định, bảng tổng và đường dẫn portable.
+For curated examples 01–03, three fresh agents ran the frozen skill version from sources and briefs without receiving earlier visuals or answers. The data came from existing synthetic fixtures: these were independent reruns of the same inputs, not new holdouts or baseline comparisons. The owner separately recalculated the sources, inspected exports, and asked a reviewer to read only the pixels. The published versions add edits to terminology, decision conditions, total tables, and portable paths.
 
-Các lượt đọc của model giúp tìm điểm mơ hồ; chúng không chứng minh người thật đã hiểu hơn hoặc chấp nhận thẩm mỹ. Không có kết quả khách hàng, phê duyệt/thực thi thử nghiệm hay lợi ích kinh doanh thực. [Kiểm tra 3.0 và giới hạn](../evals/book-aligned-v3.md). [Kết quả so sánh trước đây](../evals/README.md) được giữ nguyên.
+Model reading reviews help identify ambiguity; they do not prove improved human comprehension or human acceptance of the aesthetics. There are no customer outcomes, approved/executed trials, or demonstrated business benefits. [Version 3.0 checks and limits](../evals/book-aligned-v3.md). [Earlier comparison results](../evals/README.md) remain unchanged.

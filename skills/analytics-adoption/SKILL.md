@@ -1,11 +1,13 @@
 ---
 name: analytics-adoption
-description: Design a feasible recurring reporting-to-decision practice for a team, with metric ownership, shared definitions, pilot artifacts, decision logs and outcome learning. Thiết lập quy trình báo cáo, người phụ trách chỉ số và đo kết quả quyết định. Use for organizational practice; a one-off memo or KPI answer needs no rollout.
+description: Design a feasible recurring reporting-to-decision practice for a team, with metric ownership, shared definitions, pilot artifacts, decision logs and outcome learning. Use for organizational practice; a one-off memo or KPI answer needs no rollout.
 metadata:
-  version: "3.5.0"
+  version: "3.5.1"
 ---
 
 # Make recurring analysis useful in practice
+
+Use the requested artifact language and locale; otherwise follow the user's language, with English as the fallback. Adapt to the actual audience, subject and medium; historical examples do not set language or scenario defaults.
 
 For a recurring team practice or substantive pilot, read [practice and learning](references/practice-and-learning.md); it includes usable records and a worked handoff. Read the relevant [evidence contract](references/evidence-contract.md) for material facts and source conflicts. A small update to an existing tracking record can use its settled definitions and affected checks directly. [Coverage](references/source-method-map.md) and [terminology](references/terminology.md) describe the method provenance when needed.
 

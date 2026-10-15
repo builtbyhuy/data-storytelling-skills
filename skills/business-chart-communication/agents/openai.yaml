@@ -1,6 +1,6 @@
 interface:
-  display_name: "Biểu đồ cho quyết định"
-  short_description: "Tạo biểu đồ rõ nghĩa, sửa được và kiểm tra bản xuất"
+  display_name: "Business Chart Communication"
+  short_description: "Create clear, editable charts and checked exports"
 
 policy:
   allow_implicit_invocation: true

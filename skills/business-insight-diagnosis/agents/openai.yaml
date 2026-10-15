@@ -1,6 +1,6 @@
 interface:
-  display_name: "Chẩn đoán insight kinh doanh"
-  short_description: "Từ biến động chỉ số đến hành động có căn cứ"
+  display_name: "Business Insight Diagnosis"
+  short_description: "Explain performance and choose supported next steps"
 
 policy:
   allow_implicit_invocation: true

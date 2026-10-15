@@ -1,6 +1,6 @@
 interface:
-  display_name: "Thực hành phân tích cho đội"
-  short_description: "Thiết kế pilot, metric ownership và đo kết quả"
+  display_name: "Analytics Adoption"
+  short_description: "Build useful reporting habits and outcome learning"
 
 policy:
   allow_implicit_invocation: true

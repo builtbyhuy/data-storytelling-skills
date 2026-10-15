@@ -3,10 +3,12 @@ name: business-insight-diagnosis
 description: Diagnose business performance and turn verified findings into a supported choice. Use when a user asks why a KPI changed, which customers/products/channels explain a result, whether an anomaly matters, or what action the evidence supports. Pure chart formatting, narrative polishing, and statistical test selection have separate methods.
 license: MIT
 metadata:
-  version: "3.5.0"
+  version: "3.5.1"
 ---
 
 # Business Insight Diagnosis
+
+Use the requested artifact language and locale; otherwise follow the user's language, with English as the fallback. Adapt to the actual audience, subject and medium; historical examples do not set language or scenario defaults.
 
 Connect a measured pattern to the business decision it changes. A useful diagnosis states what happened, distinguishes explanation from hypothesis, establishes why it matters, and selects a proportionate action. A familiar finding or justified decision to keep the current course can be valuable; do not invent surprise, urgency, or a causal story.
 
@@ -18,7 +20,7 @@ For a narrow KPI question, reuse adequate calculations and verify the decisive d
 
 Identify the job of the deliverable before choosing its content. A report preserves useful detail; a dashboard monitors defined signals; a decision story helps a named reader choose a response now. For a requested decision brief, do not deliver a dashboard of equally prominent KPI cards. Establish the contrast that separates the feasible choices, then give that contrast the main explanation or visual. Keep reconciliation and secondary findings available as supporting evidence.
 
-The result should contain, in the user's language:
+The result should contain, in the requested output language:
 
 - A direct conclusion and the choice it supports.
 - The relevant measured contrast, with its population, period, unit, denominator, and source.

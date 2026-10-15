@@ -1,25 +1,25 @@
-# “Tăng 50%” chưa chứng minh coaching có hiệu quả
+# “Up 50%” does not establish that coaching works
 
-[PDF một trang](brief.pdf) · [SVG sửa được](brief.svg) · [Câu kết luận sửa và memo](memo.md) · [Phép tính chính xác](calculations.json)
+[One-page PDF](brief.pdf) · [Editable SVG](brief.svg) · [Corrected conclusion and memo](memo.md) · [Exact calculations](calculations.json)
 
-![Báo cáo sửa so sánh tỷ lệ gộp với cùng cơ cấu lead, giữ mẫu số và giới hạn nhân quả](brief.png)
+![Corrected report comparing aggregate rates with a common lead mix, retaining denominators and causal limits](brief.png)
 
-## Yêu cầu mẫu
+## Example request
 
-Đưa [data.csv](data.csv) và yêu cầu:
+Supply [data.csv](data.csv) with this request:
 
-> Báo cáo sales đang kết luận: “Coaching của B làm tỷ lệ chốt tăng 50%, nên triển khai cho A.” Kiểm kết luận từ CSV, sửa cách so sánh và đưa ra việc trưởng nhóm nên quyết tiếp theo. Làm tài liệu một trang đẹp, rõ, dùng được trong cuộc họp mà không cần nghe thuyết minh mới hiểu. Giữ những số đúng, cho thấy cơ sở so sánh và giới hạn bằng chứng. Không có thông tin thêm về thời gian hoặc cách phân coaching ngoài CSV.
+> The sales report concludes: “B's coaching increased the win rate by 50%, so roll it out to A.” Check the conclusion against the CSV, correct the comparison, and identify the team lead's next decision. Create an attractive, clear, one-page document usable in a meeting without spoken explanation. Retain the correct numbers, show the comparison basis and evidence limits. No information about timing or coaching assignment is available beyond the CSV.
 
-A 24/80 = 30%; B 36/80 = 45%. Chênh lệch15 điểm phần trăm tương đương 50% so với A, nhưng không phải hiệu quả coaching. B có nhiều lead High hơn; trong từng tier B đều thấp hơn 5 điểm. Cơ cấu chung 50/50 lấy từ 80 High và 80 Low của 160 lead: A 40%, B 35%. Đây là so sánh mô tả, không phải số thắng mới hoặc hiệu quả nhân quả.
+A: 24/80 = 30%; B: 36/80 = 45%. The 15 percentage-point difference equals 50% relative to A, but it is not a coaching effect. B has more High leads; within each tier, B is 5 points lower. The common 50/50 mix comes from 80 High and 80 Low leads out of 160: A is 40%, B is 35%. This is a descriptive comparison, not new win counts or a causal effect.
 
-**Việc cần quyết:** chuẩn bị phép thử coaching có đối chứng, chốt trước mẫu, cửa sổ, ngưỡng, chi phí và quy tắc dừng. Chưa nhân rộng từ dữ liệu này. Không có bằng chứng coaching của A tốt hơn hoặc B có hại; nhãn High/Low chưa được định nghĩa.
+**Decision to prepare:** a controlled coaching trial, with the sample, window, thresholds, costs, and stopping rules agreed in advance. This data does not support a rollout yet. There is no evidence that A's coaching is better or B's is harmful; High/Low labels have not been defined.
 
-## Tái tạo
+## Rebuild
 
 ```text
 python examples/02-fair-comparison/rebuild.py --output ./scratch/comparison-v3
 ```
 
-[Dependencies và giới hạn](../README.md). Script dùng exact fractions, kiểm tỷ lệ/mẫu số và từ chối thay đổi bốn dòng trước khi xem lại narrative.
+[Dependencies and limits](../README.md). The script uses exact fractions, checks rates/denominators, and rejects changes to the four rows until the narrative has been reviewed.
 
-Ví dụ giả lập. Lượt thực thi mới dùng redteam, chart và narrative 3.0 từ input gốc; bản công bố sửa thêm thuật ngữ và cách đặt việc cần quyết theo reviewer chỉ đọc pixels. Không có thử nghiệm đã làm, khách hàng hoặc chứng minh vượt baseline.
+This is a synthetic example. A fresh execution used version 3.0 redteam, chart, and narrative skills with the original input; the curated publication adds terminology edits and reframes the next decision after a reviewer read only the pixels. No trial has been executed, no customer outcome is shown, and no improvement over a baseline has been demonstrated. The original report and artifact files retain the Vietnamese requested for that run; they illustrate an example, not a language restriction. New work follows its intended audience and requested language, format, and domain.

@@ -3,10 +3,12 @@ name: business-chart-communication
 description: Create or repair decision-focused business charts, dashboard panels, and slide visuals from data or a bounded existing graphic. Deliver an editable chart source and an inspected export with faithful values, scales, labels, and context.
 license: MIT
 metadata:
-  version: "3.5.0"
+  version: "3.5.1"
 ---
 
 # Business chart communication
+
+Use the requested artifact language and locale; otherwise follow the user's language, with English as the fallback. Adapt to the actual audience, subject and medium; historical examples do not set language or scenario defaults.
 
 Deliver the requested chart, editable source and export inspected at its intended viewing size. A specification or critique alone does not complete a chart-making request. Work directly from a table, accepted facts or an existing graphic plus its sources; the full story suite need not run first. For a visual handoff, use [visual delivery](references/visual-delivery.md) to declare its actual reading surface and select a text/vector production path; resolution alone is not a readability check.
 

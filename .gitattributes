@@ -17,5 +17,6 @@ examples/08-wine-quality/** -text whitespace=blank-at-eol,-blank-at-eof,space-be
 examples/08-wine-quality/input/source/** -text -whitespace
 evals/forward-v3.4/** -text whitespace=blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
 evals/forward-v3.5/** -text whitespace=blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
+evals/language-scope-v3.5.1/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 evals/practical-v3.5/** -text whitespace=blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
 optional-complements/** -text whitespace=blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol

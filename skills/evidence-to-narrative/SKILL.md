@@ -1,11 +1,13 @@
 ---
 name: evidence-to-narrative
-description: Turn supplied analysis or verified facts into an executive memo, data-backed email draft, slide narrative or operational message for a specific audience and decision. Viết memo cho sếp, chuyển số liệu thành câu chuyện và đề xuất. Use when the primary job is communicating evidence; delegate unresolved diagnosis or chart production only when needed.
+description: Turn supplied analysis or verified facts into an executive memo, data-backed email draft, slide narrative or operational message for a specific audience and decision. Use when the primary job is communicating evidence; delegate unresolved diagnosis or chart production only when needed.
 metadata:
-  version: "3.5.0"
+  version: "3.5.1"
 ---
 
 # Evidence to a reader-ready argument
+
+Use the requested artifact language and locale; otherwise follow the user's language, with English as the fallback. Adapt to the actual audience, subject and medium; historical examples do not set language or scenario defaults.
 
 Deliver the actual requested message, memo or presentation from the evidence already available. The reader should understand the relevant change, why it matters and the decision or next step within their authority. Use [story and audience methods](references/story-and-audience.md) for an unresolved structure, audience, channel or reading problem. Reuse the [evidence contract](references/evidence-contract.md) if another selected method has already established it; otherwise consult only the parts needed for this handoff. Source scope and terminology are linked in [coverage](references/source-method-map.md) and [terms](references/terminology.md) if needed. A short memo from settled facts does not require another general-method reading pass.
 
